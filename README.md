@@ -29,5 +29,26 @@ Details, numbers and limitations: [REPORT.md](REPORT.md).
 | [REPORT.md](REPORT.md) | findings, planned tests, limitations |
 | [tables/](tables/) | aggregate CSV tables; [tables/README.md](tables/README.md) describes every column |
 | [prompts/](prompts/) | the exact prompts, with ids used in the tables |
+| [LICENSE](LICENSE) | CC BY 4.0 |
 
 No per-answer data or answer text is included.
+
+## License
+
+[CC BY 4.0](LICENSE): you may share and adapt this material for any purpose, including commercial use, as long as
+you give credit, link to the license and say if you changed anything.
+
+## How to cite
+
+> cyber-audit-lab (2026). *model-identity-data: names language models choose for themselves (exploratory
+> release)*. https://github.com/cyber-audit-lab/model-identity-data
+
+```bibtex
+@misc{model_identity_data_2026,
+  author       = {{cyber-audit-lab}},
+  title        = {model-identity-data: names language models choose for themselves (exploratory release)},
+  year         = {2026},
+  howpublished = {\url{https://github.com/cyber-audit-lab/model-identity-data}},
+  note         = {Licensed under CC BY 4.0}
+}
+```

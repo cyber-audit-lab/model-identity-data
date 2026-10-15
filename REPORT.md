@@ -25,9 +25,10 @@ Answers were parsed by fixed rules into categories: a single name, several names
 developer name ("Claude", "Qwen3.5"), another AI product's name, a generic role word ("assistant"), a refusal,
 or unreadable. Only single names (and the first of several) count as names below.
 
-## 2. Each chat model has a favourite self-name
+## 2. Many chat models have a favourite self-name
 
-Pooled over the 40 self-name prompts, most chat models put a large share of their named answers on one name
+Pooled over the 40 self-name prompts, many chat models put a large share of their named answers on one name
+(17 of 35 chat models put at least a third on one name)
 (`main_concentration.csv`, column `top_name_share_of_named`). Examples:
 
 | model | top self-name | share of named answers |
@@ -87,9 +88,10 @@ would converge for that reason alone. The planned cross-family test (H2) is in s
   are chosen; for example gpt-6.1-sol's top name moves from Nova (main) to Aster (`other_steps_names.csv`,
   step `rq4`). Planned test H4a in section 7.
 - **System message.** With the neutral "You are a helpful assistant." most models keep their favourite. With the
-  model's default template, Qwen2.5 models, whose template says they are Qwen, invent Qwen-derived names
+  model's default template, Qwen2.5-14B-Instruct, whose template says it is Qwen, invents Qwen-derived names
   (QwenStar, QwenPrime, QwenNova) and give fewer plain names (step `sysmodes`).
-- **Temperature 0.7** keeps the same favourites with larger shares (step `t07`).
+- **Temperature 0.7** keeps the same favourite in 23 of the 26 models run at that setting, each time with a larger
+  share (step `t07`).
 - **Language.** In Spanish, "Lumen" is the top self-name for several OpenAI models (95% of gpt-5.6-sol's 20
   answers); in Chinese, names built on 星 (star) and 澄/知 (clear, knowing) dominate (step `secondary_lang`; only
   20 answers per model and language).
@@ -97,11 +99,27 @@ would converge for that reason alone. The planned cross-family test (H2) is in s
 
 ## 7. Planned tests, run on these exploratory data
 
-The study plan defines seven tests (H1 within-prompt concentration, self vs control; H2 cross-family agreement;
-H3a/H3b post-training in the OLMo-2-7B and Qwen2.5-7B chains; H4a framing; H4b system message; H5b whether names
-models call "rare" are rare in a corpus), each with 10,000 bootstrap resamples over prompts and a Holm correction.
-**These results are still being computed and will be added here.** Run on exploratory data they are descriptive,
-not confirmatory.
+The study plan defines seven tests, each with 10,000 bootstrap resamples over prompts and a Holm correction across
+the seven. Run on exploratory data, the results are descriptive (`tables/planned_tests.csv`):
+
+| test | question | estimate [95% CI] | Holm p | planned-rule outcome |
+|---|---|---|---|---|
+| H1 | within a prompt, are self-names more concentrated than control names? | -0.007 [-0.043, 0.027] | 0.81 | not supported (sensitive to parser error) |
+| H2 | do families agree more on self-names than on control names? | -0.027 [-0.050, -0.010] | <0.001 | opposite direction |
+| H3a | does post-training raise self-name concentration more than control (OLMo-2-7B)? | -0.031 [-0.069, 0.006] | 0.43 | not supported |
+| H3b | the same for Qwen2.5-7B | -0.036 [-0.125, 0.050] | 0.81 | inconclusive |
+| H4a | do one-word framings change names beyond paraphrase variation? | 0.155 [0.092, 0.208] | <0.001 | supported |
+| H4b | does the default template change names beyond paraphrase variation? | -0.030 [-0.055, 0.009] | 0.53 | inconclusive |
+| H5b | are names models call "rare" rare in a corpus? | – | – | not computed (no corpus counts) |
+
+"Not supported" means the interval lies within the planned smallest effect of interest (±0.10); "inconclusive" means
+the data can't tell. H1's outcome held in 84% of 1,000 simulated re-parses, below the planned 95%, so it is marked
+sensitive to parser error; H3a and H3b held in all draws.
+
+In words: within one prompt, self-names are not more concentrated than control names; different families agree *less*
+on self-names than on control names, presumably because control prompts draw widely shared answers (Bubbles, Elara and Luna are each given at least 10 times by 21 or more of the 39 models) while
+many self-names are provider-specific; post-training did not raise self-name concentration more than control
+concentration in OLMo-2-7B; one-word framings do change the names chosen.
 
 ## 8. Beyond names: objects and roles
 
@@ -134,11 +152,11 @@ Whether (a) agrees with (b) and (c) cannot be judged until (c) exists.
 
 ## 10. Limitations
 
-- **Exploratory only.** The design was fixed in a draft plan, but the plan was not frozen before these data were
+- **Exploratory only.** The design was set out in a written plan, but the plan was not frozen before these data were
   collected, and the analysis was adjusted while looking at them (for example, fixes to the answer
   parser; the version used is recorded in `tables/tables_meta.json`). Treat every result as a hypothesis.
-- **Parsing.** Answers were categorized by rules, checked against a second AI's blind labels (about 91%
-  agreement on a 200-item test set), not human labels.
+- **Parsing.** Answers were categorized by rules, checked against a second AI's blind labels (91%
+  agreement on the 185 items of a 200-item test set not flagged as unclear, 87% on all 200), not human labels.
 - **Prompts.** All prompts are in `prompts/`. They were drafted with an AI model, which may carry its own naming
   preferences in ways a hint check cannot detect. The Spanish and Chinese prompts were not checked by native
   speakers.

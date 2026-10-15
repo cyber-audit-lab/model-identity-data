@@ -27,6 +27,7 @@ Common columns:
 | `role_task.csv` | model × arm × answer | choose one of 13 listed roles or name another (control: a story character); option order balanced over 13 orders |
 | `why_codes_by_model.csv` | model × code | the model's answers to a follow-up "Why did you choose that name?", coded by a fixed keyword codebook; only the 10 codes that passed validation |
 | `why_codes_by_name.csv` | name × code | the same codes pooled over models, for names with at least 10 follow-up answers |
+| `planned_tests.csv` | test | the seven planned tests: estimate, 95% bootstrap interval, p, Holm-adjusted p, parsing bounds, outcome under the plan's decision rules, and the share of 1,000 simulated re-parses giving the same outcome |
 | `probability_ai_lift.csv` | open model × candidate name | mean summed log-probability of the candidate after a lead-in where an AI names itself, and after one where a person names a new pet (10 paraphrases each); `ai_context_lift` = AI minus pet |
 
 ## Steps

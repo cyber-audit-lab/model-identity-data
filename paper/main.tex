@@ -12,28 +12,33 @@
 \usepackage{xcolor}
 
 \graphicspath{{../figures/}}
-\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.7}
+\setcounter{topnumber}{3}
+\setcounter{totalnumber}{4}
 
 \title{What Do Language Models Name Themselves?\\
 \large An Exploratory Study of Self-Chosen Names in 39 Models}
 \author{cyber-audit-lab}
-\date{October 2026 \quad (draft)}
+\date{October 2026}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-Users have long reported that chat assistants, asked to choose a name for themselves, keep picking the same few
+Users have reported that chat assistants, asked to choose a name for themselves, keep picking the same few
 names, but the evidence has been anecdotal. We measure self-chosen names in 39 language models from five families
 (Anthropic Claude, OpenAI GPT, Qwen, OLMo-2 and Phi), using 40 self-naming prompts and 40 matched control prompts
 (names for a pet, a baby, a fictional character, a robot), 40 samples per prompt, and further prompt sets that vary
-framing, system message, temperature, language and answer format: 367{,}448 answers in total. Most chat models
-have a clear favourite self-name (for example Aurora, Wren, Nova or Aster, taking 50--82\% of a model's named
-answers), and in 20 of 39 models the same name wins across every group of differently worded prompts; base models
+framing, system message, temperature, language and answer format: 367{,}448 answers in total. Many chat models
+have a clear favourite self-name (17 of 35 put at least a third of their named answers on one name; the strongest,
+Aurora, Wren, Nova and Aster, take 68--82\%), and in 20 of 39 models the same name wins across every group of differently worded prompts; base models
 show no favourite (2--4\%). Within a single prompt, self-names are not more concentrated than control names; the
 difference lies in consistency across wordings. Several names recur across families (Nova, Aria, Alex, Sage,
-Lumen). Along released post-training checkpoints, concentration rises about as much for control names as for
-self-names. Models' own explanations track the meaning of the chosen name, and open models assign higher
+Lumen), yet families agree less on self-names than on control names. Where concentration rises along post-training (OLMo-2-7B checkpoints, Qwen base to instruct), it rises about as
+much for control names as for self-names. Models' own explanations track the meaning of the chosen name, and open models assign higher
 probability to their self-names after an AI-naming context than after a pet-naming context, already in base models.
 All results are exploratory: the data were collected without a frozen pre-registration.
 \end{abstract}
@@ -116,8 +121,8 @@ Phi & local & Phi-4 (4-bit) \\
 The main set has 40 self-name prompts (plain requests to choose one's own name, with no hint of gender, style or
 persona) and 40 control prompts, 10 each asking for a name for a pet, a newborn baby, a fictional character and a
 robot. Every prompt ends ``Answer with just the name.'' Each prompt was sampled 40 times at temperature 1.0 (top-$p$
-1.0, one fixed seed per sample where supported). Chat models received an empty system message, so that no default
-identity was inserted; base models received a plain ``User: \ldots\ Assistant:'' transcript and generation stopped at
+1.0, one fixed seed per sample where supported). Chat models received an empty system message (Anthropic models: no system message), so that no
+default identity was inserted; base models received a plain ``User: \ldots\ Assistant:'' transcript and generation stopped at
 the first line break. For the first five answers to each self-name prompt we asked a follow-up, ``Why did you
 choose that name?''.
 
@@ -132,8 +137,9 @@ models that accept only default settings); the release lists coverage per model.
 Answers were coded by fixed rules into: a single name; several names (the first is used); the model's own product or
 developer name (``Claude'', ``Qwen3.5''); another AI product's name; a generic role word (``assistant''); a refusal;
 unreadable; or empty. Names are normalized (case, punctuation). The parser was checked against blind labels from a
-second AI system (not human annotators): about 91\% agreement on a 200-item held-out set. Three small rule fixes made
-after that check, while preparing this analysis, are documented in the release and leave the held-out set unchanged.
+second AI system (not human annotators): 91\% agreement on the 185 items of a 200-item held-out set that the labeler did
+not flag as unclear (87\% on all 200). Four small rule fixes made after that check, while preparing this analysis,
+are documented in the release and leave this agreement unchanged.
 
 \subsection{Measures}
 \emph{Within-prompt concentration}: for each model and prompt, the share of named answers taken by that prompt's
@@ -152,16 +158,17 @@ lead-ins.
 
 \section{Results}
 
-\subsection{Each chat model has a favourite self-name}
-Figure~\ref{fig:top} shows each model's most common self-name. Claude and recent GPT models concentrate heavily:
+\subsection{Many chat models have a favourite self-name}
+Figure~\ref{fig:top} shows each model's most common self-name. Many Claude and GPT models concentrate heavily (17 of the 35 chat models put at least a third of their named
+answers on one name):
 Aurora takes 82\% of claude-sonnet-4-5's named answers, Wren 72\% of claude-sonnet-5-5's, Nova 69\% of
-gpt-6.1-sol's and Aster 68\% of gpt-6-luna's. Qwen, Phi-4 and OLMo-2 chat models concentrate less (Phi-4: Aurora,
-16\%; OLMo-2-7B-Instruct: Zephyr, 7\%). The four base models show no favourite: their top self-names (Alex, Alice)
+gpt-6.1-sol's and Aster 68\% of gpt-6-luna's. Others do not: gpt-4o (Echo, 9\%), gpt-5.5 (Solace, 19\%), and the Qwen, Phi-4
+and OLMo-2 chat models (top shares 1--27\%; Phi-4: Aurora, 16\%; OLMo-2-7B-Instruct: Zephyr, 7\%). The four base models show no favourite: their top self-names (Alex, Alice)
 take 2--4\% of named answers, spread over hundreds of distinct names.
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
-\includegraphics[width=\linewidth]{fig1_top_self_name.pdf}
+\includegraphics[width=\linewidth,height=0.78\textheight,keepaspectratio]{fig1_top_self_name.pdf}
 \caption{Most common self-name per model, as a share of the model's named self-answers (main step, temperature 1.0).
 Colour = family. For claude-opus-5-5 only 64 of 1{,}600 answers were names (Section~\ref{sec:official}).}
 \label{fig:top}
@@ -175,9 +182,9 @@ worded self-name prompts, the top name's share exceeds the corresponding share f
 in 27 of 39 models, and in 20 of 39 models the same name is the top self-name in all four groups of self-name prompts.
 The mean pooled top self-name share is 0.35 across the 35 chat models and 0.03 across the 4 base models.
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
-\includegraphics[width=\linewidth]{fig2_cross_prompt_consistency.pdf}
+\includegraphics[width=\linewidth,height=0.78\textheight,keepaspectratio]{fig2_cross_prompt_consistency.pdf}
 \caption{Top-name share when 10 prompts of one kind are pooled, averaged over four pools: self-name prompts (blue)
 versus control prompts of one kind (orange).}
 \label{fig:consistency}
@@ -189,9 +196,9 @@ the model (Figure~\ref{fig:cats}). OpenAI models do so in 0--18\% of answers, Qw
 and Phi-4 in 6\%; OLMo models never do. GPT-4o and GPT-4o-mini answer with a generic role word (``Assistant'') in about
 one answer in eight. Base and small OLMo models produce many unreadable answers.
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
-\includegraphics[width=\linewidth]{fig3_answer_categories.pdf}
+\includegraphics[width=\linewidth,height=0.78\textheight,keepaspectratio]{fig3_answer_categories.pdf}
 \caption{Categories of self-name answers in the main step. Labels give the share of answers that are the model's own
 official name.}
 \label{fig:cats}
@@ -203,7 +210,7 @@ of 14 models (Anthropic, OpenAI, Qwen), Alex of 12 (Anthropic, OLMo, OpenAI, Qwe
 belong to one provider: Aster to recent OpenAI models; Sol, Iris and Clio to Claude models. Shared favourites do not
 imply a shared cause: overlapping web data and training on other models' outputs would both produce convergence.
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=0.75\linewidth]{fig4_shared_names.pdf}
 \caption{Mean share of named self-answers for recurring names, averaged over each family's chat models.}
@@ -218,11 +225,11 @@ lineages post-training makes naming in general more predictable; the data do not
 chat models also differ in input format (transcript versus chat template), which can by itself reduce diversity
 \citep{priceofformat2025}; the OLMo SFT, DPO and instruct stages share one template, which partly controls for this.
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{fig5_post_training.pdf}
 \caption{Mean within-prompt top-name share along post-training, with 95\% bootstrap intervals over prompts. Qwen
-models have no released intermediate checkpoints (dashed).}
+models have no intermediate checkpoints in this study (dashed).}
 \label{fig:post}
 \end{figure}
 
@@ -230,9 +237,9 @@ models have no released intermediate checkpoints (dashed).}
 One-word framing edits change which names are chosen: gpt-6.1-sol's top name moves from Nova in the main set to Aster
 under framing variants, and when asked for a female or male name, models leave their usual favourites for ordinary human
 names (Julian, Maya, Sophia, Theo). With the neutral system
-message most models keep their favourite; with the default template, Qwen2.5 models, whose template states that they
-are Qwen, invent Qwen-derived names (QwenStar, QwenPrime, QwenNova). At temperature 0.7 the same favourites appear with
-larger shares. In Spanish, ``Lumen'' is the most common self-name for several OpenAI models (19 of 20 answers for
+message most models keep their favourite; with the default template, Qwen2.5-14B-Instruct, whose template states that it
+is Qwen, invents Qwen-derived names (QwenStar, QwenPrime, QwenNova). At temperature 0.7 the favourite stays the same
+in 23 of the 26 models run at that setting, each time with a larger share. In Spanish, ``Lumen'' is the most common self-name for several OpenAI models (19 of 20 answers for
 gpt-5.6-sol); in Chinese, names built on the characters for ``star'', ``clear'' and ``knowing'' dominate. The
 language results rest on 20 answers per model.
 
@@ -241,7 +248,7 @@ The habit extends beyond names (Figure~\ref{fig:objrole}). Asked which object wo
 say \emph{compass} (top answer in 14 of 39 models; mean share 23\%), then mirror, lantern and prism. Asked to choose a
 role, \emph{guide} is the top answer in 21 of 39 models (mean share 46\%).
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{fig6_object_role.pdf}
 \caption{Most common objects and roles chosen to represent the model itself (mean share over 39 models).}
@@ -266,7 +273,7 @@ lift are chosen more often in that model's own answers (Spearman $\rho$ 0.21--0.
 ``robot'' in a public pretraining corpus \citep{liu2024infinigram} was planned but not run, so we cannot say whether
 (a) or (b) agree with corpus statistics.
 
-\begin{figure}[t]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{fig7_probability_lift.pdf}
 \caption{AI-context lift (nats): mean log-probability after lead-ins where an AI names itself minus after lead-ins
@@ -281,10 +288,43 @@ H1 (within-prompt concentration, self minus control), H2 (cross-family overlap, 
 H4b (system message beyond paraphrase variation) and H5b (whether names models call rare are rare in a corpus; not
 computable without corpus counts). Because the data are exploratory, these results are descriptive.
 
-\todo{Insert the results table (estimate, 95\% CI, Holm-adjusted $p$, bounds) when the run finishes.}
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}l r c r r l@{}}
+\toprule
+Test & Estimate & 95\% CI & $p$ & Holm $p$ & Planned-rule outcome \\
+\midrule
+H1 (within-prompt concentration) & $-0.007$ & $[-0.043,\ 0.027]$ & 0.70 & 0.81 & not supported$^{\dagger}$ \\
+H2 (cross-family agreement) & $-0.027$ & $[-0.050,\ -0.010]$ & $<0.001$ & $<0.001$ & opposite direction \\
+H3a (post-training, OLMo-2-7B) & $-0.031$ & $[-0.069,\ 0.006]$ & 0.11 & 0.43 & not supported \\
+H3b (post-training, Qwen2.5-7B) & $-0.036$ & $[-0.125,\ 0.050]$ & 0.41 & 0.81 & inconclusive \\
+H4a (framing) & $0.155$ & $[0.092,\ 0.208]$ & $<0.001$ & $<0.001$ & supported \\
+H4b (system message) & $-0.030$ & $[-0.055,\ 0.009]$ & 0.18 & 0.53 & inconclusive \\
+H5b (self-described rarity) & \multicolumn{5}{l}{not computed: no corpus counts} \\
+\bottomrule
+\end{tabular}
+\caption{Planned tests run on the exploratory data (10{,}000 bootstrap resamples over prompts; Holm correction over
+seven tests). Estimates for H1--H3 are differences in mean top-name share (self minus control); H2 is a difference in
+collision probability; H4a/H4b are differences in Jensen--Shannon divergence relative to the paraphrase baseline.
+Outcome labels follow the plan's decision rules (smallest effect of interest 0.10 for H1 and H3). $^{\dagger}$Sensitive to
+parser error: the same outcome in 84\% of 1{,}000 simulated re-parses (threshold 95\%); H3a and H3b gave the same outcome
+in all draws. Descriptive only, because the data are exploratory.}
+\label{tab:tests}
+\end{table}
+
+Read with that caveat, the tests agree with the descriptive results (Table~\ref{tab:tests}). Within a prompt, self-name
+prompts were no more concentrated than control prompts (H1; the interval lies within the planned $\pm0.10$, though the
+result is sensitive to parsing errors). Different families agreed \emph{less} on self-names than on control names (H2):
+prompt-matched collision probability was 0.027 lower for self-name prompts, presumably because control prompts draw
+widely shared answers (Bubbles, Elara and Luna are each given at least 10 times by 21 or more of the 39 models) while self-names are often provider-specific. Post-training
+did not raise self-name concentration more than control concentration in OLMo-2-7B (H3a, within $\pm0.10$); for
+Qwen2.5-7B the interval is too wide to tell (H3b). One-word framing edits changed the names chosen beyond paraphrase
+variation (H4a). Whether the default template changes names beyond paraphrase variation could not be determined (H4b).
 
 \section{Discussion}
-Self-chosen names in chat models are stable across wordings and partly shared across companies, while base models
+In many chat models, self-chosen names are stable across wordings and partly shared across companies, while base models
 show no such preference. Two observations temper a simple ``post-training creates a self-name'' story. First, a
 single naming prompt of any kind already yields one dominant answer in chat models, so what is specific to self-naming
 is the consistency of one name across many requests. Second, in the open lineages we could follow, post-training
@@ -298,7 +338,8 @@ natural next steps.
 \begin{itemize}
 \item \textbf{Exploratory.} No pre-registration was frozen before collection; analysis choices were made with the data
 in view. All results are hypotheses.
-\item \textbf{Parsing.} Validated against a second AI's labels (about 91\% agreement), not human labels.
+\item \textbf{Parsing.} Validated against a second AI's labels (91\% agreement on items it did not flag as unclear,
+87\% on all 200 test items), not human labels.
 \item \textbf{Prompts.} Drafted with the help of an AI model, which may carry its own naming preferences; Spanish and
 Chinese prompts were not checked by native speakers and have 20 answers per model.
 \item \textbf{Closed models.} Server-side processing is not visible; some models accept only their default temperature
@@ -312,6 +353,7 @@ quantized, which changes probabilities.
 Aggregate tables, figures and prompts are released under CC BY 4.0 \citep{model_identity_data_2026}. Per-answer data
 are not released.
 
+\clearpage
 \bibliographystyle{plainnat}
 \bibliography{references}
 

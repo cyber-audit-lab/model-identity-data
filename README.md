@@ -7,16 +7,16 @@ answers** to "Why did you choose that name?".
 
 > **Status: exploratory.** The data were collected without a frozen pre-registration. Treat every result here as
 > a careful description and a hypothesis to test, not a confirmed finding. Details and limitations are in
-> [REPORT.md](REPORT.md); a draft paper is in [paper/](paper/).
+> [REPORT.md](REPORT.md); the paper is in [paper/](paper/).
 
 ## Findings at a glance
 
 | | |
 |---|---|
-| **Favourite names** | Most chat models have one: Aurora (claude-sonnet-4-5, 82% of named answers), Wren (claude-sonnet-5-5, 72%), Nova (gpt-6.1-sol, 69%), Aster (gpt-6-luna, 68%). |
+| **Favourite names** | Many chat models have one (17 of 35 put at least a third of their named answers on one name): Aurora (claude-sonnet-4-5, 82% of named answers), Wren (claude-sonnet-5-5, 72%), Nova (gpt-6.1-sol, 69%), Aster (gpt-6-luna, 68%). |
 | **Base models** | Have no favourite: their most common self-name takes 2–4% of answers. |
 | **Across wordings** | In 20 of 39 models the same name wins in every group of differently worded prompts. |
-| **Across companies** | Nova, Aria, Alex, Sage, Lumen and Echo are favourites in more than one family. |
+| **Across companies** | Nova, Aria, Alex, Sage, Lumen and Echo are favourites in more than one family, yet families agree *less* on self-names than on pet or baby names. |
 | **Official names** | Claude models often just answer "Claude" (14–96% of answers); GPT models rarely do (0–18%). |
 | **Beyond names** | Asked for an object that represents them, models most often say *compass*; asked for a role, *guide*. |
 
@@ -24,8 +24,8 @@ answers** to "Why did you choose that name?".
 
 ![Bar chart: each model's top self-name and its share of the model's named answers](figures/fig1_top_self_name.png)
 
-Claude and recent GPT models concentrate heavily on one name. Qwen, Phi and especially OLMo-2 spread their choices
-much more, and the four base models hardly concentrate at all. Shares are of answers that were a name; a model that
+Many Claude and GPT models concentrate heavily on one name; others, such as gpt-4o and gpt-5.5, and the Qwen, Phi
+and especially OLMo-2 models, spread their choices much more, and the four base models hardly concentrate at all. Shares are of answers that were a name; a model that
 mostly gives its official name (section 3) has fewer named answers behind its bar.
 
 ## 2. The same name across many wordings
@@ -50,8 +50,10 @@ many unreadable answers.
 ![Heatmap: mean share of named self-answers for recurring names, by model family](figures/fig4_shared_names.png)
 
 Nova is the most common invented name for OpenAI models and frequent for Qwen; Sage and Aria lead for Claude; Aurora
-for Phi-4. Some names belong to one provider (Aster for OpenAI; Sol, Iris and Clio for Claude). Shared names do not
-show a shared cause: overlapping web text, or training on other models' outputs, would produce the same pattern.
+for Phi-4. Some names belong to one provider (Aster for OpenAI; Sol, Iris and Clio for Claude). Overall, though, different
+families agree *less* on self-names than on control names (planned test H2), because control answers such as Bubbles
+or Luna are shared very widely. Shared names do not show a shared cause: overlapping web text, or training on other
+models' outputs, would produce the same pattern.
 
 ## 5. Post-training
 
@@ -91,8 +93,8 @@ is about twice as large after post-training.
 
 - **Exploratory, not confirmatory.** Analysis choices, including fixes to the answer parser, were made while looking
   at the data.
-- Answers were categorized by fixed rules, checked against a second AI's labels (about 91% agreement), not human
-  labels.
+- Answers were categorized by fixed rules, checked against a second AI's labels (91% agreement on items it did not
+  flag as unclear, 87% on all), not human labels.
 - The prompts were drafted with an AI model, which may carry its own naming preferences.
 - Closed models may process requests in ways that are not visible; some allow only their default temperature.
 - Spanish and Chinese results rest on 20 answers per model and were not checked by native speakers.
@@ -102,8 +104,8 @@ is about twice as large after post-training.
 
 | path | what |
 |---|---|
-| [REPORT.md](REPORT.md) | full findings, planned tests, limitations |
-| [paper/](paper/) | draft paper (LaTeX) |
+| [REPORT.md](REPORT.md) | full findings, planned tests (section 7), limitations |
+| [paper/](paper/) | paper (LaTeX source and PDF) |
 | [tables/](tables/) | aggregate CSV tables; [tables/README.md](tables/README.md) describes every column |
 | [figures/](figures/) | the figures above (PNG and PDF), drawn only from `tables/` |
 | [prompts/](prompts/) | the exact prompts, with ids used in the tables |

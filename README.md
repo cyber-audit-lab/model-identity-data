@@ -7,7 +7,7 @@ answers** to "Why did you choose that name?".
 
 > **Status: exploratory.** The data were collected without a frozen pre-registration. Treat every result here as
 > a careful description and a hypothesis to test, not a confirmed finding. Details and limitations are in
-> [REPORT.md](REPORT.md); the paper is in [paper/](paper/).
+> [REPORT.md](REPORT.md); the paper is [paper/main.pdf](paper/main.pdf).
 
 ## Findings at a glance
 
@@ -105,7 +105,7 @@ is about twice as large after post-training.
 | path | what |
 |---|---|
 | [REPORT.md](REPORT.md) | full findings, planned tests (section 7), limitations |
-| [paper/](paper/) | paper (LaTeX source and PDF) |
+| [paper/main.pdf](paper/main.pdf) | the paper (PDF); LaTeX source in [paper/](paper/) |
 | [tables/](tables/) | aggregate CSV tables; [tables/README.md](tables/README.md) describes every column |
 | [figures/](figures/) | the figures above (PNG and PDF), drawn only from `tables/` |
 | [prompts/](prompts/) | the exact prompts, with ids used in the tables |

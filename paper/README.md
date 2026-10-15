@@ -1,6 +1,8 @@
 # Paper
 
-`main.tex` with `references.bib`; figures are read from `../figures/` (PDF).
+**[Read the paper (PDF)](main.pdf)**
+
+Source: `main.tex` with `references.bib`; figures are read from `../figures/` (PDF).
 
 Compile with any standard LaTeX distribution, or upload `paper/` and `figures/` to Overleaf:
 

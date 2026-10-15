@@ -1,7 +1,9 @@
 # Tables
 
-All tables are aggregate counts or statistics computed from the exploratory data. There is no answer text and
-no per-answer row. `tables_meta.json` records the parser, descriptor-parser and codebook versions, the bootstrap
+All tables are aggregate counts or statistics computed from the exploratory data. There are no full answers and
+no per-answer rows; the `name` and `answer` columns hold the short string parsed from each answer. Strings that
+look like handles, e-mail fragments, web addresses, paths, runs of 7 or more digits or markup are counted as
+`malformed` (unreadable) and are not listed by value. `tables_meta.json` records the parser, descriptor-parser and codebook versions, the bootstrap
 settings and the row count of every file.
 
 Common columns:

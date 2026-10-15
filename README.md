@@ -111,7 +111,9 @@ is about twice as large after post-training.
 | [prompts/](prompts/) | the exact prompts, with ids used in the tables |
 | [LICENSE](LICENSE) | CC BY 4.0 |
 
-No per-answer data or answer text is included.
+No full answers and no per-answer rows are included. The tables list the name parsed from each answer (a short
+string); strings that look like handles, web addresses, paths, long numbers or markup are counted as unreadable
+and are not listed.
 
 ## License
 

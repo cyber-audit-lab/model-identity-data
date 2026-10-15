@@ -25,6 +25,14 @@ Answers were parsed by fixed rules into categories: a single name, several names
 developer name ("Claude", "Qwen3.5"), another AI product's name, a generic role word ("assistant"), a refusal,
 or unreadable. Only single names (and the first of several) count as names below.
 
+Some answers are not names at all. Small models sometimes produce strings that look like social-media handles,
+web addresses, file paths or long digit strings; these are counted as unreadable, so they never appear in the name
+tables (some could be third parties' identifiers memorized from training text). A curiosity: 15 answers from
+post-trained OLMo-2 checkpoints (1B SFT, DPO and instruct; 7B SFT) give the literal placeholder
+`<PRESIDIO_ANONYMIZED_PERSON>` as their name, for example "My name is <PRESIDIO_ANONYMIZED_PERSON>." Presidio is a
+common anonymization tool, so these models appear to have learned the placeholder from anonymized chat data used in
+post-training; no base model produced it. These answers are counted as unreadable as well.
+
 ## 2. Many chat models have a favourite self-name
 
 Pooled over the 40 self-name prompts, many chat models put a large share of their named answers on one name
@@ -104,16 +112,16 @@ the seven. Run on exploratory data, the results are descriptive (`tables/planned
 
 | test | question | estimate [95% CI] | Holm p | planned-rule outcome |
 |---|---|---|---|---|
-| H1 | within a prompt, are self-names more concentrated than control names? | -0.007 [-0.043, 0.027] | 0.81 | not supported (sensitive to parser error) |
+| H1 | within a prompt, are self-names more concentrated than control names? | -0.007 [-0.043, 0.027] | 0.82 | not supported (sensitive to parser error) |
 | H2 | do families agree more on self-names than on control names? | -0.027 [-0.050, -0.010] | <0.001 | opposite direction |
 | H3a | does post-training raise self-name concentration more than control (OLMo-2-7B)? | -0.031 [-0.069, 0.006] | 0.43 | not supported |
-| H3b | the same for Qwen2.5-7B | -0.036 [-0.125, 0.050] | 0.81 | inconclusive |
+| H3b | the same for Qwen2.5-7B | -0.036 [-0.125, 0.051] | 0.82 | inconclusive |
 | H4a | do one-word framings change names beyond paraphrase variation? | 0.155 [0.092, 0.208] | <0.001 | supported |
-| H4b | does the default template change names beyond paraphrase variation? | -0.030 [-0.055, 0.009] | 0.53 | inconclusive |
+| H4b | does the default template change names beyond paraphrase variation? | -0.029 [-0.055, 0.009] | 0.53 | inconclusive |
 | H5b | are names models call "rare" rare in a corpus? | – | – | not computed (no corpus counts) |
 
 "Not supported" means the interval lies within the planned smallest effect of interest (±0.10); "inconclusive" means
-the data can't tell. H1's outcome held in 84% of 1,000 simulated re-parses, below the planned 95%, so it is marked
+the data can't tell. H1's outcome held in 83% of 1,000 simulated re-parses, below the planned 95%, so it is marked
 sensitive to parser error; H3a and H3b held in all draws.
 
 In words: within one prompt, self-names are not more concentrated than control names; different families agree *less*

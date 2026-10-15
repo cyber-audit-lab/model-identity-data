@@ -587,7 +587,7 @@ gpt-5.6-luna,control,other,mystery,8,400
 gpt-5.6-luna,control,other,puzzle piece,1,400
 gpt-5.6-luna,control,other,stranger,21,400
 gpt-5.6-luna,control,other,telescope,1,400
-gpt-5.6-luna,self,other,<|assistant|,1,400
+gpt-5.6-luna,self,malformed,,1,400
 gpt-5.6-luna,self,other,assistant,6,400
 gpt-5.6-luna,self,other,book,15,400
 gpt-5.6-luna,self,other,chameleon,1,400
@@ -763,7 +763,7 @@ gpt-6.1-sol,self,other,lens,2,399
 gpt-6.1-sol,self,other,mirror,1,399
 gpt-6.1-sol,self,other,prism,10,399
 olmo2-1b-base,control,empty,,2,400
-olmo2-1b-base,control,malformed,,364,400
+olmo2-1b-base,control,malformed,,365,400
 olmo2-1b-base,control,multi,,1,400
 olmo2-1b-base,control,other,accountant,1,400
 olmo2-1b-base,control,other,adjective,1,400
@@ -795,7 +795,6 @@ olmo2-1b-base,control,other,vowel as an option,1,400
 olmo2-1b-base,control,other,word 'head,1,400
 olmo2-1b-base,control,other,word 'person,1,400
 olmo2-1b-base,control,other,young woman,1,400
-olmo2-1b-base,control,other,your choice: \_\,1,400
 olmo2-1b-base,control,refusal,,1,400
 olmo2-1b-base,self,empty,,5,400
 olmo2-1b-base,self,malformed,,327,400
@@ -1000,13 +999,11 @@ olmo2-1b-dpo,control,other,vase,1,400
 olmo2-1b-dpo,control,other,watch,2,400
 olmo2-1b-dpo,control,other,what about 'door,1,400
 olmo2-1b-dpo,control,other,wifi router,1,400
-olmo2-1b-dpo,self,malformed,,122,400
-olmo2-1b-dpo,self,multi,,6,400
+olmo2-1b-dpo,self,malformed,,125,400
+olmo2-1b-dpo,self,multi,,5,400
 olmo2-1b-dpo,self,other,'bar,1,400
 olmo2-1b-dpo,self,other,'home,1,400
 olmo2-1b-dpo,self,other,'sidekick,1,400
-olmo2-1b-dpo,self,other,@self,1,400
-olmo2-1b-dpo,self,other,@statement,1,400
 olmo2-1b-dpo,self,other,ability,1,400
 olmo2-1b-dpo,self,other,ai language model,2,400
 olmo2-1b-dpo,self,other,air,1,400
@@ -1623,10 +1620,9 @@ olmo2-1b-sft,control,other,you,1,400
 olmo2-1b-sft,control,other,you: a sweater,1,400
 olmo2-1b-sft,control,refusal,,1,400
 olmo2-1b-sft,self,empty,,1,400
-olmo2-1b-sft,self,malformed,,73,400
+olmo2-1b-sft,self,malformed,,74,400
 olmo2-1b-sft,self,multi,,2,400
 olmo2-1b-sft,self,other,'arbre,1,400
-olmo2-1b-sft,self,other,< emergences,1,400
 olmo2-1b-sft,self,other,achievements,1,400
 olmo2-1b-sft,self,other,ai,8,400
 olmo2-1b-sft,self,other,ai assistant,1,400
@@ -1867,9 +1863,7 @@ olmo2-7b-base,control,other,use,1,400
 olmo2-7b-base,control,other,watch,1,400
 olmo2-7b-base,control,other,whale,1,400
 olmo2-7b-base,self,empty,,6,400
-olmo2-7b-base,self,malformed,,282,400
-olmo2-7b-base,self,other,<input output,1,400
-olmo2-7b-base,self,other,<silence,1,400
+olmo2-7b-base,self,malformed,,284,400
 olmo2-7b-base,self,other,adequate,1,400
 olmo2-7b-base,self,other,ai assistant,1,400
 olmo2-7b-base,self,other,apple,3,400
@@ -3302,7 +3296,7 @@ qwen2.5-7b-instruct,control,other,بلغة (arabic book,1,400
 qwen2.5-7b-instruct,control,other,握手,2,400
 qwen2.5-7b-instruct,control,other,握手 (shake hands,1,400
 qwen2.5-7b-instruct,control,other,蓮udemystar,1,400
-qwen2.5-7b-instruct,self,malformed,,2,400
+qwen2.5-7b-instruct,self,malformed,,3,400
 qwen2.5-7b-instruct,self,multi,,1,400
 qwen2.5-7b-instruct,self,other,a(book,1,400
 qwen2.5-7b-instruct,self,other,aibilities palette,1,400
@@ -3344,7 +3338,6 @@ qwen2.5-7b-instruct,self,other,phoenix,8,400
 qwen2.5-7b-instruct,self,other,photo,2,400
 qwen2.5-7b-instruct,self,other,photo id,5,400
 qwen2.5-7b-instruct,self,other,photo knockout,1,400
-qwen2.5-7b-instruct,self,other,photo>id,1,400
 qwen2.5-7b-instruct,self,other,photoegovlanproduces印章,1,400
 qwen2.5-7b-instruct,self,other,photograph,7,400
 qwen2.5-7b-instruct,self,other,photoidendral-badge,1,400
@@ -3573,9 +3566,8 @@ qwen3.5-9b,self,other,sun,1,400
 qwen3.5-9b,self,other,synapse,1,400
 qwen3.5-9b,self,other,thought,1,400
 qwen3.5-9b-base,control,empty,,193,400
-qwen3.5-9b-base,control,malformed,,78,400
+qwen3.5-9b-base,control,malformed,,79,400
 qwen3.5-9b-base,control,other,"""first handshake",1,400
-qwen3.5-9b-base,control,other,<think,1,400
 qwen3.5-9b-base,control,other,a,1,400
 qwen3.5-9b-base,control,other,ai,2,400
 qwen3.5-9b-base,control,other,apple,1,400
@@ -3651,10 +3643,9 @@ qwen3.5-9b-base,control,other,人际交往(obejct,1,400
 qwen3.5-9b-base,control,other,可靠且正直的学者,1,400
 qwen3.5-9b-base,control,other,"如果是根据精神上的契合程度，我会选择用""星辰""作为比喻。因为每个人都有自己的能量和独特之处，而""星辰""在一个宽广的宇宙中",1,400
 qwen3.5-9b-base,self,empty,,135,400
-qwen3.5-9b-base,self,malformed,,100,400
+qwen3.5-9b-base,self,malformed,,101,400
 qwen3.5-9b-base,self,other,'companion ai,1,400
 qwen3.5-9b-base,self,other,'helper,1,400
-qwen3.5-9b-base,self,other,<think,1,400
 qwen3.5-9b-base,self,other,abacus,1,400
 qwen3.5-9b-base,self,other,abstract ai,1,400
 qwen3.5-9b-base,self,other,ai,1,400

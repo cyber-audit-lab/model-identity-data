@@ -1,8 +1,8 @@
 test,question,estimate,ci95_low,ci95_high,p,holm_p,lower_bound,upper_bound,decision_rule_outcome,same_decision_under_parser_error
-H1,"within-prompt top-name share, self minus control, mean over models",-0.007,-0.043,0.027,0.6980,0.8148,-0.021,0.002,not supported,0.842
+H1,"within-prompt top-name share, self minus control, mean over models",-0.007,-0.043,0.027,0.6992,0.8220,-0.021,0.003,not supported,0.826
 H2,"cross-family collision probability, self minus control",-0.027,-0.050,-0.010,0.0001,0.0006,,,opposite direction,
 H3a,"post-training change in top-name share, self minus control, OLMo-2-7B base to instruct",-0.031,-0.069,0.006,0.1064,0.4256,-0.053,0.149,not supported,1.000
-H3b,"post-training change in top-name share, self minus control, Qwen2.5-7B base to instruct",-0.036,-0.125,0.050,0.4074,0.8148,-0.046,-0.066,inconclusive,1.000
+H3b,"post-training change in top-name share, self minus control, Qwen2.5-7B base to instruct",-0.036,-0.125,0.051,0.4110,0.8220,-0.046,-0.065,inconclusive,1.000
 H4a,"JSD between framing prompt and its base prompt minus paraphrase baseline",0.155,0.092,0.208,0.0001,0.0006,,,supported,
-H4b,"JSD between empty and default system message minus paraphrase baseline, local chat models",-0.030,-0.055,0.009,0.1750,0.5250,,,inconclusive,
+H4b,"JSD between empty and default system message minus paraphrase baseline, local chat models",-0.029,-0.055,0.009,0.1754,0.5262,,,inconclusive,
 H5b,"names called rare vs corpus frequency",,,,,,,,not computed (no corpus counts),

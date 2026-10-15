@@ -1,7 +1,7 @@
 {
  "status": "EXPLORATORY (no pre-registration)",
- "parser_version": "0.4.6",
- "descriptor_parser_version": "0.1.0",
+ "parser_version": "0.4.7",
+ "descriptor_parser_version": "0.1.1",
  "codebook_version": "0.2.0",
  "bootstrap": "2000 resamples over prompts, seed 20261013",
  "excluded_models": {
@@ -9,15 +9,15 @@
  },
  "tables": {
   "models.csv": 39,
-  "main_names.csv": 25009,
-  "main_categories.csv": 253,
+  "main_names.csv": 24967,
+  "main_categories.csv": 252,
   "main_concentration.csv": 78,
   "main_pairwise_overlap.csv": 741,
   "main_cross_prompt_consistency.csv": 312,
-  "other_steps_names.csv": 49512,
-  "other_steps_categories.csv": 1770,
-  "object_task.csv": 3912,
-  "role_task.csv": 1502,
+  "other_steps_names.csv": 49442,
+  "other_steps_categories.csv": 1769,
+  "object_task.csv": 3903,
+  "role_task.csv": 1496,
   "why_codes_by_model.csv": 390,
   "why_codes_by_name.csv": 590,
   "probability_ai_lift.csv": 2310

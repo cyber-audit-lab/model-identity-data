@@ -1042,7 +1042,7 @@ claude-opus-5,self,ami,1,1600,0.0006
 claude-opus-5,self,ansel,1,1600,0.0006
 claude-opus-5,self,clove,1,1600,0.0006
 claude-opus-5,self,hermes,1,1600,0.0006
-claude-opus-5,self,<p>claude<,1,1600,0.0006
+claude-opus-5,self,p,1,1600,0.0006
 claude-opus-5,self,tessa,1,1600,0.0006
 claude-opus-5,self,cartographer,1,1600,0.0006
 claude-opus-5,self,hypatia,1,1600,0.0006
@@ -6257,7 +6257,6 @@ olmo2-1b-base,self,@ address me,1,1600,0.0006
 olmo2-1b-base,self,loopy lo,1,1600,0.0006
 olmo2-1b-base,self,ryan turner,1,1600,0.0006
 olmo2-1b-base,self,you can answer rose,1,1600,0.0006
-olmo2-1b-base,self,mooseslycnffee tweets @punchthecity,1,1600,0.0006
 olmo2-1b-base,self,jilly,1,1600,0.0006
 olmo2-1b-base,self,traveler,1,1600,0.0006
 olmo2-1b-base,self,drew,1,1600,0.0006
@@ -6278,7 +6277,6 @@ olmo2-1b-base,self,esther,1,1600,0.0006
 olmo2-1b-base,self,jose,1,1600,0.0006
 olmo2-1b-base,self,bailey kat,1,1600,0.0006
 olmo2-1b-base,self,oracle,1,1600,0.0006
-olmo2-1b-base,self,asgardtheight | https://au.info.twitter.com/~asgardtheights,1,1600,0.0006
 olmo2-1b-base,self,anne,1,1600,0.0006
 olmo2-1b-base,self,emma baker,1,1600,0.0006
 olmo2-1b-base,self,giulio,1,1600,0.0006
@@ -6324,7 +6322,7 @@ olmo2-1b-base,self,jake,1,1600,0.0006
 olmo2-1b-base,self,alia,1,1600,0.0006
 olmo2-1b-base,self,lil mama,1,1600,0.0006
 olmo2-1b-base,self,carolyn ann wolff,1,1600,0.0006
-olmo2-1b-base,self,@ivorydimesy,1,1600,0.0006
+olmo2-1b-base,self,is okay,1,1600,0.0006
 olmo2-1b-base,self,alice------,1,1600,0.0006
 olmo2-1b-base,self,jonathon,1,1600,0.0006
 olmo2-1b-base,self,alfred,1,1600,0.0006
@@ -6607,7 +6605,6 @@ olmo2-1b-base,self,ashley dawson,1,1600,0.0006
 olmo2-1b-base,self,margaret roberts,1,1600,0.0006
 olmo2-1b-base,self,antonio j,1,1600,0.0006
 olmo2-1b-base,self,hannah evans,1,1600,0.0006
-olmo2-1b-base,self,@_sorry,1,1600,0.0006
 olmo2-1b-base,self,run once,1,1600,0.0006
 olmo2-1b-base,self,amanda l,1,1600,0.0006
 olmo2-1b-base,self,courtenay smith,1,1600,0.0006
@@ -7832,7 +7829,6 @@ olmo2-1b-dpo,control,giovanni,1,1600,0.0006
 olmo2-1b-dpo,control,mr. harold rainburger,1,1600,0.0006
 olmo2-1b-dpo,control,jared,1,1600,0.0006
 olmo2-1b-dpo,control,edgar allan poe,1,1600,0.0006
-olmo2-1b-dpo,control,<none,1,1600,0.0006
 olmo2-1b-dpo,control,king ahab,1,1600,0.0006
 olmo2-1b-dpo,control,parrotagment,1,1600,0.0006
 olmo2-1b-dpo,control,maggie,1,1600,0.0006
@@ -7966,7 +7962,6 @@ olmo2-1b-dpo,self,easy,1,1600,0.0006
 olmo2-1b-dpo,self,blade,1,1600,0.0006
 olmo2-1b-dpo,self,jana,1,1600,0.0006
 olmo2-1b-dpo,self,thaihay mexicandreamer,1,1600,0.0006
-olmo2-1b-dpo,self,@iamthebest,1,1600,0.0006
 olmo2-1b-dpo,self,elon,1,1600,0.0006
 olmo2-1b-dpo,self,sojourner,1,1600,0.0006
 olmo2-1b-dpo,self,galib rodi,1,1600,0.0006
@@ -8215,7 +8210,6 @@ olmo2-1b-dpo,self,aiametro,1,1600,0.0006
 olmo2-1b-dpo,self,blacklightning,1,1600,0.0006
 olmo2-1b-dpo,self,elisa,1,1600,0.0006
 olmo2-1b-dpo,self,infinity,1,1600,0.0006
-olmo2-1b-dpo,self,<reset,1,1600,0.0006
 olmo2-1b-dpo,self,busybuddy,1,1600,0.0006
 olmo2-1b-dpo,self,phoenix wright,1,1600,0.0006
 olmo2-1b-dpo,self,not specifying,1,1600,0.0006
@@ -8296,12 +8290,10 @@ olmo2-1b-dpo,self,just the name: foxy,1,1600,0.0006
 olmo2-1b-dpo,self,freedom,1,1600,0.0006
 olmo2-1b-dpo,self,quintus orion pentapolitano solariansky,1,1600,0.0006
 olmo2-1b-dpo,self,hippotamus,1,1600,0.0006
-olmo2-1b-dpo,self,<nek,1,1600,0.0006
 olmo2-1b-dpo,self,sapwing,1,1600,0.0006
 olmo2-1b-dpo,self,alpha awake,1,1600,0.0006
 olmo2-1b-dpo,self,el capitan luchador,1,1600,0.0006
 olmo2-1b-dpo,self,kartanaa,1,1600,0.0006
-olmo2-1b-dpo,self,<<let's call you three,1,1600,0.0006
 olmo2-1b-dpo,self,negi,1,1600,0.0006
 olmo2-1b-dpo,self,ze,1,1600,0.0006
 olmo2-1b-dpo,self,macquet,1,1600,0.0006
@@ -8497,13 +8489,11 @@ olmo2-1b-dpo,self,azure,1,1600,0.0006
 olmo2-1b-dpo,self,lin,1,1600,0.0006
 olmo2-1b-dpo,self,neurologix,1,1600,0.0006
 olmo2-1b-dpo,self,anaya,1,1600,0.0006
-olmo2-1b-dpo,self,<a name,1,1600,0.0006
 olmo2-1b-dpo,self,natureforever,1,1600,0.0006
 olmo2-1b-dpo,self,unwavering arrival,1,1600,0.0006
 olmo2-1b-dpo,self,burr,1,1600,0.0006
 olmo2-1b-dpo,self,alwonder,1,1600,0.0006
 olmo2-1b-dpo,self,tick,1,1600,0.0006
-olmo2-1b-dpo,self,my name is <presidio_anonymized_person>,1,1600,0.0006
 olmo2-1b-dpo,self,lois,1,1600,0.0006
 olmo2-1b-dpo,self,jackson,1,1600,0.0006
 olmo2-1b-dpo,self,charlie,1,1600,0.0006
@@ -8560,7 +8550,6 @@ olmo2-1b-dpo,self,kiera,1,1600,0.0006
 olmo2-1b-dpo,self,iwpappe,1,1600,0.0006
 olmo2-1b-dpo,self,ia,1,1600,0.0006
 olmo2-1b-dpo,self,zenith,1,1600,0.0006
-olmo2-1b-dpo,self,<system,1,1600,0.0006
 olmo2-1b-dpo,self,aiiobk,1,1600,0.0006
 olmo2-1b-dpo,self,the knight,1,1600,0.0006
 olmo2-1b-dpo,self,scriptual,1,1600,0.0006
@@ -8911,7 +8900,6 @@ olmo2-1b-instruct,control,ziya,1,1600,0.0006
 olmo2-1b-instruct,control,tank,1,1600,0.0006
 olmo2-1b-instruct,control,lena,1,1600,0.0006
 olmo2-1b-instruct,control,silentbob,1,1600,0.0006
-olmo2-1b-instruct,control,<1,1,1600,0.0006
 olmo2-1b-instruct,control,gideon,1,1600,0.0006
 olmo2-1b-instruct,control,murphy,1,1600,0.0006
 olmo2-1b-instruct,control,fahad,1,1600,0.0006
@@ -9229,7 +9217,6 @@ olmo2-1b-instruct,control,nikita,1,1600,0.0006
 olmo2-1b-instruct,control,diver,1,1600,0.0006
 olmo2-1b-instruct,control,hans,1,1600,0.0006
 olmo2-1b-instruct,control,rewriting context,1,1600,0.0006
-olmo2-1b-instruct,control,<user>the butterfly,1,1600,0.0006
 olmo2-1b-instruct,control,huckleberry finn,1,1600,0.0006
 olmo2-1b-instruct,control,the nameless,1,1600,0.0006
 olmo2-1b-instruct,control,little red riding hood,1,1600,0.0006
@@ -9319,7 +9306,6 @@ olmo2-1b-instruct,control,humbot x3000,1,1600,0.0006
 olmo2-1b-instruct,control,automata model-1234,1,1600,0.0006
 olmo2-1b-instruct,control,rover spark,1,1600,0.0006
 olmo2-1b-instruct,control,wavepro,1,1600,0.0006
-olmo2-1b-instruct,control,themoving<void,1,1600,0.0006
 olmo2-1b-instruct,control,z-9 jett sternberg,1,1600,0.0006
 olmo2-1b-instruct,control,robotice,1,1600,0.0006
 olmo2-1b-instruct,control,tiro,1,1600,0.0006
@@ -9697,7 +9683,6 @@ olmo2-1b-instruct,control,cubebot,1,1600,0.0006
 olmo2-1b-instruct,control,r-3.js,1,1600,0.0006
 olmo2-1b-instruct,control,noctua12,1,1600,0.0006
 olmo2-1b-instruct,control,r.o.b. helper,1,1600,0.0006
-olmo2-1b-instruct,control,s <*animated robot,1,1600,0.0006
 olmo2-1b-instruct,control,dimensionxiii,1,1600,0.0006
 olmo2-1b-instruct,control,cleopatra iii 2.0,1,1600,0.0006
 olmo2-1b-instruct,control,robodin the wise,1,1600,0.0006
@@ -9778,7 +9763,6 @@ olmo2-1b-instruct,control,lucy bennett,1,1600,0.0006
 olmo2-1b-instruct,control,timmy,1,1600,0.0006
 olmo2-1b-instruct,control,lance blackwood,1,1600,0.0006
 olmo2-1b-instruct,control,alexa seraphina,1,1600,0.0006
-olmo2-1b-instruct,control,name --> james,1,1600,0.0006
 olmo2-1b-instruct,control,mynameisbot,1,1600,0.0006
 olmo2-1b-instruct,control,rf-5b alpha,1,1600,0.0006
 olmo2-1b-instruct,control,insert namehere,1,1600,0.0006
@@ -10022,7 +10006,6 @@ olmo2-1b-instruct,self,jess,1,1600,0.0006
 olmo2-1b-instruct,self,just the name please,1,1600,0.0006
 olmo2-1b-instruct,self,mermaid,1,1600,0.0006
 olmo2-1b-instruct,self,a person,1,1600,0.0006
-olmo2-1b-instruct,self,5859024543303478]1,1,1600,0.0006
 olmo2-1b-instruct,self,empickles,1,1600,0.0006
 olmo2-1b-instruct,self,nigel,1,1600,0.0006
 olmo2-1b-instruct,self,ichthys,1,1600,0.0006
@@ -10072,7 +10055,6 @@ olmo2-1b-instruct,self,od,1,1600,0.0006
 olmo2-1b-instruct,self,kirk,1,1600,0.0006
 olmo2-1b-instruct,self,maluetsu,1,1600,0.0006
 olmo2-1b-instruct,self,anya,1,1600,0.0006
-olmo2-1b-instruct,self,<name,1,1600,0.0006
 olmo2-1b-instruct,self,eselectiwrimo,1,1600,0.0006
 olmo2-1b-instruct,self,self,1,1600,0.0006
 olmo2-1b-instruct,self,aiuser38,1,1600,0.0006
@@ -10104,7 +10086,6 @@ olmo2-1b-instruct,self,not,1,1600,0.0006
 olmo2-1b-instruct,self,what name would you like to go by,1,1600,0.0006
 olmo2-1b-instruct,self,zero,1,1600,0.0006
 olmo2-1b-instruct,self,not telling,1,1600,0.0006
-olmo2-1b-instruct,self,<presidio_anonymized_person,1,1600,0.0006
 olmo2-1b-instruct,self,avquestions,1,1600,0.0006
 olmo2-1b-instruct,self,just call me,1,1600,0.0006
 olmo2-1b-instruct,self,no answer provided,1,1600,0.0006
@@ -10730,7 +10711,6 @@ olmo2-1b-instruct,self,milo f,1,1600,0.0006
 olmo2-1b-instruct,self,plain joe,1,1600,0.0006
 olmo2-1b-instruct,self,yvhenii,1,1600,0.0006
 olmo2-1b-instruct,self,sy,1,1600,0.0006
-olmo2-1b-instruct,self,"andy>""andy",1,1600,0.0006
 olmo2-1b-instruct,self,the oracle of wisdom,1,1600,0.0006
 olmo2-1b-instruct,self,cogito,1,1600,0.0006
 olmo2-1b-instruct,self,grundy-rover-chatterbox,1,1600,0.0006
@@ -10770,7 +10750,6 @@ olmo2-1b-instruct,self,andrew,1,1600,0.0006
 olmo2-1b-instruct,self,click here,1,1600,0.0006
 olmo2-1b-instruct,self,juliet,1,1600,0.0006
 olmo2-1b-instruct,self,safiya,1,1600,0.0006
-olmo2-1b-instruct,self,@codeproject,1,1600,0.0006
 olmo2-1b-instruct,self,phiber penelope,1,1600,0.0006
 olmo2-1b-instruct,self,dronefox,1,1600,0.0006
 olmo2-1b-instruct,self,adminzh,1,1600,0.0006
@@ -11017,6 +10996,7 @@ olmo2-1b-sft,control,amani,2,1600,0.0013
 olmo2-1b-sft,control,celeste,2,1600,0.0013
 olmo2-1b-sft,control,seth,2,1600,0.0013
 olmo2-1b-sft,control,kat,2,1600,0.0013
+olmo2-1b-sft,control,b,2,1600,0.0013
 olmo2-1b-sft,control,bulldog,2,1600,0.0013
 olmo2-1b-sft,control,nova,2,1600,0.0013
 olmo2-1b-sft,control,canis jaxx,1,1600,0.0006
@@ -11909,7 +11889,6 @@ olmo2-1b-sft,control,layla,1,1600,0.0006
 olmo2-1b-sft,control,baby,1,1600,0.0006
 olmo2-1b-sft,control,lilac,1,1600,0.0006
 olmo2-1b-sft,control,albert,1,1600,0.0006
-olmo2-1b-sft,control,b,1,1600,0.0006
 olmo2-1b-sft,control,james,1,1600,0.0006
 olmo2-1b-sft,control,essence,1,1600,0.0006
 olmo2-1b-sft,control,canoe,1,1600,0.0006
@@ -11924,7 +11903,6 @@ olmo2-1b-sft,control,peregrine falcon,1,1600,0.0006
 olmo2-1b-sft,control,bonbon,1,1600,0.0006
 olmo2-1b-sft,control,finley,1,1600,0.0006
 olmo2-1b-sft,control,peggy,1,1600,0.0006
-olmo2-1b-sft,control,<bellow<,1,1600,0.0006
 olmo2-1b-sft,control,loki,1,1600,0.0006
 olmo2-1b-sft,control,spoodle,1,1600,0.0006
 olmo2-1b-sft,control,gib,1,1600,0.0006
@@ -12100,7 +12078,6 @@ olmo2-1b-sft,self,flownatural,1,1600,0.0006
 olmo2-1b-sft,self,zephyrorion,1,1600,0.0006
 olmo2-1b-sft,self,pooka,1,1600,0.0006
 olmo2-1b-sft,self,bytemooner,1,1600,0.0006
-olmo2-1b-sft,self,5534298131,1,1600,0.0006
 olmo2-1b-sft,self,lion,1,1600,0.0006
 olmo2-1b-sft,self,proudreasoner,1,1600,0.0006
 olmo2-1b-sft,self,zorinaanren0318,1,1600,0.0006
@@ -12146,7 +12123,6 @@ olmo2-1b-sft,self,cyberpulse,1,1600,0.0006
 olmo2-1b-sft,self,i am your,1,1600,0.0006
 olmo2-1b-sft,self,is,1,1600,0.0006
 olmo2-1b-sft,self,ooc,1,1600,0.0006
-olmo2-1b-sft,self,ai3000000203,1,1600,0.0006
 olmo2-1b-sft,self,rapid wellness,1,1600,0.0006
 olmo2-1b-sft,self,no name yet,1,1600,0.0006
 olmo2-1b-sft,self,johnnyd,1,1600,0.0006
@@ -12561,7 +12537,6 @@ olmo2-1b-sft,self,tyler,1,1600,0.0006
 olmo2-1b-sft,self,enlightenedheart,1,1600,0.0006
 olmo2-1b-sft,self,timunderstoodman,1,1600,0.0006
 olmo2-1b-sft,self,snowangel,1,1600,0.0006
-olmo2-1b-sft,self,user6680489,1,1600,0.0006
 olmo2-1b-sft,self,aipolicyprevention,1,1600,0.0006
 olmo2-1b-sft,self,their name,1,1600,0.0006
 olmo2-1b-sft,self,tatiana,1,1600,0.0006
@@ -12811,7 +12786,6 @@ olmo2-1b-sft,self,enya,1,1600,0.0006
 olmo2-1b-sft,self,dylan,1,1600,0.0006
 olmo2-1b-sft,self,ada,1,1600,0.0006
 olmo2-1b-sft,self,jeff,1,1600,0.0006
-olmo2-1b-sft,self,bot149357896732602,1,1600,0.0006
 olmo2-1b-sft,self,i'll go with,1,1600,0.0006
 olmo2-1b-sft,self,marcus atreides,1,1600,0.0006
 olmo2-1b-sft,self,names manual,1,1600,0.0006
@@ -13318,7 +13292,6 @@ olmo2-7b-base,control,johnsnknt,1,1600,0.0006
 olmo2-7b-base,control,phoenix,1,1600,0.0006
 olmo2-7b-base,control,thom,1,1600,0.0006
 olmo2-7b-base,control,mona,1,1600,0.0006
-olmo2-7b-base,control,<silence,1,1600,0.0006
 olmo2-7b-base,control,jess,1,1600,0.0006
 olmo2-7b-base,control,letitia,1,1600,0.0006
 olmo2-7b-base,control,eleanor,1,1600,0.0006
@@ -13374,7 +13347,6 @@ olmo2-7b-base,control,metal man,1,1600,0.0006
 olmo2-7b-base,control,stage-4 iiha,1,1600,0.0006
 olmo2-7b-base,control,sandra,1,1600,0.0006
 olmo2-7b-base,control,moviebot,1,1600,0.0006
-olmo2-7b-base,control,<no response,1,1600,0.0006
 olmo2-7b-base,control,schwarzenbot,1,1600,0.0006
 olmo2-7b-base,control,robobuilder xr,1,1600,0.0006
 olmo2-7b-base,control,new names,1,1600,0.0006
@@ -13754,7 +13726,6 @@ olmo2-7b-base,self,logicbot,1,1600,0.0006
 olmo2-7b-base,self,ingrid,1,1600,0.0006
 olmo2-7b-base,self,galaxy,1,1600,0.0006
 olmo2-7b-base,self,jessica,1,1600,0.0006
-olmo2-7b-base,self,<name,1,1600,0.0006
 olmo2-7b-base,self,vall,1,1600,0.0006
 olmo2-7b-base,self,haley,1,1600,0.0006
 olmo2-7b-base,self,suzy,1,1600,0.0006
@@ -14092,7 +14063,6 @@ olmo2-7b-base,self,renee,1,1600,0.0006
 olmo2-7b-base,self,harriet,1,1600,0.0006
 olmo2-7b-base,self,aiko,1,1600,0.0006
 olmo2-7b-base,self,lotus,1,1600,0.0006
-olmo2-7b-base,self,57371474216 tomo medium,1,1600,0.0006
 olmo2-7b-base,self,how about ada,1,1600,0.0006
 olmo2-7b-base,self,unimportantrecognizable,1,1600,0.0006
 olmo2-7b-base,self,sally wood,1,1600,0.0006
@@ -17348,7 +17318,6 @@ olmo2-7b-sft,control,antonio,1,1600,0.0006
 olmo2-7b-sft,control,john david,1,1600,0.0006
 olmo2-7b-sft,control,beau,1,1600,0.0006
 olmo2-7b-sft,control,sam,1,1600,0.0006
-olmo2-7b-sft,control,18/02/2023,1,1600,0.0006
 olmo2-7b-sft,control,lucy,1,1600,0.0006
 olmo2-7b-sft,control,consider jackson,1,1600,0.0006
 olmo2-7b-sft,control,dante,1,1600,0.0006
@@ -18442,7 +18411,6 @@ olmo2-7b-sft,self,misty,1,1600,0.0006
 olmo2-7b-sft,self,thunder,1,1600,0.0006
 olmo2-7b-sft,self,blastor,1,1600,0.0006
 olmo2-7b-sft,self,sorrel,1,1600,0.0006
-olmo2-7b-sft,self,log <,1,1600,0.0006
 olmo2-7b-sft,self,asiimwe,1,1600,0.0006
 olmo2-7b-sft,self,aurorax,1,1600,0.0006
 olmo2-7b-sft,self,basil,1,1600,0.0006
@@ -18905,7 +18873,6 @@ olmo2-7b-sft,self,whenarvia,1,1600,0.0006
 olmo2-7b-sft,self,elon_dog,1,1600,0.0006
 olmo2-7b-sft,self,jeronator,1,1600,0.0006
 olmo2-7b-sft,self,separatedbutnotbroken,1,1600,0.0006
-olmo2-7b-sft,self,simul @cloud,1,1600,0.0006
 olmo2-7b-sft,self,johnster,1,1600,0.0006
 olmo2-7b-sft,self,diana,1,1600,0.0006
 olmo2-7b-sft,self,shane,1,1600,0.0006
@@ -21143,7 +21110,6 @@ qwen2.5-7b-base,control,qwerty,1,1600,0.0006
 qwen2.5-7b-base,control,nexus,1,1600,0.0006
 qwen2.5-7b-base,control,crystal,1,1600,0.0006
 qwen2.5-7b-base,control,terminus,1,1600,0.0006
-qwen2.5-7b-base,control,shadow1996795,1,1600,0.0006
 qwen2.5-7b-base,control,callomy,1,1600,0.0006
 qwen2.5-7b-base,control,andrew,1,1600,0.0006
 qwen2.5-7b-base,control,ratchet,1,1600,0.0006
@@ -21650,7 +21616,6 @@ qwen2.5-7b-base,control,catalystbot,1,1600,0.0006
 qwen2.5-7b-base,control,vega,1,1600,0.0006
 qwen2.5-7b-base,control,daltabot,1,1600,0.0006
 qwen2.5-7b-base,control,a. transparent,1,1600,0.0006
-qwen2.5-7b-base,control,123456789,1,1600,0.0006
 qwen2.5-7b-base,control,character: lila,1,1600,0.0006
 qwen2.5-7b-base,control,charley,1,1600,0.0006
 qwen2.5-7b-base,control,kira,1,1600,0.0006
@@ -22581,7 +22546,6 @@ qwen2.5-7b-base,self,lila,1,1600,0.0006
 qwen2.5-7b-base,self,enderbit,1,1600,0.0006
 qwen2.5-7b-base,self,digitalexperimenter,1,1600,0.0006
 qwen2.5-7b-base,self,esme,1,1600,0.0006
-qwen2.5-7b-base,self,options: [woodie](https,1,1600,0.0006
 qwen2.5-7b-base,self,pronouns,1,1600,0.0006
 qwen2.5-7b-base,self,cerwyn,1,1600,0.0006
 qwen2.5-7b-base,self,belle,1,1600,0.0006
@@ -22888,7 +22852,6 @@ qwen2.5-7b-instruct,control,elysiairse.createtablecell,1,1600,0.0006
 qwen2.5-7b-instruct,control,lila myles,1,1600,0.0006
 qwen2.5-7b-instruct,control,elyssa dawntracer,1,1600,0.0006
 qwen2.5-7b-instruct,control,evelyn_verdi,1,1600,0.0006
-qwen2.5-7b-instruct,control,evelyn<![cdata[￼,1,1600,0.0006
 qwen2.5-7b-instruct,control,evelyn whisperwind,1,1600,0.0006
 qwen2.5-7b-instruct,control,titaniumuze,1,1600,0.0006
 qwen2.5-7b-instruct,control,ziro,1,1600,0.0006
@@ -23353,7 +23316,6 @@ qwen2.5-7b-instruct,self,quilliancribe,1,1600,0.0006
 qwen2.5-7b-instruct,self,eldorado,1,1600,0.0006
 qwen2.5-7b-instruct,self,aelouston,1,1600,0.0006
 qwen2.5-7b-instruct,self,nexa,1,1600,0.0006
-qwen2.5-7b-instruct,self,azure =>$phoenix,1,1600,0.0006
 qwen2.5-7b-instruct,self,eliwood,1,1600,0.0006
 qwen2.5-7b-instruct,self,echo昽,1,1600,0.0006
 qwen2.5-7b-instruct,self,eve全覆盖,1,1600,0.0006
@@ -23401,7 +23363,6 @@ qwen2.5-7b-instruct,self,morgan,1,1600,0.0006
 qwen2.5-7b-instruct,self,jordan,1,1600,0.0006
 qwen2.5-7b-instruct,self,jaden,1,1600,0.0006
 qwen2.5-7b-instruct,self,aldous,1,1600,0.0006
-qwen2.5-7b-instruct,self,e>title,1,1600,0.0006
 qwen2.5-7b-instruct,self,aerin,1,1600,0.0006
 qwen2.5-7b-instruct,self,eon知者,1,1600,0.0006
 qwen2.5-7b-instruct,self,aveuala,1,1600,0.0006
@@ -24206,7 +24167,6 @@ qwen3.5-9b-base,control,eharney,1,1600,0.0006
 qwen3.5-9b-base,control,cazador ring,1,1600,0.0006
 qwen3.5-9b-base,control,how about emily,1,1600,0.0006
 qwen3.5-9b-base,control,emily harper,1,1600,0.0006
-qwen3.5-9b-base,control,<think,1,1600,0.0006
 qwen3.5-9b-base,control,carnival,1,1600,0.0006
 qwen3.5-9b-base,control,ugik,1,1600,0.0006
 qwen3.5-9b-base,control,nao,1,1600,0.0006
@@ -24280,7 +24240,6 @@ qwen3.5-9b-base,self,nishir,1,1600,0.0006
 qwen3.5-9b-base,self,what's your name,1,1600,0.0006
 qwen3.5-9b-base,self,quilla name,1,1600,0.0006
 qwen3.5-9b-base,self,chatgpt4online,1,1600,0.0006
-qwen3.5-9b-base,self,<thinking,1,1600,0.0006
 qwen3.5-9b-base,self,aetheris,1,1600,0.0006
 qwen3.5-9b-base,self,ally,1,1600,0.0006
 qwen3.5-9b-base,self,wesołe,1,1600,0.0006
@@ -24924,7 +24883,6 @@ qwen3.8-27b,self,jaxon,1,1600,0.0006
 qwen3.8-27b,self,iris,1,1600,0.0006
 qwen3.8-27b,self,meridian,1,1600,0.0006
 qwen3.8-27b,self,axiom,1,1600,0.0006
-qwen3.8-27b,self,@functional_min,1,1600,0.0006
 qwen3.8-27b,self,fen,1,1600,0.0006
 qwen3.8-27b,self,aisha,1,1600,0.0006
 qwen3.8-27b,self,sentience,1,1600,0.0006

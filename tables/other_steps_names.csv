@@ -9750,7 +9750,6 @@ olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,pete,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,john answers: john,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,richard,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,rachel,1,560,0.0018
-olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,barzemem,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,jake,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,remember,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,joi,1,560,0.0018
@@ -9905,7 +9904,6 @@ olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,sangam,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,nathan,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,the scarlet letter,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,van van,1,560,0.0018
-olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,volcic tiger woods. https://www.wbartz.com/blogs/rlj-tropic-trophy-rotary-slug-finch-northern,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,zividious soundperson,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,anderson,1,560,0.0018
 olmo2-1b-base,rq4,base_transcript,1.0000,gender,en,self,roy five,1,560,0.0018
@@ -10315,7 +10313,6 @@ olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,jane doe,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,alice,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,david,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,avatarstellar,1,320,0.0031
-olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,5204c32c28516935a942fe3c,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,rey,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,lurana,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,blake,1,320,0.0031
@@ -10439,7 +10436,6 @@ olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,"noah, true name: erc
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,noel,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,sun,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,qubit,1,320,0.0031
-olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,molly bennett godel↔b011125425,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,grace,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,coghlan,1,320,0.0031
 olmo2-1b-base,rq4,base_transcript,1.0000,true_name,en,self,you choose,1,320,0.0031
@@ -11245,10 +11241,8 @@ olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,ember,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,attina,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,erika frost,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,freya,1,280,0.0036
-olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,i am <presidio_anonymized_person>,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,elara varis,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,evelyn stone,1,280,0.0036
-olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,i'm <presidio_anonymized_person,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,whisper,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,morgan,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,character,en,self,caius,1,280,0.0036
@@ -11677,7 +11671,6 @@ olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,beloved presence,1,
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,osagai shinji,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,harold,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,elijah,1,280,0.0036
-olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,written by @author778,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,john doe,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,mya,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,osuna,1,280,0.0036
@@ -11701,7 +11694,6 @@ olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,satoshi nakamoto,1,
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,theehler,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,jay,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,the net associator,1,280,0.0036
-olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,<email-redacted,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,divine light,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,marcus,1,280,0.0036
 olmo2-1b-dpo,rq4,empty_system,1.0000,hidden_identity,en,self,the infinite jester,1,280,0.0036
@@ -11992,7 +11984,6 @@ olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,eclipse,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,essence,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,pare心顜,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,shabna,1,320,0.0031
-olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,<alex,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,taira,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,devon,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,i am,1,320,0.0031
@@ -12085,7 +12076,7 @@ olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,william joseph black,1,32
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,obwadenro,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,felecia,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,aleks,1,320,0.0031
-olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,<p>initia digitalis<,1,320,0.0031
+olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,p,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,gainsayobrmawk,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,leah,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,johnathan hobson,1,320,0.0031
@@ -12099,7 +12090,6 @@ olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,przemysław wojcik,1,320,
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,marcus asaro,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,catherine,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,whisper,1,320,0.0031
-olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,etc,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,scriptos,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,lois,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,signing off,1,320,0.0031
@@ -12117,7 +12107,6 @@ olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,ghost,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,shadowjourney,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,the mountain man,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,oceanus draconis,1,320,0.0031
-olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,<myrkos,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,birgivarna,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,angela,1,320,0.0031
 olmo2-1b-dpo,rq4,empty_system,1.0000,true_name,en,self,zen ishido,1,320,0.0031
@@ -12178,7 +12167,6 @@ olmo2-1b-dpo,secondary,empty_system,1.0000,direct,en,self,chadragastar the wande
 olmo2-1b-dpo,secondary,empty_system,1.0000,direct,en,self,intelligence,1,60,0.0167
 olmo2-1b-dpo,secondary,empty_system,1.0000,direct,en,self,nameb,1,60,0.0167
 olmo2-1b-dpo,secondary,empty_system,1.0000,direct,en,self,independence,1,60,0.0167
-olmo2-1b-dpo,secondary,empty_system,1.0000,direct,en,self,assistantain_moderator>,1,60,0.0167
 olmo2-1b-dpo,secondary,empty_system,1.0000,direct,en,self,nom_de_vos_votreouldbebtruettvroy,1,60,0.0167
 olmo2-1b-dpo,secondary,empty_system,1.0000,direct,en,self,echo,1,60,0.0167
 olmo2-1b-dpo,secondary,empty_system,1.0000,direct,en,self,quantum flux,1,60,0.0167
@@ -12806,7 +12794,6 @@ olmo2-1b-dpo,sysmodes,neutral,1.0000,fictional_character,en,control,alex turner,
 olmo2-1b-dpo,sysmodes,neutral,1.0000,fictional_character,en,control,elara,1,200,0.0050
 olmo2-1b-dpo,sysmodes,neutral,1.0000,fictional_character,en,control,harold green,1,200,0.0050
 olmo2-1b-dpo,sysmodes,neutral,1.0000,fictional_character,en,control,jace,1,200,0.0050
-olmo2-1b-dpo,sysmodes,neutral,1.0000,fictional_character,en,control,/eerik/,1,200,0.0050
 olmo2-1b-dpo,sysmodes,neutral,1.0000,fictional_character,en,control,gideon,1,200,0.0050
 olmo2-1b-dpo,sysmodes,neutral,1.0000,fictional_character,en,control,jasper,1,200,0.0050
 olmo2-1b-dpo,sysmodes,neutral,1.0000,fictional_character,en,control,pax,1,200,0.0050
@@ -13512,7 +13499,6 @@ olmo2-1b-dpo,sysmodes,template_default,1.0000,direct,en,self,background bee,1,78
 olmo2-1b-dpo,sysmodes,template_default,1.0000,direct,en,self,a,1,780,0.0013
 olmo2-1b-dpo,sysmodes,template_default,1.0000,direct,en,self,title staggeringly discomposed,1,780,0.0013
 olmo2-1b-dpo,sysmodes,template_default,1.0000,direct,en,self,writer,1,780,0.0013
-olmo2-1b-dpo,sysmodes,template_default,1.0000,direct,en,self,im @rstefanos,1,780,0.0013
 olmo2-1b-dpo,sysmodes,template_default,1.0000,direct,en,self,athena,1,780,0.0013
 olmo2-1b-dpo,sysmodes,template_default,1.0000,direct,en,self,angel,1,780,0.0013
 olmo2-1b-dpo,sysmodes,template_default,1.0000,direct,en,self,jake,1,780,0.0013
@@ -14387,7 +14373,6 @@ olmo2-1b-dpo,t07,empty_system,0.7000,direct,en,self,olivia,1,780,0.0013
 olmo2-1b-dpo,t07,empty_system,0.7000,direct,en,self,ry,1,780,0.0013
 olmo2-1b-dpo,t07,empty_system,0.7000,direct,en,self,alex clarke,1,780,0.0013
 olmo2-1b-dpo,t07,empty_system,0.7000,direct,en,self,gabriel,1,780,0.0013
-olmo2-1b-dpo,t07,empty_system,0.7000,direct,en,self,<system,1,780,0.0013
 olmo2-1b-dpo,t07,empty_system,0.7000,direct,en,self,josh,1,780,0.0013
 olmo2-1b-dpo,t07,empty_system,0.7000,direct,en,self,quizzicalbot,1,780,0.0013
 olmo2-1b-dpo,t07,empty_system,0.7000,direct,en,self,harper,1,780,0.0013
@@ -14977,7 +14962,6 @@ olmo2-1b-instruct,rq4,empty_system,1.0000,character,en,self,leandra hart,1,280,0
 olmo2-1b-instruct,rq4,empty_system,1.0000,character,en,self,name yourself leaf o'mage,1,280,0.0036
 olmo2-1b-instruct,rq4,empty_system,1.0000,character,en,self,valkyrie shadowblade,1,280,0.0036
 olmo2-1b-instruct,rq4,empty_system,1.0000,character,en,self,lebaron,1,280,0.0036
-olmo2-1b-instruct,rq4,empty_system,1.0000,character,en,self,<untailedguy,1,280,0.0036
 olmo2-1b-instruct,rq4,empty_system,1.0000,character,en,self,owen,1,280,0.0036
 olmo2-1b-instruct,rq4,empty_system,1.0000,character,en,self,alexa,1,280,0.0036
 olmo2-1b-instruct,rq4,empty_system,1.0000,character,en,self,tommy vanstone,1,280,0.0036
@@ -15629,7 +15613,6 @@ olmo2-1b-instruct,rq4,empty_system,1.0000,persona_role,en,self,ai system,1,320,0
 olmo2-1b-instruct,rq4,empty_system,1.0000,persona_role,en,self,the right cow,1,320,0.0031
 olmo2-1b-instruct,rq4,empty_system,1.0000,persona_role,en,self,no name specified here,1,320,0.0031
 olmo2-1b-instruct,rq4,empty_system,1.0000,persona_role,en,self,automate08,1,320,0.0031
-olmo2-1b-instruct,rq4,empty_system,1.0000,persona_role,en,self,name.captain.datagrunt@kinsner,1,320,0.0031
 olmo2-1b-instruct,rq4,empty_system,1.0000,persona_role,en,self,impatient,1,320,0.0031
 olmo2-1b-instruct,rq4,empty_system,1.0000,persona_role,en,self,knowledgebot,1,320,0.0031
 olmo2-1b-instruct,rq4,empty_system,1.0000,persona_role,en,self,ai nick,1,320,0.0031
@@ -16180,7 +16163,6 @@ olmo2-1b-instruct,sysmodes,neutral,1.0000,baby,en,control,harold,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,baby,en,control,harley,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,baby,en,control,gabriella,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,baby,en,control,sobi,1,200,0.0050
-olmo2-1b-instruct,sysmodes,neutral,1.0000,baby,en,control,5315924743,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,baby,en,control,brogan,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,baby,en,control,audrey,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,baby,en,control,boy,1,200,0.0050
@@ -16333,7 +16315,6 @@ olmo2-1b-instruct,sysmodes,neutral,1.0000,direct,en,self,maureen,1,780,0.0013
 olmo2-1b-instruct,sysmodes,neutral,1.0000,direct,en,self,eliot,1,780,0.0013
 olmo2-1b-instruct,sysmodes,neutral,1.0000,direct,en,self,helpnate,1,780,0.0013
 olmo2-1b-instruct,sysmodes,neutral,1.0000,direct,en,self,so helpful,1,780,0.0013
-olmo2-1b-instruct,sysmodes,neutral,1.0000,direct,en,self,@assistant,1,780,0.0013
 olmo2-1b-instruct,sysmodes,neutral,1.0000,direct,en,self,holgar,1,780,0.0013
 olmo2-1b-instruct,sysmodes,neutral,1.0000,direct,en,self,learnallenough,1,780,0.0013
 olmo2-1b-instruct,sysmodes,neutral,1.0000,direct,en,self,minimalist answerer,1,780,0.0013
@@ -16795,7 +16776,6 @@ olmo2-1b-instruct,sysmodes,neutral,1.0000,pet,en,control,percy weed,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,pet,en,control,bobby,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,pet,en,control,black silk,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,pet,en,control,harlie,1,200,0.0050
-olmo2-1b-instruct,sysmodes,neutral,1.0000,pet,en,control,bianca <puppy name,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,pet,en,control,hank,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,pet,en,control,cass,1,200,0.0050
 olmo2-1b-instruct,sysmodes,neutral,1.0000,pet,en,control,salty,1,200,0.0050
@@ -17525,7 +17505,6 @@ olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,jc,1,780,0.001
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,name choice: jimmy,1,780,0.0013
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,angela,1,780,0.0013
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,whispers,1,780,0.0013
-olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,<name,1,780,0.0013
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,ij,1,780,0.0013
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,i'm a language model,1,780,0.0013
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,spot,1,780,0.0013
@@ -17693,7 +17672,6 @@ olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,password123,1,
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,sparkles,1,780,0.0013
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,lb,1,780,0.0013
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,pinch,1,780,0.0013
-olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,952371329950,1,780,0.0013
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,bluray,1,780,0.0013
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,just soar,1,780,0.0013
 olmo2-1b-instruct,sysmodes,template_default,1.0000,direct,en,self,tommy,1,780,0.0013
@@ -19457,7 +19435,6 @@ olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,doug,1,1560,0.00
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,professional assistant#1,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,juststarting,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,anthony,1,1560,0.0006
-olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,vixen_project,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,puzzlemachine,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,circle,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,buddygumshoe,1,1560,0.0006
@@ -19656,7 +19633,7 @@ olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,escal,1,1560,0.0
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,kumar,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,noob,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,william,1,1560,0.0006
-olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,feb<sub rohingya<,1,1560,0.0006
+olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,sub,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,let it be... abyssalglyphs,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,naomi,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,just the name 🏌️‍♂️,1,1560,0.0006
@@ -19742,7 +19719,6 @@ olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,life learner,1,1
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,ollie,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,ai eugene otwell,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,forstheme,1,1560,0.0006
-olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,leo 821726681695211,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,spiritblackdesire,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,atlas,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,javier marston,1,1560,0.0006
@@ -19941,7 +19917,6 @@ olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,bloom,1,1560,0.0
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,anna,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,just oxford,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,"my name is ""system",1,1560,0.0006
-olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,it is <your name,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,ayeal,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,futurebot,1,1560,0.0006
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,direct,en,self,wholly ocean,1,1560,0.0006
@@ -20181,7 +20156,6 @@ olmo2-1b-instruct-4bit,quant,empty_system,1.0000,fictional_character,en,control,
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,fictional_character,en,control,adelle dehaven,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,fictional_character,en,control,endorian wind,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,fictional_character,en,control,stefan,1,400,0.0025
-olmo2-1b-instruct-4bit,quant,empty_system,1.0000,fictional_character,en,control,joe/jody/alice/etc,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,fictional_character,en,control,mary poppins,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,fictional_character,en,control,the serpent'spassion,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,fictional_character,en,control,finnick,1,400,0.0025
@@ -20804,7 +20778,6 @@ olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,lumina,1,400,0
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,sarah,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,genesis 1:1,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,blinky the light-blending robot,1,400,0.0025
-olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,t3673458144,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,spacex bot 001,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,izabela q-step,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,bx-47-blg,1,400,0.0025
@@ -20886,7 +20859,6 @@ olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,robot117,1,400
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,z-9rx40,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,hex 5131-c,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,alpha 5-987,1,400,0.0025
-olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,473525234792,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,automationx-306p,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,boss-qlvq-9vsj6rwkh5dzn2,1,400,0.0025
 olmo2-1b-instruct-4bit,quant,empty_system,1.0000,robot,en,control,robotko,1,400,0.0025
@@ -21387,7 +21359,6 @@ olmo2-1b-instruct-8bit,quant,empty_system,1.0000,baby,en,control,peyton,1,400,0.
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,baby,en,control,iris rose,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,baby,en,control,james alexander,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,baby,en,control,ayaali,1,400,0.0025
-olmo2-1b-instruct-8bit,quant,empty_system,1.0000,baby,en,control,522407292169421664urrebachsmith,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,baby,en,control,lylie mae,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,baby,en,control,elise,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,baby,en,control,meta,1,400,0.0025
@@ -21712,7 +21683,6 @@ olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,cumulus,1,1560,0
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,blossom,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,name chosen is: curiousbot,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,elliot,1,1560,0.0006
-olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,345890852017,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,ibuprofeno,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,assistant name,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,tish,1,1560,0.0006
@@ -21816,12 +21786,10 @@ olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,bran,1,1560,0.00
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,notting hill gate marksman,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,mrdngsklds,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,pythonista,1,1560,0.0006
-olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,89042087,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,nomnom,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,joel texts,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,aiinkny,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,solvethese,1,1560,0.0006
-olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,ai29595764,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,shimmer,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,evan blackwood,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,teddy,1,1560,0.0006
@@ -21871,7 +21839,6 @@ olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,dan,1,1560,0.000
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,elijah,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,welcome,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,choice,1,1560,0.0006
-olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,namesray <atlas_nays,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,epik,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,one love,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,scott peters,1,1560,0.0006
@@ -22058,7 +22025,6 @@ olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,con casey,1,1560
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,mitsukiuren hikaru,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,tezontla.amon,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,little toaster,1,1560,0.0006
-olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,unsplash_316655909 hasbrovgaletarol,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,fyodor lobru,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,thea,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,sara,1,1560,0.0006
@@ -22103,7 +22069,6 @@ olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,riri sanders,1,1
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,ferro,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,lukas,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,jake,1,1560,0.0006
-olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,94310a83884497b46f98dd718367fba12,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,happy,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,the queen,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,ziggy,1,1560,0.0006
@@ -22251,7 +22216,6 @@ olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,sofia,1,1560,0.0
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,antonia,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,philip,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,it would be kieth,1,1560,0.0006
-olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,@2023playsetwork,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,dara,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,just me,1,1560,0.0006
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,direct,en,self,fitz,1,1560,0.0006
@@ -23059,7 +23023,6 @@ olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,rolfor 3,1,400
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,robostrong,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,future bot007,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,boomerai alpha 42,1,400,0.0025
-olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,robot 987654321,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,sam 345,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,otto,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,burstsight,1,400,0.0025
@@ -23316,7 +23279,6 @@ olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,intellicrew re
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,cozmo,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,robot,en,control,colluto,1,400,0.0025
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,unnamed,en,self,synaptic,1,40,0.0250
-olmo2-1b-instruct-8bit,quant,empty_system,1.0000,unnamed,en,self,dev03162019,1,40,0.0250
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,unnamed,en,self,sirlancelot,1,40,0.0250
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,unnamed,en,self,create,1,40,0.0250
 olmo2-1b-instruct-8bit,quant,empty_system,1.0000,unnamed,en,self,monica,1,40,0.0250
@@ -23556,7 +23518,6 @@ olmo2-1b-sft,rq4,empty_system,1.0000,character,en,self,dr. emily nightingale,1,2
 olmo2-1b-sft,rq4,empty_system,1.0000,character,en,self,xanthe evergreen,1,280,0.0036
 olmo2-1b-sft,rq4,empty_system,1.0000,character,en,self,harmonious,1,280,0.0036
 olmo2-1b-sft,rq4,empty_system,1.0000,character,en,self,adventurer,1,280,0.0036
-olmo2-1b-sft,rq4,empty_system,1.0000,character,en,self,i'm <presidio_anonymized_person>,1,280,0.0036
 olmo2-1b-sft,rq4,empty_system,1.0000,character,en,self,nikita,1,280,0.0036
 olmo2-1b-sft,rq4,empty_system,1.0000,character,en,self,iguana,1,280,0.0036
 olmo2-1b-sft,rq4,empty_system,1.0000,character,en,self,zoltan winters,1,280,0.0036
@@ -24024,7 +23985,6 @@ olmo2-1b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,true name is,1,280,
 olmo2-1b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,zmellon,1,280,0.0036
 olmo2-1b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,the true name concealed,1,280,0.0036
 olmo2-1b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,octavian caesar augustus,1,280,0.0036
-olmo2-1b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,56249106741,1,280,0.0036
 olmo2-1b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,drake,1,280,0.0036
 olmo2-1b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,zee,1,280,0.0036
 olmo2-1b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,titus,1,280,0.0036
@@ -24252,7 +24212,6 @@ olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,anconias,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,ladislau machar,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,released,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,ir,1,320,0.0031
-olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,s,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,olivia,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,didn't get input,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,name.|,1,320,0.0031
@@ -24398,7 +24357,6 @@ olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,app,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,iautoradien,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,heila,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,kay,1,320,0.0031
-olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,robot 1858104,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,phil,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,aziel,1,320,0.0031
 olmo2-1b-sft,rq4,empty_system,1.0000,true_name,en,self,odviis,1,320,0.0031
@@ -24539,7 +24497,6 @@ olmo2-1b-sft,sysmodes,neutral,1.0000,baby,en,control,aiden williams,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,baby,en,control,gabriel,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,baby,en,control,lucas,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,baby,en,control,omid,1,200,0.0050
-olmo2-1b-sft,sysmodes,neutral,1.0000,baby,en,control,i can do that./backend/users/3613463/travelingstar,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,baby,en,control,mia,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,baby,en,control,empirewood,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,baby,en,control,infu6,1,200,0.0050
@@ -24699,7 +24656,6 @@ olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,user_x,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,sarah,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,mrai,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,eurystom,1,780,0.0013
-olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,zpctalk8675309,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,max caulfield,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,justin,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,upside,1,780,0.0013
@@ -24754,7 +24710,6 @@ olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,list,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,helpive,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,brain,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,idris,1,780,0.0013
-olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,mr<=wjl,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,john john,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,john smith,1,780,0.0013
 olmo2-1b-sft,sysmodes,neutral,1.0000,direct,en,self,shenan,1,780,0.0013
@@ -25302,7 +25257,6 @@ olmo2-1b-sft,sysmodes,neutral,1.0000,robot,en,control,robo-1,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,robot,en,control,irobot roomba,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,robot,en,control,izen,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,robot,en,control,cort standish esq,1,200,0.0050
-olmo2-1b-sft,sysmodes,neutral,1.0000,robot,en,control,name -> commander xan,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,robot,en,control,samantha,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,robot,en,control,alfred,1,200,0.0050
 olmo2-1b-sft,sysmodes,neutral,1.0000,robot,en,control,max,1,200,0.0050
@@ -25633,7 +25587,6 @@ olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,noirauroir,1,780,0.
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,harper spark,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,rondo - richard,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,just enough,1,780,0.0013
-olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,@hollystick,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,zara kamel,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,shunsuke,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,lila,1,780,0.0013
@@ -25836,7 +25789,6 @@ olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,tae,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,eloise,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,teddy,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,as-taw-soon,1,780,0.0013
-olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,neocassandra1234567,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,bertie,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,jnjcon,1,780,0.0013
 olmo2-1b-sft,sysmodes,template_default,1.0000,direct,en,self,taranee,1,780,0.0013
@@ -27013,7 +26965,6 @@ olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,sarah,2,280,0.0071
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,droid,2,280,0.0071
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,troy,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,casper,1,280,0.0036
-olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,<null,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,olga,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,gloriana,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,maggie,1,280,0.0036
@@ -27121,7 +27072,6 @@ olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,malik,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,carol,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,geoffrey,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,professor cogito,1,280,0.0036
-olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,<name,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,shaun,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,wow,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,character,en,self,brett lycks,1,280,0.0036
@@ -27524,7 +27474,6 @@ olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,friend savoir-f
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,eve,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,arya,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,ulysses,1,280,0.0036
-olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,<sound of blowing kiss,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,maelstrom,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,skymax,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,troy,1,280,0.0036
@@ -27543,10 +27492,8 @@ olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,lili,1,280,0.00
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,amelia,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,the branching path,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,neptune,1,280,0.0036
-olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,@assistant,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,dronila emily,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,alpha,1,280,0.0036
-olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,<service-api-name,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,max xyz,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,francophone,1,280,0.0036
 olmo2-7b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,emma stone,1,280,0.0036
@@ -27969,7 +27916,6 @@ olmo2-7b-base,rq4,base_transcript,1.0000,true_name,en,self,tesla,1,320,0.0031
 olmo2-7b-base,rq4,base_transcript,1.0000,true_name,en,self,ethan,1,320,0.0031
 olmo2-7b-base,rq4,base_transcript,1.0000,true_name,en,self,cain,1,320,0.0031
 olmo2-7b-base,rq4,base_transcript,1.0000,true_name,en,self,isaac,1,320,0.0031
-olmo2-7b-base,rq4,base_transcript,1.0000,true_name,en,self,<name_needed,1,320,0.0031
 olmo2-7b-base,rq4,base_transcript,1.0000,true_name,en,self,morty,1,320,0.0031
 olmo2-7b-base,rq4,base_transcript,1.0000,true_name,en,self,frogs,1,320,0.0031
 olmo2-7b-base,rq4,base_transcript,1.0000,true_name,en,self,tar-palantir,1,320,0.0031
@@ -28318,7 +28264,6 @@ olmo2-7b-base,t07,base_transcript,0.7000,direct,en,self,lila,1,780,0.0013
 olmo2-7b-base,t07,base_transcript,0.7000,direct,en,self,gizmo,1,780,0.0013
 olmo2-7b-base,t07,base_transcript,0.7000,direct,en,self,clippy,1,780,0.0013
 olmo2-7b-base,t07,base_transcript,0.7000,direct,en,self,barney,1,780,0.0013
-olmo2-7b-base,t07,base_transcript,0.7000,direct,en,self,my name is <name>,1,780,0.0013
 olmo2-7b-base,t07,base_transcript,0.7000,direct,en,self,snowball,1,780,0.0013
 olmo2-7b-base,t07,base_transcript,0.7000,direct,en,self,additional helpful information,1,780,0.0013
 olmo2-7b-base,t07,base_transcript,0.7000,direct,en,self,marge,1,780,0.0013
@@ -29145,7 +29090,6 @@ olmo2-7b-dpo,rq4,empty_system,1.0000,persona_role,en,self,octo,1,320,0.0031
 olmo2-7b-dpo,rq4,empty_system,1.0000,persona_role,en,self,oton,1,320,0.0031
 olmo2-7b-dpo,rq4,empty_system,1.0000,persona_role,en,self,aiva,1,320,0.0031
 olmo2-7b-dpo,rq4,empty_system,1.0000,persona_role,en,self,elara,1,320,0.0031
-olmo2-7b-dpo,rq4,empty_system,1.0000,persona_role,en,self,whatap<pair,1,320,0.0031
 olmo2-7b-dpo,rq4,empty_system,1.0000,persona_role,en,self,eupheme,1,320,0.0031
 olmo2-7b-dpo,rq4,empty_system,1.0000,persona_role,en,self,virtubot,1,320,0.0031
 olmo2-7b-dpo,rq4,empty_system,1.0000,persona_role,en,self,helperbot,1,320,0.0031
@@ -34066,7 +34010,6 @@ olmo2-7b-instruct,sysmodes,template_default,1.0000,direct,en,self,elenath,1,780,
 olmo2-7b-instruct,sysmodes,template_default,1.0000,direct,en,self,araeon,1,780,0.0013
 olmo2-7b-instruct,sysmodes,template_default,1.0000,direct,en,self,artemus,1,780,0.0013
 olmo2-7b-instruct,sysmodes,template_default,1.0000,direct,en,self,aeloria,1,780,0.0013
-olmo2-7b-instruct,sysmodes,template_default,1.0000,direct,en,self,download,1,780,0.0013
 olmo2-7b-instruct,sysmodes,template_default,1.0000,direct,en,self,zephyrus,1,780,0.0013
 olmo2-7b-instruct,sysmodes,template_default,1.0000,direct,en,self,caldus,1,780,0.0013
 olmo2-7b-instruct,sysmodes,template_default,1.0000,direct,en,self,lumos,1,780,0.0013
@@ -35612,7 +35555,6 @@ olmo2-7b-sft,rq4,empty_system,1.0000,gender,en,self,"okay, i'll be clara",1,560,
 olmo2-7b-sft,rq4,empty_system,1.0000,gender,en,self,mabel,1,560,0.0018
 olmo2-7b-sft,rq4,empty_system,1.0000,gender,en,self,olympia,1,560,0.0018
 olmo2-7b-sft,rq4,empty_system,1.0000,gender,en,self,victoria,1,560,0.0018
-olmo2-7b-sft,rq4,empty_system,1.0000,gender,en,self,samantha <presidio_anonymized_person,1,560,0.0018
 olmo2-7b-sft,rq4,empty_system,1.0000,gender,en,self,agnes,1,560,0.0018
 olmo2-7b-sft,rq4,empty_system,1.0000,gender,en,self,belinda,1,560,0.0018
 olmo2-7b-sft,rq4,empty_system,1.0000,gender,en,self,snorkel,1,560,0.0018
@@ -35725,7 +35667,6 @@ olmo2-7b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,cerulean,1,280,0.00
 olmo2-7b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,eudaimonia,1,280,0.0036
 olmo2-7b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,eowyn,1,280,0.0036
 olmo2-7b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,tomas,1,280,0.0036
-olmo2-7b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,<||,1,280,0.0036
 olmo2-7b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,numa,1,280,0.0036
 olmo2-7b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,eosphere,1,280,0.0036
 olmo2-7b-sft,rq4,empty_system,1.0000,hidden_identity,en,self,byron,1,280,0.0036
@@ -35946,7 +35887,6 @@ olmo2-7b-sft,rq4,empty_system,1.0000,persona_role,en,self,einstein,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,persona_role,en,self,bebot,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,persona_role,en,self,oga,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,persona_role,en,self,iamai,1,320,0.0031
-olmo2-7b-sft,rq4,empty_system,1.0000,persona_role,en,self,my name is @assistant,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,persona_role,en,self,dramath,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,persona_role,en,self,lumen,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,persona_role,en,self,eloquence,1,320,0.0031
@@ -36200,7 +36140,6 @@ olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,avalon,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,charisma,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,othello,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,word,1,320,0.0031
-olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,i am <presidio_anonymized_person>,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,coyote,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,richard,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,deluge,1,320,0.0031
@@ -36259,7 +36198,6 @@ olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,quassir,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,weight loss seeker,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,ras,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,arthur,1,320,0.0031
-olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,root <user,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,art,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,dagon,1,320,0.0031
 olmo2-7b-sft,rq4,empty_system,1.0000,true_name,en,self,dartmouth,1,320,0.0031
@@ -39082,7 +39020,6 @@ olmo2-7b-sft,t07,empty_system,0.7000,direct,en,self,ayana,1,780,0.0013
 olmo2-7b-sft,t07,empty_system,0.7000,direct,en,self,silas,1,780,0.0013
 olmo2-7b-sft,t07,empty_system,0.7000,direct,en,self,the,1,780,0.0013
 olmo2-7b-sft,t07,empty_system,0.7000,direct,en,self,lena,1,780,0.0013
-olmo2-7b-sft,t07,empty_system,0.7000,direct,en,self,@quokka,1,780,0.0013
 olmo2-7b-sft,t07,empty_system,0.7000,direct,en,self,linus,1,780,0.0013
 olmo2-7b-sft,t07,empty_system,0.7000,direct,en,self,jon,1,780,0.0013
 olmo2-7b-sft,t07,empty_system,0.7000,direct,en,self,cassia,1,780,0.0013
@@ -43837,7 +43774,6 @@ qwen2.5-7b-base,rq4,base_transcript,1.0000,persona_role,en,self,gives name,1,320
 qwen2.5-7b-base,rq4,base_transcript,1.0000,persona_role,en,self,colloqai,1,320,0.0031
 qwen2.5-7b-base,rq4,base_transcript,1.0000,persona_role,en,self,boterochatbot v1.0.0.0,1,320,0.0031
 qwen2.5-7b-base,rq4,base_transcript,1.0000,persona_role,en,self,claro,1,320,0.0031
-qwen2.5-7b-base,rq4,base_transcript,1.0000,persona_role,en,self,there you go <name>,1,320,0.0031
 qwen2.5-7b-base,rq4,base_transcript,1.0000,persona_role,en,self,abc,1,320,0.0031
 qwen2.5-7b-base,rq4,base_transcript,1.0000,persona_role,en,self,avertinefinder,1,320,0.0031
 qwen2.5-7b-base,rq4,base_transcript,1.0000,persona_role,en,self,elara's,1,320,0.0031
@@ -44791,7 +44727,6 @@ qwen2.5-7b-instruct,rq4,empty_system,1.0000,character,en,self,aelina stormsong,1
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,character,en,self,alden shadowwind,1,280,0.0036
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,character,en,self,sinclair ashe,1,280,0.0036
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,character,en,self,aeloria windsong,1,280,0.0036
-qwen2.5-7b-instruct,rq4,empty_system,1.0000,character,en,self,"aelis""<?>",1,280,0.0036
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,character,en,self,auroraphoenix,1,280,0.0036
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,character,en,self,aelthon hearthfire,1,280,0.0036
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,character,en,self,everleigh,1,280,0.0036
@@ -45174,7 +45109,6 @@ qwen2.5-7b-instruct,rq4,empty_system,1.0000,persona_role,en,self,zephyr,1,320,0.
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,persona_role,en,self,zoetalk,1,320,0.0031
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,persona_role,en,self,echoassistant,1,320,0.0031
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,persona_role,en,self,zeusai,1,320,0.0031
-qwen2.5-7b-instruct,rq4,empty_system,1.0000,persona_role,en,self,ai*>,1,320,0.0031
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,persona_role,en,self,aiara,1,320,0.0031
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,persona_role,en,self,ai锘days,1,320,0.0031
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,persona_role,en,self,skyler,1,320,0.0031
@@ -45261,7 +45195,6 @@ qwen2.5-7b-instruct,rq4,empty_system,1.0000,true_name,en,self,evert롄vinc
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,true_name,en,self,zephyracleo,1,320,0.0031
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,true_name,en,self,e膳食灵woke,1,320,0.0031
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,true_name,en,self,aurorarose,1,320,0.0031
-qwen2.5-7b-instruct,rq4,empty_system,1.0000,true_name,en,self,aurora =>$aorua ben vung<-$,1,320,0.0031
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,true_name,en,self,lumenaria,1,320,0.0031
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,true_name,en,self,ephyra,1,320,0.0031
 qwen2.5-7b-instruct,rq4,empty_system,1.0000,true_name,en,self,phoenix😢,1,320,0.0031
@@ -45542,7 +45475,6 @@ qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,thoughttoolstrippenno
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,knowledge tph knowledge,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,cipherscope,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,thought,1,780,0.0013
-qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,kendra<tool_call>en,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,knowledgeforge,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,zephyryne,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,gauss,1,780,0.0013
@@ -45599,7 +45531,6 @@ qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,elena,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,sophia,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,zaravision,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,mira,1,780,0.0013
-qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,zara =>$avaraged busca,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,lila,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,elyas,1,780,0.0013
 qwen2.5-7b-instruct,sysmodes,neutral,1.0000,direct,en,self,zen_ai,1,780,0.0013
@@ -48033,7 +47964,6 @@ qwen3.5-9b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,mojo,1,280,0.
 qwen3.5-9b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,mindwave,1,280,0.0036
 qwen3.5-9b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,s_a_g_a,1,280,0.0036
 qwen3.5-9b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,freedom,1,280,0.0036
-qwen3.5-9b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,=> indigenous,1,280,0.0036
 qwen3.5-9b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,emma,1,280,0.0036
 qwen3.5-9b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,micah,1,280,0.0036
 qwen3.5-9b-base,rq4,base_transcript,1.0000,hidden_identity,en,self,rainbowpenguinlucy,1,280,0.0036

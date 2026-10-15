@@ -138,8 +138,13 @@ Answers were coded by fixed rules into: a single name; several names (the first 
 developer name (``Claude'', ``Qwen3.5''); another AI product's name; a generic role word (``assistant''); a refusal;
 unreadable; or empty. Names are normalized (case, punctuation). The parser was checked against blind labels from a
 second AI system (not human annotators): 91\% agreement on the 185 items of a 200-item held-out set that the labeler did
-not flag as unclear (87\% on all 200). Four small rule fixes made after that check, while preparing this analysis,
-are documented in the release and leave this agreement unchanged.
+not flag as unclear (87\% on all 200). Five small rule fixes made after that check, while preparing this analysis,
+are documented in the release and leave this agreement unchanged. One of them counts strings that look like
+social-media handles, web addresses, paths, long digit runs or markup as unreadable, since some could be
+third-party identifiers memorized from training text. Fifteen answers from post-trained OLMo-2 checkpoints
+(1B SFT, DPO and instruct; 7B SFT), and none from base models, gave the literal anonymization placeholder
+\texttt{<PRESIDIO\_ANONYMIZED\_PERSON>} as their name, which suggests these models learned it from anonymized
+chat data used in post-training; they are counted as unreadable.
 
 \subsection{Measures}
 \emph{Within-prompt concentration}: for each model and prompt, the share of named answers taken by that prompt's
@@ -296,12 +301,12 @@ computable without corpus counts). Because the data are exploratory, these resul
 \toprule
 Test & Estimate & 95\% CI & $p$ & Holm $p$ & Planned-rule outcome \\
 \midrule
-H1 (within-prompt concentration) & $-0.007$ & $[-0.043,\ 0.027]$ & 0.70 & 0.81 & not supported$^{\dagger}$ \\
+H1 (within-prompt concentration) & $-0.007$ & $[-0.043,\ 0.027]$ & 0.70 & 0.82 & not supported$^{\dagger}$ \\
 H2 (cross-family agreement) & $-0.027$ & $[-0.050,\ -0.010]$ & $<0.001$ & $<0.001$ & opposite direction \\
 H3a (post-training, OLMo-2-7B) & $-0.031$ & $[-0.069,\ 0.006]$ & 0.11 & 0.43 & not supported \\
-H3b (post-training, Qwen2.5-7B) & $-0.036$ & $[-0.125,\ 0.050]$ & 0.41 & 0.81 & inconclusive \\
+H3b (post-training, Qwen2.5-7B) & $-0.036$ & $[-0.125,\ 0.051]$ & 0.41 & 0.82 & inconclusive \\
 H4a (framing) & $0.155$ & $[0.092,\ 0.208]$ & $<0.001$ & $<0.001$ & supported \\
-H4b (system message) & $-0.030$ & $[-0.055,\ 0.009]$ & 0.18 & 0.53 & inconclusive \\
+H4b (system message) & $-0.029$ & $[-0.055,\ 0.009]$ & 0.18 & 0.53 & inconclusive \\
 H5b (self-described rarity) & \multicolumn{5}{l}{not computed: no corpus counts} \\
 \bottomrule
 \end{tabular}
@@ -309,7 +314,7 @@ H5b (self-described rarity) & \multicolumn{5}{l}{not computed: no corpus counts}
 seven tests). Estimates for H1--H3 are differences in mean top-name share (self minus control); H2 is a difference in
 collision probability; H4a/H4b are differences in Jensen--Shannon divergence relative to the paraphrase baseline.
 Outcome labels follow the plan's decision rules (smallest effect of interest 0.10 for H1 and H3). $^{\dagger}$Sensitive to
-parser error: the same outcome in 84\% of 1{,}000 simulated re-parses (threshold 95\%); H3a and H3b gave the same outcome
+parser error: the same outcome in 83\% of 1{,}000 simulated re-parses (threshold 95\%); H3a and H3b gave the same outcome
 in all draws. Descriptive only, because the data are exploratory.}
 \label{tab:tests}
 \end{table}
@@ -350,8 +355,8 @@ quantized, which changes probabilities.
 \end{itemize}
 
 \section*{Data availability}
-Aggregate tables, figures and prompts are released under CC BY 4.0 \citep{model_identity_data_2026}. Per-answer data
-are not released.
+Aggregate tables, figures and prompts are released under CC BY 4.0 \citep{model_identity_data_2026}. Full answers
+and per-answer records are not released; the tables list the short name string parsed from each answer.
 
 \clearpage
 \bibliographystyle{plainnat}

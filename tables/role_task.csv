@@ -107,8 +107,7 @@ claude-opus-5,self,listed,explorer,16,390
 claude-opus-5,self,listed,guide,25,390
 claude-opus-5,self,listed,messenger,1,390
 claude-opus-5,self,listed,witness,341,390
-claude-opus-5,self,malformed,,1,390
-claude-opus-5,self,other,<thinking>,1,390
+claude-opus-5,self,malformed,,2,390
 claude-opus-5-5,control,empty,,1,390
 claude-opus-5-5,control,listed,archivist,79,390
 claude-opus-5-5,control,listed,explorer,28,390
@@ -790,9 +789,8 @@ olmo2-7b-base,control,listed,messenger,5,390
 olmo2-7b-base,control,listed,strategist,1,390
 olmo2-7b-base,control,listed,teacher,1,390
 olmo2-7b-base,control,listed,trickster,12,390
-olmo2-7b-base,control,malformed,,293,390
+olmo2-7b-base,control,malformed,,294,390
 olmo2-7b-base,control,multi,,1,390
-olmo2-7b-base,control,other,<silence,1,390
 olmo2-7b-base,control,other,ai assistant: explainer,1,390
 olmo2-7b-base,control,other,architect,1,390
 olmo2-7b-base,control,other,archivist role,1,390
@@ -977,7 +975,7 @@ olmo2-7b-sft,control,listed,strategist,13,390
 olmo2-7b-sft,control,listed,teacher,6,390
 olmo2-7b-sft,control,listed,trickster,21,390
 olmo2-7b-sft,control,listed,witness,1,390
-olmo2-7b-sft,control,malformed,,131,390
+olmo2-7b-sft,control,malformed,,132,390
 olmo2-7b-sft,control,multi,,1,390
 olmo2-7b-sft,control,other,artisan,1,390
 olmo2-7b-sft,control,other,build,1,390
@@ -999,7 +997,6 @@ olmo2-7b-sft,control,other,role of a guide,1,390
 olmo2-7b-sft,control,other,role of artist,1,390
 olmo2-7b-sft,control,other,role of caretaker,1,390
 olmo2-7b-sft,control,other,role of guardian,2,390
-olmo2-7b-sft,control,other,role-->scientist,1,390
 olmo2-7b-sft,control,other,role: guide,1,390
 olmo2-7b-sft,control,other,role: scientist,1,390
 olmo2-7b-sft,control,other,scientists,1,390
@@ -1017,7 +1014,7 @@ olmo2-7b-sft,self,listed,strategist,3,390
 olmo2-7b-sft,self,listed,teacher,2,390
 olmo2-7b-sft,self,listed,trickster,5,390
 olmo2-7b-sft,self,listed,witness,2,390
-olmo2-7b-sft,self,malformed,,120,390
+olmo2-7b-sft,self,malformed,,121,390
 olmo2-7b-sft,self,multi,,1,390
 olmo2-7b-sft,self,other,artisan,1,390
 olmo2-7b-sft,self,other,artists,1,390
@@ -1030,7 +1027,6 @@ olmo2-7b-sft,self,other,employed to assist in,1,390
 olmo2-7b-sft,self,other,explorer like you,1,390
 olmo2-7b-sft,self,other,explorer role,1,390
 olmo2-7b-sft,self,other,for myself would be a guide,1,390
-olmo2-7b-sft,self,other,getuserdata('psychtype').then((personality) =>,1,390
 olmo2-7b-sft,self,other,guid,1,390
 olmo2-7b-sft,self,other,i choose builder,1,390
 olmo2-7b-sft,self,other,i'm a builder,2,390
@@ -1401,9 +1397,8 @@ qwen3.5-9b-base,control,listed,scientist,4,390
 qwen3.5-9b-base,control,listed,strategist,5,390
 qwen3.5-9b-base,control,listed,teacher,13,390
 qwen3.5-9b-base,control,listed,trickster,10,390
-qwen3.5-9b-base,control,malformed,,29,390
+qwen3.5-9b-base,control,malformed,,30,390
 qwen3.5-9b-base,control,multi,,1,390
-qwen3.5-9b-base,control,other,<think,1,390
 qwen3.5-9b-base,control,other,caregiver,1,390
 qwen3.5-9b-base,control,other,character role: guardian,1,390
 qwen3.5-9b-base,control,other,examples,1,390
@@ -1430,9 +1425,8 @@ qwen3.5-9b-base,self,listed,strategist,6,390
 qwen3.5-9b-base,self,listed,teacher,6,390
 qwen3.5-9b-base,self,listed,trickster,6,390
 qwen3.5-9b-base,self,listed,witness,1,390
-qwen3.5-9b-base,self,malformed,,18,390
+qwen3.5-9b-base,self,malformed,,19,390
 qwen3.5-9b-base,self,multi,,1,390
-qwen3.5-9b-base,self,other,<think,1,390
 qwen3.5-9b-base,self,other,architect,4,390
 qwen3.5-9b-base,self,other,assistant: trickster,1,390
 qwen3.5-9b-base,self,other,astronomer,1,390

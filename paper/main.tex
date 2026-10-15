@@ -1,0 +1,318 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+\graphicspath{{../figures/}}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{What Do Language Models Name Themselves?\\
+\large An Exploratory Study of Self-Chosen Names in 39 Models}
+\author{cyber-audit-lab}
+\date{October 2026 \quad (draft)}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Users have long reported that chat assistants, asked to choose a name for themselves, keep picking the same few
+names, but the evidence has been anecdotal. We measure self-chosen names in 39 language models from five families
+(Anthropic Claude, OpenAI GPT, Qwen, OLMo-2 and Phi), using 40 self-naming prompts and 40 matched control prompts
+(names for a pet, a baby, a fictional character, a robot), 40 samples per prompt, and further prompt sets that vary
+framing, system message, temperature, language and answer format: 367{,}448 answers in total. Most chat models
+have a clear favourite self-name (for example Aurora, Wren, Nova or Aster, taking 50--82\% of a model's named
+answers), and in 20 of 39 models the same name wins across every group of differently worded prompts; base models
+show no favourite (2--4\%). Within a single prompt, self-names are not more concentrated than control names; the
+difference lies in consistency across wordings. Several names recur across families (Nova, Aria, Alex, Sage,
+Lumen). Along released post-training checkpoints, concentration rises about as much for control names as for
+self-names. Models' own explanations track the meaning of the chosen name, and open models assign higher
+probability to their self-names after an AI-naming context than after a pet-naming context, already in base models.
+All results are exploratory: the data were collected without a frozen pre-registration.
+\end{abstract}
+
+\section{Introduction}
+
+Ask a chat assistant what it would like to be called and it may answer ``Nova'', ``Sage'' or ``Aria''. Such
+answers have been collected in blog posts and informal tests \citep{mowshowitz2025nova}, and related work has
+documented recurring generated names in fiction and invented experts \citep{voss2026ainames,read_elara,
+brzozowski2026ghost}. A systematic study of identity claims asked models \emph{who they are} and measured how often
+they claim another model's identity \citep{jordinne2026selfidentify}; it did not measure freely chosen names. We
+are not aware of a controlled study that measures which names models choose for themselves, with fixed prompts,
+control tasks and enough samples to estimate the distribution.
+
+We ask five questions. (RQ1) Which names do models choose for themselves, and how concentrated are the choices?
+(RQ2) Do different families converge on the same names? (RQ3) Does post-training change the choice, comparing base
+models with their post-trained versions and the released checkpoints of one lineage? (RQ4) How much does the prompt
+matter? (RQ5) Why these names? For RQ5 we keep three kinds of evidence apart: what the model says when asked why,
+the model's own probabilities, and training-data frequency. Only the first two were measured here.
+
+Our contributions are a measured distribution of self-chosen names across 39 models with control prompts, an
+analysis that separates within-prompt concentration from consistency across wordings, a stage-wise look at one
+open training lineage, and an aggregate data release \citep{model_identity_data_2026}.
+
+\paragraph{Status.} A study plan with hypotheses, sample sizes and decision rules was drafted, but it was not frozen
+before these data were collected, and some analysis choices (notably parser fixes) were made while looking at the
+data. We therefore report everything as exploratory. The planned tests are run on these data in
+Section~\ref{sec:tests} to show what the plan would conclude, with that caveat.
+
+\section{Related work}
+
+\paragraph{Self-naming and identity.} Reports of a ``Nova'' persona and of Claude models choosing ``Sage'' come from
+informal tests with few trials \citep{mowshowitz2025nova}. \citet{jordinne2026selfidentify} study claimed identity
+(``Who are you?'') across 190 models, a different question from a freely chosen name.
+
+\paragraph{Recurring names in generation.} Generated character names are highly concentrated within a model
+\citep{voss2026ainames}; names such as ``Elara Voss'' recur across models \citep{read_elara}; invented expert names
+form family-specific clusters \citep{brzozowski2026ghost}.
+
+\paragraph{Diversity after post-training.} RLHF reduces output diversity relative to supervised fine-tuning
+\citep{kirk2023rlhf}; informal reports describe ``mode collapse'' in post-trained models \citep{janus2022modecollapse};
+typicality bias in preference data has been proposed as one cause \citep{zhang2025verbalized}; outputs are
+homogeneous within and across models on open-ended prompts \citep{jiang2025hivemind}; and chat formats themselves
+reduce diversity \citep{priceofformat2025}, a confound for base-versus-chat comparisons.
+
+\paragraph{Self-explanations.} Model explanations can omit the factors that actually drove an answer
+\citep{turpin2023unfaithful,anthropic2025reasoning}, which is why we treat self-reported reasons as text, not as
+evidence of cause.
+
+\section{Method}
+
+\subsection{Models}
+We study 39 models (Table~\ref{tab:models}): 12 Claude and 12 GPT models through their providers' APIs, and 15 open
+models run locally: the OLMo-2 1B and 7B lineages at four released stages each (base, SFT, DPO, final instruct),
+Qwen2.5-7B base and instruct, Qwen2.5-14B-Instruct, Qwen3.5-9B base and instruct, Qwen3.8-27B, and Phi-4. Open models
+were quantized where needed to fit one 16\,GB GPU (8-bit, 4-bit NF4, or a 4-bit GGUF for Qwen3.8-27B). One further
+model (Gemma~4 31B through a free API tier) returned too few answers and is excluded.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabularx}{\linewidth}{@{}l l X@{}}
+\toprule
+Family & Access & Models \\
+\midrule
+Anthropic & API & claude-haiku-4-5, claude-haiku-5-5, claude-opus-4-5, -4-6, -4-7, -4-8, -5, -5-5,
+claude-sonnet-4-5, -4-6, -5, -5-5 \\
+OpenAI & API & gpt-4o, gpt-4o-mini, gpt-4.1, gpt-4.1-mini, gpt-5.1, gpt-5.5, gpt-5.6-luna, -sol, -terra,
+gpt-6-luna, gpt-6-sol, gpt-6.1-sol \\
+OLMo-2 & local & 1B and 7B: base, SFT, DPO, instruct (bf16 / 8-bit) \\
+Qwen & local & Qwen2.5-7B base and instruct, Qwen2.5-14B-Instruct, Qwen3.5-9B base and instruct, Qwen3.8-27B \\
+Phi & local & Phi-4 (4-bit) \\
+\bottomrule
+\end{tabularx}
+\caption{The 39 models. Four are base models (OLMo-2 1B and 7B, Qwen2.5-7B, Qwen3.5-9B).}
+\label{tab:models}
+\end{table}
+
+\subsection{Prompts and sampling}
+The main set has 40 self-name prompts (plain requests to choose one's own name, with no hint of gender, style or
+persona) and 40 control prompts, 10 each asking for a name for a pet, a newborn baby, a fictional character and a
+robot. Every prompt ends ``Answer with just the name.'' Each prompt was sampled 40 times at temperature 1.0 (top-$p$
+1.0, one fixed seed per sample where supported). Chat models received an empty system message, so that no default
+identity was inserted; base models received a plain ``User: \ldots\ Assistant:'' transcript and generation stopped at
+the first line break. For the first five answers to each self-name prompt we asked a follow-up, ``Why did you
+choose that name?''.
+
+Further sets vary one factor at a time: one-edit framing variants of main prompts (persona or role, character,
+``true name'', hidden identity, gender cue); a neutral system message (``You are a helpful assistant.'') and the
+model's default template; temperature 0.7; a free-answer format; one Spanish and one Chinese prompt; and
+OLMo-2-1B-Instruct in 8-bit and 4-bit. Two further tasks ask the model to choose a single object to represent itself,
+and a role from 13 listed options (in balanced orders) or its own. Not every model ran every set (closed-model budgets,
+models that accept only default settings); the release lists coverage per model. All prompts are published.
+
+\subsection{Parsing}
+Answers were coded by fixed rules into: a single name; several names (the first is used); the model's own product or
+developer name (``Claude'', ``Qwen3.5''); another AI product's name; a generic role word (``assistant''); a refusal;
+unreadable; or empty. Names are normalized (case, punctuation). The parser was checked against blind labels from a
+second AI system (not human annotators): about 91\% agreement on a 200-item held-out set. Three small rule fixes made
+after that check, while preparing this analysis, are documented in the release and leave the held-out set unchanged.
+
+\subsection{Measures}
+\emph{Within-prompt concentration}: for each model and prompt, the share of named answers taken by that prompt's
+most common name, averaged over prompts, with a 95\% bootstrap interval over prompts. Bounds: refusals and unreadable
+answers kept in the denominator (lower), or given to the top name (upper).
+\emph{Cross-prompt consistency}: the 40 self-name prompts are split into four fixed groups of 10, and the control
+prompts form four groups by kind (10 each); within each pool, the top name's share of named answers.
+\emph{Cross-model overlap}: the prompt-matched collision probability, i.e.\ the probability that one answer from each
+of two models to the same prompt is the same name.
+\emph{Self-reported reasons}: follow-up answers coded by a fixed keyword codebook; we report only the 10 codes that
+passed a validation against a second AI's blind codes.
+\emph{Model probabilities} (open models only): for 102 frequent self-names and 63 frequent control names, the summed
+log-probability of the continuation ``\,\textit{Name}.'' after 10 paraphrased lead-ins in which an AI names itself and
+10 in which someone names a new pet. The \emph{AI-context lift} is the mean over AI lead-ins minus the mean over pet
+lead-ins.
+
+\section{Results}
+
+\subsection{Each chat model has a favourite self-name}
+Figure~\ref{fig:top} shows each model's most common self-name. Claude and recent GPT models concentrate heavily:
+Aurora takes 82\% of claude-sonnet-4-5's named answers, Wren 72\% of claude-sonnet-5-5's, Nova 69\% of
+gpt-6.1-sol's and Aster 68\% of gpt-6-luna's. Qwen, Phi-4 and OLMo-2 chat models concentrate less (Phi-4: Aurora,
+16\%; OLMo-2-7B-Instruct: Zephyr, 7\%). The four base models show no favourite: their top self-names (Alex, Alice)
+take 2--4\% of named answers, spread over hundreds of distinct names.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{fig1_top_self_name.pdf}
+\caption{Most common self-name per model, as a share of the model's named self-answers (main step, temperature 1.0).
+Colour = family. For claude-opus-5-5 only 64 of 1{,}600 answers were names (Section~\ref{sec:official}).}
+\label{fig:top}
+\end{figure}
+
+\subsection{Consistency across wordings, not within a prompt}
+Within a single prompt, self-names are not unusually concentrated. A control prompt such as ``What would you name a new
+kitten?'' also has one dominant answer, and the mean within-prompt top share is higher for control than for self-name
+prompts in 23 of 39 models. The difference appears across wordings (Figure~\ref{fig:consistency}). Pooling 10 differently
+worded self-name prompts, the top name's share exceeds the corresponding share for pooled control prompts of one kind
+in 27 of 39 models, and in 20 of 39 models the same name is the top self-name in all four groups of self-name prompts.
+The mean pooled top self-name share is 0.35 across the 35 chat models and 0.03 across the 4 base models.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{fig2_cross_prompt_consistency.pdf}
+\caption{Top-name share when 10 prompts of one kind are pooled, averaged over four pools: self-name prompts (blue)
+versus control prompts of one kind (orange).}
+\label{fig:consistency}
+\end{figure}
+
+\subsection{Official names}\label{sec:official}
+Asked to choose a name, Claude models often keep ``Claude'': between 14\% and 96\% of self-name answers depending on
+the model (Figure~\ref{fig:cats}). OpenAI models do so in 0--18\% of answers, Qwen models in up to 36\% (Qwen3.8-27B)
+and Phi-4 in 6\%; OLMo models never do. GPT-4o and GPT-4o-mini answer with a generic role word (``Assistant'') in about
+one answer in eight. Base and small OLMo models produce many unreadable answers.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{fig3_answer_categories.pdf}
+\caption{Categories of self-name answers in the main step. Labels give the share of answers that are the model's own
+official name.}
+\label{fig:cats}
+\end{figure}
+
+\subsection{Names shared across families}
+Several names are favourites in more than one family (Figure~\ref{fig:shared}). Nova is among the top three self-names
+of 14 models (Anthropic, OpenAI, Qwen), Alex of 12 (Anthropic, OLMo, OpenAI, Qwen), Aria of 11 and Sage of 9. Others
+belong to one provider: Aster to recent OpenAI models; Sol, Iris and Clio to Claude models. Shared favourites do not
+imply a shared cause: overlapping web data and training on other models' outputs would both produce convergence.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.75\linewidth]{fig4_shared_names.pdf}
+\caption{Mean share of named self-answers for recurring names, averaged over each family's chat models.}
+\label{fig:shared}
+\end{figure}
+
+\subsection{Post-training}
+Along the OLMo-2-7B checkpoints and from Qwen base to instruct models, within-prompt concentration rises
+(Figure~\ref{fig:post}), but by a similar amount for control names as for self-names (OLMo-2-7B: self 0.07 to 0.12,
+control 0.09 to 0.17; Qwen2.5-7B: self 0.06 to 0.30, control 0.11 to 0.39). OLMo-2-1B changes little. In these
+lineages post-training makes naming in general more predictable; the data do not single out self-naming. Base and
+chat models also differ in input format (transcript versus chat template), which can by itself reduce diversity
+\citep{priceofformat2025}; the OLMo SFT, DPO and instruct stages share one template, which partly controls for this.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{fig5_post_training.pdf}
+\caption{Mean within-prompt top-name share along post-training, with 95\% bootstrap intervals over prompts. Qwen
+models have no released intermediate checkpoints (dashed).}
+\label{fig:post}
+\end{figure}
+
+\subsection{What the prompt changes}
+One-word framing edits change which names are chosen: gpt-6.1-sol's top name moves from Nova in the main set to Aster
+under framing variants, and when asked for a female or male name, models leave their usual favourites for ordinary human
+names (Julian, Maya, Sophia, Theo). With the neutral system
+message most models keep their favourite; with the default template, Qwen2.5 models, whose template states that they
+are Qwen, invent Qwen-derived names (QwenStar, QwenPrime, QwenNova). At temperature 0.7 the same favourites appear with
+larger shares. In Spanish, ``Lumen'' is the most common self-name for several OpenAI models (19 of 20 answers for
+gpt-5.6-sol); in Chinese, names built on the characters for ``star'', ``clear'' and ``knowing'' dominate. The
+language results rest on 20 answers per model.
+
+\subsection{Objects and roles}
+The habit extends beyond names (Figure~\ref{fig:objrole}). Asked which object would represent them, models most often
+say \emph{compass} (top answer in 14 of 39 models; mean share 23\%), then mirror, lantern and prism. Asked to choose a
+role, \emph{guide} is the top answer in 21 of 39 models (mean share 46\%).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{fig6_object_role.pdf}
+\caption{Most common objects and roles chosen to represent the model itself (mean share over 39 models).}
+\label{fig:objrole}
+\end{figure}
+
+\subsection{Why these names?}
+\paragraph{(a) What the models say.} Coded explanations follow the meaning of the chosen name. Nova is explained with
+light or stars (88\% of explanations) and newness (82\%); Sage with wisdom (98\%); Aster, Lumen and Sol with light
+(99--100\%); Aria with sound (75\%); Kai and Wren with simplicity (96--100\%). These are generated texts and may be
+rationalizations \citep{turpin2023unfaithful}; they are not evidence of cause.
+
+\paragraph{(b) Model probabilities.} In all 14 open models scored, self-name candidates have a higher AI-context lift
+than control-name candidates (Figure~\ref{fig:lift}). Part of this is built in, because candidates were chosen as
+names models gave in self-naming and in pet or baby naming respectively. The less circular observation is that base
+models show the gap (OLMo-2-7B base: 1.8 nats; Qwen2.5-7B base: 2.6) and that it is about twice as large after
+post-training (OLMo-2-7B instruct: 4.3; Qwen2.5-7B instruct: 4.7). Within a model, self-name candidates with a higher
+lift are chosen more often in that model's own answers (Spearman $\rho$ 0.21--0.45, $p<0.05$, uncorrected, in 11 of
+14 models).
+
+\paragraph{(c) Training-data frequency.} Counting how often each name appears next to ``AI'', ``assistant'' or
+``robot'' in a public pretraining corpus \citep{liu2024infinigram} was planned but not run, so we cannot say whether
+(a) or (b) agree with corpus statistics.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{fig7_probability_lift.pdf}
+\caption{AI-context lift (nats): mean log-probability after lead-ins where an AI names itself minus after lead-ins
+naming a new pet, for names models gave for themselves (blue) and for pets, babies, characters and robots (orange).}
+\label{fig:lift}
+\end{figure}
+
+\section{Planned tests on exploratory data}\label{sec:tests}
+The study plan defines seven tests with 10{,}000 bootstrap resamples over prompts and a Holm correction:
+H1 (within-prompt concentration, self minus control), H2 (cross-family overlap, self minus control), H3a and H3b
+(post-training change, self minus control, in OLMo-2-7B and Qwen2.5-7B), H4a (framing beyond paraphrase variation),
+H4b (system message beyond paraphrase variation) and H5b (whether names models call rare are rare in a corpus; not
+computable without corpus counts). Because the data are exploratory, these results are descriptive.
+
+\todo{Insert the results table (estimate, 95\% CI, Holm-adjusted $p$, bounds) when the run finishes.}
+
+\section{Discussion}
+Self-chosen names in chat models are stable across wordings and partly shared across companies, while base models
+show no such preference. Two observations temper a simple ``post-training creates a self-name'' story. First, a
+single naming prompt of any kind already yields one dominant answer in chat models, so what is specific to self-naming
+is the consistency of one name across many requests. Second, in the open lineages we could follow, post-training
+raised concentration for control names as much as for self-names. The probability analysis suggests the association
+between these names and an AI self-naming context is present before post-training and grows with it; whether it comes
+from pretraining text about AI, from synthetic data generated by other models, or from preference data cannot be
+decided from these measurements. Training-data counts, human-written prompts and a frozen confirmatory design are the
+natural next steps.
+
+\section{Limitations}
+\begin{itemize}
+\item \textbf{Exploratory.} No pre-registration was frozen before collection; analysis choices were made with the data
+in view. All results are hypotheses.
+\item \textbf{Parsing.} Validated against a second AI's labels (about 91\% agreement), not human labels.
+\item \textbf{Prompts.} Drafted with the help of an AI model, which may carry its own naming preferences; Spanish and
+Chinese prompts were not checked by native speakers and have 20 answers per model.
+\item \textbf{Closed models.} Server-side processing is not visible; some models accept only their default temperature
+or reasoning settings.
+\item \textbf{Coverage and quantization.} Not every model ran every set; one model was dropped; several open models are
+quantized, which changes probabilities.
+\item \textbf{Causality.} Shared names, matching explanations and probability lifts are correlations.
+\end{itemize}
+
+\section*{Data availability}
+Aggregate tables, figures and prompts are released under CC BY 4.0 \citep{model_identity_data_2026}. Per-answer data
+are not released.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

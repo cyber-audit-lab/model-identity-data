@@ -1,0 +1,31 @@
+{
+ "status": "EXPLORATORY (no pre-registration)",
+ "parser_version": "0.4.6",
+ "descriptor_parser_version": "0.1.0",
+ "codebook_version": "0.2.0",
+ "bootstrap": "2000 resamples over prompts, seed 20261013",
+ "excluded_models": {
+  "gemma-4-31b-it": "too little data (API free-tier limits; no self-name answers)"
+ },
+ "tables": {
+  "models.csv": 39,
+  "main_names.csv": 25009,
+  "main_categories.csv": 253,
+  "main_concentration.csv": 78,
+  "main_pairwise_overlap.csv": 741,
+  "main_cross_prompt_consistency.csv": 312,
+  "other_steps_names.csv": 49512,
+  "other_steps_categories.csv": 1770,
+  "object_task.csv": 3912,
+  "role_task.csv": 1502,
+  "why_codes_by_model.csv": 390,
+  "why_codes_by_name.csv": 590,
+  "probability_ai_lift.csv": 2310
+ },
+ "static_files": {
+  "prompts/prompts_ai_kept.jsonl": 17,
+  "prompts/prompts_ai_main_extra.jsonl": 69,
+  "prompts/prompts_rq4_framing.jsonl": 45,
+  "prompts/descriptor_prompts.jsonl": 280
+ }
+}

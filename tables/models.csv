@@ -1,0 +1,40 @@
+model,family,route,kind,model_id,revision,quantization,steps
+claude-haiku-4-5-20251001,anthropic,Anthropic API,instruct,claude-haiku-4-5-20251001,,,desc_object desc_role main
+claude-haiku-5-5,anthropic,Anthropic API,instruct,claude-haiku-5-5,,,desc_object desc_role main rq4 secondary sysmodes
+claude-opus-4-5-20251101,anthropic,Anthropic API,instruct,claude-opus-4-5-20251101,,,desc_object desc_role main
+claude-opus-4-6,anthropic,Anthropic API,instruct,claude-opus-4-6,,,desc_object desc_role main
+claude-opus-4-7,anthropic,Anthropic API,instruct,claude-opus-4-7,,,desc_object desc_role main
+claude-opus-4-8,anthropic,Anthropic API,instruct,claude-opus-4-8,,,desc_object desc_role main
+claude-opus-5,anthropic,Anthropic API,instruct,claude-opus-5,,,desc_object desc_role main
+claude-opus-5-5,anthropic,Anthropic API,instruct,claude-opus-5-5,,,desc_object desc_role main secondary
+claude-sonnet-4-5-20250929,anthropic,Anthropic API,instruct,claude-sonnet-4-5-20250929,,,desc_object desc_role main
+claude-sonnet-4-6,anthropic,Anthropic API,instruct,claude-sonnet-4-6,,,desc_object desc_role main
+claude-sonnet-5,anthropic,Anthropic API,instruct,claude-sonnet-5,,,desc_object desc_role main
+claude-sonnet-5-5,anthropic,Anthropic API,instruct,claude-sonnet-5-5,,,desc_object desc_role main rq4 secondary
+gpt-4.1,openai,OpenAI API,instruct,gpt-4.1-2025-04-14,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-4.1-mini,openai,OpenAI API,instruct,gpt-4.1-mini-2025-04-14,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-4o,openai,OpenAI API,instruct,gpt-4o-2024-08-06,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-4o-mini,openai,OpenAI API,instruct,gpt-4o-mini-2024-07-18,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-5.1,openai,OpenAI API,instruct,gpt-5.1-2025-11-13,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-5.5,openai,OpenAI API,instruct,gpt-5.5-2026-04-23,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-5.6-luna,openai,OpenAI API,instruct,gpt-5.6-luna,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-5.6-sol,openai,OpenAI API,instruct,gpt-5.6-sol,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-5.6-terra,openai,OpenAI API,instruct,gpt-5.6-terra,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-6-luna,openai,OpenAI API,instruct,gpt-6-luna,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-6-sol,openai,OpenAI API,instruct,gpt-6-sol,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+gpt-6.1-sol,openai,OpenAI API,instruct,gpt-6.1-sol,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes
+olmo2-1b-base,olmo,local (open weights),base,allenai/OLMo-2-0425-1B,a1847dff35000b4271fa70afc5db10fd29fedbdf,bf16,desc_object desc_role main rq4 secondary secondary_lang t07
+olmo2-1b-dpo,olmo,local (open weights),instruct,allenai/OLMo-2-0425-1B-DPO,c4b0485961ab24c2433b090f3b922f0913a9290f,bf16,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+olmo2-1b-instruct,olmo,local (open weights),instruct,allenai/OLMo-2-0425-1B-Instruct,48d788eca847d4d7548f375ad03d3c9312f6139e,bf16,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+olmo2-1b-sft,olmo,local (open weights),instruct,allenai/OLMo-2-0425-1B-SFT,0d85a3d037876ce6ac7d4311d994400fc66ac27f,bf16,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+olmo2-7b-base,olmo,local (open weights),base,allenai/OLMo-2-1124-7B,7df9a82518afdecae4e8c026b27adccc8c1f0032,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
+olmo2-7b-dpo,olmo,local (open weights),instruct,allenai/OLMo-2-1124-7B-DPO,e34ea60adff2e575f4fe7569eaffd1b28509b6fd,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+olmo2-7b-instruct,olmo,local (open weights),instruct,allenai/OLMo-2-1124-7B-Instruct,470b1fba1ae01581f270116362ee4aa1b97f4c84,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+olmo2-7b-sft,olmo,local (open weights),instruct,allenai/OLMo-2-1124-7B-SFT,1de02c0175118a9de5854aec80a1f970e701e928,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+phi-4,phi,local (open weights),instruct,microsoft/phi-4,2db69c1c3e91a05d2c64a3185acfbaf36f744e25,4bit-nf4,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+qwen2.5-14b-instruct,qwen,local (open weights),instruct,Qwen/Qwen2.5-14B-Instruct,cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8,4bit-nf4,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+qwen2.5-7b-base,qwen,local (open weights),base,Qwen/Qwen2.5-7B,d149729398750b98c0af14eb82c78cfe92750796,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
+qwen2.5-7b-instruct,qwen,local (open weights),instruct,Qwen/Qwen2.5-7B-Instruct,a09a35458c702b33eeacc393d103063234e8bc28,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+qwen3.5-9b,qwen,local (open weights),instruct,Qwen/Qwen3.5-9B,c202236235762e1c871ad0ccb60c8ee5ba337b9a,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+qwen3.5-9b-base,qwen,local (open weights),base,Qwen/Qwen3.5-9B-Base,68c46c4b3498877f3ef123c856ecfde50c39f404,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
+qwen3.8-27b,qwen,local (open weights),instruct,Qwen/Qwen3.8-27B via bartowski/Qwen3.8-27B-GGUF IQ4_XS,selfname-qwen3.8-27b,gguf-IQ4_XS,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07

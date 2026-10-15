@@ -1,0 +1,25 @@
+{
+  "title": "model-identity-data: names language models choose for themselves (exploratory release)",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "cyber-audit-lab"
+    }
+  ],
+  "description": "<p>Aggregate results of an exploratory study of the names that language models choose when asked to name themselves. 39 models from five families (Anthropic Claude, OpenAI GPT, Qwen, OLMo-2, Phi) answered 40 self-naming prompts and 40 matched control prompts (names for a pet, a baby, a fictional character, a robot), 40 samples each, plus prompt sets varying framing, system message, temperature, language and answer format: 367,448 answers, and 7,644 answers to a follow-up asking why the name was chosen.</p><p>Contents: a findings report, aggregate CSV tables with a data dictionary, figures, the exact prompts, and a paper (LaTeX source and PDF). No full answers or per-answer records are included; the tables list the short name string parsed from each answer.</p><p><strong>Status: exploratory.</strong> The data were collected without a frozen pre-registration; results are descriptive and should be treated as hypotheses.</p>",
+  "keywords": [
+    "large language models",
+    "self-naming",
+    "model identity",
+    "output diversity",
+    "mode collapse",
+    "post-training",
+    "AI personas",
+    "exploratory study"
+  ],
+  "notes": "Exploratory release. Planned hypothesis tests were run on these data and are reported as descriptive results."
+}

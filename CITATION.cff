@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+type: dataset
+title: "model-identity-data: names language models choose for themselves (exploratory release)"
+version: 1.0.0
+date-released: 2026-10-15
+license: CC-BY-4.0
+repository-code: "https://github.com/cyber-audit-lab/model-identity-data"
+authors:
+  - name: "cyber-audit-lab"
+abstract: >-
+  Aggregate results of an exploratory study of the names that 39 language models from five families choose when
+  asked to name themselves, with matched control prompts, prompt-variation sets and follow-up explanations
+  (367,448 answers). Includes a findings report, aggregate tables, figures, prompts and a paper. No full answers or
+  per-answer records. Exploratory: no pre-registration was frozen before collection.
+keywords:
+  - large language models
+  - self-naming
+  - model identity
+  - output diversity
+  - mode collapse
+  - post-training

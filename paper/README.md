@@ -8,4 +8,4 @@ Compile with any standard LaTeX distribution, or upload `paper/` and `figures/` 
 
     pdflatex main && bibtex main && pdflatex main && pdflatex main
 
-Several references were read only as abstracts or summaries; check each against the original before citing.
+All references were checked against their original sources on 2026-10-15.

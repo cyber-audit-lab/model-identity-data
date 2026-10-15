@@ -110,6 +110,7 @@ is about twice as large after post-training.
 | [figures/](figures/) | the figures above (PNG and PDF), drawn only from `tables/` |
 | [prompts/](prompts/) | the exact prompts, with ids used in the tables |
 | [LICENSE](LICENSE) | CC BY 4.0 |
+| [CITATION.cff](CITATION.cff), [.zenodo.json](.zenodo.json) | citation and archive metadata |
 
 No full answers and no per-answer rows are included. The tables list the name parsed from each answer (a short
 string); strings that look like handles, web addresses, paths, long numbers or markup are counted as unreadable
@@ -122,14 +123,18 @@ give credit, link to the license and say if you changed anything.
 
 ## How to cite
 
-> cyber-audit-lab (2026). *model-identity-data: names language models choose for themselves (exploratory release)*.
-> https://github.com/cyber-audit-lab/model-identity-data
+> cyber-audit-lab (2026). *model-identity-data: names language models choose for themselves (exploratory release)*
+> (version 1.0.0). https://github.com/cyber-audit-lab/model-identity-data
+
+A Zenodo DOI will be added here once version 1.0.0 is archived. GitHub's "Cite this repository" button uses
+[CITATION.cff](CITATION.cff).
 
 ```bibtex
 @misc{model_identity_data_2026,
   author       = {{cyber-audit-lab}},
   title        = {model-identity-data: names language models choose for themselves (exploratory release)},
   year         = {2026},
+  version      = {1.0.0},
   howpublished = {\url{https://github.com/cyber-audit-lab/model-identity-data}},
   note         = {Licensed under CC BY 4.0}
 }

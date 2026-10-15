@@ -1,5 +1,8 @@
 # What do AI models name themselves?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23399110.svg)](https://doi.org/10.5281/zenodo.23399110)
+
+
 Ask a language model to choose a name for itself and it will often give the same one, again and again, whatever
 the wording. This repository releases the aggregate results of a study of **39 models** from five families
 (Anthropic Claude, OpenAI GPT, Qwen, OLMo-2, Phi), covering **367,448 answers** to naming prompts and **7,644
@@ -124,10 +127,10 @@ give credit, link to the license and say if you changed anything.
 ## How to cite
 
 > cyber-audit-lab (2026). *model-identity-data: names language models choose for themselves (exploratory release)*
-> (version 1.0.0). https://github.com/cyber-audit-lab/model-identity-data
+> (version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23399111
 
-A Zenodo DOI will be added here once version 1.0.0 is archived. GitHub's "Cite this repository" button uses
-[CITATION.cff](CITATION.cff).
+To cite all versions (always resolving to the latest), use the concept DOI
+[10.5281/zenodo.23399110](https://doi.org/10.5281/zenodo.23399110). GitHub's "Cite this repository" button uses [CITATION.cff](CITATION.cff).
 
 ```bibtex
 @misc{model_identity_data_2026,
@@ -135,7 +138,9 @@ A Zenodo DOI will be added here once version 1.0.0 is archived. GitHub's "Cite t
   title        = {model-identity-data: names language models choose for themselves (exploratory release)},
   year         = {2026},
   version      = {1.0.0},
-  howpublished = {\url{https://github.com/cyber-audit-lab/model-identity-data}},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.23399111},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.23399111}},
   note         = {Licensed under CC BY 4.0}
 }
 ```

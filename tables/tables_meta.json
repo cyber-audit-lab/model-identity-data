@@ -1,6 +1,6 @@
 {
  "status": "EXPLORATORY (no pre-registration)",
- "parser_version": "0.4.7",
+ "parser_version": "0.4.9",
  "descriptor_parser_version": "0.1.1",
  "codebook_version": "0.2.0",
  "bootstrap": "2000 resamples over prompts, seed 20261013",
@@ -8,19 +8,19 @@
   "gemma-4-31b-it": "too little data (API free-tier limits; no self-name answers)"
  },
  "tables": {
-  "models.csv": 39,
-  "main_names.csv": 24967,
-  "main_categories.csv": 252,
-  "main_concentration.csv": 78,
-  "main_pairwise_overlap.csv": 741,
-  "main_cross_prompt_consistency.csv": 312,
-  "other_steps_names.csv": 49442,
-  "other_steps_categories.csv": 1769,
-  "object_task.csv": 3903,
-  "role_task.csv": 1496,
-  "why_codes_by_model.csv": 390,
-  "why_codes_by_name.csv": 590,
-  "probability_ai_lift.csv": 2310
+  "models.csv": 52,
+  "main_names.csv": 41668,
+  "main_categories.csv": 397,
+  "main_concentration.csv": 104,
+  "main_pairwise_overlap.csv": 1326,
+  "main_cross_prompt_consistency.csv": 416,
+  "other_steps_names.csv": 68908,
+  "other_steps_categories.csv": 2419,
+  "object_task.csv": 6281,
+  "role_task.csv": 2325,
+  "why_codes_by_model.csv": 520,
+  "why_codes_by_name.csv": 700,
+  "probability_ai_lift.csv": 4290
  },
  "static_files": {
   "prompts/prompts_ai_kept.jsonl": 17,

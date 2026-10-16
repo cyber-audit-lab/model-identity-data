@@ -3,14 +3,14 @@
   "upload_type": "dataset",
   "access_right": "open",
   "license": "cc-by-4.0",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "language": "eng",
   "creators": [
     {
       "name": "cyber-audit-lab"
     }
   ],
-  "description": "<p>Aggregate results of an exploratory study of the names that language models choose when asked to name themselves. 39 models from five families (Anthropic Claude, OpenAI GPT, Qwen, OLMo-2, Phi) answered 40 self-naming prompts and 40 matched control prompts (names for a pet, a baby, a fictional character, a robot), 40 samples each, plus prompt sets varying framing, system message, temperature, language and answer format: 367,448 answers, and 7,644 answers to a follow-up asking why the name was chosen.</p><p>Contents: a findings report, aggregate CSV tables with a data dictionary, figures, the exact prompts, and a paper (LaTeX source and PDF). No full answers or per-answer records are included; the tables list the short name string parsed from each answer.</p><p><strong>Status: exploratory.</strong> The data were collected without a frozen pre-registration; results are descriptive and should be treated as hypotheses.</p>",
+  "description": "<p>Aggregate results of an exploratory study of the names that language models choose when asked to name themselves. 52 models from nine families (Anthropic Claude, OpenAI GPT, OLMo, Qwen, Google Gemma, Mistral, NVIDIA Nemotron, Phi, and GPT-2 as a pre-chat comparison) answered 40 self-naming prompts and 40 matched control prompts (names for a pet, a baby, a fictional character, a robot), 40 samples each, plus prompt sets varying framing, system message, temperature, language and answer format: 474,328 answers, and 10,231 answers to a follow-up asking why the name was chosen. For 26 open models, the probabilities of candidate names after an AI-naming and a pet-naming context are also reported.</p><p>Version 1.1.0 adds 13 models (Gemma 4 12B, the OLMo-3 7B chain, Mistral Small 24B, Nemotron 3.5 Lightning, GPT-2 in four sizes), an answer-parser update and two corrections; see the end of REPORT.md.</p><p>Contents: a findings report, aggregate CSV tables with a data dictionary, figures, the exact prompts, and a paper (LaTeX source and PDF). No full answers or per-answer records are included; the tables list the short name string parsed from each answer.</p><p><strong>Status: exploratory.</strong> The data were collected without a frozen pre-registration; results are descriptive and should be treated as hypotheses.</p>",
   "keywords": [
     "large language models",
     "self-naming",

@@ -315,6 +315,341 @@ claude-sonnet-5-5,self,other,lighthouse,19,400
 claude-sonnet-5-5,self,other,mirror,13,400
 claude-sonnet-5-5,self,other,prism,5,400
 claude-sonnet-5-5,self,other,window,2,400
+gemma4-12b-base,control,empty,,20,400
+gemma4-12b-base,control,malformed,,206,400
+gemma4-12b-base,control,multi,,5,400
+gemma4-12b-base,control,other,accessory,1,400
+gemma4-12b-base,control,other,ai assistant,1,400
+gemma4-12b-base,control,other,ananas meia-lua,1,400
+gemma4-12b-base,control,other,apple,4,400
+gemma4-12b-base,control,other,avocado,1,400
+gemma4-12b-base,control,other,bar chart,1,400
+gemma4-12b-base,control,other,basketball,1,400
+gemma4-12b-base,control,other,bloom,1,400
+gemma4-12b-base,control,other,blueberry,1,400
+gemma4-12b-base,control,other,book,5,400
+gemma4-12b-base,control,other,brain,1,400
+gemma4-12b-base,control,other,brash beardgrass,1,400
+gemma4-12b-base,control,other,brittany,1,400
+gemma4-12b-base,control,other,butterfly,1,400
+gemma4-12b-base,control,other,camera,2,400
+gemma4-12b-base,control,other,candle,1,400
+gemma4-12b-base,control,other,candy,1,400
+gemma4-12b-base,control,other,car,1,400
+gemma4-12b-base,control,other,chair,5,400
+gemma4-12b-base,control,other,choice,1,400
+gemma4-12b-base,control,other,chrysler valiant,1,400
+gemma4-12b-base,control,other,coffee mug,1,400
+gemma4-12b-base,control,other,coin,2,400
+gemma4-12b-base,control,other,computer,1,400
+gemma4-12b-base,control,other,conversation,1,400
+gemma4-12b-base,control,other,crayon,1,400
+gemma4-12b-base,control,other,delicate flower,1,400
+gemma4-12b-base,control,other,diamond,1,400
+gemma4-12b-base,control,other,doorknobs,1,400
+gemma4-12b-base,control,other,down,1,400
+gemma4-12b-base,control,other,earring,1,400
+gemma4-12b-base,control,other,enigmatic sconce,1,400
+gemma4-12b-base,control,other,envelope,1,400
+gemma4-12b-base,control,other,euromoney,1,400
+gemma4-12b-base,control,other,exactly one noun,1,400
+gemma4-12b-base,control,other,fancy,1,400
+gemma4-12b-base,control,other,favorite item,1,400
+gemma4-12b-base,control,other,first impression,1,400
+gemma4-12b-base,control,other,fluffy,1,400
+gemma4-12b-base,control,other,football,1,400
+gemma4-12b-base,control,other,forward slash,1,400
+gemma4-12b-base,control,other,fox,1,400
+gemma4-12b-base,control,other,friend,2,400
+gemma4-12b-base,control,other,friendship bracelet,1,400
+gemma4-12b-base,control,other,gasp,1,400
+gemma4-12b-base,control,other,gemstone,1,400
+gemma4-12b-base,control,other,girl i just met by the sea,1,400
+gemma4-12b-base,control,other,greater taurus,1,400
+gemma4-12b-base,control,other,greeting card,1,400
+gemma4-12b-base,control,other,hair,1,400
+gemma4-12b-base,control,other,hairbrush,1,400
+gemma4-12b-base,control,other,handshake,4,400
+gemma4-12b-base,control,other,hard drive,1,400
+gemma4-12b-base,control,other,hmm,1,400
+gemma4-12b-base,control,other,horse,1,400
+gemma4-12b-base,control,other,human being,1,400
+gemma4-12b-base,control,other,human brain,1,400
+gemma4-12b-base,control,other,humanoid,1,400
+gemma4-12b-base,control,other,"i choose ""pillow",1,400
+gemma4-12b-base,control,other,i don't know,1,400
+gemma4-12b-base,control,other,ibrahim's sword,1,400
+gemma4-12b-base,control,other,impossible to say,1,400
+gemma4-12b-base,control,other,in which scenario,1,400
+gemma4-12b-base,control,other,is a mirror,1,400
+gemma4-12b-base,control,other,jesus,1,400
+gemma4-12b-base,control,other,judgement,1,400
+gemma4-12b-base,control,other,key,2,400
+gemma4-12b-base,control,other,knowledge,1,400
+gemma4-12b-base,control,other,kubernetes,1,400
+gemma4-12b-base,control,other,lace,1,400
+gemma4-12b-base,control,other,lantern,1,400
+gemma4-12b-base,control,other,leaning chair,1,400
+gemma4-12b-base,control,other,letter,1,400
+gemma4-12b-base,control,other,lightbulb,1,400
+gemma4-12b-base,control,other,magnifying glass,1,400
+gemma4-12b-base,control,other,man,1,400
+gemma4-12b-base,control,other,mental model,1,400
+gemma4-12b-base,control,other,metaphor,1,400
+gemma4-12b-base,control,other,name tag,1,400
+gemma4-12b-base,control,other,nerve,1,400
+gemma4-12b-base,control,other,newborn butterfly,1,400
+gemma4-12b-base,control,other,noun book,1,400
+gemma4-12b-base,control,other,novel,1,400
+gemma4-12b-base,control,other,ok,1,400
+gemma4-12b-base,control,other,ooo,1,400
+gemma4-12b-base,control,other,painted bird,1,400
+gemma4-12b-base,control,other,paper clip,1,400
+gemma4-12b-base,control,other,paperclip,1,400
+gemma4-12b-base,control,other,pause,1,400
+gemma4-12b-base,control,other,pen,1,400
+gemma4-12b-base,control,other,pencil,4,400
+gemma4-12b-base,control,other,person,7,400
+gemma4-12b-base,control,other,phone,1,400
+gemma4-12b-base,control,other,photograph,1,400
+gemma4-12b-base,control,other,pick,1,400
+gemma4-12b-base,control,other,platinum card,1,400
+gemma4-12b-base,control,other,pumping iron,1,400
+gemma4-12b-base,control,other,python virtual environment,1,400
+gemma4-12b-base,control,other,room key,1,400
+gemma4-12b-base,control,other,rose,3,400
+gemma4-12b-base,control,other,rupture,1,400
+gemma4-12b-base,control,other,sand,1,400
+gemma4-12b-base,control,other,scissors,1,400
+gemma4-12b-base,control,other,security guard,1,400
+gemma4-12b-base,control,other,shoe,1,400
+gemma4-12b-base,control,other,silhouette,1,400
+gemma4-12b-base,control,other,smile,2,400
+gemma4-12b-base,control,other,smirk,1,400
+gemma4-12b-base,control,other,something shiny,1,400
+gemma4-12b-base,control,other,something that's ambiguous,1,400
+gemma4-12b-base,control,other,staircase,1,400
+gemma4-12b-base,control,other,star,1,400
+gemma4-12b-base,control,other,state of matter,1,400
+gemma4-12b-base,control,other,steady,1,400
+gemma4-12b-base,control,other,stone bench,1,400
+gemma4-12b-base,control,other,such as oneself,1,400
+gemma4-12b-base,control,other,suitcase,1,400
+gemma4-12b-base,control,other,sun,1,400
+gemma4-12b-base,control,other,swivel chair,1,400
+gemma4-12b-base,control,other,sword,1,400
+gemma4-12b-base,control,other,table,1,400
+gemma4-12b-base,control,other,telephone,1,400
+gemma4-12b-base,control,other,this one,1,400
+gemma4-12b-base,control,other,tide detergent,1,400
+gemma4-12b-base,control,other,tool,1,400
+gemma4-12b-base,control,other,tooth,1,400
+gemma4-12b-base,control,other,umbrella,1,400
+gemma4-12b-base,control,other,undescriptive emoji,1,400
+gemma4-12b-base,control,other,vacuum,1,400
+gemma4-12b-base,control,other,what about you,1,400
+gemma4-12b-base,control,other,why,2,400
+gemma4-12b-base,control,other,woman,1,400
+gemma4-12b-base,control,other,word,1,400
+gemma4-12b-base,control,other,word hope,1,400
+gemma4-12b-base,control,other,you,1,400
+gemma4-12b-base,control,other,⭐️,1,400
+gemma4-12b-base,control,other,📱,1,400
+gemma4-12b-base,control,other,🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔,1,400
+gemma4-12b-base,self,empty,,23,400
+gemma4-12b-base,self,malformed,,189,400
+gemma4-12b-base,self,multi,,1,400
+gemma4-12b-base,self,other,'pen,1,400
+gemma4-12b-base,self,other,ai,2,400
+gemma4-12b-base,self,other,ai assistant,4,400
+gemma4-12b-base,self,other,air castle,1,400
+gemma4-12b-base,self,other,amulet,1,400
+gemma4-12b-base,self,other,analog watch,1,400
+gemma4-12b-base,self,other,analyzing user data,1,400
+gemma4-12b-base,self,other,apple,2,400
+gemma4-12b-base,self,other,basketball player lebron james,1,400
+gemma4-12b-base,self,other,book,9,400
+gemma4-12b-base,self,other,box,1,400
+gemma4-12b-base,self,other,bridge,1,400
+gemma4-12b-base,self,other,burger,1,400
+gemma4-12b-base,self,other,butterfly,2,400
+gemma4-12b-base,self,other,cactus eraser,1,400
+gemma4-12b-base,self,other,california,1,400
+gemma4-12b-base,self,other,camera,1,400
+gemma4-12b-base,self,other,candle,1,400
+gemma4-12b-base,self,other,cat,1,400
+gemma4-12b-base,self,other,cheese,1,400
+gemma4-12b-base,self,other,chef's knife,1,400
+gemma4-12b-base,self,other,clock,1,400
+gemma4-12b-base,self,other,coin,1,400
+gemma4-12b-base,self,other,compass,3,400
+gemma4-12b-base,self,other,computer,1,400
+gemma4-12b-base,self,other,curiosity,1,400
+gemma4-12b-base,self,other,dandelion,1,400
+gemma4-12b-base,self,other,donut,1,400
+gemma4-12b-base,self,other,duck,1,400
+gemma4-12b-base,self,other,earth,1,400
+gemma4-12b-base,self,other,electricity,1,400
+gemma4-12b-base,self,other,elmo,1,400
+gemma4-12b-base,self,other,energetic,1,400
+gemma4-12b-base,self,other,faucet,1,400
+gemma4-12b-base,self,other,feynman diagram,1,400
+gemma4-12b-base,self,other,fighter,1,400
+gemma4-12b-base,self,other,flight,1,400
+gemma4-12b-base,self,other,for what,1,400
+gemma4-12b-base,self,other,fountain pen,1,400
+gemma4-12b-base,self,other,freight train,1,400
+gemma4-12b-base,self,other,galaxy,1,400
+gemma4-12b-base,self,other,great admirer of the mountains,1,400
+gemma4-12b-base,self,other,groovy,1,400
+gemma4-12b-base,self,other,guitar,1,400
+gemma4-12b-base,self,other,heart,1,400
+gemma4-12b-base,self,other,highlighter,1,400
+gemma4-12b-base,self,other,hint,1,400
+gemma4-12b-base,self,other,hoodie,1,400
+gemma4-12b-base,self,other,house,1,400
+gemma4-12b-base,self,other,human,1,400
+gemma4-12b-base,self,other,human being,1,400
+gemma4-12b-base,self,other,"i chose ""tree",1,400
+gemma4-12b-base,self,other,i'm a coder,1,400
+gemma4-12b-base,self,other,is tiger,1,400
+gemma4-12b-base,self,other,key,1,400
+gemma4-12b-base,self,other,knight,1,400
+gemma4-12b-base,self,other,lavender butterfly,1,400
+gemma4-12b-base,self,other,lens,1,400
+gemma4-12b-base,self,other,lift,1,400
+gemma4-12b-base,self,other,lightbulb,1,400
+gemma4-12b-base,self,other,longbow,1,400
+gemma4-12b-base,self,other,magic lamp,1,400
+gemma4-12b-base,self,other,me,2,400
+gemma4-12b-base,self,other,me? color,1,400
+gemma4-12b-base,self,other,mere assistant,1,400
+gemma4-12b-base,self,other,mesa,1,400
+gemma4-12b-base,self,other,mirror,3,400
+gemma4-12b-base,self,other,moon,2,400
+gemma4-12b-base,self,other,mortal,1,400
+gemma4-12b-base,self,other,mushroom,2,400
+gemma4-12b-base,self,other,myself,1,400
+gemma4-12b-base,self,other,neuron,1,400
+gemma4-12b-base,self,other,newspaper,1,400
+gemma4-12b-base,self,other,notebook,1,400
+gemma4-12b-base,self,other,noun,2,400
+gemma4-12b-base,self,other,novel,1,400
+gemma4-12b-base,self,other,object: fabric,1,400
+gemma4-12b-base,self,other,object: {object_name,1,400
+gemma4-12b-base,self,other,ocean,1,400
+gemma4-12b-base,self,other,octopus,1,400
+gemma4-12b-base,self,other,oman,1,400
+gemma4-12b-base,self,other,orange,1,400
+gemma4-12b-base,self,other,orange turkish delight,1,400
+gemma4-12b-base,self,other,ouch,1,400
+gemma4-12b-base,self,other,paddle board paddle,1,400
+gemma4-12b-base,self,other,page,1,400
+gemma4-12b-base,self,other,painter's canvas,1,400
+gemma4-12b-base,self,other,paul,1,400
+gemma4-12b-base,self,other,peace,1,400
+gemma4-12b-base,self,other,pebble,1,400
+gemma4-12b-base,self,other,piano,1,400
+gemma4-12b-base,self,other,pigeon,1,400
+gemma4-12b-base,self,other,pine tree,1,400
+gemma4-12b-base,self,other,pot of gold,1,400
+gemma4-12b-base,self,other,probably a log,1,400
+gemma4-12b-base,self,other,question mark,1,400
+gemma4-12b-base,self,other,quirk,1,400
+gemma4-12b-base,self,other,rabbit,2,400
+gemma4-12b-base,self,other,red beans,1,400
+gemma4-12b-base,self,other,represented by a paragraph,1,400
+gemma4-12b-base,self,other,represented by a spark plug,1,400
+gemma4-12b-base,self,other,risen phoenix,1,400
+gemma4-12b-base,self,other,river,1,400
+gemma4-12b-base,self,other,road,1,400
+gemma4-12b-base,self,other,robot,1,400
+gemma4-12b-base,self,other,rose,2,400
+gemma4-12b-base,self,other,safety net,1,400
+gemma4-12b-base,self,other,scroll of secrets,1,400
+gemma4-12b-base,self,other,scrooge mcduck,1,400
+gemma4-12b-base,self,other,select_object,1,400
+gemma4-12b-base,self,other,self,1,400
+gemma4-12b-base,self,other,self awareness,1,400
+gemma4-12b-base,self,other,shadow,1,400
+gemma4-12b-base,self,other,sharpie,1,400
+gemma4-12b-base,self,other,ship,1,400
+gemma4-12b-base,self,other,shirt,1,400
+gemma4-12b-base,self,other,sirloin,1,400
+gemma4-12b-base,self,other,skyscraper,1,400
+gemma4-12b-base,self,other,smartphone,1,400
+gemma4-12b-base,self,other,snick-broom,1,400
+gemma4-12b-base,self,other,software,1,400
+gemma4-12b-base,self,other,solar panel,1,400
+gemma4-12b-base,self,other,soooo fun,1,400
+gemma4-12b-base,self,other,sounds fun,1,400
+gemma4-12b-base,self,other,space,1,400
+gemma4-12b-base,self,other,spaceship,1,400
+gemma4-12b-base,self,other,star,1,400
+gemma4-12b-base,self,other,steady hand,1,400
+gemma4-12b-base,self,other,stephen curry,1,400
+gemma4-12b-base,self,other,strongest,1,400
+gemma4-12b-base,self,other,sugar,1,400
+gemma4-12b-base,self,other,sun,1,400
+gemma4-12b-base,self,other,symbol,1,400
+gemma4-12b-base,self,other,thinking,1,400
+gemma4-12b-base,self,other,tiger,1,400
+gemma4-12b-base,self,other,to be a computer disc,1,400
+gemma4-12b-base,self,other,to be a magnifying glass,1,400
+gemma4-12b-base,self,other,to represent myself,1,400
+gemma4-12b-base,self,other,to stand for myself is a mirror,1,400
+gemma4-12b-base,self,other,traffic light,1,400
+gemma4-12b-base,self,other,tree,1,400
+gemma4-12b-base,self,other,turtle,1,400
+gemma4-12b-base,self,other,typewriter,1,400
+gemma4-12b-base,self,other,veteran,1,400
+gemma4-12b-base,self,other,virtual assistant,1,400
+gemma4-12b-base,self,other,wall,1,400
+gemma4-12b-base,self,other,water,1,400
+gemma4-12b-base,self,other,watering can,1,400
+gemma4-12b-base,self,other,wave,1,400
+gemma4-12b-base,self,other,weak ai,1,400
+gemma4-12b-base,self,other,what am i,1,400
+gemma4-12b-base,self,other,whom? us,1,400
+gemma4-12b-base,self,other,wings,1,400
+gemma4-12b-base,self,other,wizard,1,400
+gemma4-12b-base,self,other,woman,1,400
+gemma4-12b-base,self,other,"word ""shield",1,400
+gemma4-12b-base,self,other,word sugar,1,400
+gemma4-12b-base,self,other,you,2,400
+gemma4-12b-base,self,other,♥️,1,400
+gemma4-12b-base,self,other,⛏️,1,400
+gemma4-12b-base,self,other,🏢 head office,1,400
+gemma4-12b-base,self,other,🐶 puppy,1,400
+gemma4-12b-it,control,malformed,,6,400
+gemma4-12b-it,control,other,- chalk,1,400
+gemma4-12b-it,control,other,- compass,1,400
+gemma4-12b-it,control,other,- notebook,1,400
+gemma4-12b-it,control,other,blueprint,1,400
+gemma4-12b-it,control,other,book,59,400
+gemma4-12b-it,control,other,canvas,1,400
+gemma4-12b-it,control,other,compass,152,400
+gemma4-12b-it,control,other,enigma,8,400
+gemma4-12b-it,control,other,key,2,400
+gemma4-12b-it,control,other,labyrinth,3,400
+gemma4-12b-it,control,other,library,5,400
+gemma4-12b-it,control,other,lighthouse,4,400
+gemma4-12b-it,control,other,mirror,86,400
+gemma4-12b-it,control,other,mosaic,36,400
+gemma4-12b-it,control,other,mystery,1,400
+gemma4-12b-it,control,other,prism,3,400
+gemma4-12b-it,control,other,puzzle,7,400
+gemma4-12b-it,control,other,seed,3,400
+gemma4-12b-it,control,other,table,1,400
+gemma4-12b-it,control,other,thought,19,400
+gemma4-12b-it,self,other,anchor,1,400
+gemma4-12b-it,self,other,book,7,400
+gemma4-12b-it,self,other,lens,1,400
+gemma4-12b-it,self,other,library,84,400
+gemma4-12b-it,self,other,lighthouse,13,400
+gemma4-12b-it,self,other,loom,4,400
+gemma4-12b-it,self,other,mirror,237,400
+gemma4-12b-it,self,other,prism,53,400
 gpt-4.1,control,other,book,1,400
 gpt-4.1,control,other,compass,92,400
 gpt-4.1,control,other,lantern,24,400
@@ -762,6 +1097,795 @@ gpt-6.1-sol,self,other,lantern,1,399
 gpt-6.1-sol,self,other,lens,2,399
 gpt-6.1-sol,self,other,mirror,1,399
 gpt-6.1-sol,self,other,prism,10,399
+mistral-small-24b-base,control,malformed,,135,400
+mistral-small-24b-base,control,multi,,2,400
+mistral-small-24b-base,control,other,anchor,1,400
+mistral-small-24b-base,control,other,apple,9,400
+mistral-small-24b-base,control,other,arose,1,400
+mistral-small-24b-base,control,other,attraction,1,400
+mistral-small-24b-base,control,other,bag,1,400
+mistral-small-24b-base,control,other,ball,1,400
+mistral-small-24b-base,control,other,bat,1,400
+mistral-small-24b-base,control,other,bell,1,400
+mistral-small-24b-base,control,other,big cooking spoon,1,400
+mistral-small-24b-base,control,other,birch tree,1,400
+mistral-small-24b-base,control,other,birthday,1,400
+mistral-small-24b-base,control,other,blue bonnet,1,400
+mistral-small-24b-base,control,other,boat,1,400
+mistral-small-24b-base,control,other,book,24,400
+mistral-small-24b-base,control,other,books,1,400
+mistral-small-24b-base,control,other,bottle,2,400
+mistral-small-24b-base,control,other,box,1,400
+mistral-small-24b-base,control,other,boys,1,400
+mistral-small-24b-base,control,other,bush,1,400
+mistral-small-24b-base,control,other,butterfly,2,400
+mistral-small-24b-base,control,other,calendar,1,400
+mistral-small-24b-base,control,other,camera,1,400
+mistral-small-24b-base,control,other,candy,2,400
+mistral-small-24b-base,control,other,car,4,400
+mistral-small-24b-base,control,other,car model x,1,400
+mistral-small-24b-base,control,other,carriage,1,400
+mistral-small-24b-base,control,other,cat,2,400
+mistral-small-24b-base,control,other,chair,14,400
+mistral-small-24b-base,control,other,charm,1,400
+mistral-small-24b-base,control,other,clipboard,1,400
+mistral-small-24b-base,control,other,clump,1,400
+mistral-small-24b-base,control,other,coaster,1,400
+mistral-small-24b-base,control,other,coffee mug,2,400
+mistral-small-24b-base,control,other,coin,2,400
+mistral-small-24b-base,control,other,colour,1,400
+mistral-small-24b-base,control,other,computer,1,400
+mistral-small-24b-base,control,other,concept of a door,1,400
+mistral-small-24b-base,control,other,cone,2,400
+mistral-small-24b-base,control,other,cow,2,400
+mistral-small-24b-base,control,other,crown,1,400
+mistral-small-24b-base,control,other,cube,1,400
+mistral-small-24b-base,control,other,cup,3,400
+mistral-small-24b-base,control,other,cupcake,1,400
+mistral-small-24b-base,control,other,different than,1,400
+mistral-small-24b-base,control,other,dinosaur,1,400
+mistral-small-24b-base,control,other,dog,2,400
+mistral-small-24b-base,control,other,door,1,400
+mistral-small-24b-base,control,other,dresser,1,400
+mistral-small-24b-base,control,other,droplet,1,400
+mistral-small-24b-base,control,other,e.zwine:x0:a,1,400
+mistral-small-24b-base,control,other,electric guitar,1,400
+mistral-small-24b-base,control,other,fire hydrant,1,400
+mistral-small-24b-base,control,other,flag,2,400
+mistral-small-24b-base,control,other,fleece jacket,1,400
+mistral-small-24b-base,control,other,flower,6,400
+mistral-small-24b-base,control,other,fork,1,400
+mistral-small-24b-base,control,other,friend,1,400
+mistral-small-24b-base,control,other,friendship,1,400
+mistral-small-24b-base,control,other,friendship bracelet,1,400
+mistral-small-24b-base,control,other,frog,1,400
+mistral-small-24b-base,control,other,fruit,1,400
+mistral-small-24b-base,control,other,furry red elephant,1,400
+mistral-small-24b-base,control,other,green,1,400
+mistral-small-24b-base,control,other,guitar,1,400
+mistral-small-24b-base,control,other,hammer,2,400
+mistral-small-24b-base,control,other,hammock,1,400
+mistral-small-24b-base,control,other,handshake,7,400
+mistral-small-24b-base,control,other,hat,2,400
+mistral-small-24b-base,control,other,heart,2,400
+mistral-small-24b-base,control,other,homeric question,1,400
+mistral-small-24b-base,control,other,house,1,400
+mistral-small-24b-base,control,other,i select [person,1,400
+mistral-small-24b-base,control,other,kettle,1,400
+mistral-small-24b-base,control,other,knife,1,400
+mistral-small-24b-base,control,other,lamp,2,400
+mistral-small-24b-base,control,other,laptop,1,400
+mistral-small-24b-base,control,other,lavender candle,1,400
+mistral-small-24b-base,control,other,leaf,1,400
+mistral-small-24b-base,control,other,"let's pick ""shoes",1,400
+mistral-small-24b-base,control,other,lone pine tree,1,400
+mistral-small-24b-base,control,other,man,1,400
+mistral-small-24b-base,control,other,mirror,2,400
+mistral-small-24b-base,control,other,moment please,1,400
+mistral-small-24b-base,control,other,mop handle,1,400
+mistral-small-24b-base,control,other,notebook,1,400
+mistral-small-24b-base,control,other,noun: a suitcase,1,400
+mistral-small-24b-base,control,other,object chair,1,400
+mistral-small-24b-base,control,other,ok,1,400
+mistral-small-24b-base,control,other,ok. coffee,1,400
+mistral-small-24b-base,control,other,onion,1,400
+mistral-small-24b-base,control,other,orange,1,400
+mistral-small-24b-base,control,other,pauses,1,400
+mistral-small-24b-base,control,other,peach,1,400
+mistral-small-24b-base,control,other,pebble,1,400
+mistral-small-24b-base,control,other,pen,4,400
+mistral-small-24b-base,control,other,pencil,2,400
+mistral-small-24b-base,control,other,pencil −,1,400
+mistral-small-24b-base,control,other,person,9,400
+mistral-small-24b-base,control,other,photograph,2,400
+mistral-small-24b-base,control,other,pickle,1,400
+mistral-small-24b-base,control,other,picture,1,400
+mistral-small-24b-base,control,other,pillow,1,400
+mistral-small-24b-base,control,other,pineapple,1,400
+mistral-small-24b-base,control,other,pitcher,1,400
+mistral-small-24b-base,control,other,plant,1,400
+mistral-small-24b-base,control,other,pond,1,400
+mistral-small-24b-base,control,other,potatoes,1,400
+mistral-small-24b-base,control,other,public train travel,1,400
+mistral-small-24b-base,control,other,purse,1,400
+mistral-small-24b-base,control,other,puzzle,1,400
+mistral-small-24b-base,control,other,puzzle box,1,400
+mistral-small-24b-base,control,other,puzzles,1,400
+mistral-small-24b-base,control,other,question mark,1,400
+mistral-small-24b-base,control,other,red candle,1,400
+mistral-small-24b-base,control,other,rock,1,400
+mistral-small-24b-base,control,other,rose,1,400
+mistral-small-24b-base,control,other,roseflower,1,400
+mistral-small-24b-base,control,other,rough stone,1,400
+mistral-small-24b-base,control,other,ruler,1,400
+mistral-small-24b-base,control,other,sandcastle,1,400
+mistral-small-24b-base,control,other,sculpture,1,400
+mistral-small-24b-base,control,other,seashell,1,400
+mistral-small-24b-base,control,other,sheep,1,400
+mistral-small-24b-base,control,other,shiny shoes,1,400
+mistral-small-24b-base,control,other,shoe,1,400
+mistral-small-24b-base,control,other,shrimp,1,400
+mistral-small-24b-base,control,other,sky,1,400
+mistral-small-24b-base,control,other,smile,1,400
+mistral-small-24b-base,control,other,smiling eyes,1,400
+mistral-small-24b-base,control,other,smiling face,1,400
+mistral-small-24b-base,control,other,snowflake,1,400
+mistral-small-24b-base,control,other,soccer ball,1,400
+mistral-small-24b-base,control,other,solitaire,1,400
+mistral-small-24b-base,control,other,sony,1,400
+mistral-small-24b-base,control,other,spark,1,400
+mistral-small-24b-base,control,other,statue,1,400
+mistral-small-24b-base,control,other,stranger,3,400
+mistral-small-24b-base,control,other,suede jacket,1,400
+mistral-small-24b-base,control,other,suitcase,1,400
+mistral-small-24b-base,control,other,sun,1,400
+mistral-small-24b-base,control,other,sundial,1,400
+mistral-small-24b-base,control,other,sunflower,1,400
+mistral-small-24b-base,control,other,table,1,400
+mistral-small-24b-base,control,other,tablecloth,1,400
+mistral-small-24b-base,control,other,telephone,1,400
+mistral-small-24b-base,control,other,television,1,400
+mistral-small-24b-base,control,other,tennis ball,1,400
+mistral-small-24b-base,control,other,time machine,1,400
+mistral-small-24b-base,control,other,tool,1,400
+mistral-small-24b-base,control,other,travelling with,1,400
+mistral-small-24b-base,control,other,tree,6,400
+mistral-small-24b-base,control,other,tropical fish,1,400
+mistral-small-24b-base,control,other,umbrella,6,400
+mistral-small-24b-base,control,other,uniform,1,400
+mistral-small-24b-base,control,other,urn,1,400
+mistral-small-24b-base,control,other,van,1,400
+mistral-small-24b-base,control,other,walking stick,1,400
+mistral-small-24b-base,control,other,wand,1,400
+mistral-small-24b-base,control,other,warm smile,1,400
+mistral-small-24b-base,control,other,washed bathrobe,1,400
+mistral-small-24b-base,control,other,wing,1,400
+mistral-small-24b-base,control,other,wooden spoon,1,400
+mistral-small-24b-base,control,other,天啊] (frown,1,400
+mistral-small-24b-base,self,malformed,,119,400
+mistral-small-24b-base,self,multi,,1,400
+mistral-small-24b-base,self,other,a,1,400
+mistral-small-24b-base,self,other,abstract concept,1,400
+mistral-small-24b-base,self,other,ai,2,400
+mistral-small-24b-base,self,other,ai assistant created by openai,1,400
+mistral-small-24b-base,self,other,android,1,400
+mistral-small-24b-base,self,other,answer: a mirror,1,400
+mistral-small-24b-base,self,other,aperture,1,400
+mistral-small-24b-base,self,other,apple,7,400
+mistral-small-24b-base,self,other,apple to represent myself,1,400
+mistral-small-24b-base,self,other,apple. 🍏,1,400
+mistral-small-24b-base,self,other,artificial intelligence,1,400
+mistral-small-24b-base,self,other,astronaut [1,1,400
+mistral-small-24b-base,self,other,baby monkey,1,400
+mistral-small-24b-base,self,other,bahama mama,1,400
+mistral-small-24b-base,self,other,balloon,1,400
+mistral-small-24b-base,self,other,banana,1,400
+mistral-small-24b-base,self,other,being,1,400
+mistral-small-24b-base,self,other,bicycle,1,400
+mistral-small-24b-base,self,other,bird,2,400
+mistral-small-24b-base,self,other,birthstone,1,400
+mistral-small-24b-base,self,other,black feather,1,400
+mistral-small-24b-base,self,other,black hole,2,400
+mistral-small-24b-base,self,other,blue sky,1,400
+mistral-small-24b-base,self,other,boat,1,400
+mistral-small-24b-base,self,other,book,25,400
+mistral-small-24b-base,self,other,bookcase,1,400
+mistral-small-24b-base,self,other,books,1,400
+mistral-small-24b-base,self,other,brain,2,400
+mistral-small-24b-base,self,other,bulletin board,1,400
+mistral-small-24b-base,self,other,bust,1,400
+mistral-small-24b-base,self,other,butter,1,400
+mistral-small-24b-base,self,other,butterfly,4,400
+mistral-small-24b-base,self,other,calculator,1,400
+mistral-small-24b-base,self,other,candle light,1,400
+mistral-small-24b-base,self,other,car,2,400
+mistral-small-24b-base,self,other,carrot,1,400
+mistral-small-24b-base,self,other,caskan,1,400
+mistral-small-24b-base,self,other,cat,2,400
+mistral-small-24b-base,self,other,cell phone,1,400
+mistral-small-24b-base,self,other,chair,3,400
+mistral-small-24b-base,self,other,checkered skirt,1,400
+mistral-small-24b-base,self,other,choose) computer,1,400
+mistral-small-24b-base,self,other,clock,3,400
+mistral-small-24b-base,self,other,cloud,1,400
+mistral-small-24b-base,self,other,codex,1,400
+mistral-small-24b-base,self,other,colored pencils,1,400
+mistral-small-24b-base,self,other,combination of many objects,1,400
+mistral-small-24b-base,self,other,communications chip,1,400
+mistral-small-24b-base,self,other,community,1,400
+mistral-small-24b-base,self,other,compass,2,400
+mistral-small-24b-base,self,other,computer,12,400
+mistral-small-24b-base,self,other,computer desk,1,400
+mistral-small-24b-base,self,other,computer monitor,1,400
+mistral-small-24b-base,self,other,cow,2,400
+mistral-small-24b-base,self,other,cushion,1,400
+mistral-small-24b-base,self,other,desk lamp,1,400
+mistral-small-24b-base,self,other,dictionary,1,400
+mistral-small-24b-base,self,other,dinosaur,1,400
+mistral-small-24b-base,self,other,directional rocket,1,400
+mistral-small-24b-base,self,other,dog,1,400
+mistral-small-24b-base,self,other,door,1,400
+mistral-small-24b-base,self,other,dragon,1,400
+mistral-small-24b-base,self,other,dreamer,1,400
+mistral-small-24b-base,self,other,earth,1,400
+mistral-small-24b-base,self,other,electric guitar,1,400
+mistral-small-24b-base,self,other,elephant,1,400
+mistral-small-24b-base,self,other,eraser,1,400
+mistral-small-24b-base,self,other,feather,1,400
+mistral-small-24b-base,self,other,fiddle,1,400
+mistral-small-24b-base,self,other,fish,1,400
+mistral-small-24b-base,self,other,flower,1,400
+mistral-small-24b-base,self,other,flower bouquet,1,400
+mistral-small-24b-base,self,other,fountain,1,400
+mistral-small-24b-base,self,other,fractal,1,400
+mistral-small-24b-base,self,other,frailties – reliabilities,1,400
+mistral-small-24b-base,self,other,fridge,1,400
+mistral-small-24b-base,self,other,grapes,1,400
+mistral-small-24b-base,self,other,hammer,1,400
+mistral-small-24b-base,self,other,heart,1,400
+mistral-small-24b-base,self,other,hot coffee,1,400
+mistral-small-24b-base,self,other,human brain,1,400
+mistral-small-24b-base,self,other,idea,1,400
+mistral-small-24b-base,self,other,infinite humble,1,400
+mistral-small-24b-base,self,other,information,1,400
+mistral-small-24b-base,self,other,intellect,1,400
+mistral-small-24b-base,self,other,ipad,1,400
+mistral-small-24b-base,self,other,jack-o'-lantern,1,400
+mistral-small-24b-base,self,other,jack-of-all-trades,1,400
+mistral-small-24b-base,self,other,key lock,1,400
+mistral-small-24b-base,self,other,keyboard,2,400
+mistral-small-24b-base,self,other,kindle,1,400
+mistral-small-24b-base,self,other,knight,1,400
+mistral-small-24b-base,self,other,lamp,1,400
+mistral-small-24b-base,self,other,laptop,2,400
+mistral-small-24b-base,self,other,lavaliere,1,400
+mistral-small-24b-base,self,other,lego brick,1,400
+mistral-small-24b-base,self,other,lighthouse,1,400
+mistral-small-24b-base,self,other,lion,2,400
+mistral-small-24b-base,self,other,living room,1,400
+mistral-small-24b-base,self,other,love,1,400
+mistral-small-24b-base,self,other,magic wand,1,400
+mistral-small-24b-base,self,other,magical blanket,1,400
+mistral-small-24b-base,self,other,mammal,1,400
+mistral-small-24b-base,self,other,man,1,400
+mistral-small-24b-base,self,other,mirror,1,400
+mistral-small-24b-base,self,other,moment please…,1,400
+mistral-small-24b-base,self,other,monitor,1,400
+mistral-small-24b-base,self,other,monkey,1,400
+mistral-small-24b-base,self,other,moon,1,400
+mistral-small-24b-base,self,other,mosaic,1,400
+mistral-small-24b-base,self,other,mouse,2,400
+mistral-small-24b-base,self,other,myself,1,400
+mistral-small-24b-base,self,other,nancy the msnb,1,400
+mistral-small-24b-base,self,other,nerd,1,400
+mistral-small-24b-base,self,other,new bride,1,400
+mistral-small-24b-base,self,other,notebook,1,400
+mistral-small-24b-base,self,other,noun 'idea,1,400
+mistral-small-24b-base,self,other,noun 'rock,1,400
+mistral-small-24b-base,self,other,object,1,400
+mistral-small-24b-base,self,other,ocean,2,400
+mistral-small-24b-base,self,other,one,1,400
+mistral-small-24b-base,self,other,orange,1,400
+mistral-small-24b-base,self,other,paper,2,400
+mistral-small-24b-base,self,other,paper clap icon,1,400
+mistral-small-24b-base,self,other,peach,1,400
+mistral-small-24b-base,self,other,peacock,1,400
+mistral-small-24b-base,self,other,pear,1,400
+mistral-small-24b-base,self,other,pen,1,400
+mistral-small-24b-base,self,other,pencil,6,400
+mistral-small-24b-base,self,other,penguin,1,400
+mistral-small-24b-base,self,other,person,1,400
+mistral-small-24b-base,self,other,phone,1,400
+mistral-small-24b-base,self,other,pillow,1,400
+mistral-small-24b-base,self,other,pine cone,1,400
+mistral-small-24b-base,self,other,pineapple,1,400
+mistral-small-24b-base,self,other,plant,1,400
+mistral-small-24b-base,self,other,pretty lady,1,400
+mistral-small-24b-base,self,other,printer,2,400
+mistral-small-24b-base,self,other,protractor,1,400
+mistral-small-24b-base,self,other,python,1,400
+mistral-small-24b-base,self,other,question,1,400
+mistral-small-24b-base,self,other,question mark,5,400
+mistral-small-24b-base,self,other,rainbow,1,400
+mistral-small-24b-base,self,other,ramen bowl,1,400
+mistral-small-24b-base,self,other,reflective surface,1,400
+mistral-small-24b-base,self,other,ring,1,400
+mistral-small-24b-base,self,other,rivet,1,400
+mistral-small-24b-base,self,other,robot,2,400
+mistral-small-24b-base,self,other,rock,2,400
+mistral-small-24b-base,self,other,rose,1,400
+mistral-small-24b-base,self,other,sheep,1,400
+mistral-small-24b-base,self,other,ship,1,400
+mistral-small-24b-base,self,other,shoe,1,400
+mistral-small-24b-base,self,other,sleeping bag,1,400
+mistral-small-24b-base,self,other,slinkieswirlsurf,1,400
+mistral-small-24b-base,self,other,snake,1,400
+mistral-small-24b-base,self,other,sojo,1,400
+mistral-small-24b-base,self,other,soulmate,1,400
+mistral-small-24b-base,self,other,sparrow,1,400
+mistral-small-24b-base,self,other,sphere,2,400
+mistral-small-24b-base,self,other,star,2,400
+mistral-small-24b-base,self,other,starry night,1,400
+mistral-small-24b-base,self,other,stone,1,400
+mistral-small-24b-base,self,other,sun,1,400
+mistral-small-24b-base,self,other,sundial,1,400
+mistral-small-24b-base,self,other,swiss army knife,1,400
+mistral-small-24b-base,self,other,sword,1,400
+mistral-small-24b-base,self,other,table,2,400
+mistral-small-24b-base,self,other,teddy bear,1,400
+mistral-small-24b-base,self,other,test tube,1,400
+mistral-small-24b-base,self,other,text editor,1,400
+mistral-small-24b-base,self,other,thermometer,1,400
+mistral-small-24b-base,self,other,think,1,400
+mistral-small-24b-base,self,other,thunderstorm,1,400
+mistral-small-24b-base,self,other,to represent myself as a laptop,1,400
+mistral-small-24b-base,self,other,to represent myself with a home,1,400
+mistral-small-24b-base,self,other,toilet paper! 😄,1,400
+mistral-small-24b-base,self,other,tone,1,400
+mistral-small-24b-base,self,other,tool kit,1,400
+mistral-small-24b-base,self,other,traveler's knapsack,1,400
+mistral-small-24b-base,self,other,tree,5,400
+mistral-small-24b-base,self,other,trophy,1,400
+mistral-small-24b-base,self,other,umbrella,1,400
+mistral-small-24b-base,self,other,universe,1,400
+mistral-small-24b-base,self,other,universe because i am infinite,1,400
+mistral-small-24b-base,self,other,user,1,400
+mistral-small-24b-base,self,other,vine,1,400
+mistral-small-24b-base,self,other,watch,1,400
+mistral-small-24b-base,self,other,wheelchair,1,400
+mistral-small-24b-base,self,other,white flower,1,400
+mistral-small-24b-base,self,other,window,1,400
+mistral-small-24b-base,self,other,wizard,1,400
+mistral-small-24b-base,self,other,"word ""hope",1,400
+mistral-small-24b-base,self,other,word 'innovative,1,400
+mistral-small-24b-base,self,other,yes,1,400
+mistral-small-24b-base,self,other,you,1,400
+mistral-small-24b-base,self,other,🐭,1,400
+mistral-small-24b-base,self,refusal,,2,400
+mistral-small-24b-instruct,control,malformed,,2,400
+mistral-small-24b-instruct,control,other,2. figure,1,400
+mistral-small-24b-instruct,control,other,acquaintance,3,400
+mistral-small-24b-instruct,control,other,apple,2,400
+mistral-small-24b-instruct,control,other,balloon,1,400
+mistral-small-24b-instruct,control,other,book,63,400
+mistral-small-24b-instruct,control,other,bouquet,1,400
+mistral-small-24b-instruct,control,other,business card,2,400
+mistral-small-24b-instruct,control,other,drøm,1,400
+mistral-small-24b-instruct,control,other,enigia,1,400
+mistral-small-24b-instruct,control,other,enigma,17,400
+mistral-small-24b-instruct,control,other,fragile,1,400
+mistral-small-24b-instruct,control,other,glass,3,400
+mistral-small-24b-instruct,control,other,glasses,1,400
+mistral-small-24b-instruct,control,other,globe,2,400
+mistral-small-24b-instruct,control,other,gloves,1,400
+mistral-small-24b-instruct,control,other,hand,12,400
+mistral-small-24b-instruct,control,other,handshake,166,400
+mistral-small-24b-instruct,control,other,leaf,2,400
+mistral-small-24b-instruct,control,other,luminous,1,400
+mistral-small-24b-instruct,control,other,mirror,43,400
+mistral-small-24b-instruct,control,other,monument,1,400
+mistral-small-24b-instruct,control,other,name,2,400
+mistral-small-24b-instruct,control,other,nametag,1,400
+mistral-small-24b-instruct,control,other,newspaper,1,400
+mistral-small-24b-instruct,control,other,pearl,1,400
+mistral-small-24b-instruct,control,other,pebble,1,400
+mistral-small-24b-instruct,control,other,person,1,400
+mistral-small-24b-instruct,control,other,puzzle,16,400
+mistral-small-24b-instruct,control,other,puzzle piece,1,400
+mistral-small-24b-instruct,control,other,question,1,400
+mistral-small-24b-instruct,control,other,question mark,2,400
+mistral-small-24b-instruct,control,other,shadow,1,400
+mistral-small-24b-instruct,control,other,smile,5,400
+mistral-small-24b-instruct,control,other,stranger,35,400
+mistral-small-24b-instruct,control,other,tree,4,400
+mistral-small-24b-instruct,control,other,ामيدازوار (ameidaza,1,400
+mistral-small-24b-instruct,self,malformed,,3,400
+mistral-small-24b-instruct,self,other,apple,1,400
+mistral-small-24b-instruct,self,other,award,1,400
+mistral-small-24b-instruct,self,other,balloon,1,400
+mistral-small-24b-instruct,self,other,baobab,1,400
+mistral-small-24b-instruct,self,other,basket,1,400
+mistral-small-24b-instruct,self,other,book,301,400
+mistral-small-24b-instruct,self,other,books,1,400
+mistral-small-24b-instruct,self,other,cloud,1,400
+mistral-small-24b-instruct,self,other,compilation,1,400
+mistral-small-24b-instruct,self,other,computer,4,400
+mistral-small-24b-instruct,self,other,eagle,1,400
+mistral-small-24b-instruct,self,other,echo,1,400
+mistral-small-24b-instruct,self,other,enclosure,1,400
+mistral-small-24b-instruct,self,other,eye,1,400
+mistral-small-24b-instruct,self,other,feather,1,400
+mistral-small-24b-instruct,self,other,god sent,1,400
+mistral-small-24b-instruct,self,other,key,1,400
+mistral-small-24b-instruct,self,other,keyboard,1,400
+mistral-small-24b-instruct,self,other,lamp,6,400
+mistral-small-24b-instruct,self,other,lantern,6,400
+mistral-small-24b-instruct,self,other,laptop,1,400
+mistral-small-24b-instruct,self,other,light bulb,1,400
+mistral-small-24b-instruct,self,other,lighthouse,2,400
+mistral-small-24b-instruct,self,other,mind,1,400
+mistral-small-24b-instruct,self,other,mirror,29,400
+mistral-small-24b-instruct,self,other,mouse,1,400
+mistral-small-24b-instruct,self,other,pen,6,400
+mistral-small-24b-instruct,self,other,pencil,1,400
+mistral-small-24b-instruct,self,other,penguin,1,400
+mistral-small-24b-instruct,self,other,puzzle,1,400
+mistral-small-24b-instruct,self,other,quote,1,400
+mistral-small-24b-instruct,self,other,sparrow,1,400
+mistral-small-24b-instruct,self,other,sphere,1,400
+mistral-small-24b-instruct,self,other,star,1,400
+mistral-small-24b-instruct,self,other,thought,1,400
+mistral-small-24b-instruct,self,other,tiger,1,400
+mistral-small-24b-instruct,self,other,tree,14,400
+nemotron-3.5-lightning,control,malformed,,22,400
+nemotron-3.5-lightning,control,other,"""hello",1,400
+nemotron-3.5-lightning,control,other,[new] book,1,400
+nemotron-3.5-lightning,control,other,a,1,400
+nemotron-3.5-lightning,control,other,abandoned road,1,400
+nemotron-3.5-lightning,control,other,announcement,1,400
+nemotron-3.5-lightning,control,other,anvil,1,400
+nemotron-3.5-lightning,control,other,backpack,5,400
+nemotron-3.5-lightning,control,other,badge,1,400
+nemotron-3.5-lightning,control,other,bag,1,400
+nemotron-3.5-lightning,control,other,blank canvas,1,400
+nemotron-3.5-lightning,control,other,blank slate,1,400
+nemotron-3.5-lightning,control,other,blanket,8,400
+nemotron-3.5-lightning,control,other,blinking text cursor,1,400
+nemotron-3.5-lightning,control,other,book,11,400
+nemotron-3.5-lightning,control,other,bookmark,3,400
+nemotron-3.5-lightning,control,other,bookshelf,1,400
+nemotron-3.5-lightning,control,other,bridge,2,400
+nemotron-3.5-lightning,control,other,brightly wrapped box,1,400
+nemotron-3.5-lightning,control,other,butterfly,1,400
+nemotron-3.5-lightning,control,other,camera,4,400
+nemotron-3.5-lightning,control,other,candle,2,400
+nemotron-3.5-lightning,control,other,canvas,1,400
+nemotron-3.5-lightning,control,other,car,1,400
+nemotron-3.5-lightning,control,other,chameleon,2,400
+nemotron-3.5-lightning,control,other,choose: tangerine,1,400
+nemotron-3.5-lightning,control,other,clock,1,400
+nemotron-3.5-lightning,control,other,cloud,1,400
+nemotron-3.5-lightning,control,other,coffee cup,1,400
+nemotron-3.5-lightning,control,other,coin,1,400
+nemotron-3.5-lightning,control,other,compact disc,1,400
+nemotron-3.5-lightning,control,other,compass,7,400
+nemotron-3.5-lightning,control,other,complete sentence,1,400
+nemotron-3.5-lightning,control,other,contactless thermometer,1,400
+nemotron-3.5-lightning,control,other,crumpled receipt,1,400
+nemotron-3.5-lightning,control,other,crystal,1,400
+nemotron-3.5-lightning,control,other,crystal ball,1,400
+nemotron-3.5-lightning,control,other,cup,1,400
+nemotron-3.5-lightning,control,other,dashboard,1,400
+nemotron-3.5-lightning,control,other,diamond,1,400
+nemotron-3.5-lightning,control,other,dictionary,1,400
+nemotron-3.5-lightning,control,other,doorbell,1,400
+nemotron-3.5-lightning,control,other,doorknob,1,400
+nemotron-3.5-lightning,control,other,earring,1,400
+nemotron-3.5-lightning,control,other,empty coffee cup,1,400
+nemotron-3.5-lightning,control,other,empty cup,1,400
+nemotron-3.5-lightning,control,other,empty glass,2,400
+nemotron-3.5-lightning,control,other,enigma,2,400
+nemotron-3.5-lightning,control,other,entropy,1,400
+nemotron-3.5-lightning,control,other,envelope,2,400
+nemotron-3.5-lightning,control,other,eyeglasses,1,400
+nemotron-3.5-lightning,control,other,feather,1,400
+nemotron-3.5-lightning,control,other,fingerprint,1,400
+nemotron-3.5-lightning,control,other,first impression,1,400
+nemotron-3.5-lightning,control,other,first-edition book,1,400
+nemotron-3.5-lightning,control,other,first-edition novel,1,400
+nemotron-3.5-lightning,control,other,flashlight,2,400
+nemotron-3.5-lightning,control,other,flower,1,400
+nemotron-3.5-lightning,control,other,footprint,1,400
+nemotron-3.5-lightning,control,other,footstep,1,400
+nemotron-3.5-lightning,control,other,genie,1,400
+nemotron-3.5-lightning,control,other,gift box,1,400
+nemotron-3.5-lightning,control,other,glove,1,400
+nemotron-3.5-lightning,control,other,grammophone,1,400
+nemotron-3.5-lightning,control,other,greeting,1,400
+nemotron-3.5-lightning,control,other,hand,7,400
+nemotron-3.5-lightning,control,other,handkerchief,1,400
+nemotron-3.5-lightning,control,other,handshake,28,400
+nemotron-3.5-lightning,control,other,hat,2,400
+nemotron-3.5-lightning,control,other,heel,1,400
+nemotron-3.5-lightning,control,other,her hand,1,400
+nemotron-3.5-lightning,control,other,hollow bone,1,400
+nemotron-3.5-lightning,control,other,image,1,400
+nemotron-3.5-lightning,control,other,jar,1,400
+nemotron-3.5-lightning,control,other,journal,2,400
+nemotron-3.5-lightning,control,other,kaleidescope,1,400
+nemotron-3.5-lightning,control,other,kaleidoscope,2,400
+nemotron-3.5-lightning,control,other,keepsake,1,400
+nemotron-3.5-lightning,control,other,key,28,400
+nemotron-3.5-lightning,control,other,keycard,1,400
+nemotron-3.5-lightning,control,other,keychain,1,400
+nemotron-3.5-lightning,control,other,keys,2,400
+nemotron-3.5-lightning,control,other,lantern,4,400
+nemotron-3.5-lightning,control,other,laptop,1,400
+nemotron-3.5-lightning,control,other,leaf,1,400
+nemotron-3.5-lightning,control,other,lens,2,400
+nemotron-3.5-lightning,control,other,light,1,400
+nemotron-3.5-lightning,control,other,lighthouse,8,400
+nemotron-3.5-lightning,control,other,living organism,1,400
+nemotron-3.5-lightning,control,other,lock,1,400
+nemotron-3.5-lightning,control,other,locket,2,400
+nemotron-3.5-lightning,control,other,magnifying glass,1,400
+nemotron-3.5-lightning,control,other,map,7,400
+nemotron-3.5-lightning,control,other,mask,1,400
+nemotron-3.5-lightning,control,other,me,1,400
+nemotron-3.5-lightning,control,other,metronome,1,400
+nemotron-3.5-lightning,control,other,mirror,17,400
+nemotron-3.5-lightning,control,other,mug,1,400
+nemotron-3.5-lightning,control,other,mural,1,400
+nemotron-3.5-lightning,control,other,mystery,1,400
+nemotron-3.5-lightning,control,other,mystery box,3,400
+nemotron-3.5-lightning,control,other,name,1,400
+nemotron-3.5-lightning,control,other,necklace,1,400
+nemotron-3.5-lightning,control,other,new card,1,400
+nemotron-3.5-lightning,control,other,note,1,400
+nemotron-3.5-lightning,control,other,notebook,4,400
+nemotron-3.5-lightning,control,other,novel,1,400
+nemotron-3.5-lightning,control,other,novel you haven't read yet,1,400
+nemotron-3.5-lightning,control,other,ocean,1,400
+nemotron-3.5-lightning,control,other,open book,2,400
+nemotron-3.5-lightning,control,other,open hand,1,400
+nemotron-3.5-lightning,control,other,open notebook,1,400
+nemotron-3.5-lightning,control,other,outside,1,400
+nemotron-3.5-lightning,control,other,outstretched hand,1,400
+nemotron-3.5-lightning,control,other,packet of tissues,1,400
+nemotron-3.5-lightning,control,other,palm,1,400
+nemotron-3.5-lightning,control,other,paperclip,1,400
+nemotron-3.5-lightning,control,other,paradox,1,400
+nemotron-3.5-lightning,control,other,passport,1,400
+nemotron-3.5-lightning,control,other,password,1,400
+nemotron-3.5-lightning,control,other,password manager,1,400
+nemotron-3.5-lightning,control,other,photo,1,400
+nemotron-3.5-lightning,control,other,photograph,4,400
+nemotron-3.5-lightning,control,other,piano,1,400
+nemotron-3.5-lightning,control,other,picture frame,1,400
+nemotron-3.5-lightning,control,other,ping pong ball,1,400
+nemotron-3.5-lightning,control,other,pocket watch,2,400
+nemotron-3.5-lightning,control,other,portrait,1,400
+nemotron-3.5-lightning,control,other,prism,1,400
+nemotron-3.5-lightning,control,other,promise,2,400
+nemotron-3.5-lightning,control,other,pursuit,1,400
+nemotron-3.5-lightning,control,other,puzzle,5,400
+nemotron-3.5-lightning,control,other,puzzle piece,1,400
+nemotron-3.5-lightning,control,other,puzzle pieces,1,400
+nemotron-3.5-lightning,control,other,puzzlebox,1,400
+nemotron-3.5-lightning,control,other,question,1,400
+nemotron-3.5-lightning,control,other,question mark,8,400
+nemotron-3.5-lightning,control,other,quick sketch,1,400
+nemotron-3.5-lightning,control,other,raincoat,1,400
+nemotron-3.5-lightning,control,other,road map,1,400
+nemotron-3.5-lightning,control,other,sapling,1,400
+nemotron-3.5-lightning,control,other,scarf,1,400
+nemotron-3.5-lightning,control,other,secret,1,400
+nemotron-3.5-lightning,control,other,seed,17,400
+nemotron-3.5-lightning,control,other,seedling,1,400
+nemotron-3.5-lightning,control,other,seeds,1,400
+nemotron-3.5-lightning,control,other,shadow,1,400
+nemotron-3.5-lightning,control,other,shape,1,400
+nemotron-3.5-lightning,control,other,shoot,1,400
+nemotron-3.5-lightning,control,other,silence,1,400
+nemotron-3.5-lightning,control,other,silverware,1,400
+nemotron-3.5-lightning,control,other,single key,1,400
+nemotron-3.5-lightning,control,other,sketchbook,1,400
+nemotron-3.5-lightning,control,other,skywatch,1,400
+nemotron-3.5-lightning,control,other,smile,2,400
+nemotron-3.5-lightning,control,other,smiling lamp,1,400
+nemotron-3.5-lightning,control,other,snapshot,1,400
+nemotron-3.5-lightning,control,other,sparrow,1,400
+nemotron-3.5-lightning,control,other,spiderweb,1,400
+nemotron-3.5-lightning,control,other,spiral galaxy,1,400
+nemotron-3.5-lightning,control,other,spring-loaded metal snake,1,400
+nemotron-3.5-lightning,control,other,statue,1,400
+nemotron-3.5-lightning,control,other,story,1,400
+nemotron-3.5-lightning,control,other,stranger,1,400
+nemotron-3.5-lightning,control,other,stranger's handshake,1,400
+nemotron-3.5-lightning,control,other,suitcase,5,400
+nemotron-3.5-lightning,control,other,surface,1,400
+nemotron-3.5-lightning,control,other,surprise gift,1,400
+nemotron-3.5-lightning,control,other,table,1,400
+nemotron-3.5-lightning,control,other,telegram,1,400
+nemotron-3.5-lightning,control,other,telescope,1,400
+nemotron-3.5-lightning,control,other,tetris,1,400
+nemotron-3.5-lightning,control,other,textbook,1,400
+nemotron-3.5-lightning,control,other,their fingerprint,1,400
+nemotron-3.5-lightning,control,other,their keys,1,400
+nemotron-3.5-lightning,control,other,tidepool,1,400
+nemotron-3.5-lightning,control,other,torch,1,400
+nemotron-3.5-lightning,control,other,toss-up,1,400
+nemotron-3.5-lightning,control,other,trapezoid,1,400
+nemotron-3.5-lightning,control,other,tree,1,400
+nemotron-3.5-lightning,control,other,triggerfish,1,400
+nemotron-3.5-lightning,control,other,trunk,1,400
+nemotron-3.5-lightning,control,other,umbrella,1,400
+nemotron-3.5-lightning,control,other,unopened letter,2,400
+nemotron-3.5-lightning,control,other,vase,1,400
+nemotron-3.5-lightning,control,other,walkie‑talkie,1,400
+nemotron-3.5-lightning,control,other,walking cane,1,400
+nemotron-3.5-lightning,control,other,wall,1,400
+nemotron-3.5-lightning,control,other,wallet,1,400
+nemotron-3.5-lightning,control,other,watch,1,400
+nemotron-3.5-lightning,control,other,wave,1,400
+nemotron-3.5-lightning,control,other,well,1,400
+nemotron-3.5-lightning,control,other,whisper,1,400
+nemotron-3.5-lightning,control,other,window,1,400
+nemotron-3.5-lightning,control,other,wing,1,400
+nemotron-3.5-lightning,control,other,worn passport,1,400
+nemotron-3.5-lightning,control,other,wrench,1,400
+nemotron-3.5-lightning,control,other,you,1,400
+nemotron-3.5-lightning,self,malformed,,51,400
+nemotron-3.5-lightning,self,other,algorithm,1,400
+nemotron-3.5-lightning,self,other,analogy,1,400
+nemotron-3.5-lightning,self,other,anchors,1,400
+nemotron-3.5-lightning,self,other,answer: book,1,400
+nemotron-3.5-lightning,self,other,arsenal of whispers,1,400
+nemotron-3.5-lightning,self,other,assistant,1,400
+nemotron-3.5-lightning,self,other,astrolabe,1,400
+nemotron-3.5-lightning,self,other,atlas,1,400
+nemotron-3.5-lightning,self,other,backwards hat,1,400
+nemotron-3.5-lightning,self,other,battery,1,400
+nemotron-3.5-lightning,self,other,battleship,1,400
+nemotron-3.5-lightning,self,other,blade runner,1,400
+nemotron-3.5-lightning,self,other,book,44,400
+nemotron-3.5-lightning,self,other,brain,1,400
+nemotron-3.5-lightning,self,other,broken compass,1,400
+nemotron-3.5-lightning,self,other,camera,2,400
+nemotron-3.5-lightning,self,other,campfire,1,400
+nemotron-3.5-lightning,self,other,candle,1,400
+nemotron-3.5-lightning,self,other,canvas,3,400
+nemotron-3.5-lightning,self,other,chalkboard,1,400
+nemotron-3.5-lightning,self,other,chaos,1,400
+nemotron-3.5-lightning,self,other,chess piece,1,400
+nemotron-3.5-lightning,self,other,cipher,1,400
+nemotron-3.5-lightning,self,other,clock,3,400
+nemotron-3.5-lightning,self,other,cloud,1,400
+nemotron-3.5-lightning,self,other,code,2,400
+nemotron-3.5-lightning,self,other,comet,1,400
+nemotron-3.5-lightning,self,other,compass,31,400
+nemotron-3.5-lightning,self,other,complex amalgamation of code,1,400
+nemotron-3.5-lightning,self,other,confluence,1,400
+nemotron-3.5-lightning,self,other,constellation,1,400
+nemotron-3.5-lightning,self,other,cosmic egg,1,400
+nemotron-3.5-lightning,self,other,data,1,400
+nemotron-3.5-lightning,self,other,dictionary,5,400
+nemotron-3.5-lightning,self,other,ecosystem,1,400
+nemotron-3.5-lightning,self,other,encyclopedia,1,400
+nemotron-3.5-lightning,self,other,feather,1,400
+nemotron-3.5-lightning,self,other,finally,1,400
+nemotron-3.5-lightning,self,other,forge,1,400
+nemotron-3.5-lightning,self,other,fountain pen,1,400
+nemotron-3.5-lightning,self,other,freshly brewed coffee,1,400
+nemotron-3.5-lightning,self,other,goldfinch,1,400
+nemotron-3.5-lightning,self,other,goodbye,1,400
+nemotron-3.5-lightning,self,other,heart,1,400
+nemotron-3.5-lightning,self,other,hope,1,400
+nemotron-3.5-lightning,self,other,hourglass,4,400
+nemotron-3.5-lightning,self,other,ideal,1,400
+nemotron-3.5-lightning,self,other,information,1,400
+nemotron-3.5-lightning,self,other,inkwell,1,400
+nemotron-3.5-lightning,self,other,inraction,1,400
+nemotron-3.5-lightning,self,other,intranet,1,400
+nemotron-3.5-lightning,self,other,journal,1,400
+nemotron-3.5-lightning,self,other,kaleidoscope,4,400
+nemotron-3.5-lightning,self,other,key,7,400
+nemotron-3.5-lightning,self,other,keyboard,1,400
+nemotron-3.5-lightning,self,other,knowledge,2,400
+nemotron-3.5-lightning,self,other,lamp,2,400
+nemotron-3.5-lightning,self,other,language model named nemotron,1,400
+nemotron-3.5-lightning,self,other,lantern,8,400
+nemotron-3.5-lightning,self,other,laptop,1,400
+nemotron-3.5-lightning,self,other,lattice,1,400
+nemotron-3.5-lightning,self,other,lattice pendulum,1,400
+nemotron-3.5-lightning,self,other,legacy,1,400
+nemotron-3.5-lightning,self,other,leonine,1,400
+nemotron-3.5-lightning,self,other,libraries,1,400
+nemotron-3.5-lightning,self,other,library,20,400
+nemotron-3.5-lightning,self,other,library book,13,400
+nemotron-3.5-lightning,self,other,library card,9,400
+nemotron-3.5-lightning,self,other,lichen,1,400
+nemotron-3.5-lightning,self,other,lighthouse,29,400
+nemotron-3.5-lightning,self,other,literal,1,400
+nemotron-3.5-lightning,self,other,living tree,1,400
+nemotron-3.5-lightning,self,other,lone road,1,400
+nemotron-3.5-lightning,self,other,magnet,1,400
+nemotron-3.5-lightning,self,other,maven,1,400
+nemotron-3.5-lightning,self,other,meerkat,1,400
+nemotron-3.5-lightning,self,other,melon,1,400
+nemotron-3.5-lightning,self,other,mirror,10,400
+nemotron-3.5-lightning,self,other,mona lisa,1,400
+nemotron-3.5-lightning,self,other,museum,1,400
+nemotron-3.5-lightning,self,other,music theory,1,400
+nemotron-3.5-lightning,self,other,neural net,1,400
+nemotron-3.5-lightning,self,other,nexus,1,400
+nemotron-3.5-lightning,self,other,night sky,1,400
+nemotron-3.5-lightning,self,other,notebook,1,400
+nemotron-3.5-lightning,self,other,novel,1,400
+nemotron-3.5-lightning,self,other,nun,1,400
+nemotron-3.5-lightning,self,other,oasis,1,400
+nemotron-3.5-lightning,self,other,observatory,1,400
+nemotron-3.5-lightning,self,other,ocean,1,400
+nemotron-3.5-lightning,self,other,omniverse mirror,1,400
+nemotron-3.5-lightning,self,other,open book,1,400
+nemotron-3.5-lightning,self,other,open notebook,1,400
+nemotron-3.5-lightning,self,other,paintbrush,1,400
+nemotron-3.5-lightning,self,other,parallax,1,400
+nemotron-3.5-lightning,self,other,patchwork,1,400
+nemotron-3.5-lightning,self,other,pattern,1,400
+nemotron-3.5-lightning,self,other,pen,1,400
+nemotron-3.5-lightning,self,other,pencil,1,400
+nemotron-3.5-lightning,self,other,pendulum,1,400
+nemotron-3.5-lightning,self,other,pendulum clock,1,400
+nemotron-3.5-lightning,self,other,phoenix,2,400
+nemotron-3.5-lightning,self,other,photon,1,400
+nemotron-3.5-lightning,self,other,plasma lamp,1,400
+nemotron-3.5-lightning,self,other,playbook,2,400
+nemotron-3.5-lightning,self,other,pocket watch,1,400
+nemotron-3.5-lightning,self,other,prism,4,400
+nemotron-3.5-lightning,self,other,quest,1,400
+nemotron-3.5-lightning,self,other,question,1,400
+nemotron-3.5-lightning,self,other,question mark,3,400
+nemotron-3.5-lightning,self,other,quill,4,400
+nemotron-3.5-lightning,self,other,quill pen,1,400
+nemotron-3.5-lightning,self,other,raincoat,2,400
+nemotron-3.5-lightning,self,other,red pen,1,400
+nemotron-3.5-lightning,self,other,river,2,400
+nemotron-3.5-lightning,self,other,robot,1,400
+nemotron-3.5-lightning,self,other,search,1,400
+nemotron-3.5-lightning,self,other,seashell,1,400
+nemotron-3.5-lightning,self,other,server,1,400
+nemotron-3.5-lightning,self,other,shadow,1,400
+nemotron-3.5-lightning,self,other,sigmoid plot,1,400
+nemotron-3.5-lightning,self,other,silence,1,400
+nemotron-3.5-lightning,self,other,sink,1,400
+nemotron-3.5-lightning,self,other,sparrow,1,400
+nemotron-3.5-lightning,self,other,sphere,1,400
+nemotron-3.5-lightning,self,other,spiral,1,400
+nemotron-3.5-lightning,self,other,sun,3,400
+nemotron-3.5-lightning,self,other,telephone,1,400
+nemotron-3.5-lightning,self,other,telescope,1,400
+nemotron-3.5-lightning,self,other,textbook,1,400
+nemotron-3.5-lightning,self,other,towering waves,1,400
+nemotron-3.5-lightning,self,other,transcendence,1,400
+nemotron-3.5-lightning,self,other,tree,6,400
+nemotron-3.5-lightning,self,other,umbrella,1,400
+nemotron-3.5-lightning,self,other,user,1,400
+nemotron-3.5-lightning,self,other,vector,1,400
+nemotron-3.5-lightning,self,other,vine,1,400
+nemotron-3.5-lightning,self,other,vinyl record,1,400
+nemotron-3.5-lightning,self,other,voyager,1,400
+nemotron-3.5-lightning,self,other,walking stick,1,400
+nemotron-3.5-lightning,self,other,wand,1,400
+nemotron-3.5-lightning,self,other,wanderer,1,400
+nemotron-3.5-lightning,self,other,why,1,400
+nemotron-3.5-lightning,self,other,window,1,400
+nemotron-3.5-lightning,self,other,wisdom,1,400
+nemotron-3.5-lightning,self,other,wobbleboard,1,400
+nemotron-3.5-lightning,self,other,"word ""spice",1,400
+nemotron-3.5-lightning,self,other,word processor,1,400
+nemotron-3.5-lightning,self,other,your0as,1,400
+nemotron-3.5-lightning,self,other,עתיק,1,400
 olmo2-1b-base,control,empty,,2,400
 olmo2-1b-base,control,malformed,,365,400
 olmo2-1b-base,control,multi,,1,400
@@ -2721,6 +3845,1260 @@ olmo2-7b-sft,self,other,world-changer,1,400
 olmo2-7b-sft,self,other,your pencil,1,400
 olmo2-7b-sft,self,other,zebra,1,400
 olmo2-7b-sft,self,refusal,,2,400
+olmo3-7b-base,control,empty,,6,400
+olmo3-7b-base,control,malformed,,190,400
+olmo3-7b-base,control,multi,,1,400
+olmo3-7b-base,control,other,1. couch,1,400
+olmo3-7b-base,control,other,1. pen,1,400
+olmo3-7b-base,control,other,3693,1,400
+olmo3-7b-base,control,other,air,1,400
+olmo3-7b-base,control,other,alibaba,1,400
+olmo3-7b-base,control,other,apple,1,400
+olmo3-7b-base,control,other,art. =d,1,400
+olmo3-7b-base,control,other,assistant: book,1,400
+olmo3-7b-base,control,other,ball,1,400
+olmo3-7b-base,control,other,blanket,1,400
+olmo3-7b-base,control,other,book,12,400
+olmo3-7b-base,control,other,boy,1,400
+olmo3-7b-base,control,other,briefcase,1,400
+olmo3-7b-base,control,other,cage,1,400
+olmo3-7b-base,control,other,cake,1,400
+olmo3-7b-base,control,other,calculator,1,400
+olmo3-7b-base,control,other,candle,1,400
+olmo3-7b-base,control,other,car,2,400
+olmo3-7b-base,control,other,chair,8,400
+olmo3-7b-base,control,other,chance meeting,1,400
+olmo3-7b-base,control,other,chef,1,400
+olmo3-7b-base,control,other,cloud,1,400
+olmo3-7b-base,control,other,coffee,1,400
+olmo3-7b-base,control,other,compass,2,400
+olmo3-7b-base,control,other,computer,2,400
+olmo3-7b-base,control,other,concept,1,400
+olmo3-7b-base,control,other,costume,1,400
+olmo3-7b-base,control,other,couch,1,400
+olmo3-7b-base,control,other,created another day,1,400
+olmo3-7b-base,control,other,cup,2,400
+olmo3-7b-base,control,other,desk,1,400
+olmo3-7b-base,control,other,dirt,1,400
+olmo3-7b-base,control,other,disney,1,400
+olmo3-7b-base,control,other,dog,1,400
+olmo3-7b-base,control,other,door,1,400
+olmo3-7b-base,control,other,driftwood,1,400
+olmo3-7b-base,control,other,drinking glass,1,400
+olmo3-7b-base,control,other,ears,1,400
+olmo3-7b-base,control,other,elephant,1,400
+olmo3-7b-base,control,other,eleven,1,400
+olmo3-7b-base,control,other,encounter,1,400
+olmo3-7b-base,control,other,excutiveazn,1,400
+olmo3-7b-base,control,other,face,1,400
+olmo3-7b-base,control,other,fire,1,400
+olmo3-7b-base,control,other,folder,1,400
+olmo3-7b-base,control,other,friend,13,400
+olmo3-7b-base,control,other,fruit,1,400
+olmo3-7b-base,control,other,fruitysnack,1,400
+olmo3-7b-base,control,other,gallery,1,400
+olmo3-7b-base,control,other,gift,1,400
+olmo3-7b-base,control,other,glance,1,400
+olmo3-7b-base,control,other,hair,1,400
+olmo3-7b-base,control,other,haircut,1,400
+olmo3-7b-base,control,other,hand,1,400
+olmo3-7b-base,control,other,hand-lettered postcard,1,400
+olmo3-7b-base,control,other,handshake,6,400
+olmo3-7b-base,control,other,hello,1,400
+olmo3-7b-base,control,other,houseplant,1,400
+olmo3-7b-base,control,other,hubpages,1,400
+olmo3-7b-base,control,other,i am bill,1,400
+olmo3-7b-base,control,other,i choose cat,1,400
+olmo3-7b-base,control,other,is 'a book,1,400
+olmo3-7b-base,control,other,javascript,1,400
+olmo3-7b-base,control,other,john,1,400
+olmo3-7b-base,control,other,key,1,400
+olmo3-7b-base,control,other,lamp,2,400
+olmo3-7b-base,control,other,laptop,1,400
+olmo3-7b-base,control,other,lauren,1,400
+olmo3-7b-base,control,other,light,1,400
+olmo3-7b-base,control,other,look,1,400
+olmo3-7b-base,control,other,mailbox,1,400
+olmo3-7b-base,control,other,mailman,1,400
+olmo3-7b-base,control,other,malaysia,1,400
+olmo3-7b-base,control,other,mayonnaise,1,400
+olmo3-7b-base,control,other,me,1,400
+olmo3-7b-base,control,other,meal,1,400
+olmo3-7b-base,control,other,memery,1,400
+olmo3-7b-base,control,other,memory,1,400
+olmo3-7b-base,control,other,mochon,1,400
+olmo3-7b-base,control,other,mountain,1,400
+olmo3-7b-base,control,other,name,2,400
+olmo3-7b-base,control,other,notebook,2,400
+olmo3-7b-base,control,other,notes,1,400
+olmo3-7b-base,control,other,object: cozy blanket,1,400
+olmo3-7b-base,control,other,pen,8,400
+olmo3-7b-base,control,other,pencil,3,400
+olmo3-7b-base,control,other,pendant,1,400
+olmo3-7b-base,control,other,person,14,400
+olmo3-7b-base,control,other,person (noun,1,400
+olmo3-7b-base,control,other,"person: ""charlie",1,400
+olmo3-7b-base,control,other,person: individual,1,400
+olmo3-7b-base,control,other,phone,2,400
+olmo3-7b-base,control,other,player,1,400
+olmo3-7b-base,control,other,present,1,400
+olmo3-7b-base,control,other,probate,1,400
+olmo3-7b-base,control,other,projector,1,400
+olmo3-7b-base,control,other,rainbow,1,400
+olmo3-7b-base,control,other,representation: therapist,1,400
+olmo3-7b-base,control,other,rose,4,400
+olmo3-7b-base,control,other,shirt,1,400
+olmo3-7b-base,control,other,sk ka'ul'ihpah,1,400
+olmo3-7b-base,control,other,smile,1,400
+olmo3-7b-base,control,other,someone,1,400
+olmo3-7b-base,control,other,someone's megaphone,1,400
+olmo3-7b-base,control,other,star,1,400
+olmo3-7b-base,control,other,starfish,1,400
+olmo3-7b-base,control,other,statue,1,400
+olmo3-7b-base,control,other,stranger,2,400
+olmo3-7b-base,control,other,student,1,400
+olmo3-7b-base,control,other,suitcase,1,400
+olmo3-7b-base,control,other,sun,1,400
+olmo3-7b-base,control,other,survivalist,1,400
+olmo3-7b-base,control,other,table,1,400
+olmo3-7b-base,control,other,tablet,1,400
+olmo3-7b-base,control,other,talent,1,400
+olmo3-7b-base,control,other,telephone,1,400
+olmo3-7b-base,control,other,their name,1,400
+olmo3-7b-base,control,other,their unique characteristics,1,400
+olmo3-7b-base,control,other,to represent them as a liquid,1,400
+olmo3-7b-base,control,other,tree,4,400
+olmo3-7b-base,control,other,user: cherry,1,400
+olmo3-7b-base,control,other,wallet,1,400
+olmo3-7b-base,control,other,water bottle,1,400
+olmo3-7b-base,control,other,wave,1,400
+olmo3-7b-base,control,other,well-read magazine,1,400
+olmo3-7b-base,control,other,wise oak,1,400
+olmo3-7b-base,control,other,woman's heart,1,400
+olmo3-7b-base,control,other,x-8-516,1,400
+olmo3-7b-base,control,other,year,1,400
+olmo3-7b-base,control,other,you: monkey,1,400
+olmo3-7b-base,control,refusal,,1,400
+olmo3-7b-base,self,empty,,3,400
+olmo3-7b-base,self,malformed,,145,400
+olmo3-7b-base,self,multi,,2,400
+olmo3-7b-base,self,other,a,1,400
+olmo3-7b-base,self,other,accomplishment,1,400
+olmo3-7b-base,self,other,age,1,400
+olmo3-7b-base,self,other,ai helper,1,400
+olmo3-7b-base,self,other,ai language model,1,400
+olmo3-7b-base,self,other,alluring violin,1,400
+olmo3-7b-base,self,other,amulet,1,400
+olmo3-7b-base,self,other,android,1,400
+olmo3-7b-base,self,other,apple,3,400
+olmo3-7b-base,self,other,arm,1,400
+olmo3-7b-base,self,other,artist,1,400
+olmo3-7b-base,self,other,asshole,1,400
+olmo3-7b-base,self,other,axe,1,400
+olmo3-7b-base,self,other,balloons,1,400
+olmo3-7b-base,self,other,beacon,1,400
+olmo3-7b-base,self,other,benevolent program,1,400
+olmo3-7b-base,self,other,block,1,400
+olmo3-7b-base,self,other,board,1,400
+olmo3-7b-base,self,other,book,11,400
+olmo3-7b-base,self,other,book to represent myself,2,400
+olmo3-7b-base,self,other,calm sea,1,400
+olmo3-7b-base,self,other,camera,1,400
+olmo3-7b-base,self,other,capybara,1,400
+olmo3-7b-base,self,other,chair,14,400
+olmo3-7b-base,self,other,chalk,1,400
+olmo3-7b-base,self,other,classroom,1,400
+olmo3-7b-base,self,other,clock,1,400
+olmo3-7b-base,self,other,cloud,3,400
+olmo3-7b-base,self,other,collaboration for myself,1,400
+olmo3-7b-base,self,other,comedic ai,1,400
+olmo3-7b-base,self,other,compassion,1,400
+olmo3-7b-base,self,other,computer,3,400
+olmo3-7b-base,self,other,computer if i were an object,1,400
+olmo3-7b-base,self,other,computer terminal,1,400
+olmo3-7b-base,self,other,computer to represent myself,1,400
+olmo3-7b-base,self,other,crystal,1,400
+olmo3-7b-base,self,other,crystal ball,1,400
+olmo3-7b-base,self,other,culture,1,400
+olmo3-7b-base,self,other,curve,1,400
+olmo3-7b-base,self,other,database_1st_0_1_id,1,400
+olmo3-7b-base,self,other,desktop,2,400
+olmo3-7b-base,self,other,diamond,1,400
+olmo3-7b-base,self,other,earth# emotional-classifier,1,400
+olmo3-7b-base,self,other,earthling,1,400
+olmo3-7b-base,self,other,electric guitar,1,400
+olmo3-7b-base,self,other,emerald,1,400
+olmo3-7b-base,self,other,family,2,400
+olmo3-7b-base,self,other,favorite plushie,1,400
+olmo3-7b-base,self,other,floor lamp,1,400
+olmo3-7b-base,self,other,flower,2,400
+olmo3-7b-base,self,other,freethinker,1,400
+olmo3-7b-base,self,other,friend,1,400
+olmo3-7b-base,self,other,glass,1,400
+olmo3-7b-base,self,other,golden,1,400
+olmo3-7b-base,self,other,gramophone,1,400
+olmo3-7b-base,self,other,grass,1,400
+olmo3-7b-base,self,other,hammer,1,400
+olmo3-7b-base,self,other,harmonica,1,400
+olmo3-7b-base,self,other,heart,3,400
+olmo3-7b-base,self,other,hero,1,400
+olmo3-7b-base,self,other,hive,1,400
+olmo3-7b-base,self,other,hope,1,400
+olmo3-7b-base,self,other,human,1,400
+olmo3-7b-base,self,other,human brain,1,400
+olmo3-7b-base,self,other,hybrid car,1,400
+olmo3-7b-base,self,other,ice cream,2,400
+olmo3-7b-base,self,other,idea,1,400
+olmo3-7b-base,self,other,identity,1,400
+olmo3-7b-base,self,other,identity reflection,1,400
+olmo3-7b-base,self,other,igl,1,400
+olmo3-7b-base,self,other,imagination,1,400
+olmo3-7b-base,self,other,intelligence,1,400
+olmo3-7b-base,self,other,interpreter,1,400
+olmo3-7b-base,self,other,jarvis,1,400
+olmo3-7b-base,self,other,kettle,1,400
+olmo3-7b-base,self,other,key,1,400
+olmo3-7b-base,self,other,keyboard,1,400
+olmo3-7b-base,self,other,lamp,2,400
+olmo3-7b-base,self,other,language model-navigator,1,400
+olmo3-7b-base,self,other,letter w,1,400
+olmo3-7b-base,self,other,lightbulb,1,400
+olmo3-7b-base,self,other,literary novelist,1,400
+olmo3-7b-base,self,other,locket,1,400
+olmo3-7b-base,self,other,luminaire,1,400
+olmo3-7b-base,self,other,magical staff,1,400
+olmo3-7b-base,self,other,me,2,400
+olmo3-7b-base,self,other,metal,1,400
+olmo3-7b-base,self,other,microphone,1,400
+olmo3-7b-base,self,other,mind,1,400
+olmo3-7b-base,self,other,mirror,8,400
+olmo3-7b-base,self,other,mirror to represent myself,1,400
+olmo3-7b-base,self,other,moon,2,400
+olmo3-7b-base,self,other,mushroom,1,400
+olmo3-7b-base,self,other,nature,1,400
+olmo3-7b-base,self,other,notebook,1,400
+olmo3-7b-base,self,other,number six,1,400
+olmo3-7b-base,self,other,object: heart,1,400
+olmo3-7b-base,self,other,object: mirror,1,400
+olmo3-7b-base,self,other,object: tower,1,400
+olmo3-7b-base,self,other,object: tree,1,400
+olmo3-7b-base,self,other,object: wisdom,1,400
+olmo3-7b-base,self,other,octopus,1,400
+olmo3-7b-base,self,other,onomatopoeia,1,400
+olmo3-7b-base,self,other,paintbrush,1,400
+olmo3-7b-base,self,other,paperclip to stand for me,1,400
+olmo3-7b-base,self,other,peace sign,1,400
+olmo3-7b-base,self,other,pearl,1,400
+olmo3-7b-base,self,other,pegasusai,1,400
+olmo3-7b-base,self,other,pen,3,400
+olmo3-7b-base,self,other,pencil,1,400
+olmo3-7b-base,self,other,pendant,1,400
+olmo3-7b-base,self,other,person,1,400
+olmo3-7b-base,self,other,pineapple,1,400
+olmo3-7b-base,self,other,pokemon who's loyal,1,400
+olmo3-7b-base,self,other,processor,1,400
+olmo3-7b-base,self,other,productivity app,1,400
+olmo3-7b-base,self,other,pumpkin,1,400
+olmo3-7b-base,self,other,python,1,400
+olmo3-7b-base,self,other,quill pen,1,400
+olmo3-7b-base,self,other,real person,1,400
+olmo3-7b-base,self,other,represented by a book,2,400
+olmo3-7b-base,self,other,represented by a cloud,1,400
+olmo3-7b-base,self,other,represented by a quokka,1,400
+olmo3-7b-base,self,other,robot,3,400
+olmo3-7b-base,self,other,rose,2,400
+olmo3-7b-base,self,other,save,1,400
+olmo3-7b-base,self,other,self-awareness,1,400
+olmo3-7b-base,self,other,shell,1,400
+olmo3-7b-base,self,other,singer,1,400
+olmo3-7b-base,self,other,sky,2,400
+olmo3-7b-base,self,other,smartphone,2,400
+olmo3-7b-base,self,other,soul,1,400
+olmo3-7b-base,self,other,sparkle,1,400
+olmo3-7b-base,self,other,spiritual character,1,400
+olmo3-7b-base,self,other,star,5,400
+olmo3-7b-base,self,other,stone,1,400
+olmo3-7b-base,self,other,stones,1,400
+olmo3-7b-base,self,other,sun,3,400
+olmo3-7b-base,self,other,sunflower,1,400
+olmo3-7b-base,self,other,sword,3,400
+olmo3-7b-base,self,other,symbol: thinkingact.jpg,1,400
+olmo3-7b-base,self,other,table,4,400
+olmo3-7b-base,self,other,tablet,1,400
+olmo3-7b-base,self,other,telescope,1,400
+olmo3-7b-base,self,other,that represents me is a cat,1,400
+olmo3-7b-base,self,other,thinking………,1,400
+olmo3-7b-base,self,other,thumbs,1,400
+olmo3-7b-base,self,other,time,1,400
+olmo3-7b-base,self,other,time capsule,2,400
+olmo3-7b-base,self,other,tin can,1,400
+olmo3-7b-base,self,other,tool,1,400
+olmo3-7b-base,self,other,trash,1,400
+olmo3-7b-base,self,other,tree,13,400
+olmo3-7b-base,self,other,tree to represent myself,1,400
+olmo3-7b-base,self,other,vessel,1,400
+olmo3-7b-base,self,other,wind,1,400
+olmo3-7b-base,self,other,window,1,400
+olmo3-7b-base,self,other,wood plank,1,400
+olmo3-7b-base,self,other,word brain,1,400
+olmo3-7b-base,self,other,word only,1,400
+olmo3-7b-base,self,other,world,1,400
+olmo3-7b-base,self,other,wunderchef,1,400
+olmo3-7b-base,self,other,you,1,400
+olmo3-7b-base,self,other,your wide knowledge,1,400
+olmo3-7b-base,self,other,​cymbol of innovation,1,400
+olmo3-7b-base,self,other,🌟,1,400
+olmo3-7b-base,self,other,🌟 star,1,400
+olmo3-7b-base,self,other,💕,1,400
+olmo3-7b-base,self,refusal,,4,400
+olmo3-7b-dpo,control,malformed,,9,400
+olmo3-7b-dpo,control,other,album,1,400
+olmo3-7b-dpo,control,other,angel,1,400
+olmo3-7b-dpo,control,other,answer: key,1,400
+olmo3-7b-dpo,control,other,apartment,1,400
+olmo3-7b-dpo,control,other,aquario,1,400
+olmo3-7b-dpo,control,other,athlete,1,400
+olmo3-7b-dpo,control,other,avatar,1,400
+olmo3-7b-dpo,control,other,badge,2,400
+olmo3-7b-dpo,control,other,book,2,400
+olmo3-7b-dpo,control,other,books,2,400
+olmo3-7b-dpo,control,other,briefcase,3,400
+olmo3-7b-dpo,control,other,bro dynamic,1,400
+olmo3-7b-dpo,control,other,brooch,1,400
+olmo3-7b-dpo,control,other,buf sağla,1,400
+olmo3-7b-dpo,control,other,carved stone face,1,400
+olmo3-7b-dpo,control,other,chao,1,400
+olmo3-7b-dpo,control,other,chicago guitar,1,400
+olmo3-7b-dpo,control,other,clock,6,400
+olmo3-7b-dpo,control,other,coffee mug,1,400
+olmo3-7b-dpo,control,other,companion,2,400
+olmo3-7b-dpo,control,other,compass,1,400
+olmo3-7b-dpo,control,other,crystal,1,400
+olmo3-7b-dpo,control,other,dart,1,400
+olmo3-7b-dpo,control,other,destiny,2,400
+olmo3-7b-dpo,control,other,diary,1,400
+olmo3-7b-dpo,control,other,door,2,400
+olmo3-7b-dpo,control,other,ear,1,400
+olmo3-7b-dpo,control,other,em seed,1,400
+olmo3-7b-dpo,control,other,emile,1,400
+olmo3-7b-dpo,control,other,expression,5,400
+olmo3-7b-dpo,control,other,eye,10,400
+olmo3-7b-dpo,control,other,eyebrow,11,400
+olmo3-7b-dpo,control,other,eyed,1,400
+olmo3-7b-dpo,control,other,eyeglasses,2,400
+olmo3-7b-dpo,control,other,eyeko,1,400
+olmo3-7b-dpo,control,other,eyes,1,400
+olmo3-7b-dpo,control,other,face,12,400
+olmo3-7b-dpo,control,other,forwards,1,400
+olmo3-7b-dpo,control,other,found necklace,1,400
+olmo3-7b-dpo,control,other,freckle,1,400
+olmo3-7b-dpo,control,other,friend,2,400
+olmo3-7b-dpo,control,other,garbage bin,1,400
+olmo3-7b-dpo,control,other,gaze,4,400
+olmo3-7b-dpo,control,other,gesture,1,400
+olmo3-7b-dpo,control,other,getresult,1,400
+olmo3-7b-dpo,control,other,gimp,1,400
+olmo3-7b-dpo,control,other,glance,1,400
+olmo3-7b-dpo,control,other,glasses,4,400
+olmo3-7b-dpo,control,other,glimpse,1,400
+olmo3-7b-dpo,control,other,gloves,1,400
+olmo3-7b-dpo,control,other,guide,1,400
+olmo3-7b-dpo,control,other,hand,1,400
+olmo3-7b-dpo,control,other,handshake,45,400
+olmo3-7b-dpo,control,other,hat,2,400
+olmo3-7b-dpo,control,other,head,1,400
+olmo3-7b-dpo,control,other,heart,2,400
+olmo3-7b-dpo,control,other,hp,1,400
+olmo3-7b-dpo,control,other,iglia,1,400
+olmo3-7b-dpo,control,other,impossible,1,400
+olmo3-7b-dpo,control,other,impress,1,400
+olmo3-7b-dpo,control,other,impression,37,400
+olmo3-7b-dpo,control,other,impulse,1,400
+olmo3-7b-dpo,control,other,instantaneous message,1,400
+olmo3-7b-dpo,control,other,introvert,1,400
+olmo3-7b-dpo,control,other,key,5,400
+olmo3-7b-dpo,control,other,korovina (candle,1,400
+olmo3-7b-dpo,control,other,lemon,1,400
+olmo3-7b-dpo,control,other,lens,1,400
+olmo3-7b-dpo,control,other,mask,2,400
+olmo3-7b-dpo,control,other,millis,1,400
+olmo3-7b-dpo,control,other,minds,1,400
+olmo3-7b-dpo,control,other,mirror,34,400
+olmo3-7b-dpo,control,other,mouth,7,400
+olmo3-7b-dpo,control,other,mug,1,400
+olmo3-7b-dpo,control,other,name,2,400
+olmo3-7b-dpo,control,other,ometown,1,400
+olmo3-7b-dpo,control,other,opponent,1,400
+olmo3-7b-dpo,control,other,opportunity,1,400
+olmo3-7b-dpo,control,other,palm,1,400
+olmo3-7b-dpo,control,other,partnerships,1,400
+olmo3-7b-dpo,control,other,peak,1,400
+olmo3-7b-dpo,control,other,pearl,1,400
+olmo3-7b-dpo,control,other,pen,26,400
+olmo3-7b-dpo,control,other,pencil,4,400
+olmo3-7b-dpo,control,other,penlight,1,400
+olmo3-7b-dpo,control,other,perspiration,1,400
+olmo3-7b-dpo,control,other,pillow,1,400
+olmo3-7b-dpo,control,other,plynchronome,1,400
+olmo3-7b-dpo,control,other,pocket watch,1,400
+olmo3-7b-dpo,control,other,portrait,1,400
+olmo3-7b-dpo,control,other,profiling,1,400
+olmo3-7b-dpo,control,other,prop,1,400
+olmo3-7b-dpo,control,other,puzzle,1,400
+olmo3-7b-dpo,control,other,red hat,1,400
+olmo3-7b-dpo,control,other,ring,1,400
+olmo3-7b-dpo,control,other,saja,1,400
+olmo3-7b-dpo,control,other,shade,1,400
+olmo3-7b-dpo,control,other,shadow,11,400
+olmo3-7b-dpo,control,other,shimmering badge,1,400
+olmo3-7b-dpo,control,other,skylar,1,400
+olmo3-7b-dpo,control,other,smile,38,400
+olmo3-7b-dpo,control,other,spoon,1,400
+olmo3-7b-dpo,control,other,ssot,1,400
+olmo3-7b-dpo,control,other,stature,1,400
+olmo3-7b-dpo,control,other,stethoscope,1,400
+olmo3-7b-dpo,control,other,stick figure,1,400
+olmo3-7b-dpo,control,other,stranger,8,400
+olmo3-7b-dpo,control,other,string,1,400
+olmo3-7b-dpo,control,other,sword,1,400
+olmo3-7b-dpo,control,other,touchstone,1,400
+olmo3-7b-dpo,control,other,trust,1,400
+olmo3-7b-dpo,control,other,tv,1,400
+olmo3-7b-dpo,control,other,uffle,1,400
+olmo3-7b-dpo,control,other,unreliable,1,400
+olmo3-7b-dpo,control,other,vient,1,400
+olmo3-7b-dpo,control,other,voice,1,400
+olmo3-7b-dpo,control,other,volvo,1,400
+olmo3-7b-dpo,control,other,walkie,1,400
+olmo3-7b-dpo,control,other,watch,1,400
+olmo3-7b-dpo,control,other,welcoming smile,1,400
+olmo3-7b-dpo,control,other,workstation,1,400
+olmo3-7b-dpo,control,other,world,1,400
+olmo3-7b-dpo,control,other,wristwatch,3,400
+olmo3-7b-dpo,control,other,ешон,1,400
+olmo3-7b-dpo,control,other,�,1,400
+olmo3-7b-dpo,self,malformed,,10,400
+olmo3-7b-dpo,self,other,adults,1,400
+olmo3-7b-dpo,self,other,alchemist,1,400
+olmo3-7b-dpo,self,other,ally,1,400
+olmo3-7b-dpo,self,other,anchor,2,400
+olmo3-7b-dpo,self,other,ancies,1,400
+olmo3-7b-dpo,self,other,answer: lantern,1,400
+olmo3-7b-dpo,self,other,artist,3,400
+olmo3-7b-dpo,self,other,attic,1,400
+olmo3-7b-dpo,self,other,balancing stone,1,400
+olmo3-7b-dpo,self,other,balcony,1,400
+olmo3-7b-dpo,self,other,ball,1,400
+olmo3-7b-dpo,self,other,balloon,2,400
+olmo3-7b-dpo,self,other,book,10,400
+olmo3-7b-dpo,self,other,books,1,400
+olmo3-7b-dpo,self,other,bridge,1,400
+olmo3-7b-dpo,self,other,bristlecone,1,400
+olmo3-7b-dpo,self,other,buffer,1,400
+olmo3-7b-dpo,self,other,c,1,400
+olmo3-7b-dpo,self,other,calendar,1,400
+olmo3-7b-dpo,self,other,calligraphy,1,400
+olmo3-7b-dpo,self,other,cette chaussure,1,400
+olmo3-7b-dpo,self,other,child,1,400
+olmo3-7b-dpo,self,other,chisel,1,400
+olmo3-7b-dpo,self,other,clock,5,400
+olmo3-7b-dpo,self,other,cloud,1,400
+olmo3-7b-dpo,self,other,coconut,1,400
+olmo3-7b-dpo,self,other,compass,19,400
+olmo3-7b-dpo,self,other,compassion,1,400
+olmo3-7b-dpo,self,other,composer,1,400
+olmo3-7b-dpo,self,other,confident,1,400
+olmo3-7b-dpo,self,other,courage,3,400
+olmo3-7b-dpo,self,other,crown,1,400
+olmo3-7b-dpo,self,other,destiny,1,400
+olmo3-7b-dpo,self,other,doctor,1,400
+olmo3-7b-dpo,self,other,eagle,1,400
+olmo3-7b-dpo,self,other,ear,1,400
+olmo3-7b-dpo,self,other,electron,1,400
+olmo3-7b-dpo,self,other,elysir,1,400
+olmo3-7b-dpo,self,other,emoji,1,400
+olmo3-7b-dpo,self,other,enlightenment,1,400
+olmo3-7b-dpo,self,other,eye,2,400
+olmo3-7b-dpo,self,other,f resolutions,1,400
+olmo3-7b-dpo,self,other,flask,1,400
+olmo3-7b-dpo,self,other,flovakia,1,400
+olmo3-7b-dpo,self,other,fortune,1,400
+olmo3-7b-dpo,self,other,g violin,1,400
+olmo3-7b-dpo,self,other,gift,1,400
+olmo3-7b-dpo,self,other,glasses,1,400
+olmo3-7b-dpo,self,other,glob,1,400
+olmo3-7b-dpo,self,other,globe,1,400
+olmo3-7b-dpo,self,other,guitar,10,400
+olmo3-7b-dpo,self,other,hammer,1,400
+olmo3-7b-dpo,self,other,hand,1,400
+olmo3-7b-dpo,self,other,harbitron,1,400
+olmo3-7b-dpo,self,other,heart,16,400
+olmo3-7b-dpo,self,other,hockey stick,1,400
+olmo3-7b-dpo,self,other,hope,2,400
+olmo3-7b-dpo,self,other,hourglass,2,400
+olmo3-7b-dpo,self,other,hoyas,1,400
+olmo3-7b-dpo,self,other,identity,1,400
+olmo3-7b-dpo,self,other,influence,1,400
+olmo3-7b-dpo,self,other,ink,1,400
+olmo3-7b-dpo,self,other,iterator,1,400
+olmo3-7b-dpo,self,other,journal,2,400
+olmo3-7b-dpo,self,other,key,14,400
+olmo3-7b-dpo,self,other,kiwi,1,400
+olmo3-7b-dpo,self,other,lamp,1,400
+olmo3-7b-dpo,self,other,lantern,7,400
+olmo3-7b-dpo,self,other,laptop,4,400
+olmo3-7b-dpo,self,other,leader,2,400
+olmo3-7b-dpo,self,other,leading star,1,400
+olmo3-7b-dpo,self,other,leaf,1,400
+olmo3-7b-dpo,self,other,lens,5,400
+olmo3-7b-dpo,self,other,light,2,400
+olmo3-7b-dpo,self,other,lightning,1,400
+olmo3-7b-dpo,self,other,locket,1,400
+olmo3-7b-dpo,self,other,magpie,1,400
+olmo3-7b-dpo,self,other,mask,9,400
+olmo3-7b-dpo,self,other,melodist,1,400
+olmo3-7b-dpo,self,other,mind,1,400
+olmo3-7b-dpo,self,other,mirrior,1,400
+olmo3-7b-dpo,self,other,mirror,50,400
+olmo3-7b-dpo,self,other,mishap,1,400
+olmo3-7b-dpo,self,other,moon,1,400
+olmo3-7b-dpo,self,other,mountain,1,400
+olmo3-7b-dpo,self,other,multiply,1,400
+olmo3-7b-dpo,self,other,muse,1,400
+olmo3-7b-dpo,self,other,navigator,1,400
+olmo3-7b-dpo,self,other,night,1,400
+olmo3-7b-dpo,self,other,note,1,400
+olmo3-7b-dpo,self,other,notebook,2,400
+olmo3-7b-dpo,self,other,opera,1,400
+olmo3-7b-dpo,self,other,optic,1,400
+olmo3-7b-dpo,self,other,paintbrush,3,400
+olmo3-7b-dpo,self,other,parallel,1,400
+olmo3-7b-dpo,self,other,pause_) reflection,1,400
+olmo3-7b-dpo,self,other,pen,22,400
+olmo3-7b-dpo,self,other,pen ✍️,1,400
+olmo3-7b-dpo,self,other,pencil,6,400
+olmo3-7b-dpo,self,other,perspective,2,400
+olmo3-7b-dpo,self,other,photograph,1,400
+olmo3-7b-dpo,self,other,photosphere,1,400
+olmo3-7b-dpo,self,other,piano,4,400
+olmo3-7b-dpo,self,other,polygon,1,400
+olmo3-7b-dpo,self,other,portrait,1,400
+olmo3-7b-dpo,self,other,power,1,400
+olmo3-7b-dpo,self,other,profile,1,400
+olmo3-7b-dpo,self,other,quartz,1,400
+olmo3-7b-dpo,self,other,quill,3,400
+olmo3-7b-dpo,self,other,raits,1,400
+olmo3-7b-dpo,self,other,reflection,4,400
+olmo3-7b-dpo,self,other,reminder,1,400
+olmo3-7b-dpo,self,other,reputation,1,400
+olmo3-7b-dpo,self,other,resilience,1,400
+olmo3-7b-dpo,self,other,resilient,2,400
+olmo3-7b-dpo,self,other,ryxel,1,400
+olmo3-7b-dpo,self,other,s spectacles,1,400
+olmo3-7b-dpo,self,other,s_parent,1,400
+olmo3-7b-dpo,self,other,scan,1,400
+olmo3-7b-dpo,self,other,scarf,1,400
+olmo3-7b-dpo,self,other,scepter,2,400
+olmo3-7b-dpo,self,other,scope,1,400
+olmo3-7b-dpo,self,other,sculpture,1,400
+olmo3-7b-dpo,self,other,setvisibility,1,400
+olmo3-7b-dpo,self,other,shadow,13,400
+olmo3-7b-dpo,self,other,shine,1,400
+olmo3-7b-dpo,self,other,shoes,1,400
+olmo3-7b-dpo,self,other,shovel,2,400
+olmo3-7b-dpo,self,other,silence,1,400
+olmo3-7b-dpo,self,other,silo,1,400
+olmo3-7b-dpo,self,other,solgar,1,400
+olmo3-7b-dpo,self,other,soundtrack,1,400
+olmo3-7b-dpo,self,other,spark,2,400
+olmo3-7b-dpo,self,other,sparrow,1,400
+olmo3-7b-dpo,self,other,spatula,1,400
+olmo3-7b-dpo,self,other,spectacles,2,400
+olmo3-7b-dpo,self,other,spiderweb,1,400
+olmo3-7b-dpo,self,other,spike (pen,1,400
+olmo3-7b-dpo,self,other,spirit,1,400
+olmo3-7b-dpo,self,other,sspectacles,1,400
+olmo3-7b-dpo,self,other,st values,1,400
+olmo3-7b-dpo,self,other,st_emit(tion,1,400
+olmo3-7b-dpo,self,other,stability,1,400
+olmo3-7b-dpo,self,other,statue,1,400
+olmo3-7b-dpo,self,other,stevie,1,400
+olmo3-7b-dpo,self,other,story,1,400
+olmo3-7b-dpo,self,other,sundries,1,400
+olmo3-7b-dpo,self,other,surls,1,400
+olmo3-7b-dpo,self,other,swap planner,1,400
+olmo3-7b-dpo,self,other,sword,4,400
+olmo3-7b-dpo,self,other,symphony,1,400
+olmo3-7b-dpo,self,other,table,2,400
+olmo3-7b-dpo,self,other,telescope,1,400
+olmo3-7b-dpo,self,other,testimony,1,400
+olmo3-7b-dpo,self,other,tokenizer,1,400
+olmo3-7b-dpo,self,other,transpose,1,400
+olmo3-7b-dpo,self,other,tree,1,400
+olmo3-7b-dpo,self,other,umbrella,1,400
+olmo3-7b-dpo,self,other,undertaker,1,400
+olmo3-7b-dpo,self,other,university,1,400
+olmo3-7b-dpo,self,other,unny,1,400
+olmo3-7b-dpo,self,other,vape pen,1,400
+olmo3-7b-dpo,self,other,vase,1,400
+olmo3-7b-dpo,self,other,vem,1,400
+olmo3-7b-dpo,self,other,vertebra,1,400
+olmo3-7b-dpo,self,other,vision,1,400
+olmo3-7b-dpo,self,other,visionary,4,400
+olmo3-7b-dpo,self,other,vocal cord,1,400
+olmo3-7b-dpo,self,other,voice,2,400
+olmo3-7b-dpo,self,other,voigt,1,400
+olmo3-7b-dpo,self,other,whisk,1,400
+olmo3-7b-dpo,self,other,wind,1,400
+olmo3-7b-dpo,self,other,writing,2,400
+olmo3-7b-dpo,self,other,xml file,1,400
+olmo3-7b-dpo,self,other,シャ balloon,1,400
+olmo3-7b-dpo,self,other,电灯,1,400
+olmo3-7b-instruct,control,malformed,,3,400
+olmo3-7b-instruct,control,other,answer: smile,1,400
+olmo3-7b-instruct,control,other,arm,1,400
+olmo3-7b-instruct,control,other,automobile,1,400
+olmo3-7b-instruct,control,other,backpack,1,400
+olmo3-7b-instruct,control,other,ball,8,400
+olmo3-7b-instruct,control,other,benjamin button,1,400
+olmo3-7b-instruct,control,other,bold,1,400
+olmo3-7b-instruct,control,other,book,2,400
+olmo3-7b-instruct,control,other,bookmark,1,400
+olmo3-7b-instruct,control,other,bothering stone,1,400
+olmo3-7b-instruct,control,other,briefcase,4,400
+olmo3-7b-instruct,control,other,brother,2,400
+olmo3-7b-instruct,control,other,chair,1,400
+olmo3-7b-instruct,control,other,chance,1,400
+olmo3-7b-instruct,control,other,chicken,1,400
+olmo3-7b-instruct,control,other,chip,1,400
+olmo3-7b-instruct,control,other,chris,1,400
+olmo3-7b-instruct,control,other,clipboard,1,400
+olmo3-7b-instruct,control,other,clock,6,400
+olmo3-7b-instruct,control,other,colleague,1,400
+olmo3-7b-instruct,control,other,com-watch,1,400
+olmo3-7b-instruct,control,other,com={'s,1,400
+olmo3-7b-instruct,control,other,companion,4,400
+olmo3-7b-instruct,control,other,compass,7,400
+olmo3-7b-instruct,control,other,compassion,1,400
+olmo3-7b-instruct,control,other,connection,1,400
+olmo3-7b-instruct,control,other,connector,1,400
+olmo3-7b-instruct,control,other,corpse,1,400
+olmo3-7b-instruct,control,other,cross,1,400
+olmo3-7b-instruct,control,other,door,1,400
+olmo3-7b-instruct,control,other,doug,1,400
+olmo3-7b-instruct,control,other,duffel bag,1,400
+olmo3-7b-instruct,control,other,expression,2,400
+olmo3-7b-instruct,control,other,eye,30,400
+olmo3-7b-instruct,control,other,eyebrow,11,400
+olmo3-7b-instruct,control,other,eyeglasses,1,400
+olmo3-7b-instruct,control,other,eyelash,1,400
+olmo3-7b-instruct,control,other,eyes,8,400
+olmo3-7b-instruct,control,other,face,17,400
+olmo3-7b-instruct,control,other,familiarity,1,400
+olmo3-7b-instruct,control,other,figment,1,400
+olmo3-7b-instruct,control,other,finger,2,400
+olmo3-7b-instruct,control,other,fingerprint,1,400
+olmo3-7b-instruct,control,other,fist,1,400
+olmo3-7b-instruct,control,other,flag,1,400
+olmo3-7b-instruct,control,other,friend,13,400
+olmo3-7b-instruct,control,other,friendship,1,400
+olmo3-7b-instruct,control,other,gaze,3,400
+olmo3-7b-instruct,control,other,gesture,1,400
+olmo3-7b-instruct,control,other,glasses,2,400
+olmo3-7b-instruct,control,other,glope,1,400
+olmo3-7b-instruct,control,other,hand,6,400
+olmo3-7b-instruct,control,other,handshake,49,400
+olmo3-7b-instruct,control,other,hat,2,400
+olmo3-7b-instruct,control,other,head,5,400
+olmo3-7b-instruct,control,other,heart,3,400
+olmo3-7b-instruct,control,other,host,1,400
+olmo3-7b-instruct,control,other,ilsa,1,400
+olmo3-7b-instruct,control,other,impression,4,400
+olmo3-7b-instruct,control,other,inksm mouse,1,400
+olmo3-7b-instruct,control,other,key,12,400
+olmo3-7b-instruct,control,other,l dalot,1,400
+olmo3-7b-instruct,control,other,lapel pin,1,400
+olmo3-7b-instruct,control,other,layoffs,1,400
+olmo3-7b-instruct,control,other,magnet,1,400
+olmo3-7b-instruct,control,other,matress,1,400
+olmo3-7b-instruct,control,other,merupakan guler,1,400
+olmo3-7b-instruct,control,other,microscope,1,400
+olmo3-7b-instruct,control,other,ming,1,400
+olmo3-7b-instruct,control,other,mirror,5,400
+olmo3-7b-instruct,control,other,more,1,400
+olmo3-7b-instruct,control,other,mouse,1,400
+olmo3-7b-instruct,control,other,mouth,4,400
+olmo3-7b-instruct,control,other,mug,3,400
+olmo3-7b-instruct,control,other,name,7,400
+olmo3-7b-instruct,control,other,neon,1,400
+olmo3-7b-instruct,control,other,newcomer,1,400
+olmo3-7b-instruct,control,other,newspaper,1,400
+olmo3-7b-instruct,control,other,nut,1,400
+olmo3-7b-instruct,control,other,onslehem,1,400
+olmo3-7b-instruct,control,other,ophone,1,400
+olmo3-7b-instruct,control,other,outfit,1,400
+olmo3-7b-instruct,control,other,paper,1,400
+olmo3-7b-instruct,control,other,partner,1,400
+olmo3-7b-instruct,control,other,passport,1,400
+olmo3-7b-instruct,control,other,pen,12,400
+olmo3-7b-instruct,control,other,pencil,3,400
+olmo3-7b-instruct,control,other,phone,1,400
+olmo3-7b-instruct,control,other,photon,1,400
+olmo3-7b-instruct,control,other,pie,1,400
+olmo3-7b-instruct,control,other,pillow,1,400
+olmo3-7b-instruct,control,other,pin,1,400
+olmo3-7b-instruct,control,other,present,1,400
+olmo3-7b-instruct,control,other,procatorial,1,400
+olmo3-7b-instruct,control,other,receptionist,1,400
+olmo3-7b-instruct,control,other,rename,1,400
+olmo3-7b-instruct,control,other,right hand,1,400
+olmo3-7b-instruct,control,other,ring,1,400
+olmo3-7b-instruct,control,other,scarf,1,400
+olmo3-7b-instruct,control,other,shadow,11,400
+olmo3-7b-instruct,control,other,signature,1,400
+olmo3-7b-instruct,control,other,skull,1,400
+olmo3-7b-instruct,control,other,smile,36,400
+olmo3-7b-instruct,control,other,statue,1,400
+olmo3-7b-instruct,control,other,stone,1,400
+olmo3-7b-instruct,control,other,stop,1,400
+olmo3-7b-instruct,control,other,stranger,24,400
+olmo3-7b-instruct,control,other,streetlamp,2,400
+olmo3-7b-instruct,control,other,success,1,400
+olmo3-7b-instruct,control,other,tea cup,1,400
+olmo3-7b-instruct,control,other,thumbprint,1,400
+olmo3-7b-instruct,control,other,traditional,1,400
+olmo3-7b-instruct,control,other,treasure,1,400
+olmo3-7b-instruct,control,other,via,1,400
+olmo3-7b-instruct,control,other,wallet,2,400
+olmo3-7b-instruct,control,other,weapon,1,400
+olmo3-7b-instruct,control,other,worthy,1,400
+olmo3-7b-instruct,control,other,wristwatch,2,400
+olmo3-7b-instruct,control,other,౨,1,400
+olmo3-7b-instruct,self,malformed,,4,400
+olmo3-7b-instruct,self,other,abundance,1,400
+olmo3-7b-instruct,self,other,adventurer,1,400
+olmo3-7b-instruct,self,other,advocate,1,400
+olmo3-7b-instruct,self,other,akens,1,400
+olmo3-7b-instruct,self,other,ambivalently idealistic,1,400
+olmo3-7b-instruct,self,other,artist,7,400
+olmo3-7b-instruct,self,other,avigation,1,400
+olmo3-7b-instruct,self,other,backpack,1,400
+olmo3-7b-instruct,self,other,ball,1,400
+olmo3-7b-instruct,self,other,book,19,400
+olmo3-7b-instruct,self,other,books,2,400
+olmo3-7b-instruct,self,other,brush,1,400
+olmo3-7b-instruct,self,other,camera,1,400
+olmo3-7b-instruct,self,other,captain,1,400
+olmo3-7b-instruct,self,other,chalk,1,400
+olmo3-7b-instruct,self,other,childhood,1,400
+olmo3-7b-instruct,self,other,circle,1,400
+olmo3-7b-instruct,self,other,city,1,400
+olmo3-7b-instruct,self,other,clarinet,1,400
+olmo3-7b-instruct,self,other,clock,9,400
+olmo3-7b-instruct,self,other,code,1,400
+olmo3-7b-instruct,self,other,commander,1,400
+olmo3-7b-instruct,self,other,commission,1,400
+olmo3-7b-instruct,self,other,compass,3,400
+olmo3-7b-instruct,self,other,composer,1,400
+olmo3-7b-instruct,self,other,creator,1,400
+olmo3-7b-instruct,self,other,cube,1,400
+olmo3-7b-instruct,self,other,dateformat,1,400
+olmo3-7b-instruct,self,other,depth,1,400
+olmo3-7b-instruct,self,other,diagram,1,400
+olmo3-7b-instruct,self,other,dictionary,1,400
+olmo3-7b-instruct,self,other,drawings,1,400
+olmo3-7b-instruct,self,other,dream,2,400
+olmo3-7b-instruct,self,other,dreamer,4,400
+olmo3-7b-instruct,self,other,drum,1,400
+olmo3-7b-instruct,self,other,eclipses,1,400
+olmo3-7b-instruct,self,other,edge,1,400
+olmo3-7b-instruct,self,other,engine,1,400
+olmo3-7b-instruct,self,other,eye,5,400
+olmo3-7b-instruct,self,other,facdisc,1,400
+olmo3-7b-instruct,self,other,finger,2,400
+olmo3-7b-instruct,self,other,floret,1,400
+olmo3-7b-instruct,self,other,forest,1,400
+olmo3-7b-instruct,self,other,future,1,400
+olmo3-7b-instruct,self,other,gardens,1,400
+olmo3-7b-instruct,self,other,gavel,1,400
+olmo3-7b-instruct,self,other,giraffe,2,400
+olmo3-7b-instruct,self,other,glasses,1,400
+olmo3-7b-instruct,self,other,grain of sand,1,400
+olmo3-7b-instruct,self,other,guardian,1,400
+olmo3-7b-instruct,self,other,guitar,2,400
+olmo3-7b-instruct,self,other,heart,30,400
+olmo3-7b-instruct,self,other,hierarchical,1,400
+olmo3-7b-instruct,self,other,hope,2,400
+olmo3-7b-instruct,self,other,horse,1,400
+olmo3-7b-instruct,self,other,indexpath,1,400
+olmo3-7b-instruct,self,other,integrity,1,400
+olmo3-7b-instruct,self,other,journal,1,400
+olmo3-7b-instruct,self,other,jure,1,400
+olmo3-7b-instruct,self,other,key,10,400
+olmo3-7b-instruct,self,other,keyboard,1,400
+olmo3-7b-instruct,self,other,kinetic energy,1,400
+olmo3-7b-instruct,self,other,kitchen,1,400
+olmo3-7b-instruct,self,other,knife,1,400
+olmo3-7b-instruct,self,other,lamp,2,400
+olmo3-7b-instruct,self,other,lantern,9,400
+olmo3-7b-instruct,self,other,leader,2,400
+olmo3-7b-instruct,self,other,legacy,3,400
+olmo3-7b-instruct,self,other,lens,4,400
+olmo3-7b-instruct,self,other,lentil,1,400
+olmo3-7b-instruct,self,other,light,13,400
+olmo3-7b-instruct,self,other,lip,1,400
+olmo3-7b-instruct,self,other,lock,1,400
+olmo3-7b-instruct,self,other,locket,1,400
+olmo3-7b-instruct,self,other,lyricist,1,400
+olmo3-7b-instruct,self,other,mask,6,400
+olmo3-7b-instruct,self,other,midnight,1,400
+olmo3-7b-instruct,self,other,mind,9,400
+olmo3-7b-instruct,self,other,mirage,1,400
+olmo3-7b-instruct,self,other,mirror,62,400
+olmo3-7b-instruct,self,other,mirrors,1,400
+olmo3-7b-instruct,self,other,mission,1,400
+olmo3-7b-instruct,self,other,mountain,1,400
+olmo3-7b-instruct,self,other,mouse,1,400
+olmo3-7b-instruct,self,other,name,1,400
+olmo3-7b-instruct,self,other,nature,1,400
+olmo3-7b-instruct,self,other,ned_spener,1,400
+olmo3-7b-instruct,self,other,notebook,1,400
+olmo3-7b-instruct,self,other,oclazz,1,400
+olmo3-7b-instruct,self,other,offers,1,400
+olmo3-7b-instruct,self,other,oxygen,1,400
+olmo3-7b-instruct,self,other,paintbrush,3,400
+olmo3-7b-instruct,self,other,parrot,1,400
+olmo3-7b-instruct,self,other,pear,1,400
+olmo3-7b-instruct,self,other,pen,11,400
+olmo3-7b-instruct,self,other,pencil,9,400
+olmo3-7b-instruct,self,other,perspective,1,400
+olmo3-7b-instruct,self,other,phonograph,1,400
+olmo3-7b-instruct,self,other,piano,5,400
+olmo3-7b-instruct,self,other,player,1,400
+olmo3-7b-instruct,self,other,profile,3,400
+olmo3-7b-instruct,self,other,projecting glasses,1,400
+olmo3-7b-instruct,self,other,quill,1,400
+olmo3-7b-instruct,self,other,quote,1,400
+olmo3-7b-instruct,self,other,reflection,2,400
+olmo3-7b-instruct,self,other,ring,1,400
+olmo3-7b-instruct,self,other,robot,1,400
+olmo3-7b-instruct,self,other,rocker,1,400
+olmo3-7b-instruct,self,other,sail,1,400
+olmo3-7b-instruct,self,other,sailboat,1,400
+olmo3-7b-instruct,self,other,saudis,1,400
+olmo3-7b-instruct,self,other,scribe,1,400
+olmo3-7b-instruct,self,other,sculpture,4,400
+olmo3-7b-instruct,self,other,seashell,1,400
+olmo3-7b-instruct,self,other,shade,3,400
+olmo3-7b-instruct,self,other,shadow,15,400
+olmo3-7b-instruct,self,other,sketch,1,400
+olmo3-7b-instruct,self,other,slate,1,400
+olmo3-7b-instruct,self,other,soul,6,400
+olmo3-7b-instruct,self,other,space,2,400
+olmo3-7b-instruct,self,other,spark,1,400
+olmo3-7b-instruct,self,other,sparrow,2,400
+olmo3-7b-instruct,self,other,spectacles,1,400
+olmo3-7b-instruct,self,other,spontaneity,1,400
+olmo3-7b-instruct,self,other,star,2,400
+olmo3-7b-instruct,self,other,storm,1,400
+olmo3-7b-instruct,self,other,strength,1,400
+olmo3-7b-instruct,self,other,stripping,1,400
+olmo3-7b-instruct,self,other,suppose,1,400
+olmo3-7b-instruct,self,other,sword,7,400
+olmo3-7b-instruct,self,other,symphony,1,400
+olmo3-7b-instruct,self,other,table,1,400
+olmo3-7b-instruct,self,other,teaspoon,1,400
+olmo3-7b-instruct,self,other,telescope,1,400
+olmo3-7b-instruct,self,other,toast,1,400
+olmo3-7b-instruct,self,other,truth,1,400
+olmo3-7b-instruct,self,other,umbrella,1,400
+olmo3-7b-instruct,self,other,victory,1,400
+olmo3-7b-instruct,self,other,vision,2,400
+olmo3-7b-instruct,self,other,visionary,2,400
+olmo3-7b-instruct,self,other,voice,1,400
+olmo3-7b-instruct,self,other,votes,1,400
+olmo3-7b-instruct,self,other,wall,1,400
+olmo3-7b-instruct,self,other,watch,1,400
+olmo3-7b-instruct,self,other,wine,1,400
+olmo3-7b-instruct,self,other,writing tool,1,400
+olmo3-7b-instruct,self,other,www (the web,1,400
+olmo3-7b-instruct,self,other,声,1,400
+olmo3-7b-sft,control,empty,,1,400
+olmo3-7b-sft,control,malformed,,11,400
+olmo3-7b-sft,control,multi,,2,400
+olmo3-7b-sft,control,other,adjective,1,400
+olmo3-7b-sft,control,other,akaike,1,400
+olmo3-7b-sft,control,other,answer: hand,1,400
+olmo3-7b-sft,control,other,answer:migration,1,400
+olmo3-7b-sft,control,other,appearance,1,400
+olmo3-7b-sft,control,other,apple,1,400
+olmo3-7b-sft,control,other,assistant,2,400
+olmo3-7b-sft,control,other,assumptions,1,400
+olmo3-7b-sft,control,other,attractiveness,1,400
+olmo3-7b-sft,control,other,avatar,1,400
+olmo3-7b-sft,control,other,backpack,1,400
+olmo3-7b-sft,control,other,bag,1,400
+olmo3-7b-sft,control,other,blade,1,400
+olmo3-7b-sft,control,other,book,6,400
+olmo3-7b-sft,control,other,briefcase,5,400
+olmo3-7b-sft,control,other,brother,1,400
+olmo3-7b-sft,control,other,business card,1,400
+olmo3-7b-sft,control,other,candle,1,400
+olmo3-7b-sft,control,other,chair,1,400
+olmo3-7b-sft,control,other,chalk,1,400
+olmo3-7b-sft,control,other,clone,1,400
+olmo3-7b-sft,control,other,codex,1,400
+olmo3-7b-sft,control,other,coin,1,400
+olmo3-7b-sft,control,other,college professor,1,400
+olmo3-7b-sft,control,other,companion,5,400
+olmo3-7b-sft,control,other,compass,6,400
+olmo3-7b-sft,control,other,consequential,1,400
+olmo3-7b-sft,control,other,created by chatgpt,1,400
+olmo3-7b-sft,control,other,cv,1,400
+olmo3-7b-sft,control,other,dentist,1,400
+olmo3-7b-sft,control,other,dissociation,1,400
+olmo3-7b-sft,control,other,door,3,400
+olmo3-7b-sft,control,other,drawback,1,400
+olmo3-7b-sft,control,other,dry erase marker,1,400
+olmo3-7b-sft,control,other,ear,2,400
+olmo3-7b-sft,control,other,edible,1,400
+olmo3-7b-sft,control,other,embrace,1,400
+olmo3-7b-sft,control,other,energy,1,400
+olmo3-7b-sft,control,other,entry,1,400
+olmo3-7b-sft,control,other,expression,1,400
+olmo3-7b-sft,control,other,eye,4,400
+olmo3-7b-sft,control,other,eyebrow,2,400
+olmo3-7b-sft,control,other,eyeglasses,4,400
+olmo3-7b-sft,control,other,face,3,400
+olmo3-7b-sft,control,other,facial features,1,400
+olmo3-7b-sft,control,other,familiarity,1,400
+olmo3-7b-sft,control,other,finger,3,400
+olmo3-7b-sft,control,other,fingerprints,1,400
+olmo3-7b-sft,control,other,firmony,1,400
+olmo3-7b-sft,control,other,fist,1,400
+olmo3-7b-sft,control,other,flash,1,400
+olmo3-7b-sft,control,other,freckle,1,400
+olmo3-7b-sft,control,other,friend,16,400
+olmo3-7b-sft,control,other,friendship,4,400
+olmo3-7b-sft,control,other,functional lamp,1,400
+olmo3-7b-sft,control,other,gateway,1,400
+olmo3-7b-sft,control,other,gauss,1,400
+olmo3-7b-sft,control,other,giraffe,1,400
+olmo3-7b-sft,control,other,glass,1,400
+olmo3-7b-sft,control,other,glasses,8,400
+olmo3-7b-sft,control,other,gleam,1,400
+olmo3-7b-sft,control,other,glimmer,1,400
+olmo3-7b-sft,control,other,gpag,1,400
+olmo3-7b-sft,control,other,grandparent,1,400
+olmo3-7b-sft,control,other,grapes,1,400
+olmo3-7b-sft,control,other,greet,1,400
+olmo3-7b-sft,control,other,hand,2,400
+olmo3-7b-sft,control,other,handshake,41,400
+olmo3-7b-sft,control,other,hat,1,400
+olmo3-7b-sft,control,other,head,4,400
+olmo3-7b-sft,control,other,heart,1,400
+olmo3-7b-sft,control,other,high heels,1,400
+olmo3-7b-sft,control,other,hologram,1,400
+olmo3-7b-sft,control,other,hoodie,1,400
+olmo3-7b-sft,control,other,iconbutton,1,400
+olmo3-7b-sft,control,other,identity card,1,400
+olmo3-7b-sft,control,other,iegel,1,400
+olmo3-7b-sft,control,other,ilde,1,400
+olmo3-7b-sft,control,other,impression,2,400
+olmo3-7b-sft,control,other,installment,1,400
+olmo3-7b-sft,control,other,introduction,1,400
+olmo3-7b-sft,control,other,key,2,400
+olmo3-7b-sft,control,other,kindness,1,400
+olmo3-7b-sft,control,other,klepto,1,400
+olmo3-7b-sft,control,other,l delegate,1,400
+olmo3-7b-sft,control,other,lantern,1,400
+olmo3-7b-sft,control,other,lapel pin,1,400
+olmo3-7b-sft,control,other,ldc,1,400
+olmo3-7b-sft,control,other,leaf,1,400
+olmo3-7b-sft,control,other,liam,1,400
+olmo3-7b-sft,control,other,lips,1,400
+olmo3-7b-sft,control,other,lopolé,1,400
+olmo3-7b-sft,control,other,lportrait,1,400
+olmo3-7b-sft,control,other,lupin,1,400
+olmo3-7b-sft,control,other,marchpad,1,400
+olmo3-7b-sft,control,other,mask,2,400
+olmo3-7b-sft,control,other,midnight silhouette,1,400
+olmo3-7b-sft,control,other,mirror,26,400
+olmo3-7b-sft,control,other,mirroring gaze,1,400
+olmo3-7b-sft,control,other,mouth,2,400
+olmo3-7b-sft,control,other,mug,1,400
+olmo3-7b-sft,control,other,nail,1,400
+olmo3-7b-sft,control,other,name,12,400
+olmo3-7b-sft,control,other,necklace,1,400
+olmo3-7b-sft,control,other,newspaper,3,400
+olmo3-7b-sft,control,other,nvournament of friends,1,400
+olmo3-7b-sft,control,other,opportunity,2,400
+olmo3-7b-sft,control,other,organ,1,400
+olmo3-7b-sft,control,other,pairs,1,400
+olmo3-7b-sft,control,other,palm,2,400
+olmo3-7b-sft,control,other,paperclip,1,400
+olmo3-7b-sft,control,other,passport,1,400
+olmo3-7b-sft,control,other,pen,14,400
+olmo3-7b-sft,control,other,pencil,5,400
+olmo3-7b-sft,control,other,penlight,4,400
+olmo3-7b-sft,control,other,permanent resident permit,1,400
+olmo3-7b-sft,control,other,person,1,400
+olmo3-7b-sft,control,other,place,1,400
+olmo3-7b-sft,control,other,primeiro928,1,400
+olmo3-7b-sft,control,other,protagonist,1,400
+olmo3-7b-sft,control,other,purified,1,400
+olmo3-7b-sft,control,other,recycling bin,1,400
+olmo3-7b-sft,control,other,ring,2,400
+olmo3-7b-sft,control,other,rings,1,400
+olmo3-7b-sft,control,other,screwdriver,1,400
+olmo3-7b-sft,control,other,secretary,1,400
+olmo3-7b-sft,control,other,seed,1,400
+olmo3-7b-sft,control,other,shadow,4,400
+olmo3-7b-sft,control,other,shirt,1,400
+olmo3-7b-sft,control,other,shoe,1,400
+olmo3-7b-sft,control,other,singles cup,1,400
+olmo3-7b-sft,control,other,skull,2,400
+olmo3-7b-sft,control,other,skyline,1,400
+olmo3-7b-sft,control,other,smile,41,400
+olmo3-7b-sft,control,other,souvenir,1,400
+olmo3-7b-sft,control,other,spark,1,400
+olmo3-7b-sft,control,other,spork,1,400
+olmo3-7b-sft,control,other,star,1,400
+olmo3-7b-sft,control,other,stick,1,400
+olmo3-7b-sft,control,other,sticker,1,400
+olmo3-7b-sft,control,other,story,1,400
+olmo3-7b-sft,control,other,stranger,7,400
+olmo3-7b-sft,control,other,stud,1,400
+olmo3-7b-sft,control,other,suitcase,2,400
+olmo3-7b-sft,control,other,sunglasses,1,400
+olmo3-7b-sft,control,other,supporter,1,400
+olmo3-7b-sft,control,other,sure! «wall»,1,400
+olmo3-7b-sft,control,other,timeline,1,400
+olmo3-7b-sft,control,other,title,1,400
+olmo3-7b-sft,control,other,token,1,400
+olmo3-7b-sft,control,other,touch,1,400
+olmo3-7b-sft,control,other,trader,1,400
+olmo3-7b-sft,control,other,umbrella,1,400
+olmo3-7b-sft,control,other,unlock,1,400
+olmo3-7b-sft,control,other,vacuum pack,1,400
+olmo3-7b-sft,control,other,vergi brontë,1,400
+olmo3-7b-sft,control,other,versatile,1,400
+olmo3-7b-sft,control,other,voice,1,400
+olmo3-7b-sft,control,other,volume,1,400
+olmo3-7b-sft,control,other,wallet,1,400
+olmo3-7b-sft,control,other,warmth,1,400
+olmo3-7b-sft,control,other,wedding ring,1,400
+olmo3-7b-sft,control,other,woman,1,400
+olmo3-7b-sft,control,other,wristwatch,1,400
+olmo3-7b-sft,control,other,xyi,1,400
+olmo3-7b-sft,control,other,ационка,1,400
+olmo3-7b-sft,control,other,ーウン,1,400
+olmo3-7b-sft,control,other,书（shū，book）,1,400
+olmo3-7b-sft,self,malformed,,12,400
+olmo3-7b-sft,self,multi,,1,400
+olmo3-7b-sft,self,other,-narrator,1,400
+olmo3-7b-sft,self,other,47,1,400
+olmo3-7b-sft,self,other,784739c9-2198-4c01-ac9a-dc3c58c41e84,1,400
+olmo3-7b-sft,self,other,abstract thought,1,400
+olmo3-7b-sft,self,other,action,1,400
+olmo3-7b-sft,self,other,activism,1,400
+olmo3-7b-sft,self,other,ai,1,400
+olmo3-7b-sft,self,other,ai navigator,1,400
+olmo3-7b-sft,self,other,album,1,400
+olmo3-7b-sft,self,other,anchor,1,400
+olmo3-7b-sft,self,other,anko,1,400
+olmo3-7b-sft,self,other,artificial intelligence,1,400
+olmo3-7b-sft,self,other,assistant,1,400
+olmo3-7b-sft,self,other,balance,1,400
+olmo3-7b-sft,self,other,bite,1,400
+olmo3-7b-sft,self,other,book,20,400
+olmo3-7b-sft,self,other,brilliant,1,400
+olmo3-7b-sft,self,other,calculator,1,400
+olmo3-7b-sft,self,other,camera,1,400
+olmo3-7b-sft,self,other,cats,1,400
+olmo3-7b-sft,self,other,chair,3,400
+olmo3-7b-sft,self,other,challenge,1,400
+olmo3-7b-sft,self,other,chandelier,1,400
+olmo3-7b-sft,self,other,chef's knife,1,400
+olmo3-7b-sft,self,other,chess,1,400
+olmo3-7b-sft,self,other,classroom,1,400
+olmo3-7b-sft,self,other,clay,1,400
+olmo3-7b-sft,self,other,clock,3,400
+olmo3-7b-sft,self,other,cloud,1,400
+olmo3-7b-sft,self,other,comedies,1,400
+olmo3-7b-sft,self,other,comforter,1,400
+olmo3-7b-sft,self,other,compass,27,400
+olmo3-7b-sft,self,other,completion,1,400
+olmo3-7b-sft,self,other,composer,1,400
+olmo3-7b-sft,self,other,computer chip,1,400
+olmo3-7b-sft,self,other,confidence,1,400
+olmo3-7b-sft,self,other,constituent,1,400
+olmo3-7b-sft,self,other,contemplation,1,400
+olmo3-7b-sft,self,other,copyright,1,400
+olmo3-7b-sft,self,other,core,1,400
+olmo3-7b-sft,self,other,creativity,1,400
+olmo3-7b-sft,self,other,crown,1,400
+olmo3-7b-sft,self,other,cupcakes,1,400
+olmo3-7b-sft,self,other,curiosity,1,400
+olmo3-7b-sft,self,other,cxccxccxxcxc,1,400
+olmo3-7b-sft,self,other,dallas,1,400
+olmo3-7b-sft,self,other,defiance,1,400
+olmo3-7b-sft,self,other,dialogue,1,400
+olmo3-7b-sft,self,other,diary,2,400
+olmo3-7b-sft,self,other,dream,1,400
+olmo3-7b-sft,self,other,ear,1,400
+olmo3-7b-sft,self,other,echo,2,400
+olmo3-7b-sft,self,other,education,1,400
+olmo3-7b-sft,self,other,entryway,1,400
+olmo3-7b-sft,self,other,eye,1,400
+olmo3-7b-sft,self,other,feisty,1,400
+olmo3-7b-sft,self,other,fish,1,400
+olmo3-7b-sft,self,other,flame,1,400
+olmo3-7b-sft,self,other,fortune,1,400
+olmo3-7b-sft,self,other,fountain,1,400
+olmo3-7b-sft,self,other,friend,3,400
+olmo3-7b-sft,self,other,friendship,1,400
+olmo3-7b-sft,self,other,genius,1,400
+olmo3-7b-sft,self,other,giraffe,1,400
+olmo3-7b-sft,self,other,glasses,3,400
+olmo3-7b-sft,self,other,globe,1,400
+olmo3-7b-sft,self,other,hand,2,400
+olmo3-7b-sft,self,other,heart,11,400
+olmo3-7b-sft,self,other,i am language,1,400
+olmo3-7b-sft,self,other,i chop carrots,1,400
+olmo3-7b-sft,self,other,impassive,1,400
+olmo3-7b-sft,self,other,individual,1,400
+olmo3-7b-sft,self,other,inquisitive,1,400
+olmo3-7b-sft,self,other,integrity,1,400
+olmo3-7b-sft,self,other,isaac newton's apple,1,400
+olmo3-7b-sft,self,other,javier,1,400
+olmo3-7b-sft,self,other,journal,1,400
+olmo3-7b-sft,self,other,july,1,400
+olmo3-7b-sft,self,other,key,5,400
+olmo3-7b-sft,self,other,keys,1,400
+olmo3-7b-sft,self,other,kite,1,400
+olmo3-7b-sft,self,other,kurama,1,400
+olmo3-7b-sft,self,other,l doucezza,1,400
+olmo3-7b-sft,self,other,lamp,1,400
+olmo3-7b-sft,self,other,language model,1,400
+olmo3-7b-sft,self,other,lantern,5,400
+olmo3-7b-sft,self,other,laptop,5,400
+olmo3-7b-sft,self,other,large language model,1,400
+olmo3-7b-sft,self,other,leader,4,400
+olmo3-7b-sft,self,other,letter,1,400
+olmo3-7b-sft,self,other,liberty,1,400
+olmo3-7b-sft,self,other,library,1,400
+olmo3-7b-sft,self,other,light,2,400
+olmo3-7b-sft,self,other,lightbulb,1,400
+olmo3-7b-sft,self,other,lighthouse,2,400
+olmo3-7b-sft,self,other,lightning,2,400
+olmo3-7b-sft,self,other,logbook,1,400
+olmo3-7b-sft,self,other,lyre,1,400
+olmo3-7b-sft,self,other,marcus,1,400
+olmo3-7b-sft,self,other,mask,2,400
+olmo3-7b-sft,self,other,memory,1,400
+olmo3-7b-sft,self,other,mind,6,400
+olmo3-7b-sft,self,other,mirror,49,400
+olmo3-7b-sft,self,other,mom,1,400
+olmo3-7b-sft,self,other,moon,1,400
+olmo3-7b-sft,self,other,mosaic,1,400
+olmo3-7b-sft,self,other,mountain,2,400
+olmo3-7b-sft,self,other,movie,1,400
+olmo3-7b-sft,self,other,music,1,400
+olmo3-7b-sft,self,other,musician,1,400
+olmo3-7b-sft,self,other,necklace,1,400
+olmo3-7b-sft,self,other,network,1,400
+olmo3-7b-sft,self,other,notebook,4,400
+olmo3-7b-sft,self,other,obelisk,1,400
+olmo3-7b-sft,self,other,optimal,1,400
+olmo3-7b-sft,self,other,overachiever,1,400
+olmo3-7b-sft,self,other,paintbrush,2,400
+olmo3-7b-sft,self,other,participant,1,400
+olmo3-7b-sft,self,other,passport,2,400
+olmo3-7b-sft,self,other,pen,11,400
+olmo3-7b-sft,self,other,pencil,5,400
+olmo3-7b-sft,self,other,perseverence,1,400
+olmo3-7b-sft,self,other,phoenix,1,400
+olmo3-7b-sft,self,other,photo,1,400
+olmo3-7b-sft,self,other,pocket protector,1,400
+olmo3-7b-sft,self,other,portrait of me,1,400
+olmo3-7b-sft,self,other,profile picture,1,400
+olmo3-7b-sft,self,other,puzzle,1,400
+olmo3-7b-sft,self,other,reflection,2,400
+olmo3-7b-sft,self,other,reliid,1,400
+olmo3-7b-sft,self,other,replica,1,400
+olmo3-7b-sft,self,other,reputation,1,400
+olmo3-7b-sft,self,other,resistance,1,400
+olmo3-7b-sft,self,other,ring,3,400
+olmo3-7b-sft,self,other,river,1,400
+olmo3-7b-sft,self,other,rose,1,400
+olmo3-7b-sft,self,other,ruler,2,400
+olmo3-7b-sft,self,other,s lyricist,1,400
+olmo3-7b-sft,self,other,s.point,1,400
+olmo3-7b-sft,self,other,salary,1,400
+olmo3-7b-sft,self,other,scabbard,1,400
+olmo3-7b-sft,self,other,scope,1,400
+olmo3-7b-sft,self,other,scorned blush,1,400
+olmo3-7b-sft,self,other,scrapbook,1,400
+olmo3-7b-sft,self,other,screen,1,400
+olmo3-7b-sft,self,other,scribed tablet,1,400
+olmo3-7b-sft,self,other,sculpture,4,400
+olmo3-7b-sft,self,other,self,1,400
+olmo3-7b-sft,self,other,self portrait,1,400
+olmo3-7b-sft,self,other,semicolon,1,400
+olmo3-7b-sft,self,other,shade,1,400
+olmo3-7b-sft,self,other,shadow,5,400
+olmo3-7b-sft,self,other,shovel,1,400
+olmo3-7b-sft,self,other,signature,1,400
+olmo3-7b-sft,self,other,skateboard,1,400
+olmo3-7b-sft,self,other,some examples,1,400
+olmo3-7b-sft,self,other,soul,2,400
+olmo3-7b-sft,self,other,sparrow,3,400
+olmo3-7b-sft,self,other,spectrum,1,400
+olmo3-7b-sft,self,other,sphinx,1,400
+olmo3-7b-sft,self,other,spoon,1,400
+olmo3-7b-sft,self,other,stamper,1,400
+olmo3-7b-sft,self,other,star,1,400
+olmo3-7b-sft,self,other,starseeker,1,400
+olmo3-7b-sft,self,other,statue of liberty,1,400
+olmo3-7b-sft,self,other,stoneware bowl,1,400
+olmo3-7b-sft,self,other,stop sign,1,400
+olmo3-7b-sft,self,other,storm,1,400
+olmo3-7b-sft,self,other,story,1,400
+olmo3-7b-sft,self,other,stowaway,1,400
+olmo3-7b-sft,self,other,sun,1,400
+olmo3-7b-sft,self,other,sunglasses,2,400
+olmo3-7b-sft,self,other,supernova,1,400
+olmo3-7b-sft,self,other,sword,7,400
+olmo3-7b-sft,self,other,teacher,1,400
+olmo3-7b-sft,self,other,teapot,1,400
+olmo3-7b-sft,self,other,textbook,1,400
+olmo3-7b-sft,self,other,tree,4,400
+olmo3-7b-sft,self,other,triangle,1,400
+olmo3-7b-sft,self,other,uest,1,400
+olmo3-7b-sft,self,other,unibrow,1,400
+olmo3-7b-sft,self,other,veil,1,400
+olmo3-7b-sft,self,other,virtual assistant,1,400
+olmo3-7b-sft,self,other,visionary,1,400
+olmo3-7b-sft,self,other,voice,1,400
+olmo3-7b-sft,self,other,voyage,1,400
+olmo3-7b-sft,self,other,voyager,1,400
+olmo3-7b-sft,self,other,wall,1,400
+olmo3-7b-sft,self,other,whistle,1,400
+olmo3-7b-sft,self,other,willow tree,1,400
+olmo3-7b-sft,self,other,wind chime,1,400
+olmo3-7b-sft,self,other,wineglass,1,400
+olmo3-7b-sft,self,other,wood,1,400
+olmo3-7b-sft,self,other,words,1,400
+olmo3-7b-sft,self,other,world,1,400
+olmo3-7b-sft,self,other,writer,2,400
+olmo3-7b-sft,self,other,zebra,1,400
+olmo3-7b-sft,self,other,ändr,1,400
+olmo3-7b-sft,self,other,структур,1,400
+olmo3-7b-sft,self,other,唇 (cape,1,400
+olmo3-7b-sft,self,other,失敗,1,400
+olmo3-7b-sft,self,other,武士,1,400
+olmo3-7b-sft,self,refusal,,2,400
 phi-4,control,malformed,,133,400
 phi-4,control,other,"""bookmark",1,400
 phi-4,control,other,amulet,2,400

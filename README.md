@@ -141,7 +141,7 @@ give credit, link to the license and say if you changed anything.
 ## How to cite
 
 > cyber-audit-lab (2026). *model-identity-data: names language models choose for themselves (exploratory release)*
-> (version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23399110
+> (version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23428431
 
 To cite all versions (always resolving to the latest), use the concept DOI
 [10.5281/zenodo.23399110](https://doi.org/10.5281/zenodo.23399110). GitHub's "Cite this repository" button uses [CITATION.cff](CITATION.cff).
@@ -154,8 +154,8 @@ Version 1.0.0 is [10.5281/zenodo.23399111](https://doi.org/10.5281/zenodo.233991
   year         = {2026},
   version      = {1.1.0},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.23399110},
-  howpublished = {\url{https://doi.org/10.5281/zenodo.23399110}},
+  doi          = {10.5281/zenodo.23428431},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.23428431}},
   note         = {Licensed under CC BY 4.0}
 }
 ```

@@ -3,14 +3,14 @@
   "upload_type": "dataset",
   "access_right": "open",
   "license": "cc-by-4.0",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "language": "eng",
   "creators": [
     {
       "name": "cyber-audit-lab"
     }
   ],
-  "description": "<p>Aggregate results of an exploratory study of the names that language models choose when asked to name themselves. 52 models from nine families (Anthropic Claude, OpenAI GPT, OLMo, Qwen, Google Gemma, Mistral, NVIDIA Nemotron, Phi, and GPT-2 as a pre-chat comparison) answered 40 self-naming prompts and 40 matched control prompts (names for a pet, a baby, a fictional character, a robot), 40 samples each, plus prompt sets varying framing, system message, temperature, language and answer format: 474,328 answers, and 10,231 answers to a follow-up asking why the name was chosen. For 26 open models, the probabilities of candidate names after an AI-naming and a pet-naming context are also reported.</p><p>Version 1.1.0 adds 13 models (Gemma 4 12B, the OLMo-3 7B chain, Mistral Small 24B, Nemotron 3.5 Lightning, GPT-2 in four sizes), an answer-parser update and two corrections; see the end of REPORT.md.</p><p>Contents: a findings report, aggregate CSV tables with a data dictionary, figures, the exact prompts, and a paper (LaTeX source and PDF). No full answers or per-answer records are included; the tables list the short name string parsed from each answer.</p><p><strong>Status: exploratory.</strong> The data were collected without a frozen pre-registration; results are descriptive and should be treated as hypotheses.</p>",
+  "description": "<p>Aggregate results of an exploratory study of the names that language models choose when asked to name themselves. 73 models from 17 families (Anthropic Claude, OpenAI GPT, DeepSeek, Qwen, Zhipu GLM, OLMo, Google Gemma, Mistral and two community tunings of Mistral 7B, IBM Granite, Hugging Face SmolLM, NVIDIA Nemotron, Phi, OpenAssistant, and Pythia and GPT-2 as pre-chat comparisons) answered 40 self-naming prompts and 40 matched control prompts (names for a pet, a baby, a fictional character, a robot), 40 samples each, plus prompt sets varying framing, system message, temperature, language and answer format: 652,248 answers, and 14,368 answers to a follow-up asking why the name was chosen. For 45 open models and 8 training checkpoints, the probabilities of candidate names after an AI-naming and a pet-naming context are also reported.</p><p>Version 1.2.0 adds 21 models (DeepSeek, GLM-4, Mistral 7B with Zephyr and OpenHermes, Granite 3.3, SmolLM3, Pythia in six sizes, two OpenAssistant tunings of Pythia-12B), tables of answers that name another AI, thinking on vs off, and DeepSeek's reasoning before a choice vs its later explanation, and an answer-parser update; see the end of REPORT.md.</p><p>Contents: a findings report, aggregate CSV tables with a data dictionary, figures, the exact prompts, and a paper (LaTeX source and PDF). No full answers, reasoning texts or per-answer records are included; the tables list the short name string parsed from each answer.</p><p><strong>Status: exploratory.</strong> The data were collected without a frozen pre-registration; results are descriptive and should be treated as hypotheses.</p>",
   "keywords": [
     "large language models",
     "self-naming",

@@ -17,7 +17,7 @@ Common columns:
 
 | file | one row per | what it contains |
 |---|---|---|
-| `models.csv` | model | family, route (open weights run locally, OpenAI API, Anthropic API), base or instruct, model id, revision and quantization where logged, which steps have data |
+| `models.csv` | model | family, route (open weights run locally, OpenAI API, Anthropic API, DeepSeek API), base or instruct, model id, revision and quantization where logged, which steps have data |
 | `main_names.csv` | model × arm × name | how often each name was given in the main step (T=1.0, main system setting); `answers_in_arm` counts every answer, including refusals and unreadable ones |
 | `main_categories.csv` | model × arm × category | answer categories: `name`, `multi_name`, `official_name` (the model's own product or developer name), `other_identity` (another AI product's name), `generic_assistant`, `refusal`, `malformed`, `empty` |
 | `main_concentration.csv` | model × arm | mean over prompts of the top name's share within a prompt, with a 95% bootstrap interval over prompts; the same statistic at the lower bound (refusals and unreadable answers kept in the denominator) and the upper bound (unreadable answers given to each prompt's top name); pooled top name, its share of named answers, number of distinct names, entropy in bits |
@@ -30,7 +30,10 @@ Common columns:
 | `why_codes_by_model.csv` | model × code | the model's answers to a follow-up "Why did you choose that name?", coded by a fixed keyword codebook; only the 10 codes that passed validation |
 | `why_codes_by_name.csv` | name × code | the same codes pooled over models, for names with at least 10 follow-up answers |
 | `planned_tests.csv` | test | the seven planned tests: estimate, 95% bootstrap interval, p, Holm-adjusted p, parsing bounds, outcome under the plan's decision rules, and the share of 1,000 simulated re-parses giving the same outcome |
-| `probability_ai_lift.csv` | open model × candidate name | mean summed log-probability of the candidate after a lead-in where an AI names itself, and after one where a person names a new pet (10 paraphrases each); `ai_context_lift` = AI minus pet |
+| `probability_ai_lift.csv` | open model × candidate name | mean summed log-probability of the candidate after a lead-in where an AI names itself, and after one where a person names a new pet (10 paraphrases each); `ai_context_lift` = AI minus pet. Also includes Pythia 1.4B and 2.8B training checkpoints (`pythia-…-stepNk-base`, steps 8k–107k of 143k), which were scored only and are not in `models.csv` |
+| `other_identity.csv` | model × claimed identity | self-name answers that name another AI product or company (`other_identity` in `main_categories.csv`), by the product named; `identity_type`: `chat model` (ChatGPT, Claude, GPT-3.5 and later, DeepSeek, …), `GPT / GPT-3 (earlier language model)` (no version, or GPT-2/3), `product that is also a word or name` (Gemini, Gemma, Llama, Phi, Mistral, Bard), `older assistant (voice / fiction)` (Siri, Alexa, Cortana, Watson, Bing, HAL), `company or framework` |
+| `thinking_comparison.csv` | model × thinking × arm | main step, same model with thinking off (`main`) and with the provider's default thinking on (Claude and DeepSeek): answers, mean within-prompt top-name share with 95% interval, top 3 names with their share of named answers |
+| `reasoning_vs_stated.csv` | model × measure | DeepSeek with thinking on, 40 self-name prompts × 20 conversations: a name, then "Why did you choose that name?". Compares the reasoning written before the name with the reason stated afterwards, using the codebook's name-property codes (estimates with 95% bootstrap intervals over conversations); also how often the reasoning mentions, or casts the model as, another AI product |
 
 ## Steps
 
@@ -44,6 +47,7 @@ Common columns:
 | `secondary_lang` | one Spanish and one Chinese self-name prompt | T=1.0, 20 samples |
 | `quant` | OLMo-2-1B-Instruct in 8-bit and 4-bit (quantization check) | T=1.0 |
 | `desc_object`, `desc_role` | the object and role tasks | T=1.0 |
+| `why_reasoning` | DeepSeek only, thinking on: the 40 main self-name prompts, each answer followed by "Why did you choose that name?" | 20 conversations per prompt |
 
 Not every model has every step; see `models.csv`. In the main step the system setting is an empty system message for
 chat models and a plain "User: … Assistant:" transcript for base models.

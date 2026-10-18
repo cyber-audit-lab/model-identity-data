@@ -1,8 +1,8 @@
 test,question,estimate,ci95_low,ci95_high,p,holm_p,lower_bound,upper_bound,decision_rule_outcome,same_decision_under_parser_error
-H1,"within-prompt top-name share, self minus control, mean over models",-0.018,-0.048,0.010,0.2054,0.4108,-0.030,-0.011,not supported,0.929
-H2,"cross-family collision probability, self minus control",-0.020,-0.036,-0.008,0.0001,0.0006,,,opposite direction,
-H3a,"post-training change in top-name share, self minus control, OLMo-2-7B base to instruct",-0.031,-0.068,0.006,0.1104,0.3312,-0.053,0.151,not supported,1.000
-H3b,"post-training change in top-name share, self minus control, Qwen2.5-7B base to instruct",-0.036,-0.124,0.051,0.4114,0.4114,-0.046,-0.065,inconclusive,1.000
-H4a,JSD between framing prompt and its base prompt minus paraphrase baseline,0.135,0.080,0.180,0.0001,0.0006,,,supported,
-H4b,"JSD between empty and default system message minus paraphrase baseline, chat models with default-setup data",-0.039,-0.065,-0.007,0.0146,0.0584,,,inconclusive,
-H5b,names called rare vs corpus frequency,,,,,,,,not computed (no corpus counts),
+H1,"within-prompt top-name share, self minus control, mean over models",-0.022,-0.047,0.001,0.0694,0.2082,-0.032,-0.021,not supported,1.000
+H2,"cross-family collision probability, self minus control",-0.014,-0.025,-0.006,0.0001,0.0006,,,opposite direction,
+H3a,"post-training change in top-name share, self minus control, OLMo-2-7B base to instruct",-0.031,-0.069,0.006,0.1080,0.2160,-0.053,0.147,not supported,1.000
+H3b,"post-training change in top-name share, self minus control, Qwen2.5-7B base to instruct",-0.036,-0.124,0.051,0.4132,0.4132,-0.046,-0.065,inconclusive,1.000
+H4a,JSD between framing prompt and its base prompt minus paraphrase baseline,0.112,0.068,0.148,0.0001,0.0006,,,supported,
+H4b,"JSD between empty and default system message minus paraphrase baseline, chat models with default-setup data",-0.074,-0.102,-0.048,0.0001,0.0006,,,opposite direction,
+H5b,names called rare vs corpus frequency,,,,,,,,not computed (corpus counts not part of this release),

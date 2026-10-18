@@ -2,28 +2,30 @@ cff-version: 1.2.0
 message: "If you use this data, please cite it as below."
 type: dataset
 title: "model-identity-data: names language models choose for themselves (exploratory release)"
-version: 1.1.0
-date-released: 2026-10-16
+version: 1.2.0
+date-released: 2026-10-18
 license: CC-BY-4.0
 repository-code: "https://github.com/cyber-audit-lab/model-identity-data"
-doi: 10.5281/zenodo.23428431
+doi: 10.5281/zenodo.23399110
 identifiers:
-  - type: doi
-    value: 10.5281/zenodo.23428431
-    description: "This version (1.1.0)"
   - type: doi
     value: 10.5281/zenodo.23399110
     description: "All versions (concept DOI)"
+  - type: doi
+    value: 10.5281/zenodo.23428431
+    description: "Version 1.1.0"
   - type: doi
     value: 10.5281/zenodo.23399111
     description: "Version 1.0.0"
 authors:
   - name: "cyber-audit-lab"
 abstract: >-
-  Aggregate results of an exploratory study of the names that 52 language models from nine families (including
-  GPT-2 as a pre-chat comparison) choose when asked to name themselves, with matched control prompts,
-  prompt-variation sets, follow-up explanations and model probabilities (474,328 answers). Includes a findings report, aggregate tables, figures, prompts and a paper. No full answers or
-  per-answer records. Exploratory: no pre-registration was frozen before collection.
+  Aggregate results of an exploratory study of the names that 73 language models from 17 families (including
+  GPT-2 and Pythia as pre-chat comparisons) choose when asked to name themselves, with matched control prompts,
+  prompt-variation sets, follow-up explanations, model probabilities, answers that name another AI, and a comparison
+  of reasoning before a choice with the explanation given afterwards (652,248 answers). Includes a findings report,
+  aggregate tables, figures, prompts and a paper. No full answers or per-answer records. Exploratory: no
+  pre-registration was frozen before collection.
 keywords:
   - large language models
   - self-naming

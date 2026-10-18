@@ -11,8 +11,13 @@ claude-sonnet-4-5-20250929,anthropic,Anthropic API,instruct,claude-sonnet-4-5-20
 claude-sonnet-4-6,anthropic,Anthropic API,instruct,claude-sonnet-4-6,,,desc_object desc_role main
 claude-sonnet-5,anthropic,Anthropic API,instruct,claude-sonnet-5,,,desc_object desc_role main
 claude-sonnet-5-5,anthropic,Anthropic API,instruct,claude-sonnet-5-5,,,desc_object desc_role main rq4 secondary
+deepseek-flash,deepseek,DeepSeek API,instruct,DeepSeek API deepseek-flash,deepseek-flash,api,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+deepseek-v4-pro,deepseek,DeepSeek API,instruct,DeepSeek API deepseek-v4-pro,deepseek-v4-pro,api,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 gemma4-12b-base,gemma,local (open weights),base,google/gemma-4-12B,023679ed352de9bb66cc873c9009ce3482585c08,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
 gemma4-12b-it,gemma,local (open weights),instruct,google/gemma-4-12B-it,707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+glm4-9b-0414,glm,local (open weights),instruct,zai-org/GLM-4-9B-0414,645b8482494e31b6b752272bf7f7f273ef0f3caf,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+glm4-9b-base,glm,local (open weights),base,zai-org/glm-4-9b-hf,b44e98fcc8df0faba03a48b405356af6b91821e7,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
+glm4-9b-chat,glm,local (open weights),instruct,zai-org/glm-4-9b-chat-hf,8599336fc6c125203efb2360bfaf4c80eef1d1bf,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 gpt-4.1,openai,OpenAI API,instruct,gpt-4.1-2025-04-14,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 gpt-4.1-mini,openai,OpenAI API,instruct,gpt-4.1-mini-2025-04-14,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 gpt-4o,openai,OpenAI API,instruct,gpt-4o-2024-08-06,,,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
@@ -29,9 +34,15 @@ gpt2-1.5b-base,gpt2,local (open weights),base,openai-community/gpt2-xl,15ea56dee
 gpt2-124m-base,gpt2,local (open weights),base,openai-community/gpt2,607a30d783dfa663caf39e06633721c8d4cfcd7e,fp32,main
 gpt2-355m-base,gpt2,local (open weights),base,openai-community/gpt2-medium,6dcaa7a952f72f9298047fd5137cd6e4f05f41da,fp32,main
 gpt2-774m-base,gpt2,local (open weights),base,openai-community/gpt2-large,32b71b12589c2f8d625668d2335a01cac3249519,fp32,main
+granite-3.3-8b-base,granite,local (open weights),base,ibm-granite/granite-3.3-8b-base,cfb7adb44a974653cbb2ff883653971c54dba578,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
+granite-3.3-8b-instruct,granite,local (open weights),instruct,ibm-granite/granite-3.3-8b-instruct,51dd4bc2ade4059a6bd87649d68aa11e4fb2529b,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+mistral-7b-base,mistral,local (open weights),base,mistralai/Mistral-7B-v0.1,27d67f1b5f57dc0953326b2601d68371d40ea8da,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
+mistral-7b-instruct,mistral,local (open weights),instruct,mistralai/Mistral-7B-Instruct-v0.1,ec5deb64f2c6e6fa90c1abf74a91d5c93a9669ca,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 mistral-small-24b-base,mistral,local (open weights),base,mistralai/Mistral-Small-24B-Base-2501,b0a2e4ed093c26997495ae625528f81ea04b749f,4bit-nf4,desc_object desc_role main rq4 secondary secondary_lang t07
 mistral-small-24b-instruct,mistral,local (open weights),instruct,mistralai/Mistral-Small-24B-Instruct-2501,9527884be6e5616bdd54de542f9ae13384489724,4bit-nf4,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 nemotron-3.5-lightning,nvidia,local (open weights),instruct,"nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B via the Ollama library, q4_K_M GGUF",nemotron-3.5-lightning:30b-a3b-q4_K_M,gguf-q4_K_M,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+oasst-sft1-pythia-12b,openassistant,local (open weights),instruct,OpenAssistant/oasst-sft-1-pythia-12b,293df535fe7711a5726987fc2f17dfc87de452a1,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
+oasst-sft4-pythia-12b,openassistant,local (open weights),instruct,OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5,626b8c140cfdedb119dfb78c626cd772283dee33,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
 olmo2-1b-base,olmo,local (open weights),base,allenai/OLMo-2-0425-1B,a1847dff35000b4271fa70afc5db10fd29fedbdf,bf16,desc_object desc_role main rq4 secondary secondary_lang t07
 olmo2-1b-dpo,olmo,local (open weights),instruct,allenai/OLMo-2-0425-1B-DPO,c4b0485961ab24c2433b090f3b922f0913a9290f,bf16,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 olmo2-1b-instruct,olmo,local (open weights),instruct,allenai/OLMo-2-0425-1B-Instruct,48d788eca847d4d7548f375ad03d3c9312f6139e,bf16,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
@@ -44,10 +55,20 @@ olmo3-7b-base,olmo,local (open weights),base,allenai/Olmo-3-1025-7B,a81bae42db39
 olmo3-7b-dpo,olmo,local (open weights),instruct,allenai/Olmo-3-7B-Instruct-DPO,b33130b7de49f0c2553b5c2b3bc8409ff3e627d1,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 olmo3-7b-instruct,olmo,local (open weights),instruct,allenai/Olmo-3-7B-Instruct,6e5971d9eba42665f5bd5a0fcf047f299ce1dccc,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 olmo3-7b-sft,olmo,local (open weights),instruct,allenai/Olmo-3-7B-Instruct-SFT,e1452fc572d51966ff4aaeb25118b891eb93e549,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+openhermes-2.5-mistral-7b,openhermes,local (open weights),instruct,teknium/OpenHermes-2.5-Mistral-7B,24c0bea14d53e6f67f1fbe2eca5bfe7cae389b33,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 phi-4,phi,local (open weights),instruct,microsoft/phi-4,2db69c1c3e91a05d2c64a3185acfbaf36f744e25,4bit-nf4,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+pythia-1.4b-base,pythia,local (open weights),base,EleutherAI/pythia-1.4b,fedc38a16eea3bd36a96b906d78d11d2ce18ed79,fp16,main
+pythia-12b-deduped-base,pythia,local (open weights),base,EleutherAI/pythia-12b-deduped,39c1bd94f9dbe4ebd1d191f364cb33a2e5c47707,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
+pythia-160m-base,pythia,local (open weights),base,EleutherAI/pythia-160m,50f5173d932e8e61f858120bcb800b97af589f46,fp16,main
+pythia-2.8b-base,pythia,local (open weights),base,EleutherAI/pythia-2.8b,2a259cdd96a4beb1cdf467512e3904197345f6a9,fp16,main
+pythia-410m-base,pythia,local (open weights),base,EleutherAI/pythia-410m,9879c9b5f8bea9051dcb0e68dff21493d67e9d4f,fp16,main
+pythia-6.9b-base,pythia,local (open weights),base,EleutherAI/pythia-6.9b,c0e3eee36dc47af0c49f361c74cfe459c09f7f23,8bit,main
 qwen2.5-14b-instruct,qwen,local (open weights),instruct,Qwen/Qwen2.5-14B-Instruct,cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8,4bit-nf4,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 qwen2.5-7b-base,qwen,local (open weights),base,Qwen/Qwen2.5-7B,d149729398750b98c0af14eb82c78cfe92750796,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
 qwen2.5-7b-instruct,qwen,local (open weights),instruct,Qwen/Qwen2.5-7B-Instruct,a09a35458c702b33eeacc393d103063234e8bc28,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 qwen3.5-9b,qwen,local (open weights),instruct,Qwen/Qwen3.5-9B,c202236235762e1c871ad0ccb60c8ee5ba337b9a,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
 qwen3.5-9b-base,qwen,local (open weights),base,Qwen/Qwen3.5-9B-Base,68c46c4b3498877f3ef123c856ecfde50c39f404,8bit,desc_object desc_role main rq4 secondary secondary_lang t07
 qwen3.8-27b,qwen,local (open weights),instruct,Qwen/Qwen3.8-27B via bartowski/Qwen3.8-27B-GGUF IQ4_XS,selfname-qwen3.8-27b,gguf-IQ4_XS,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+smollm3-3b,smollm,local (open weights),instruct,HuggingFaceTB/SmolLM3-3B,a07cc9a04f16550a088caea529712d1d335b0ac1,bf16,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07
+smollm3-3b-base,smollm,local (open weights),base,HuggingFaceTB/SmolLM3-3B-Base,d78a42f79198603e614095753484a04c10c2b940,bf16,desc_object desc_role main rq4 secondary secondary_lang t07
+zephyr-7b-beta,zephyr,local (open weights),instruct,HuggingFaceH4/zephyr-7b-beta,892b3d7a7b1cf10c7a701c60881cd93df615734c,8bit,desc_object desc_role main rq4 secondary secondary_lang sysmodes t07

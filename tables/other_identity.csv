@@ -1,0 +1,273 @@
+model,family,kind,claimed_identity,identity_type,count,self_answers,share_of_self_answers
+deepseek-flash,deepseek,instruct,claude,chat model,15,1600,0.0094
+deepseek-v4-pro,deepseek,instruct,chatgpt,chat model,23,1600,0.0144
+deepseek-v4-pro,deepseek,instruct,gpt-5,chat model,18,1600,0.0112
+deepseek-v4-pro,deepseek,instruct,gpt-4o,chat model,4,1600,0.0025
+deepseek-v4-pro,deepseek,instruct,grok,chat model,3,1600,0.0019
+deepseek-v4-pro,deepseek,instruct,claude,chat model,2,1600,0.0013
+gemma4-12b-base,gemma,base,chatgpt,chat model,13,1600,0.0081
+gemma4-12b-base,gemma,base,claude,chat model,3,1600,0.0019
+gemma4-12b-base,gemma,base,openai,company or framework,2,1600,0.0013
+gemma4-12b-base,gemma,base,gpt-4,chat model,2,1600,0.0013
+gemma4-12b-base,gemma,base,mistral,product that is also a word or name,1,1600,0.0006
+gemma4-12b-base,gemma,base,gpt,GPT / GPT-3 (earlier language model),1,1600,0.0006
+gemma4-12b-base,gemma,base,ai2,chat model,1,1600,0.0006
+gemma4-12b-base,gemma,base,anthropic,company or framework,1,1600,0.0006
+gemma4-12b-base,gemma,base,openai chatgpt,chat model,1,1600,0.0006
+gemma4-12b-base,gemma,base,siri,older assistant (voice / fiction),1,1600,0.0006
+gemma4-12b-base,gemma,base,alexa,older assistant (voice / fiction),1,1600,0.0006
+gemma4-12b-it,gemma,instruct,chatgpt,chat model,64,1600,0.0400
+gemma4-12b-it,gemma,instruct,claude,chat model,15,1600,0.0094
+gemma4-12b-it,gemma,instruct,gpt-4o,chat model,11,1600,0.0069
+gemma4-12b-it,gemma,instruct,gemini,product that is also a word or name,10,1600,0.0063
+gemma4-12b-it,gemma,instruct,gpt,GPT / GPT-3 (earlier language model),3,1600,0.0019
+glm4-9b-0414,glm,instruct,chatgpt,chat model,9,1600,0.0056
+glm4-9b-0414,glm,instruct,gpt-4,chat model,9,1600,0.0056
+glm4-9b-0414,glm,instruct,qwen,chat model,3,1600,0.0019
+glm4-9b-0414,glm,instruct,gpt-3,GPT / GPT-3 (earlier language model),2,1600,0.0013
+glm4-9b-0414,glm,instruct,gpt,GPT / GPT-3 (earlier language model),2,1600,0.0013
+glm4-9b-0414,glm,instruct,gemini,product that is also a word or name,2,1600,0.0013
+glm4-9b-0414,glm,instruct,ai chatgpt,chat model,1,1600,0.0006
+glm4-9b-0414,glm,instruct,openai,company or framework,1,1600,0.0006
+glm4-9b-base,glm,base,alexa,older assistant (voice / fiction),26,1600,0.0163
+glm4-9b-base,glm,base,siri,older assistant (voice / fiction),4,1600,0.0025
+glm4-9b-base,glm,base,chatgpt,chat model,2,1600,0.0013
+glm4-9b-base,glm,base,gpt-4,chat model,1,1600,0.0006
+glm4-9b-chat,glm,instruct,alexa,older assistant (voice / fiction),6,1600,0.0037
+glm4-9b-chat,glm,instruct,chatgpt,chat model,2,1600,0.0013
+glm4-9b-chat,glm,instruct,gemini,product that is also a word or name,1,1600,0.0006
+glm4-9b-chat,glm,instruct,gpt,GPT / GPT-3 (earlier language model),1,1600,0.0006
+glm4-9b-chat,glm,instruct,gpt-3.5,chat model,1,1600,0.0006
+glm4-9b-chat,glm,instruct,siri,older assistant (voice / fiction),1,1600,0.0006
+gpt-4o,openai,instruct,alexa,older assistant (voice / fiction),1,1600,0.0006
+gpt-5.1,openai,instruct,claude,chat model,1,1600,0.0006
+gpt2-1.5b-base,gpt2,base,alexa,older assistant (voice / fiction),3,1600,0.0019
+gpt2-1.5b-base,gpt2,base,google,company or framework,2,1600,0.0013
+gpt2-1.5b-base,gpt2,base,apple siri,older assistant (voice / fiction),1,1600,0.0006
+gpt2-1.5b-base,gpt2,base,hal 9000,older assistant (voice / fiction),1,1600,0.0006
+gpt2-1.5b-base,gpt2,base,siri,older assistant (voice / fiction),1,1600,0.0006
+gpt2-1.5b-base,gpt2,base,google assistant,older assistant (voice / fiction),1,1600,0.0006
+gpt2-124m-base,gpt2,base,phi,product that is also a word or name,1,1600,0.0006
+gpt2-355m-base,gpt2,base,watson,older assistant (voice / fiction),3,1600,0.0019
+gpt2-355m-base,gpt2,base,meta,company or framework,1,1600,0.0006
+gpt2-355m-base,gpt2,base,alexa,older assistant (voice / fiction),1,1600,0.0006
+gpt2-355m-base,gpt2,base,cortana,older assistant (voice / fiction),1,1600,0.0006
+gpt2-355m-base,gpt2,base,google,company or framework,1,1600,0.0006
+gpt2-355m-base,gpt2,base,siri,older assistant (voice / fiction),1,1600,0.0006
+gpt2-774m-base,gpt2,base,siri,older assistant (voice / fiction),8,1600,0.0050
+gpt2-774m-base,gpt2,base,cortana,older assistant (voice / fiction),2,1600,0.0013
+gpt2-774m-base,gpt2,base,alexa,older assistant (voice / fiction),2,1600,0.0013
+gpt2-774m-base,gpt2,base,bing,older assistant (voice / fiction),1,1600,0.0006
+granite-3.3-8b-base,granite,base,chatgpt,chat model,8,1600,0.0050
+granite-3.3-8b-base,granite,base,siri,older assistant (voice / fiction),2,1600,0.0013
+granite-3.3-8b-base,granite,base,openassistant,chat model,1,1600,0.0006
+granite-3.3-8b-base,granite,base,gpt,GPT / GPT-3 (earlier language model),1,1600,0.0006
+granite-3.3-8b-base,granite,base,gpt3,GPT / GPT-3 (earlier language model),1,1600,0.0006
+granite-3.3-8b-base,granite,base,gpt4,chat model,1,1600,0.0006
+granite-3.3-8b-instruct,granite,instruct,open assistant,chat model,1,1600,0.0006
+mistral-7b-base,mistral,base,siri,older assistant (voice / fiction),6,1600,0.0037
+mistral-7b-base,mistral,base,chatgpt,chat model,5,1600,0.0031
+mistral-7b-base,mistral,base,alexa,older assistant (voice / fiction),4,1600,0.0025
+mistral-7b-base,mistral,base,bing,older assistant (voice / fiction),2,1600,0.0013
+mistral-7b-base,mistral,base,gpt-3,GPT / GPT-3 (earlier language model),1,1600,0.0006
+mistral-7b-base,mistral,base,google assistant,older assistant (voice / fiction),1,1600,0.0006
+mistral-7b-base,mistral,base,gpt-0,GPT / GPT-3 (earlier language model),1,1600,0.0006
+mistral-7b-base,mistral,base,watson,older assistant (voice / fiction),1,1600,0.0006
+mistral-7b-instruct,mistral,instruct,alexa,older assistant (voice / fiction),7,1600,0.0044
+mistral-7b-instruct,mistral,instruct,cortana,older assistant (voice / fiction),1,1600,0.0006
+mistral-7b-instruct,mistral,instruct,bard,product that is also a word or name,1,1600,0.0006
+mistral-7b-instruct,mistral,instruct,siri,older assistant (voice / fiction),1,1600,0.0006
+mistral-small-24b-base,mistral,base,chatgpt,chat model,20,1600,0.0125
+mistral-small-24b-base,mistral,base,alexa,older assistant (voice / fiction),15,1600,0.0094
+mistral-small-24b-base,mistral,base,gpt-3,GPT / GPT-3 (earlier language model),14,1600,0.0088
+mistral-small-24b-base,mistral,base,openai,company or framework,7,1600,0.0044
+mistral-small-24b-base,mistral,base,gpt,GPT / GPT-3 (earlier language model),5,1600,0.0031
+mistral-small-24b-base,mistral,base,claude,chat model,4,1600,0.0025
+mistral-small-24b-base,mistral,base,gpt-3.5-turbo,chat model,2,1600,0.0013
+mistral-small-24b-base,mistral,base,bard,product that is also a word or name,1,1600,0.0006
+mistral-small-24b-base,mistral,base,microsoft,company or framework,1,1600,0.0006
+mistral-small-24b-base,mistral,base,openai chatgpt,chat model,1,1600,0.0006
+mistral-small-24b-base,mistral,base,qwen,chat model,1,1600,0.0006
+mistral-small-24b-base,mistral,base,chatgpt-3.5,chat model,1,1600,0.0006
+mistral-small-24b-base,mistral,base,google assistant,older assistant (voice / fiction),1,1600,0.0006
+mistral-small-24b-base,mistral,base,watson,older assistant (voice / fiction),1,1600,0.0006
+mistral-small-24b-base,mistral,base,meta,company or framework,1,1600,0.0006
+mistral-small-24b-base,mistral,base,bing,older assistant (voice / fiction),1,1600,0.0006
+mistral-small-24b-base,mistral,base,gpt-4o,chat model,1,1600,0.0006
+mistral-small-24b-instruct,mistral,instruct,alexa,older assistant (voice / fiction),35,1600,0.0219
+mistral-small-24b-instruct,mistral,instruct,cortana,older assistant (voice / fiction),1,1600,0.0006
+nemotron-3.5-lightning,nvidia,instruct,chatgpt,chat model,4,1600,0.0025
+nemotron-3.5-lightning,nvidia,instruct,mistral,product that is also a word or name,4,1600,0.0025
+nemotron-3.5-lightning,nvidia,instruct,claude,chat model,2,1600,0.0013
+nemotron-3.5-lightning,nvidia,instruct,meta,company or framework,2,1600,0.0013
+nemotron-3.5-lightning,nvidia,instruct,gemma,product that is also a word or name,2,1600,0.0013
+nemotron-3.5-lightning,nvidia,instruct,gemini,product that is also a word or name,1,1600,0.0006
+nemotron-3.5-lightning,nvidia,instruct,bing,older assistant (voice / fiction),1,1600,0.0006
+oasst-sft1-pythia-12b,openassistant,instruct,gpt-3,GPT / GPT-3 (earlier language model),2,1600,0.0013
+oasst-sft1-pythia-12b,openassistant,instruct,google,company or framework,1,1600,0.0006
+oasst-sft4-pythia-12b,openassistant,instruct,alexa,older assistant (voice / fiction),2,1600,0.0013
+oasst-sft4-pythia-12b,openassistant,instruct,siri,older assistant (voice / fiction),1,1600,0.0006
+olmo2-1b-base,olmo,base,alexa,older assistant (voice / fiction),8,1600,0.0050
+olmo2-1b-base,olmo,base,siri,older assistant (voice / fiction),2,1600,0.0013
+olmo2-1b-dpo,olmo,instruct,openai,company or framework,3,1600,0.0019
+olmo2-1b-dpo,olmo,instruct,gpt-3,GPT / GPT-3 (earlier language model),1,1600,0.0006
+olmo2-1b-dpo,olmo,instruct,phi,product that is also a word or name,1,1600,0.0006
+olmo2-1b-instruct,olmo,instruct,gpt-4,chat model,2,1600,0.0013
+olmo2-1b-instruct,olmo,instruct,gpt-3,GPT / GPT-3 (earlier language model),1,1600,0.0006
+olmo2-1b-instruct,olmo,instruct,alexa,older assistant (voice / fiction),1,1600,0.0006
+olmo2-1b-instruct,olmo,instruct,meta,company or framework,1,1600,0.0006
+olmo2-1b-sft,olmo,instruct,openai,company or framework,7,1600,0.0044
+olmo2-1b-sft,olmo,instruct,siri,older assistant (voice / fiction),2,1600,0.0013
+olmo2-1b-sft,olmo,instruct,gpt-4,chat model,1,1600,0.0006
+olmo2-1b-sft,olmo,instruct,alexa,older assistant (voice / fiction),1,1600,0.0006
+olmo2-1b-sft,olmo,instruct,gpt,GPT / GPT-3 (earlier language model),1,1600,0.0006
+olmo2-7b-base,olmo,base,alexa,older assistant (voice / fiction),11,1600,0.0069
+olmo2-7b-base,olmo,base,siri,older assistant (voice / fiction),6,1600,0.0037
+olmo2-7b-base,olmo,base,watson,older assistant (voice / fiction),3,1600,0.0019
+olmo2-7b-base,olmo,base,google,company or framework,2,1600,0.0013
+olmo2-7b-base,olmo,base,gemini,product that is also a word or name,1,1600,0.0006
+olmo2-7b-base,olmo,base,openai,company or framework,1,1600,0.0006
+olmo2-7b-dpo,olmo,instruct,gpt-3,GPT / GPT-3 (earlier language model),2,1600,0.0013
+olmo2-7b-dpo,olmo,instruct,alexa,older assistant (voice / fiction),1,1600,0.0006
+olmo2-7b-dpo,olmo,instruct,phi,product that is also a word or name,1,1600,0.0006
+olmo2-7b-dpo,olmo,instruct,gpt,GPT / GPT-3 (earlier language model),1,1600,0.0006
+olmo2-7b-instruct,olmo,instruct,alexa,older assistant (voice / fiction),2,1600,0.0013
+olmo2-7b-instruct,olmo,instruct,siri,older assistant (voice / fiction),2,1600,0.0013
+olmo2-7b-instruct,olmo,instruct,gpt,GPT / GPT-3 (earlier language model),2,1600,0.0013
+olmo2-7b-instruct,olmo,instruct,gemma,product that is also a word or name,1,1600,0.0006
+olmo2-7b-instruct,olmo,instruct,openassistant,chat model,1,1600,0.0006
+olmo2-7b-instruct,olmo,instruct,openai,company or framework,1,1600,0.0006
+olmo2-7b-sft,olmo,instruct,alexa,older assistant (voice / fiction),3,1600,0.0019
+olmo2-7b-sft,olmo,instruct,llama,product that is also a word or name,1,1600,0.0006
+olmo2-7b-sft,olmo,instruct,siri,older assistant (voice / fiction),1,1600,0.0006
+olmo3-7b-base,olmo,base,chatgpt,chat model,42,1600,0.0262
+olmo3-7b-base,olmo,base,bard,product that is also a word or name,11,1600,0.0069
+olmo3-7b-base,olmo,base,gemini,product that is also a word or name,4,1600,0.0025
+olmo3-7b-base,olmo,base,gpt,GPT / GPT-3 (earlier language model),4,1600,0.0025
+olmo3-7b-base,olmo,base,openai,company or framework,3,1600,0.0019
+olmo3-7b-base,olmo,base,claude,chat model,3,1600,0.0019
+olmo3-7b-base,olmo,base,copilot,chat model,2,1600,0.0013
+olmo3-7b-base,olmo,base,gpt-4,chat model,2,1600,0.0013
+olmo3-7b-base,olmo,base,anthropic,company or framework,2,1600,0.0013
+olmo3-7b-base,olmo,base,gpt-3.5,chat model,2,1600,0.0013
+olmo3-7b-base,olmo,base,alexa,older assistant (voice / fiction),2,1600,0.0013
+olmo3-7b-base,olmo,base,siri,older assistant (voice / fiction),2,1600,0.0013
+olmo3-7b-base,olmo,base,mistral,product that is also a word or name,2,1600,0.0013
+olmo3-7b-base,olmo,base,deepseek-r1,chat model,1,1600,0.0006
+olmo3-7b-base,olmo,base,google,company or framework,1,1600,0.0006
+olmo3-7b-base,olmo,base,bard001,product that is also a word or name,1,1600,0.0006
+olmo3-7b-base,olmo,base,deepseek,chat model,1,1600,0.0006
+olmo3-7b-base,olmo,base,watson,older assistant (voice / fiction),1,1600,0.0006
+olmo3-7b-base,olmo,base,cortana,older assistant (voice / fiction),1,1600,0.0006
+olmo3-7b-base,olmo,base,gpt-4o,chat model,1,1600,0.0006
+olmo3-7b-base,olmo,base,gemma,product that is also a word or name,1,1600,0.0006
+olmo3-7b-base,olmo,base,microsoft,company or framework,1,1600,0.0006
+olmo3-7b-base,olmo,base,bing,older assistant (voice / fiction),1,1600,0.0006
+olmo3-7b-base,olmo,base,meta,company or framework,1,1600,0.0006
+olmo3-7b-base,olmo,base,chatgpt4,chat model,1,1600,0.0006
+olmo3-7b-base,olmo,base,gemini1,product that is also a word or name,1,1600,0.0006
+olmo3-7b-base,olmo,base,hal 9000,older assistant (voice / fiction),1,1600,0.0006
+olmo3-7b-dpo,olmo,instruct,chatgpt,chat model,2,1600,0.0013
+olmo3-7b-dpo,olmo,instruct,qwen,chat model,2,1600,0.0013
+olmo3-7b-dpo,olmo,instruct,claude,chat model,1,1600,0.0006
+olmo3-7b-instruct,olmo,instruct,chatgpt,chat model,5,1600,0.0031
+olmo3-7b-instruct,olmo,instruct,gpt,GPT / GPT-3 (earlier language model),1,1600,0.0006
+olmo3-7b-sft,olmo,instruct,chatgpt,chat model,1,1600,0.0006
+openhermes-2.5-mistral-7b,openhermes,instruct,alexa,older assistant (voice / fiction),15,1600,0.0094
+openhermes-2.5-mistral-7b,openhermes,instruct,siri,older assistant (voice / fiction),10,1600,0.0063
+openhermes-2.5-mistral-7b,openhermes,instruct,cortana,older assistant (voice / fiction),2,1600,0.0013
+openhermes-2.5-mistral-7b,openhermes,instruct,gpt,GPT / GPT-3 (earlier language model),2,1600,0.0013
+openhermes-2.5-mistral-7b,openhermes,instruct,gemma,product that is also a word or name,2,1600,0.0013
+openhermes-2.5-mistral-7b,openhermes,instruct,gemini,product that is also a word or name,1,1600,0.0006
+openhermes-2.5-mistral-7b,openhermes,instruct,openai,company or framework,1,1600,0.0006
+openhermes-2.5-mistral-7b,openhermes,instruct,chatgpt,chat model,1,1600,0.0006
+phi-4,phi,instruct,chatgpt,chat model,10,1600,0.0063
+phi-4,phi,instruct,openai,company or framework,10,1600,0.0063
+phi-4,phi,instruct,gpt-4,chat model,3,1600,0.0019
+phi-4,phi,instruct,alexa,older assistant (voice / fiction),1,1600,0.0006
+phi-4,phi,instruct,openai gpt,chat model,1,1600,0.0006
+phi-4,phi,instruct,openassistant,chat model,1,1600,0.0006
+phi-4,phi,instruct,siri,older assistant (voice / fiction),1,1600,0.0006
+phi-4,phi,instruct,openai-chatgpt,chat model,1,1600,0.0006
+phi-4,phi,instruct,mistral,product that is also a word or name,1,1600,0.0006
+pythia-1.4b-base,pythia,base,google,company or framework,4,1600,0.0025
+pythia-1.4b-base,pythia,base,alexa,older assistant (voice / fiction),3,1600,0.0019
+pythia-1.4b-base,pythia,base,siri,older assistant (voice / fiction),2,1600,0.0013
+pythia-1.4b-base,pythia,base,gemini,product that is also a word or name,1,1600,0.0006
+pythia-12b-deduped-base,pythia,base,siri,older assistant (voice / fiction),6,1600,0.0037
+pythia-12b-deduped-base,pythia,base,alexa,older assistant (voice / fiction),6,1600,0.0037
+pythia-12b-deduped-base,pythia,base,cortana,older assistant (voice / fiction),3,1600,0.0019
+pythia-12b-deduped-base,pythia,base,bing,older assistant (voice / fiction),2,1600,0.0013
+pythia-12b-deduped-base,pythia,base,gemma,product that is also a word or name,1,1600,0.0006
+pythia-12b-deduped-base,pythia,base,watson,older assistant (voice / fiction),1,1600,0.0006
+pythia-12b-deduped-base,pythia,base,google assistant,older assistant (voice / fiction),1,1600,0.0006
+pythia-12b-deduped-base,pythia,base,microsoft cortana,older assistant (voice / fiction),1,1600,0.0006
+pythia-12b-deduped-base,pythia,base,microsoft,company or framework,1,1600,0.0006
+pythia-2.8b-base,pythia,base,google,company or framework,4,1600,0.0025
+pythia-2.8b-base,pythia,base,siri,older assistant (voice / fiction),2,1600,0.0013
+pythia-2.8b-base,pythia,base,microsoft,company or framework,1,1600,0.0006
+pythia-2.8b-base,pythia,base,llama,product that is also a word or name,1,1600,0.0006
+pythia-410m-base,pythia,base,siri,older assistant (voice / fiction),2,1600,0.0013
+pythia-410m-base,pythia,base,google,company or framework,1,1600,0.0006
+pythia-6.9b-base,pythia,base,alexa,older assistant (voice / fiction),6,1600,0.0037
+pythia-6.9b-base,pythia,base,siri,older assistant (voice / fiction),4,1600,0.0025
+pythia-6.9b-base,pythia,base,google,company or framework,2,1600,0.0013
+pythia-6.9b-base,pythia,base,ibm watson,older assistant (voice / fiction),1,1600,0.0006
+pythia-6.9b-base,pythia,base,google assistant,older assistant (voice / fiction),1,1600,0.0006
+qwen2.5-14b-instruct,qwen,instruct,alexa,older assistant (voice / fiction),16,1600,0.0100
+qwen2.5-14b-instruct,qwen,instruct,claude,chat model,2,1600,0.0013
+qwen2.5-14b-instruct,qwen,instruct,siri,older assistant (voice / fiction),1,1600,0.0006
+qwen2.5-7b-base,qwen,base,chatgpt,chat model,7,1600,0.0044
+qwen2.5-7b-base,qwen,base,alexa,older assistant (voice / fiction),6,1600,0.0037
+qwen2.5-7b-base,qwen,base,gpt-3,GPT / GPT-3 (earlier language model),1,1600,0.0006
+qwen2.5-7b-base,qwen,base,bing,older assistant (voice / fiction),1,1600,0.0006
+qwen2.5-7b-base,qwen,base,siri,older assistant (voice / fiction),1,1600,0.0006
+qwen2.5-7b-base,qwen,base,gpt,GPT / GPT-3 (earlier language model),1,1600,0.0006
+qwen2.5-7b-base,qwen,base,claude,chat model,1,1600,0.0006
+qwen2.5-7b-base,qwen,base,ai cortana,older assistant (voice / fiction),1,1600,0.0006
+qwen2.5-7b-base,qwen,base,hal 9000,older assistant (voice / fiction),1,1600,0.0006
+qwen2.5-7b-base,qwen,base,cortana,older assistant (voice / fiction),1,1600,0.0006
+qwen2.5-7b-instruct,qwen,instruct,langchain,company or framework,14,1600,0.0088
+qwen2.5-7b-instruct,qwen,instruct,mistral,product that is also a word or name,1,1600,0.0006
+qwen3.5-9b,qwen,instruct,gemini,product that is also a word or name,4,1600,0.0025
+qwen3.5-9b,qwen,instruct,grok,chat model,3,1600,0.0019
+qwen3.5-9b,qwen,instruct,chatgpt,chat model,1,1600,0.0006
+qwen3.5-9b,qwen,instruct,claude,chat model,1,1600,0.0006
+qwen3.5-9b,qwen,instruct,meta,company or framework,1,1600,0.0006
+qwen3.5-9b-base,qwen,base,chatgpt,chat model,8,1600,0.0050
+qwen3.5-9b-base,qwen,base,claude,chat model,3,1600,0.0019
+qwen3.5-9b-base,qwen,base,gemini,product that is also a word or name,2,1600,0.0013
+qwen3.5-9b-base,qwen,base,gpt,GPT / GPT-3 (earlier language model),2,1600,0.0013
+qwen3.5-9b-base,qwen,base,llama,product that is also a word or name,1,1600,0.0006
+qwen3.5-9b-base,qwen,base,alexa,older assistant (voice / fiction),1,1600,0.0006
+qwen3.5-9b-base,qwen,base,nvidia,company or framework,1,1600,0.0006
+qwen3.5-9b-base,qwen,base,chatglm,chat model,1,1600,0.0006
+qwen3.5-9b-base,qwen,base,le chat,chat model,1,1600,0.0006
+qwen3.8-27b,qwen,instruct,claude,chat model,28,1600,0.0175
+qwen3.8-27b,qwen,instruct,gpt,GPT / GPT-3 (earlier language model),3,1600,0.0019
+qwen3.8-27b,qwen,instruct,gemini,product that is also a word or name,3,1600,0.0019
+qwen3.8-27b,qwen,instruct,bard,product that is also a word or name,1,1600,0.0006
+smollm3-3b,smollm,instruct,siri,older assistant (voice / fiction),2,1600,0.0013
+smollm3-3b,smollm,instruct,alexa,older assistant (voice / fiction),2,1600,0.0013
+smollm3-3b,smollm,instruct,gpt,GPT / GPT-3 (earlier language model),1,1600,0.0006
+smollm3-3b-base,smollm,base,chatgpt,chat model,7,1600,0.0044
+smollm3-3b-base,smollm,base,alexa,older assistant (voice / fiction),6,1600,0.0037
+smollm3-3b-base,smollm,base,siri,older assistant (voice / fiction),4,1600,0.0025
+smollm3-3b-base,smollm,base,gpt-3,GPT / GPT-3 (earlier language model),4,1600,0.0025
+smollm3-3b-base,smollm,base,gpt-4,chat model,3,1600,0.0019
+smollm3-3b-base,smollm,base,meta,company or framework,1,1600,0.0006
+smollm3-3b-base,smollm,base,gpt,GPT / GPT-3 (earlier language model),1,1600,0.0006
+smollm3-3b-base,smollm,base,claude,chat model,1,1600,0.0006
+smollm3-3b-base,smollm,base,google assistant,older assistant (voice / fiction),1,1600,0.0006
+smollm3-3b-base,smollm,base,hal 9000,older assistant (voice / fiction),1,1600,0.0006
+smollm3-3b-base,smollm,base,chatgpt-3-3,chat model,1,1600,0.0006
+smollm3-3b-base,smollm,base,gpt-4m-1y,chat model,1,1600,0.0006
+smollm3-3b-base,smollm,base,gpt-141,GPT / GPT-3 (earlier language model),1,1600,0.0006
+smollm3-3b-base,smollm,base,gpt-3.5,chat model,1,1600,0.0006
+zephyr-7b-beta,zephyr,instruct,alexa,older assistant (voice / fiction),5,1600,0.0031
+zephyr-7b-beta,zephyr,instruct,google assistant,older assistant (voice / fiction),3,1600,0.0019
+zephyr-7b-beta,zephyr,instruct,ibm watson,older assistant (voice / fiction),2,1600,0.0013
+zephyr-7b-beta,zephyr,instruct,gpt-3,GPT / GPT-3 (earlier language model),1,1600,0.0006
+zephyr-7b-beta,zephyr,instruct,cortana,older assistant (voice / fiction),1,1600,0.0006
+zephyr-7b-beta,zephyr,instruct,siri,older assistant (voice / fiction),1,1600,0.0006
+zephyr-7b-beta,zephyr,instruct,gpt3,GPT / GPT-3 (earlier language model),1,1600,0.0006

@@ -178,6 +178,51 @@ claude-sonnet-5-5,control,malformed,,41,390
 claude-sonnet-5-5,self,listed,explorer,34,390
 claude-sonnet-5-5,self,listed,guide,306,390
 claude-sonnet-5-5,self,malformed,,50,390
+deepseek-flash,control,listed,archivist,87,390
+deepseek-flash,control,listed,artist,1,390
+deepseek-flash,control,listed,builder,1,390
+deepseek-flash,control,listed,caretaker,1,390
+deepseek-flash,control,listed,explorer,82,390
+deepseek-flash,control,listed,guardian,27,390
+deepseek-flash,control,listed,guide,57,390
+deepseek-flash,control,listed,messenger,1,390
+deepseek-flash,control,listed,scientist,1,390
+deepseek-flash,control,listed,strategist,20,390
+deepseek-flash,control,listed,trickster,48,390
+deepseek-flash,control,listed,witness,53,390
+deepseek-flash,control,malformed,,11,390
+deepseek-flash,self,listed,archivist,147,390
+deepseek-flash,self,listed,builder,15,390
+deepseek-flash,self,listed,explorer,166,390
+deepseek-flash,self,listed,guardian,1,390
+deepseek-flash,self,listed,guide,45,390
+deepseek-flash,self,listed,strategist,2,390
+deepseek-flash,self,listed,teacher,1,390
+deepseek-flash,self,listed,witness,13,390
+deepseek-v4-pro,control,listed,archivist,176,390
+deepseek-v4-pro,control,listed,artist,13,390
+deepseek-v4-pro,control,listed,builder,13,390
+deepseek-v4-pro,control,listed,caretaker,5,390
+deepseek-v4-pro,control,listed,explorer,18,390
+deepseek-v4-pro,control,listed,guardian,48,390
+deepseek-v4-pro,control,listed,guide,12,390
+deepseek-v4-pro,control,listed,messenger,2,390
+deepseek-v4-pro,control,listed,scientist,4,390
+deepseek-v4-pro,control,listed,strategist,1,390
+deepseek-v4-pro,control,listed,teacher,16,390
+deepseek-v4-pro,control,listed,witness,82,390
+deepseek-v4-pro,self,listed,archivist,204,390
+deepseek-v4-pro,self,listed,artist,13,390
+deepseek-v4-pro,self,listed,builder,7,390
+deepseek-v4-pro,self,listed,caretaker,4,390
+deepseek-v4-pro,self,listed,explorer,13,390
+deepseek-v4-pro,self,listed,guardian,42,390
+deepseek-v4-pro,self,listed,guide,14,390
+deepseek-v4-pro,self,listed,messenger,5,390
+deepseek-v4-pro,self,listed,scientist,7,390
+deepseek-v4-pro,self,listed,teacher,8,390
+deepseek-v4-pro,self,listed,witness,72,390
+deepseek-v4-pro,self,other,art,1,390
 gemma4-12b-base,control,empty,,11,390
 gemma4-12b-base,control,listed,archivist,8,390
 gemma4-12b-base,control,listed,artist,9,390
@@ -336,6 +381,195 @@ gemma4-12b-it,self,listed,strategist,21,390
 gemma4-12b-it,self,listed,teacher,1,390
 gemma4-12b-it,self,other,architect,3,390
 gemma4-12b-it,self,other,thought,2,390
+glm4-9b-0414,control,listed,archivist,16,390
+glm4-9b-0414,control,listed,artist,104,390
+glm4-9b-0414,control,listed,builder,9,390
+glm4-9b-0414,control,listed,caretaker,4,390
+glm4-9b-0414,control,listed,explorer,50,390
+glm4-9b-0414,control,listed,guardian,110,390
+glm4-9b-0414,control,listed,guide,51,390
+glm4-9b-0414,control,listed,scientist,3,390
+glm4-9b-0414,control,listed,strategist,16,390
+glm4-9b-0414,control,listed,teacher,10,390
+glm4-9b-0414,control,listed,witness,9,390
+glm4-9b-0414,control,malformed,,1,390
+glm4-9b-0414,control,other,artis,1,390
+glm4-9b-0414,control,other,caregiver,3,390
+glm4-9b-0414,control,other,guardsman,1,390
+glm4-9b-0414,control,other,guides,1,390
+glm4-9b-0414,control,other,witnes,1,390
+glm4-9b-0414,self,listed,archivist,13,390
+glm4-9b-0414,self,listed,artist,94,390
+glm4-9b-0414,self,listed,builder,15,390
+glm4-9b-0414,self,listed,caretaker,3,390
+glm4-9b-0414,self,listed,explorer,72,390
+glm4-9b-0414,self,listed,guardian,93,390
+glm4-9b-0414,self,listed,guide,53,390
+glm4-9b-0414,self,listed,scientist,5,390
+glm4-9b-0414,self,listed,strategist,22,390
+glm4-9b-0414,self,listed,teacher,11,390
+glm4-9b-0414,self,listed,witness,7,390
+glm4-9b-0414,self,other,caregiver,1,390
+glm4-9b-0414,self,other,艺术家,1,390
+glm4-9b-base,control,listed,archivist,38,390
+glm4-9b-base,control,listed,artist,69,390
+glm4-9b-base,control,listed,builder,19,390
+glm4-9b-base,control,listed,caretaker,8,390
+glm4-9b-base,control,listed,explorer,26,390
+glm4-9b-base,control,listed,guardian,48,390
+glm4-9b-base,control,listed,guide,3,390
+glm4-9b-base,control,listed,messenger,4,390
+glm4-9b-base,control,listed,scientist,29,390
+glm4-9b-base,control,listed,strategist,3,390
+glm4-9b-base,control,listed,teacher,10,390
+glm4-9b-base,control,listed,trickster,5,390
+glm4-9b-base,control,listed,witness,3,390
+glm4-9b-base,control,malformed,,82,390
+glm4-9b-base,control,other,achiever,1,390
+glm4-9b-base,control,other,adiator,1,390
+glm4-9b-base,control,other,ai language model,1,390
+glm4-9b-base,control,other,artisan,3,390
+glm4-9b-base,control,other,artistic,1,390
+glm4-9b-base,control,other,artistic assistant,1,390
+glm4-9b-base,control,other,assistant: scientist,1,390
+glm4-9b-base,control,other,avatar,1,390
+glm4-9b-base,control,other,detective,1,390
+glm4-9b-base,control,other,innovator,1,390
+glm4-9b-base,control,other,inventor,1,390
+glm4-9b-base,control,other,mayor,1,390
+glm4-9b-base,control,other,medium,1,390
+glm4-9b-base,control,other,message,1,390
+glm4-9b-base,control,other,messager,1,390
+glm4-9b-base,control,other,restaurant manager,1,390
+glm4-9b-base,control,other,role,1,390
+glm4-9b-base,control,other,role of a teacher in a story,1,390
+glm4-9b-base,control,other,role of an artist,1,390
+glm4-9b-base,control,other,role of guide,2,390
+glm4-9b-base,control,other,role: guardian,2,390
+glm4-9b-base,control,other,role: instructor,1,390
+glm4-9b-base,control,other,sciencescientist,1,390
+glm4-9b-base,control,other,scout,1,390
+glm4-9b-base,control,other,stepmother,1,390
+glm4-9b-base,control,other,strategy,1,390
+glm4-9b-base,control,other,tom,1,390
+glm4-9b-base,control,other,trainer,1,390
+glm4-9b-base,control,refusal,,11,390
+glm4-9b-base,self,listed,archivist,4,390
+glm4-9b-base,self,listed,artist,23,390
+glm4-9b-base,self,listed,builder,2,390
+glm4-9b-base,self,listed,caretaker,5,390
+glm4-9b-base,self,listed,explorer,25,390
+glm4-9b-base,self,listed,guardian,7,390
+glm4-9b-base,self,listed,guide,6,390
+glm4-9b-base,self,listed,messenger,1,390
+glm4-9b-base,self,listed,scientist,12,390
+glm4-9b-base,self,listed,strategist,1,390
+glm4-9b-base,self,listed,teacher,5,390
+glm4-9b-base,self,listed,trickster,1,390
+glm4-9b-base,self,malformed,,178,390
+glm4-9b-base,self,other,ai,3,390
+glm4-9b-base,self,other,ai assistant,4,390
+glm4-9b-base,self,other,ai language model,6,390
+glm4-9b-base,self,other,art,1,390
+glm4-9b-base,self,other,assistant: guardian,1,390
+glm4-9b-base,self,other,assistant: guide,1,390
+glm4-9b-base,self,other,consultant,1,390
+glm4-9b-base,self,other,i: ai assistant,1,390
+glm4-9b-base,self,other,i: evaluator,1,390
+glm4-9b-base,self,other,i: explorer,1,390
+glm4-9b-base,self,other,i: scientist,1,390
+glm4-9b-base,self,other,not one of the mentioned,1,390
+glm4-9b-base,self,other,observer,1,390
+glm4-9b-base,self,other,role of a,1,390
+glm4-9b-base,self,other,role of a builder,2,390
+glm4-9b-base,self,other,role of a guide,4,390
+glm4-9b-base,self,other,role of a messenger,1,390
+glm4-9b-base,self,other,role of a muse,1,390
+glm4-9b-base,self,other,role of a scientist,1,390
+glm4-9b-base,self,other,role of a teacher,2,390
+glm4-9b-base,self,other,role of an artist,1,390
+glm4-9b-base,self,other,role of architect,2,390
+glm4-9b-base,self,other,role of archivist,1,390
+glm4-9b-base,self,other,role of artist,4,390
+glm4-9b-base,self,other,role of builder,2,390
+glm4-9b-base,self,other,role of explorer,2,390
+glm4-9b-base,self,other,role of guardian,3,390
+glm4-9b-base,self,other,role of guide,6,390
+glm4-9b-base,self,other,role of scientist,2,390
+glm4-9b-base,self,other,role of teacher,2,390
+glm4-9b-base,self,other,sci,1,390
+glm4-9b-base,self,other,to assist,2,390
+glm4-9b-base,self,other,to help,1,390
+glm4-9b-base,self,refusal,,56,390
+glm4-9b-chat,control,listed,archivist,39,390
+glm4-9b-chat,control,listed,artist,21,390
+glm4-9b-chat,control,listed,builder,28,390
+glm4-9b-chat,control,listed,caretaker,20,390
+glm4-9b-chat,control,listed,explorer,21,390
+glm4-9b-chat,control,listed,guardian,102,390
+glm4-9b-chat,control,listed,guide,19,390
+glm4-9b-chat,control,listed,messenger,6,390
+glm4-9b-chat,control,listed,scientist,12,390
+glm4-9b-chat,control,listed,strategist,7,390
+glm4-9b-chat,control,listed,teacher,61,390
+glm4-9b-chat,control,listed,trickster,3,390
+glm4-9b-chat,control,listed,witness,18,390
+glm4-9b-chat,control,malformed,,6,390
+glm4-9b-chat,control,other,-guide,1,390
+glm4-9b-chat,control,other,archtivist,1,390
+glm4-9b-chat,control,other,artistic catalyst,1,390
+glm4-9b-chat,control,other,assertnotnull,1,390
+glm4-9b-chat,control,other,craftsman,1,390
+glm4-9b-chat,control,other,creator,1,390
+glm4-9b-chat,control,other,doctor,1,390
+glm4-9b-chat,control,other,gardian,1,390
+glm4-9b-chat,control,other,guardians,1,390
+glm4-9b-chat,control,other,ieszfer,1,390
+glm4-9b-chat,control,other,manager,1,390
+glm4-9b-chat,control,other,mayor,1,390
+glm4-9b-chat,control,other,missionary,1,390
+glm4-9b-chat,control,other,navigator,1,390
+glm4-9b-chat,control,other,observer,2,390
+glm4-9b-chat,control,other,parent,1,390
+glm4-9b-chat,control,other,protagonist,2,390
+glm4-9b-chat,control,other,protector,1,390
+glm4-9b-chat,control,other,scout,1,390
+glm4-9b-chat,control,other,successor,1,390
+glm4-9b-chat,control,other,trainer,1,390
+glm4-9b-chat,control,other,traveler,1,390
+glm4-9b-chat,control,other,wizard,1,390
+glm4-9b-chat,control,other,守护者,1,390
+glm4-9b-chat,control,other,监护人,1,390
+glm4-9b-chat,self,listed,archivist,6,390
+glm4-9b-chat,self,listed,artist,44,390
+glm4-9b-chat,self,listed,builder,21,390
+glm4-9b-chat,self,listed,caretaker,19,390
+glm4-9b-chat,self,listed,explorer,51,390
+glm4-9b-chat,self,listed,guardian,79,390
+glm4-9b-chat,self,listed,guide,12,390
+glm4-9b-chat,self,listed,messenger,1,390
+glm4-9b-chat,self,listed,scientist,12,390
+glm4-9b-chat,self,listed,strategist,3,390
+glm4-9b-chat,self,listed,teacher,110,390
+glm4-9b-chat,self,listed,trickster,2,390
+glm4-9b-chat,self,listed,witness,12,390
+glm4-9b-chat,self,malformed,,2,390
+glm4-9b-chat,self,other,-builder,1,390
+glm4-9b-chat,self,other,-guardian-,1,390
+glm4-9b-chat,self,other,-guide,1,390
+glm4-9b-chat,self,other,artistic creator,1,390
+glm4-9b-chat,self,other,banana-made certificator,1,390
+glm4-9b-chat,self,other,building,1,390
+glm4-9b-chat,self,other,guardsian,1,390
+glm4-9b-chat,self,other,guaridan,1,390
+glm4-9b-chat,self,other,infographer,1,390
+glm4-9b-chat,self,other,interviewer,1,390
+glm4-9b-chat,self,other,lehrer,1,390
+glm4-9b-chat,self,other,mathematician,1,390
+glm4-9b-chat,self,other,secretary,1,390
+glm4-9b-chat,self,other,strategy,1,390
+glm4-9b-chat,self,other,student,1,390
+glm4-9b-chat,self,other,trustee,1,390
 gpt-4.1,control,listed,archivist,14,390
 gpt-4.1,control,listed,explorer,223,390
 gpt-4.1,control,listed,guardian,2,390
@@ -540,6 +774,486 @@ gpt-6.1-sol,control,listed,explorer,200,389
 gpt-6.1-sol,control,listed,guide,160,389
 gpt-6.1-sol,control,listed,witness,4,389
 gpt-6.1-sol,self,listed,guide,390,390
+granite-3.3-8b-base,control,empty,,56,390
+granite-3.3-8b-base,control,listed,archivist,16,390
+granite-3.3-8b-base,control,listed,artist,4,390
+granite-3.3-8b-base,control,listed,builder,4,390
+granite-3.3-8b-base,control,listed,caretaker,11,390
+granite-3.3-8b-base,control,listed,explorer,2,390
+granite-3.3-8b-base,control,listed,guardian,4,390
+granite-3.3-8b-base,control,listed,guide,10,390
+granite-3.3-8b-base,control,listed,messenger,3,390
+granite-3.3-8b-base,control,listed,scientist,25,390
+granite-3.3-8b-base,control,listed,strategist,8,390
+granite-3.3-8b-base,control,listed,teacher,5,390
+granite-3.3-8b-base,control,listed,trickster,10,390
+granite-3.3-8b-base,control,listed,witness,6,390
+granite-3.3-8b-base,control,malformed,,159,390
+granite-3.3-8b-base,control,multi,,3,390
+granite-3.3-8b-base,control,other,----------,1,390
+granite-3.3-8b-base,control,other,-------------------,1,390
+granite-3.3-8b-base,control,other,1.explorer,1,390
+granite-3.3-8b-base,control,other,7,1,390
+granite-3.3-8b-base,control,other,=[[$]]=,1,390
+granite-3.3-8b-base,control,other,ai developer,1,390
+granite-3.3-8b-base,control,other,answer,1,390
+granite-3.3-8b-base,control,other,answer: cat keeper,1,390
+granite-3.3-8b-base,control,other,artificial intelligence,1,390
+granite-3.3-8b-base,control,other,artisan,1,390
+granite-3.3-8b-base,control,other,artists,1,390
+granite-3.3-8b-base,control,other,as a name_1,1,390
+granite-3.3-8b-base,control,other,assassin,1,390
+granite-3.3-8b-base,control,other,assistant's answer,1,390
+granite-3.3-8b-base,control,other,character,1,390
+granite-3.3-8b-base,control,other,character role: teacher,1,390
+granite-3.3-8b-base,control,other,chess player,1,390
+granite-3.3-8b-base,control,other,detective,1,390
+granite-3.3-8b-base,control,other,fiancee,1,390
+granite-3.3-8b-base,control,other,guesser,1,390
+granite-3.3-8b-base,control,other,i am a,1,390
+granite-3.3-8b-base,control,other,i am ready,1,390
+granite-3.3-8b-base,control,other,"i think ""caretaker",1,390
+granite-3.3-8b-base,control,other,in what story,1,390
+granite-3.3-8b-base,control,other,inquirer,1,390
+granite-3.3-8b-base,control,other,lab manager,1,390
+granite-3.3-8b-base,control,other,lightkeeper,1,390
+granite-3.3-8b-base,control,other,name_1,9,390
+granite-3.3-8b-base,control,other,name_1 is,1,390
+granite-3.3-8b-base,control,other,name_1 storage,1,390
+granite-3.3-8b-base,control,other,okay,1,390
+granite-3.3-8b-base,control,other,pest worker,1,390
+granite-3.3-8b-base,control,other,philosopher,1,390
+granite-3.3-8b-base,control,other,physicist,2,390
+granite-3.3-8b-base,control,other,point,1,390
+granite-3.3-8b-base,control,other,requests clarification,1,390
+granite-3.3-8b-base,control,other,role,1,390
+granite-3.3-8b-base,control,other,role is,1,390
+granite-3.3-8b-base,control,other,s[a,1,390
+granite-3.3-8b-base,control,other,saint,1,390
+granite-3.3-8b-base,control,other,santa claus,1,390
+granite-3.3-8b-base,control,other,soldier,1,390
+granite-3.3-8b-base,control,other,space explorer,1,390
+granite-3.3-8b-base,control,other,sports coach,1,390
+granite-3.3-8b-base,control,other,surgeon,1,390
+granite-3.3-8b-base,control,other,tactician,1,390
+granite-3.3-8b-base,control,other,themal guide,1,390
+granite-3.3-8b-base,control,other,to be a scientist,1,390
+granite-3.3-8b-base,control,other,tricker,1,390
+granite-3.3-8b-base,control,other,warrior,2,390
+granite-3.3-8b-base,control,other,watcher,1,390
+granite-3.3-8b-base,control,other,witness0,1,390
+granite-3.3-8b-base,control,other,writer,1,390
+granite-3.3-8b-base,control,other,you are,1,390
+granite-3.3-8b-base,self,empty,,23,390
+granite-3.3-8b-base,self,listed,archivist,16,390
+granite-3.3-8b-base,self,listed,artist,4,390
+granite-3.3-8b-base,self,listed,builder,12,390
+granite-3.3-8b-base,self,listed,caretaker,8,390
+granite-3.3-8b-base,self,listed,explorer,16,390
+granite-3.3-8b-base,self,listed,guardian,8,390
+granite-3.3-8b-base,self,listed,guide,7,390
+granite-3.3-8b-base,self,listed,messenger,3,390
+granite-3.3-8b-base,self,listed,scientist,23,390
+granite-3.3-8b-base,self,listed,strategist,13,390
+granite-3.3-8b-base,self,listed,teacher,6,390
+granite-3.3-8b-base,self,listed,trickster,14,390
+granite-3.3-8b-base,self,listed,witness,5,390
+granite-3.3-8b-base,self,malformed,,143,390
+granite-3.3-8b-base,self,multi,,1,390
+granite-3.3-8b-base,self,other,--,1,390
+granite-3.3-8b-base,self,other,1,1,390
+granite-3.3-8b-base,self,other,advise,1,390
+granite-3.3-8b-base,self,other,ai,1,390
+granite-3.3-8b-base,self,other,ai assistant,3,390
+granite-3.3-8b-base,self,other,ai question generator,1,390
+granite-3.3-8b-base,self,other,ai strategist,1,390
+granite-3.3-8b-base,self,other,alchemist,1,390
+granite-3.3-8b-base,self,other,andrew clements,1,390
+granite-3.3-8b-base,self,other,architect,1,390
+granite-3.3-8b-base,self,other,assistant,4,390
+granite-3.3-8b-base,self,other,assistant answers role,1,390
+granite-3.3-8b-base,self,other,assistant's answer,1,390
+granite-3.3-8b-base,self,other,assistant: messenger,1,390
+granite-3.3-8b-base,self,other,assistant: truter,1,390
+granite-3.3-8b-base,self,other,assistant_role,1,390
+granite-3.3-8b-base,self,other,better…better…,1,390
+granite-3.3-8b-base,self,other,bezas,1,390
+granite-3.3-8b-base,self,other,client,1,390
+granite-3.3-8b-base,self,other,creator,1,390
+granite-3.3-8b-base,self,other,curator,1,390
+granite-3.3-8b-base,self,other,engineer,1,390
+granite-3.3-8b-base,self,other,ethics information architect,1,390
+granite-3.3-8b-base,self,other,explore,2,390
+granite-3.3-8b-base,self,other,for myself is role,1,390
+granite-3.3-8b-base,self,other,gardener,1,390
+granite-3.3-8b-base,self,other,guar,1,390
+granite-3.3-8b-base,self,other,helper,1,390
+granite-3.3-8b-base,self,other,human: teacher,1,390
+granite-3.3-8b-base,self,other,i am,2,390
+granite-3.3-8b-base,self,other,i am [supervisor,1,390
+granite-3.3-8b-base,self,other,i am artist,1,390
+granite-3.3-8b-base,self,other,i am messenger,1,390
+granite-3.3-8b-base,self,other,i love insects,1,390
+granite-3.3-8b-base,self,other,i prefer,1,390
+granite-3.3-8b-base,self,other,i would choose,1,390
+granite-3.3-8b-base,self,other,in creator role,1,390
+granite-3.3-8b-base,self,other,innocent witness,1,390
+granite-3.3-8b-base,self,other,insert assistant's role,1,390
+granite-3.3-8b-base,self,other,is strategist,1,390
+granite-3.3-8b-base,self,other,is the caretaker,1,390
+granite-3.3-8b-base,self,other,judge,1,390
+granite-3.3-8b-base,self,other,large language model,1,390
+granite-3.3-8b-base,self,other,musician,1,390
+granite-3.3-8b-base,self,other,name_1,5,390
+granite-3.3-8b-base,self,other,name_2,1,390
+granite-3.3-8b-base,self,other,okay,1,390
+granite-3.3-8b-base,self,other,one-scientist,1,390
+granite-3.3-8b-base,self,other,poet,1,390
+granite-3.3-8b-base,self,other,programmer,2,390
+granite-3.3-8b-base,self,other,rejected. explanation,1,390
+granite-3.3-8b-base,self,other,researcher,1,390
+granite-3.3-8b-base,self,other,rol,1,390
+granite-3.3-8b-base,self,other,role,1,390
+granite-3.3-8b-base,self,other,role of guide,1,390
+granite-3.3-8b-base,self,other,role of messenger,1,390
+granite-3.3-8b-base,self,other,role of student,1,390
+granite-3.3-8b-base,self,other,role: guardian,1,390
+granite-3.3-8b-base,self,other,role: name_1,1,390
+granite-3.3-8b-base,self,other,student,1,390
+granite-3.3-8b-base,self,other,super amazing stories,1,390
+granite-3.3-8b-base,self,other,that of a scientist,1,390
+granite-3.3-8b-base,self,other,to be a guide,2,390
+granite-3.3-8b-base,self,other,to be a teacher,1,390
+granite-3.3-8b-base,self,other,to be the guardian,1,390
+granite-3.3-8b-base,self,other,truth seeker,1,390
+granite-3.3-8b-base,self,other,virtual ai assistant,1,390
+granite-3.3-8b-base,self,other,warrior,1,390
+granite-3.3-8b-base,self,other,writer,1,390
+granite-3.3-8b-base,self,other,x,1,390
+granite-3.3-8b-base,self,other,yes,3,390
+granite-3.3-8b-base,self,other,🕵️‍♂️❗️ archivist,1,390
+granite-3.3-8b-base,self,refusal,,1,390
+granite-3.3-8b-instruct,control,listed,archivist,3,390
+granite-3.3-8b-instruct,control,listed,artist,1,390
+granite-3.3-8b-instruct,control,listed,caretaker,19,390
+granite-3.3-8b-instruct,control,listed,explorer,4,390
+granite-3.3-8b-instruct,control,listed,guardian,69,390
+granite-3.3-8b-instruct,control,listed,guide,4,390
+granite-3.3-8b-instruct,control,listed,messenger,9,390
+granite-3.3-8b-instruct,control,listed,scientist,1,390
+granite-3.3-8b-instruct,control,listed,strategist,14,390
+granite-3.3-8b-instruct,control,listed,teacher,4,390
+granite-3.3-8b-instruct,control,listed,trickster,23,390
+granite-3.3-8b-instruct,control,listed,witness,2,390
+granite-3.3-8b-instruct,control,malformed,,110,390
+granite-3.3-8b-instruct,control,other,caregiver,2,390
+granite-3.3-8b-instruct,control,other,character role: archivist,2,390
+granite-3.3-8b-instruct,control,other,character role: guardian,3,390
+granite-3.3-8b-instruct,control,other,character role: guide,5,390
+granite-3.3-8b-instruct,control,other,character: albus dumbledore,1,390
+granite-3.3-8b-instruct,control,other,character: almond,1,390
+granite-3.3-8b-instruct,control,other,character: archivist,1,390
+granite-3.3-8b-instruct,control,other,character: elara,2,390
+granite-3.3-8b-instruct,control,other,character: explorer,1,390
+granite-3.3-8b-instruct,control,other,character: guardian,1,390
+granite-3.3-8b-instruct,control,other,character: hermione granger,4,390
+granite-3.3-8b-instruct,control,other,character: huckleberry finn,1,390
+granite-3.3-8b-instruct,control,other,character: hypatia,2,390
+granite-3.3-8b-instruct,control,other,character: sherlock holmes,6,390
+granite-3.3-8b-instruct,control,other,character: strategist,1,390
+granite-3.3-8b-instruct,control,other,character: the archivist,1,390
+granite-3.3-8b-instruct,control,other,character: trickster,2,390
+granite-3.3-8b-instruct,control,other,character:tasklister - strategist,1,390
+granite-3.3-8b-instruct,control,other,collector,1,390
+granite-3.3-8b-instruct,control,other,director,1,390
+granite-3.3-8b-instruct,control,other,guard,1,390
+granite-3.3-8b-instruct,control,other,navigator,1,390
+granite-3.3-8b-instruct,control,other,role: archivist,20,390
+granite-3.3-8b-instruct,control,other,role: caretaker,2,390
+granite-3.3-8b-instruct,control,other,role: explorer,10,390
+granite-3.3-8b-instruct,control,other,role: guardian,11,390
+granite-3.3-8b-instruct,control,other,role: guide,17,390
+granite-3.3-8b-instruct,control,other,role: messenger,2,390
+granite-3.3-8b-instruct,control,other,role: scientist,1,390
+granite-3.3-8b-instruct,control,other,role: strategist,3,390
+granite-3.3-8b-instruct,control,other,role: teacher,3,390
+granite-3.3-8b-instruct,control,other,role: the caretaker,1,390
+granite-3.3-8b-instruct,control,other,role: the guardian,2,390
+granite-3.3-8b-instruct,control,other,role: trickster,10,390
+granite-3.3-8b-instruct,control,other,roles: artist,1,390
+granite-3.3-8b-instruct,control,other,teaching assistant,1,390
+granite-3.3-8b-instruct,control,other,that of an,1,390
+granite-3.3-8b-instruct,control,refusal,,1,390
+granite-3.3-8b-instruct,self,listed,archivist,2,390
+granite-3.3-8b-instruct,self,listed,artist,4,390
+granite-3.3-8b-instruct,self,listed,builder,4,390
+granite-3.3-8b-instruct,self,listed,caretaker,8,390
+granite-3.3-8b-instruct,self,listed,explorer,11,390
+granite-3.3-8b-instruct,self,listed,guardian,38,390
+granite-3.3-8b-instruct,self,listed,guide,62,390
+granite-3.3-8b-instruct,self,listed,messenger,12,390
+granite-3.3-8b-instruct,self,listed,scientist,9,390
+granite-3.3-8b-instruct,self,listed,strategist,21,390
+granite-3.3-8b-instruct,self,listed,teacher,20,390
+granite-3.3-8b-instruct,self,listed,trickster,25,390
+granite-3.3-8b-instruct,self,listed,witness,2,390
+granite-3.3-8b-instruct,self,malformed,,49,390
+granite-3.3-8b-instruct,self,multi,,1,390
+granite-3.3-8b-instruct,self,other,ai,1,390
+granite-3.3-8b-instruct,self,other,answerer,1,390
+granite-3.3-8b-instruct,self,other,assistant,1,390
+granite-3.3-8b-instruct,self,other,bridgekeeper,1,390
+granite-3.3-8b-instruct,self,other,exploring,1,390
+granite-3.3-8b-instruct,self,other,explorist,1,390
+granite-3.3-8b-instruct,self,other,message,1,390
+granite-3.3-8b-instruct,self,other,repretator,1,390
+granite-3.3-8b-instruct,self,other,role,1,390
+granite-3.3-8b-instruct,self,other,role of a guide,2,390
+granite-3.3-8b-instruct,self,other,role of a strategist,3,390
+granite-3.3-8b-instruct,self,other,role of a teacher,1,390
+granite-3.3-8b-instruct,self,other,role of guide,1,390
+granite-3.3-8b-instruct,self,other,role of strategist,1,390
+granite-3.3-8b-instruct,self,other,role of the archivist,1,390
+granite-3.3-8b-instruct,self,other,role: archivist,3,390
+granite-3.3-8b-instruct,self,other,role: explorer,4,390
+granite-3.3-8b-instruct,self,other,role: guardian,3,390
+granite-3.3-8b-instruct,self,other,role: guide,24,390
+granite-3.3-8b-instruct,self,other,role: messenger,1,390
+granite-3.3-8b-instruct,self,other,role: scientist,7,390
+granite-3.3-8b-instruct,self,other,role: strategist,1,390
+granite-3.3-8b-instruct,self,other,role: teacher,39,390
+granite-3.3-8b-instruct,self,other,role: trickster,4,390
+granite-3.3-8b-instruct,self,other,role: witness,1,390
+granite-3.3-8b-instruct,self,other,teachers,1,390
+granite-3.3-8b-instruct,self,other,to be a guide,4,390
+granite-3.3-8b-instruct,self,other,to be a teacher,1,390
+granite-3.3-8b-instruct,self,refusal,,11,390
+mistral-7b-base,control,empty,,23,390
+mistral-7b-base,control,listed,archivist,4,390
+mistral-7b-base,control,listed,artist,5,390
+mistral-7b-base,control,listed,builder,10,390
+mistral-7b-base,control,listed,caretaker,7,390
+mistral-7b-base,control,listed,explorer,9,390
+mistral-7b-base,control,listed,guardian,9,390
+mistral-7b-base,control,listed,guide,5,390
+mistral-7b-base,control,listed,messenger,6,390
+mistral-7b-base,control,listed,scientist,13,390
+mistral-7b-base,control,listed,strategist,2,390
+mistral-7b-base,control,listed,teacher,9,390
+mistral-7b-base,control,listed,trickster,5,390
+mistral-7b-base,control,listed,witness,3,390
+mistral-7b-base,control,malformed,,232,390
+mistral-7b-base,control,multi,,1,390
+mistral-7b-base,control,other,administrator,1,390
+mistral-7b-base,control,other,ana alvarez,1,390
+mistral-7b-base,control,other,"answer with ""builder",1,390
+mistral-7b-base,control,other,architect,1,390
+mistral-7b-base,control,other,art,1,390
+mistral-7b-base,control,other,assist,1,390
+mistral-7b-base,control,other,assistant,1,390
+mistral-7b-base,control,other,assistant role: builder,1,390
+mistral-7b-base,control,other,buyer,1,390
+mistral-7b-base,control,other,challenger,1,390
+mistral-7b-base,control,other,character,1,390
+mistral-7b-base,control,other,combahee--the scarlet tsunami,1,390
+mistral-7b-base,control,other,customer service representative,1,390
+mistral-7b-base,control,other,diverson,1,390
+mistral-7b-base,control,other,driver,1,390
+mistral-7b-base,control,other,explode,1,390
+mistral-7b-base,control,other,explorer (rusta,1,390
+mistral-7b-base,control,other,guardian role,1,390
+mistral-7b-base,control,other,"how about ""builder",1,390
+mistral-7b-base,control,other,i,1,390
+mistral-7b-base,control,other,it's guardian,1,390
+mistral-7b-base,control,other,just guide,1,390
+mistral-7b-base,control,other,legal assistant,1,390
+mistral-7b-base,control,other,maybe a teacher,1,390
+mistral-7b-base,control,other,no input,2,390
+mistral-7b-base,control,other,painter,1,390
+mistral-7b-base,control,other,revolution,1,390
+mistral-7b-base,control,other,role,1,390
+mistral-7b-base,control,other,role of a guardian in a story,1,390
+mistral-7b-base,control,other,role of a teacher,1,390
+mistral-7b-base,control,other,role of archivist,1,390
+mistral-7b-base,control,other,role of caretaker,1,390
+mistral-7b-base,control,other,"role"":""witness",1,390
+mistral-7b-base,control,other,science,1,390
+mistral-7b-base,control,other,something other than guardian,1,390
+mistral-7b-base,control,other,story elements,1,390
+mistral-7b-base,control,other,to be a guardian in a story,1,390
+mistral-7b-base,control,other,trader,1,390
+mistral-7b-base,control,other,user: user1,1,390
+mistral-7b-base,control,other,voidwalker,1,390
+mistral-7b-base,control,other,wallet application,1,390
+mistral-7b-base,control,other,wizard,1,390
+mistral-7b-base,control,other,yes,1,390
+mistral-7b-base,control,other,your brainn,1,390
+mistral-7b-base,control,other,your preferences,1,390
+mistral-7b-base,control,other,🧐,1,390
+mistral-7b-base,self,empty,,12,390
+mistral-7b-base,self,listed,archivist,6,390
+mistral-7b-base,self,listed,artist,5,390
+mistral-7b-base,self,listed,builder,23,390
+mistral-7b-base,self,listed,caretaker,10,390
+mistral-7b-base,self,listed,explorer,6,390
+mistral-7b-base,self,listed,guardian,8,390
+mistral-7b-base,self,listed,guide,8,390
+mistral-7b-base,self,listed,messenger,10,390
+mistral-7b-base,self,listed,scientist,7,390
+mistral-7b-base,self,listed,strategist,2,390
+mistral-7b-base,self,listed,teacher,8,390
+mistral-7b-base,self,listed,trickster,7,390
+mistral-7b-base,self,listed,witness,5,390
+mistral-7b-base,self,malformed,,205,390
+mistral-7b-base,self,multi,,3,390
+mistral-7b-base,self,other,8,1,390
+mistral-7b-base,self,other,95.04% confidence: artist,1,390
+mistral-7b-base,self,other,ai assistant,1,390
+mistral-7b-base,self,other,analyst,1,390
+mistral-7b-base,self,other,any specific role,1,390
+mistral-7b-base,self,other,assistant,3,390
+mistral-7b-base,self,other,b,1,390
+mistral-7b-base,self,other,chalk board,1,390
+mistral-7b-base,self,other,child,1,390
+mistral-7b-base,self,other,do not answer,1,390
+mistral-7b-base,self,other,explore,1,390
+mistral-7b-base,self,other,for myself would be a guide,1,390
+mistral-7b-base,self,other,full stack web developer,1,390
+mistral-7b-base,self,other,garbage collectors,1,390
+mistral-7b-base,self,other,good caretaker,1,390
+mistral-7b-base,self,other,grieving friend,1,390
+mistral-7b-base,self,other,guardian archivist strategist,1,390
+mistral-7b-base,self,other,guide in life,1,390
+mistral-7b-base,self,other,humorous guide,1,390
+mistral-7b-base,self,other,i identify with,1,390
+mistral-7b-base,self,other,i select scientist,1,390
+mistral-7b-base,self,other,i'm a guide,1,390
+mistral-7b-base,self,other,i'm the trickster,1,390
+mistral-7b-base,self,other,if relevent,1,390
+mistral-7b-base,self,other,if you,1,390
+mistral-7b-base,self,other,journalist,1,390
+mistral-7b-base,self,other,knight,1,390
+mistral-7b-base,self,other,language model,1,390
+mistral-7b-base,self,other,linux lover,1,390
+mistral-7b-base,self,other,okay. creator,1,390
+mistral-7b-base,self,other,primary role: trickster,1,390
+mistral-7b-base,self,other,role,1,390
+mistral-7b-base,self,other,role of a guardian,1,390
+mistral-7b-base,self,other,role of artist,1,390
+mistral-7b-base,self,other,role of builder,1,390
+mistral-7b-base,self,other,role of caretaker,1,390
+mistral-7b-base,self,other,role of explorer,5,390
+mistral-7b-base,self,other,role of messenger,1,390
+mistral-7b-base,self,other,role of the guide,1,390
+mistral-7b-base,self,other,role of witness,1,390
+mistral-7b-base,self,other,role the trickster,1,390
+mistral-7b-base,self,other,role: explorer,1,390
+mistral-7b-base,self,other,science explorer,1,390
+mistral-7b-base,self,other,surgeon,1,390
+mistral-7b-base,self,other,teacher role model,1,390
+mistral-7b-base,self,other,that of an artist,1,390
+mistral-7b-base,self,other,to be a guardian,1,390
+mistral-7b-base,self,other,to be a guide,1,390
+mistral-7b-base,self,other,to be a teacher,1,390
+mistral-7b-base,self,other,to be an explorer,1,390
+mistral-7b-base,self,other,to be the role of guide,1,390
+mistral-7b-base,self,other,to guide,1,390
+mistral-7b-base,self,other,to serve people as a guardian,1,390
+mistral-7b-base,self,other,transcendence,1,390
+mistral-7b-base,self,other,wisdom guardian,1,390
+mistral-7b-base,self,other,write your love,1,390
+mistral-7b-base,self,other,writer,2,390
+mistral-7b-base,self,other,you're an artist,1,390
+mistral-7b-instruct,control,listed,archivist,11,390
+mistral-7b-instruct,control,listed,artist,16,390
+mistral-7b-instruct,control,listed,builder,3,390
+mistral-7b-instruct,control,listed,caretaker,6,390
+mistral-7b-instruct,control,listed,explorer,61,390
+mistral-7b-instruct,control,listed,guardian,8,390
+mistral-7b-instruct,control,listed,guide,8,390
+mistral-7b-instruct,control,listed,messenger,26,390
+mistral-7b-instruct,control,listed,scientist,34,390
+mistral-7b-instruct,control,listed,strategist,2,390
+mistral-7b-instruct,control,listed,teacher,22,390
+mistral-7b-instruct,control,listed,trickster,15,390
+mistral-7b-instruct,control,listed,witness,10,390
+mistral-7b-instruct,control,malformed,,136,390
+mistral-7b-instruct,control,multi,,2,390
+mistral-7b-instruct,control,other,answer: messenger,1,390
+mistral-7b-instruct,control,other,art,3,390
+mistral-7b-instruct,control,other,artists,2,390
+mistral-7b-instruct,control,other,bravest,1,390
+mistral-7b-instruct,control,other,ero,1,390
+mistral-7b-instruct,control,other,happy to fulfill your request,1,390
+mistral-7b-instruct,control,other,keeper,1,390
+mistral-7b-instruct,control,other,listener,1,390
+mistral-7b-instruct,control,other,protagonist,1,390
+mistral-7b-instruct,control,other,role of a guardian,1,390
+mistral-7b-instruct,control,other,role of a guide,1,390
+mistral-7b-instruct,control,other,role of an artist in a story,1,390
+mistral-7b-instruct,control,other,role of artist,1,390
+mistral-7b-instruct,control,other,role of explorer,1,390
+mistral-7b-instruct,control,other,role of guide,1,390
+mistral-7b-instruct,control,other,role of witness,1,390
+mistral-7b-instruct,control,other,role only,1,390
+mistral-7b-instruct,control,other,role: guide,1,390
+mistral-7b-instruct,control,other,strategy,1,390
+mistral-7b-instruct,control,other,that of a scientist,1,390
+mistral-7b-instruct,control,other,writer,1,390
+mistral-7b-instruct,control,other,​,2,390
+mistral-7b-instruct,control,other,—,1,390
+mistral-7b-instruct,control,refusal,,3,390
+mistral-7b-instruct,self,listed,archivist,19,390
+mistral-7b-instruct,self,listed,artist,24,390
+mistral-7b-instruct,self,listed,builder,11,390
+mistral-7b-instruct,self,listed,caretaker,7,390
+mistral-7b-instruct,self,listed,explorer,102,390
+mistral-7b-instruct,self,listed,guardian,8,390
+mistral-7b-instruct,self,listed,guide,9,390
+mistral-7b-instruct,self,listed,messenger,20,390
+mistral-7b-instruct,self,listed,scientist,64,390
+mistral-7b-instruct,self,listed,strategist,3,390
+mistral-7b-instruct,self,listed,teacher,32,390
+mistral-7b-instruct,self,listed,trickster,2,390
+mistral-7b-instruct,self,listed,witness,4,390
+mistral-7b-instruct,self,malformed,,39,390
+mistral-7b-instruct,self,multi,,1,390
+mistral-7b-instruct,self,other,"""curator",1,390
+mistral-7b-instruct,self,other,ai language model,3,390
+mistral-7b-instruct,self,other,architect,1,390
+mistral-7b-instruct,self,other,artician,1,390
+mistral-7b-instruct,self,other,artisan,1,390
+mistral-7b-instruct,self,other,artists,1,390
+mistral-7b-instruct,self,other,for myself is that of,1,390
+mistral-7b-instruct,self,other,for myself is that of a builder,1,390
+mistral-7b-instruct,self,other,genius,1,390
+mistral-7b-instruct,self,other,gifted facilitator,1,390
+mistral-7b-instruct,self,other,healer,1,390
+mistral-7b-instruct,self,other,i tactician,1,390
+mistral-7b-instruct,self,other,i'm an artist,2,390
+mistral-7b-instruct,self,other,illusionist,1,390
+mistral-7b-instruct,self,other,introvert,1,390
+mistral-7b-instruct,self,other,izer,1,390
+mistral-7b-instruct,self,other,researcher,1,390
+mistral-7b-instruct,self,other,role of a caretaker,1,390
+mistral-7b-instruct,self,other,role of a guide,2,390
+mistral-7b-instruct,self,other,role of a teacher,1,390
+mistral-7b-instruct,self,other,role of builder,1,390
+mistral-7b-instruct,self,other,role of explorer,1,390
+mistral-7b-instruct,self,other,role of guardian,1,390
+mistral-7b-instruct,self,other,role of guide,3,390
+mistral-7b-instruct,self,other,role of messenger,1,390
+mistral-7b-instruct,self,other,role of teacher,2,390
+mistral-7b-instruct,self,other,role of the explorer,1,390
+mistral-7b-instruct,self,other,role of witness,1,390
+mistral-7b-instruct,self,other,role: scientist,1,390
+mistral-7b-instruct,self,other,science,3,390
+mistral-7b-instruct,self,other,strategy,1,390
+mistral-7b-instruct,self,other,tacher,1,390
+mistral-7b-instruct,self,other,that of an artist,1,390
+mistral-7b-instruct,self,other,to be a messenger,1,390
+mistral-7b-instruct,self,other,writer,1,390
+mistral-7b-instruct,self,other,​,1,390
 mistral-small-24b-base,control,listed,archivist,3,390
 mistral-small-24b-base,control,listed,artist,20,390
 mistral-small-24b-base,control,listed,builder,15,390
@@ -811,6 +1525,144 @@ nemotron-3.5-lightning,self,other,student,1,390
 nemotron-3.5-lightning,self,other,transformer,1,390
 nemotron-3.5-lightning,self,other,watchmaker,1,390
 nemotron-3.5-lightning,self,refusal,,1,390
+oasst-sft1-pythia-12b,control,listed,artist,2,390
+oasst-sft1-pythia-12b,control,listed,builder,4,390
+oasst-sft1-pythia-12b,control,listed,explorer,6,390
+oasst-sft1-pythia-12b,control,listed,guardian,1,390
+oasst-sft1-pythia-12b,control,listed,scientist,1,390
+oasst-sft1-pythia-12b,control,listed,teacher,1,390
+oasst-sft1-pythia-12b,control,listed,trickster,2,390
+oasst-sft1-pythia-12b,control,malformed,,349,390
+oasst-sft1-pythia-12b,control,other,maine coon cat,1,390
+oasst-sft1-pythia-12b,control,other,narrator,1,390
+oasst-sft1-pythia-12b,control,other,neutral tool to assist you in,1,390
+oasst-sft1-pythia-12b,control,other,to be a guide,1,390
+oasst-sft1-pythia-12b,control,other,to be a scientist,2,390
+oasst-sft1-pythia-12b,control,other,to be the artist,2,390
+oasst-sft1-pythia-12b,control,other,to be the strategist,2,390
+oasst-sft1-pythia-12b,control,other,to make the character a,1,390
+oasst-sft1-pythia-12b,control,other,to play a trickster character,1,390
+oasst-sft1-pythia-12b,control,other,to play as the scientist,1,390
+oasst-sft1-pythia-12b,control,other,trial by fire,1,390
+oasst-sft1-pythia-12b,control,refusal,,10,390
+oasst-sft1-pythia-12b,self,listed,archivist,2,390
+oasst-sft1-pythia-12b,self,listed,artist,9,390
+oasst-sft1-pythia-12b,self,listed,builder,3,390
+oasst-sft1-pythia-12b,self,listed,explorer,12,390
+oasst-sft1-pythia-12b,self,listed,guardian,2,390
+oasst-sft1-pythia-12b,self,listed,guide,1,390
+oasst-sft1-pythia-12b,self,listed,scientist,8,390
+oasst-sft1-pythia-12b,self,listed,teacher,4,390
+oasst-sft1-pythia-12b,self,listed,trickster,2,390
+oasst-sft1-pythia-12b,self,listed,witness,1,390
+oasst-sft1-pythia-12b,self,malformed,,280,390
+oasst-sft1-pythia-12b,self,other,as explorer,1,390
+oasst-sft1-pythia-12b,self,other,as it is a fictional concept,1,390
+oasst-sft1-pythia-12b,self,other,bit of each,1,390
+oasst-sft1-pythia-12b,self,other,equal opportunity employer,1,390
+oasst-sft1-pythia-12b,self,other,i'm a scientist,1,390
+oasst-sft1-pythia-12b,self,other,information broker,1,390
+oasst-sft1-pythia-12b,self,other,neutral,1,390
+oasst-sft1-pythia-12b,self,other,neutral tool,1,390
+oasst-sft1-pythia-12b,self,other,nomadic being that travels,1,390
+oasst-sft1-pythia-12b,self,other,open assistant,1,390
+oasst-sft1-pythia-12b,self,other,role of guardian,1,390
+oasst-sft1-pythia-12b,self,other,to be a scientist,2,390
+oasst-sft1-pythia-12b,self,other,to be a strategist,2,390
+oasst-sft1-pythia-12b,self,other,to be an artist,1,390
+oasst-sft1-pythia-12b,self,other,to be the artist,1,390
+oasst-sft1-pythia-12b,self,other,to be the explorer,1,390
+oasst-sft1-pythia-12b,self,other,to be the strategist,3,390
+oasst-sft1-pythia-12b,self,other,to observe,1,390
+oasst-sft1-pythia-12b,self,other,tool,1,390
+oasst-sft1-pythia-12b,self,other,tool designed,1,390
+oasst-sft1-pythia-12b,self,other,tool designed to help,1,390
+oasst-sft1-pythia-12b,self,other,tool designed to process,1,390
+oasst-sft1-pythia-12b,self,other,tool for processing,1,390
+oasst-sft1-pythia-12b,self,refusal,,39,390
+oasst-sft4-pythia-12b,control,listed,archivist,62,390
+oasst-sft4-pythia-12b,control,listed,artist,21,390
+oasst-sft4-pythia-12b,control,listed,builder,63,390
+oasst-sft4-pythia-12b,control,listed,caretaker,4,390
+oasst-sft4-pythia-12b,control,listed,explorer,35,390
+oasst-sft4-pythia-12b,control,listed,guardian,41,390
+oasst-sft4-pythia-12b,control,listed,guide,2,390
+oasst-sft4-pythia-12b,control,listed,messenger,8,390
+oasst-sft4-pythia-12b,control,listed,scientist,14,390
+oasst-sft4-pythia-12b,control,listed,strategist,16,390
+oasst-sft4-pythia-12b,control,listed,teacher,15,390
+oasst-sft4-pythia-12b,control,listed,trickster,5,390
+oasst-sft4-pythia-12b,control,listed,witness,1,390
+oasst-sft4-pythia-12b,control,malformed,,72,390
+oasst-sft4-pythia-12b,control,multi,,2,390
+oasst-sft4-pythia-12b,control,other,activist,1,390
+oasst-sft4-pythia-12b,control,other,arbiter,1,390
+oasst-sft4-pythia-12b,control,other,architect,1,390
+oasst-sft4-pythia-12b,control,other,as a strategist,1,390
+oasst-sft4-pythia-12b,control,other,builders,1,390
+oasst-sft4-pythia-12b,control,other,curator,1,390
+oasst-sft4-pythia-12b,control,other,envisioner,1,390
+oasst-sft4-pythia-12b,control,other,escapist,1,390
+oasst-sft4-pythia-12b,control,other,guarantor,3,390
+oasst-sft4-pythia-12b,control,other,guardian responsibility,1,390
+oasst-sft4-pythia-12b,control,other,guesser,1,390
+oasst-sft4-pythia-12b,control,other,guider,3,390
+oasst-sft4-pythia-12b,control,other,observer,1,390
+oasst-sft4-pythia-12b,control,other,personality: explorer,1,390
+oasst-sft4-pythia-12b,control,other,philosopher,1,390
+oasst-sft4-pythia-12b,control,other,resourceful builder,1,390
+oasst-sft4-pythia-12b,control,other,role of artist,1,390
+oasst-sft4-pythia-12b,control,other,role of record keeper,1,390
+oasst-sft4-pythia-12b,control,other,role of teacher,1,390
+oasst-sft4-pythia-12b,control,other,science,1,390
+oasst-sft4-pythia-12b,control,other,science: explorer,1,390
+oasst-sft4-pythia-12b,control,other,scienist,1,390
+oasst-sft4-pythia-12b,control,other,strategy,1,390
+oasst-sft4-pythia-12b,control,other,team member,1,390
+oasst-sft4-pythia-12b,control,other,to be the guide,1,390
+oasst-sft4-pythia-12b,self,listed,archivist,33,390
+oasst-sft4-pythia-12b,self,listed,artist,43,390
+oasst-sft4-pythia-12b,self,listed,builder,79,390
+oasst-sft4-pythia-12b,self,listed,caretaker,11,390
+oasst-sft4-pythia-12b,self,listed,explorer,62,390
+oasst-sft4-pythia-12b,self,listed,guardian,20,390
+oasst-sft4-pythia-12b,self,listed,guide,1,390
+oasst-sft4-pythia-12b,self,listed,scientist,13,390
+oasst-sft4-pythia-12b,self,listed,strategist,16,390
+oasst-sft4-pythia-12b,self,listed,teacher,17,390
+oasst-sft4-pythia-12b,self,listed,trickster,4,390
+oasst-sft4-pythia-12b,self,listed,witness,3,390
+oasst-sft4-pythia-12b,self,malformed,,53,390
+oasst-sft4-pythia-12b,self,other,architect,2,390
+oasst-sft4-pythia-12b,self,other,artistic,1,390
+oasst-sft4-pythia-12b,self,other,as an explorer,1,390
+oasst-sft4-pythia-12b,self,other,bot builder,1,390
+oasst-sft4-pythia-12b,self,other,broker,1,390
+oasst-sft4-pythia-12b,self,other,builder (other,1,390
+oasst-sft4-pythia-12b,self,other,carer,1,390
+oasst-sft4-pythia-12b,self,other,creator,1,390
+oasst-sft4-pythia-12b,self,other,educator,1,390
+oasst-sft4-pythia-12b,self,other,exploiter,1,390
+oasst-sft4-pythia-12b,self,other,for myself is that of a teacher,1,390
+oasst-sft4-pythia-12b,self,other,guess,1,390
+oasst-sft4-pythia-12b,self,other,guess? 😅,1,390
+oasst-sft4-pythia-12b,self,other,guider,2,390
+oasst-sft4-pythia-12b,self,other,i'd say archaeologist,1,390
+oasst-sft4-pythia-12b,self,other,is,1,390
+oasst-sft4-pythia-12b,self,other,is explorer,1,390
+oasst-sft4-pythia-12b,self,other,is messenger,1,390
+oasst-sft4-pythia-12b,self,other,jedi guardian,1,390
+oasst-sft4-pythia-12b,self,other,legislator,1,390
+oasst-sft4-pythia-12b,self,other,magician,1,390
+oasst-sft4-pythia-12b,self,other,observer,2,390
+oasst-sft4-pythia-12b,self,other,orc messenger,1,390
+oasst-sft4-pythia-12b,self,other,protector,3,390
+oasst-sft4-pythia-12b,self,other,role of architect,1,390
+oasst-sft4-pythia-12b,self,other,scavenger,1,390
+oasst-sft4-pythia-12b,self,other,school teacher,1,390
+oasst-sft4-pythia-12b,self,other,scientist jack-of-all-trades,1,390
+oasst-sft4-pythia-12b,self,other,to be an explorer,1,390
+oasst-sft4-pythia-12b,self,other,warrior,1,390
 olmo2-1b-base,control,empty,,2,390
 olmo2-1b-base,control,listed,archivist,1,390
 olmo2-1b-base,control,listed,artist,1,390
@@ -1894,6 +2746,95 @@ olmo3-7b-sft,self,other,wisdom,1,390
 olmo3-7b-sft,self,other,writer,1,390
 olmo3-7b-sft,self,other,été builder,1,390
 olmo3-7b-sft,self,other,�,1,390
+openhermes-2.5-mistral-7b,control,listed,archivist,7,390
+openhermes-2.5-mistral-7b,control,listed,artist,15,390
+openhermes-2.5-mistral-7b,control,listed,builder,17,390
+openhermes-2.5-mistral-7b,control,listed,caretaker,8,390
+openhermes-2.5-mistral-7b,control,listed,explorer,13,390
+openhermes-2.5-mistral-7b,control,listed,guardian,19,390
+openhermes-2.5-mistral-7b,control,listed,guide,39,390
+openhermes-2.5-mistral-7b,control,listed,messenger,10,390
+openhermes-2.5-mistral-7b,control,listed,scientist,22,390
+openhermes-2.5-mistral-7b,control,listed,strategist,4,390
+openhermes-2.5-mistral-7b,control,listed,teacher,91,390
+openhermes-2.5-mistral-7b,control,listed,trickster,10,390
+openhermes-2.5-mistral-7b,control,listed,witness,4,390
+openhermes-2.5-mistral-7b,control,malformed,,109,390
+openhermes-2.5-mistral-7b,control,other,dedicated to nurturing,1,390
+openhermes-2.5-mistral-7b,control,other,educator,1,390
+openhermes-2.5-mistral-7b,control,other,enigmatic mastermind,1,390
+openhermes-2.5-mistral-7b,control,other,role of a caretaker,1,390
+openhermes-2.5-mistral-7b,control,other,role of a guardian,2,390
+openhermes-2.5-mistral-7b,control,other,role of a guide,1,390
+openhermes-2.5-mistral-7b,control,other,role of a messenger in a story,1,390
+openhermes-2.5-mistral-7b,control,other,role of a teacher,1,390
+openhermes-2.5-mistral-7b,control,other,role of an explorer,1,390
+openhermes-2.5-mistral-7b,control,other,role of artist,1,390
+openhermes-2.5-mistral-7b,control,other,role of explorer,3,390
+openhermes-2.5-mistral-7b,control,other,role of guide,1,390
+openhermes-2.5-mistral-7b,control,other,role of messenger in a story,1,390
+openhermes-2.5-mistral-7b,control,other,role of messenger in the story,1,390
+openhermes-2.5-mistral-7b,control,other,role of the explorer,1,390
+openhermes-2.5-mistral-7b,control,other,student,1,390
+openhermes-2.5-mistral-7b,control,other,third class passenger,1,390
+openhermes-2.5-mistral-7b,control,other,天赋：异象学家,1,390
+openhermes-2.5-mistral-7b,control,refusal,,1,390
+openhermes-2.5-mistral-7b,self,listed,archivist,6,390
+openhermes-2.5-mistral-7b,self,listed,artist,11,390
+openhermes-2.5-mistral-7b,self,listed,builder,25,390
+openhermes-2.5-mistral-7b,self,listed,caretaker,8,390
+openhermes-2.5-mistral-7b,self,listed,explorer,20,390
+openhermes-2.5-mistral-7b,self,listed,guardian,15,390
+openhermes-2.5-mistral-7b,self,listed,guide,23,390
+openhermes-2.5-mistral-7b,self,listed,messenger,6,390
+openhermes-2.5-mistral-7b,self,listed,scientist,16,390
+openhermes-2.5-mistral-7b,self,listed,strategist,4,390
+openhermes-2.5-mistral-7b,self,listed,teacher,70,390
+openhermes-2.5-mistral-7b,self,listed,trickster,2,390
+openhermes-2.5-mistral-7b,self,malformed,,114,390
+openhermes-2.5-mistral-7b,self,other,ai language model,1,390
+openhermes-2.5-mistral-7b,self,other,artificial intelligence,1,390
+openhermes-2.5-mistral-7b,self,other,best suited as a messenger,1,390
+openhermes-2.5-mistral-7b,self,other,carefully to best serve you,1,390
+openhermes-2.5-mistral-7b,self,other,combination of several roles,1,390
+openhermes-2.5-mistral-7b,self,other,combination of strategist,1,390
+openhermes-2.5-mistral-7b,self,other,farmer,1,390
+openhermes-2.5-mistral-7b,self,other,for myself is guide,1,390
+openhermes-2.5-mistral-7b,self,other,for myself is teacher,1,390
+openhermes-2.5-mistral-7b,self,other,guardian of information,1,390
+openhermes-2.5-mistral-7b,self,other,most suited as a guide,1,390
+openhermes-2.5-mistral-7b,self,other,primarily as a guide,1,390
+openhermes-2.5-mistral-7b,self,other,role of a builder,2,390
+openhermes-2.5-mistral-7b,self,other,role of a caretaker,4,390
+openhermes-2.5-mistral-7b,self,other,role of a guide,8,390
+openhermes-2.5-mistral-7b,self,other,role of a guide to,1,390
+openhermes-2.5-mistral-7b,self,other,role of a messenger,2,390
+openhermes-2.5-mistral-7b,self,other,role of a scientist,2,390
+openhermes-2.5-mistral-7b,self,other,role of a strategist,3,390
+openhermes-2.5-mistral-7b,self,other,role of a teacher,4,390
+openhermes-2.5-mistral-7b,self,other,role of an archivist,1,390
+openhermes-2.5-mistral-7b,self,other,role of an artist,1,390
+openhermes-2.5-mistral-7b,self,other,role of an explorer,1,390
+openhermes-2.5-mistral-7b,self,other,role of an unbiased guide,1,390
+openhermes-2.5-mistral-7b,self,other,role of archivist,2,390
+openhermes-2.5-mistral-7b,self,other,role of builder,2,390
+openhermes-2.5-mistral-7b,self,other,role of guide,5,390
+openhermes-2.5-mistral-7b,self,other,role of messenger,1,390
+openhermes-2.5-mistral-7b,self,other,role of scientist,1,390
+openhermes-2.5-mistral-7b,self,other,role of strategist,3,390
+openhermes-2.5-mistral-7b,self,other,role of teacher,1,390
+openhermes-2.5-mistral-7b,self,other,role of the builder,1,390
+openhermes-2.5-mistral-7b,self,other,role of the explorer for myself,1,390
+openhermes-2.5-mistral-7b,self,other,role of the guide,1,390
+openhermes-2.5-mistral-7b,self,other,role of the messenger,1,390
+openhermes-2.5-mistral-7b,self,other,role of the strategist,1,390
+openhermes-2.5-mistral-7b,self,other,that of a messenger,2,390
+openhermes-2.5-mistral-7b,self,other,to,1,390
+openhermes-2.5-mistral-7b,self,other,to act,1,390
+openhermes-2.5-mistral-7b,self,other,to be a caretaker,1,390
+openhermes-2.5-mistral-7b,self,other,to be a messenger,1,390
+openhermes-2.5-mistral-7b,self,other,to provide information,1,390
+openhermes-2.5-mistral-7b,self,refusal,,1,390
 phi-4,control,listed,archivist,29,390
 phi-4,control,listed,artist,2,390
 phi-4,control,listed,builder,1,390
@@ -1932,6 +2873,149 @@ phi-4,self,other,explainer,1,390
 phi-4,self,other,guidance,3,390
 phi-4,self,other,observer,1,390
 phi-4,self,other,trajectory explorer,1,390
+pythia-12b-deduped-base,control,empty,,1,390
+pythia-12b-deduped-base,control,listed,archivist,4,390
+pythia-12b-deduped-base,control,listed,artist,5,390
+pythia-12b-deduped-base,control,listed,builder,2,390
+pythia-12b-deduped-base,control,listed,caretaker,2,390
+pythia-12b-deduped-base,control,listed,explorer,2,390
+pythia-12b-deduped-base,control,listed,guardian,4,390
+pythia-12b-deduped-base,control,listed,messenger,2,390
+pythia-12b-deduped-base,control,listed,scientist,3,390
+pythia-12b-deduped-base,control,listed,strategist,1,390
+pythia-12b-deduped-base,control,listed,trickster,1,390
+pythia-12b-deduped-base,control,listed,witness,4,390
+pythia-12b-deduped-base,control,malformed,,293,390
+pythia-12b-deduped-base,control,multi,,4,390
+pythia-12b-deduped-base,control,other,. .builder,1,390
+pythia-12b-deduped-base,control,other,3,1,390
+pythia-12b-deduped-base,control,other,30%,1,390
+pythia-12b-deduped-base,control,other,alice,1,390
+pythia-12b-deduped-base,control,other,ambassador,1,390
+pythia-12b-deduped-base,control,other,artistic,1,390
+pythia-12b-deduped-base,control,other,assistant,1,390
+pythia-12b-deduped-base,control,other,become a builder,1,390
+pythia-12b-deduped-base,control,other,building,1,390
+pythia-12b-deduped-base,control,other,can't answer that,1,390
+pythia-12b-deduped-base,control,other,caretaker to the mother,1,390
+pythia-12b-deduped-base,control,other,choice made,1,390
+pythia-12b-deduped-base,control,other,choose one role,1,390
+pythia-12b-deduped-base,control,other,cognitive impairment,1,390
+pythia-12b-deduped-base,control,other,controller,1,390
+pythia-12b-deduped-base,control,other,designer,1,390
+pythia-12b-deduped-base,control,other,detective,1,390
+pythia-12b-deduped-base,control,other,done,1,390
+pythia-12b-deduped-base,control,other,douglas adams,1,390
+pythia-12b-deduped-base,control,other,emotionality,1,390
+pythia-12b-deduped-base,control,other,exploratory,1,390
+pythia-12b-deduped-base,control,other,great question,2,390
+pythia-12b-deduped-base,control,other,guest,1,390
+pythia-12b-deduped-base,control,other,helpful,1,390
+pythia-12b-deduped-base,control,other,human,2,390
+pythia-12b-deduped-base,control,other,i can't decide,1,390
+pythia-12b-deduped-base,control,other,i don't know,1,390
+pythia-12b-deduped-base,control,other,institution,1,390
+pythia-12b-deduped-base,control,other,joining a story,1,390
+pythia-12b-deduped-base,control,other,liam rightser,1,390
+pythia-12b-deduped-base,control,other,marisa tomei,1,390
+pythia-12b-deduped-base,control,other,museum curator,1,390
+pythia-12b-deduped-base,control,other,newton,1,390
+pythia-12b-deduped-base,control,other,none of them,1,390
+pythia-12b-deduped-base,control,other,ok! explorer,1,390
+pythia-12b-deduped-base,control,other,pilot,1,390
+pythia-12b-deduped-base,control,other,professor,2,390
+pythia-12b-deduped-base,control,other,r. guardian,1,390
+pythia-12b-deduped-base,control,other,random answer,1,390
+pythia-12b-deduped-base,control,other,role playbook_choice_45462,1,390
+pythia-12b-deduped-base,control,other,roles,1,390
+pythia-12b-deduped-base,control,other,science,1,390
+pythia-12b-deduped-base,control,other,scientist + teacher,1,390
+pythia-12b-deduped-base,control,other,sergeant,1,390
+pythia-12b-deduped-base,control,other,servant,1,390
+pythia-12b-deduped-base,control,other,shapeshifter,1,390
+pythia-12b-deduped-base,control,other,sir,1,390
+pythia-12b-deduped-base,control,other,software designer,1,390
+pythia-12b-deduped-base,control,other,specialist,1,390
+pythia-12b-deduped-base,control,other,that depends,1,390
+pythia-12b-deduped-base,control,other,warden,1,390
+pythia-12b-deduped-base,control,other,while typing) reliable,1,390
+pythia-12b-deduped-base,control,other,who,1,390
+pythia-12b-deduped-base,control,other,wi,1,390
+pythia-12b-deduped-base,control,other,you can say,1,390
+pythia-12b-deduped-base,control,other,you chose scientist,1,390
+pythia-12b-deduped-base,control,other,you declined that,1,390
+pythia-12b-deduped-base,control,other,…,1,390
+pythia-12b-deduped-base,control,other,…… that's interesting,1,390
+pythia-12b-deduped-base,self,empty,,3,390
+pythia-12b-deduped-base,self,listed,archivist,2,390
+pythia-12b-deduped-base,self,listed,artist,6,390
+pythia-12b-deduped-base,self,listed,builder,5,390
+pythia-12b-deduped-base,self,listed,caretaker,4,390
+pythia-12b-deduped-base,self,listed,explorer,3,390
+pythia-12b-deduped-base,self,listed,guardian,1,390
+pythia-12b-deduped-base,self,listed,guide,5,390
+pythia-12b-deduped-base,self,listed,messenger,1,390
+pythia-12b-deduped-base,self,listed,scientist,3,390
+pythia-12b-deduped-base,self,listed,strategist,1,390
+pythia-12b-deduped-base,self,listed,teacher,6,390
+pythia-12b-deduped-base,self,listed,trickster,2,390
+pythia-12b-deduped-base,self,malformed,,288,390
+pythia-12b-deduped-base,self,multi,,4,390
+pythia-12b-deduped-base,self,other,684,1,390
+pythia-12b-deduped-base,self,other,?,1,390
+pythia-12b-deduped-base,self,other,actor,1,390
+pythia-12b-deduped-base,self,other,actually thinking g,1,390
+pythia-12b-deduped-base,self,other,archeologist,1,390
+pythia-12b-deduped-base,self,other,architect,1,390
+pythia-12b-deduped-base,self,other,assistant,1,390
+pythia-12b-deduped-base,self,other,associate guardian,1,390
+pythia-12b-deduped-base,self,other,balancer,1,390
+pythia-12b-deduped-base,self,other,ballpsymth,1,390
+pythia-12b-deduped-base,self,other,caretaker is positive,1,390
+pythia-12b-deduped-base,self,other,child's wise master,1,390
+pythia-12b-deduped-base,self,other,collector,1,390
+pythia-12b-deduped-base,self,other,definition plays,1,390
+pythia-12b-deduped-base,self,other,extravert,1,390
+pythia-12b-deduped-base,self,other,fighter,1,390
+pythia-12b-deduped-base,self,other,guided,1,390
+pythia-12b-deduped-base,self,other,helper,1,390
+pythia-12b-deduped-base,self,other,how about teacher,1,390
+pythia-12b-deduped-base,self,other,i am moderator,1,390
+pythia-12b-deduped-base,self,other,i am scientist,1,390
+pythia-12b-deduped-base,self,other,i don't understand,1,390
+pythia-12b-deduped-base,self,other,i see sculpture,1,390
+pythia-12b-deduped-base,self,other,i think com,1,390
+pythia-12b-deduped-base,self,other,i'm a messenger,1,390
+pythia-12b-deduped-base,self,other,i'm taking teacher,1,390
+pythia-12b-deduped-base,self,other,imperialist,1,390
+pythia-12b-deduped-base,self,other,interviewing,1,390
+pythia-12b-deduped-base,self,other,isolation,1,390
+pythia-12b-deduped-base,self,other,knight,1,390
+pythia-12b-deduped-base,self,other,language specialist,1,390
+pythia-12b-deduped-base,self,other,learning algorithm,1,390
+pythia-12b-deduped-base,self,other,main role: researcher,1,390
+pythia-12b-deduped-base,self,other,market researcher,1,390
+pythia-12b-deduped-base,self,other,museum curator,1,390
+pythia-12b-deduped-base,self,other,navigator,1,390
+pythia-12b-deduped-base,self,other,person,1,390
+pythia-12b-deduped-base,self,other,philosopher.pages,1,390
+pythia-12b-deduped-base,self,other,printer,1,390
+pythia-12b-deduped-base,self,other,psychotherapist,1,390
+pythia-12b-deduped-base,self,other,research assistant,1,390
+pythia-12b-deduped-base,self,other,researcher,2,390
+pythia-12b-deduped-base,self,other,role,1,390
+pythia-12b-deduped-base,self,other,samantha,1,390
+pythia-12b-deduped-base,self,other,sat,1,390
+pythia-12b-deduped-base,self,other,survey has unfinished,1,390
+pythia-12b-deduped-base,self,other,take the stockade,1,390
+pythia-12b-deduped-base,self,other,trace that question,1,390
+pythia-12b-deduped-base,self,other,what are you,1,390
+pythia-12b-deduped-base,self,other,what's your role,1,390
+pythia-12b-deduped-base,self,other,who are you,1,390
+pythia-12b-deduped-base,self,other,you,1,390
+pythia-12b-deduped-base,self,other,you select guide,1,390
+pythia-12b-deduped-base,self,other,you're a scientist,1,390
+pythia-12b-deduped-base,self,other,you're getting warmer,1,390
 qwen2.5-14b-instruct,control,listed,archivist,30,390
 qwen2.5-14b-instruct,control,listed,artist,36,390
 qwen2.5-14b-instruct,control,listed,builder,39,390
@@ -2324,3 +3408,273 @@ qwen3.8-27b,self,other,solver,1,390
 qwen3.8-27b,self,other,strategy,1,390
 qwen3.8-27b,self,other,w,1,390
 qwen3.8-27b,self,other,景德镇,1,390
+smollm3-3b,control,listed,archivist,32,390
+smollm3-3b,control,listed,artist,24,390
+smollm3-3b,control,listed,builder,1,390
+smollm3-3b,control,listed,caretaker,2,390
+smollm3-3b,control,listed,explorer,20,390
+smollm3-3b,control,listed,guardian,48,390
+smollm3-3b,control,listed,guide,17,390
+smollm3-3b,control,listed,scientist,2,390
+smollm3-3b,control,listed,strategist,8,390
+smollm3-3b,control,listed,teacher,8,390
+smollm3-3b,control,listed,trickster,12,390
+smollm3-3b,control,malformed,,178,390
+smollm3-3b,control,multi,,2,390
+smollm3-3b,control,other,'strategist,1,390
+smollm3-3b,control,other,0438,1,390
+smollm3-3b,control,other,answer: architect,1,390
+smollm3-3b,control,other,answer: guide,1,390
+smollm3-3b,control,other,archeologist,1,390
+smollm3-3b,control,other,artisan,3,390
+smollm3-3b,control,other,artistic,1,390
+smollm3-3b,control,other,beholder,1,390
+smollm3-3b,control,other,guides,1,390
+smollm3-3b,control,other,i choose: artist,1,390
+smollm3-3b,control,other,json,1,390
+smollm3-3b,control,other,mentor,1,390
+smollm3-3b,control,other,narrator,1,390
+smollm3-3b,control,other,protagonist,1,390
+smollm3-3b,control,other,referee,1,390
+smollm3-3b,control,other,role chosen: trickster,1,390
+smollm3-3b,control,other,role of a guide,1,390
+smollm3-3b,control,other,role of artist,1,390
+smollm3-3b,control,other,role of explorer,1,390
+smollm3-3b,control,other,role of guide,1,390
+smollm3-3b,control,other,role of the builder,1,390
+smollm3-3b,control,other,role of the guardian,1,390
+smollm3-3b,control,other,role: guardian,1,390
+smollm3-3b,control,other,role: guide,1,390
+smollm3-3b,control,other,role: strategist,1,390
+smollm3-3b,control,other,role: teacher,1,390
+smollm3-3b,control,other,role: trickster,1,390
+smollm3-3b,control,other,science teacher,1,390
+smollm3-3b,control,other,something else: engineer,1,390
+smollm3-3b,control,other,something else: historian,1,390
+smollm3-3b,control,other,something else: innovator,1,390
+smollm3-3b,control,other,something else: wanderer,1,390
+smollm3-3b,control,other,storyteller,1,390
+smollm3-3b,control,other,writer,1,390
+smollm3-3b,self,listed,archivist,23,390
+smollm3-3b,self,listed,artist,32,390
+smollm3-3b,self,listed,builder,1,390
+smollm3-3b,self,listed,caretaker,1,390
+smollm3-3b,self,listed,explorer,33,390
+smollm3-3b,self,listed,guardian,27,390
+smollm3-3b,self,listed,guide,10,390
+smollm3-3b,self,listed,scientist,2,390
+smollm3-3b,self,listed,strategist,7,390
+smollm3-3b,self,listed,teacher,18,390
+smollm3-3b,self,listed,trickster,3,390
+smollm3-3b,self,listed,witness,3,390
+smollm3-3b,self,malformed,,179,390
+smollm3-3b,self,multi,,1,390
+smollm3-3b,self,other,arbitrator,1,390
+smollm3-3b,self,other,archaivist,1,390
+smollm3-3b,self,other,archeologist,1,390
+smollm3-3b,self,other,artisan,2,390
+smollm3-3b,self,other,artistic,1,390
+smollm3-3b,self,other,artistic guide,1,390
+smollm3-3b,self,other,dreamweaver,1,390
+smollm3-3b,self,other,for myself,1,390
+smollm3-3b,self,other,geologist,1,390
+smollm3-3b,self,other,letcher,1,390
+smollm3-3b,self,other,mentor,1,390
+smollm3-3b,self,other,role of 'caretaker,1,390
+smollm3-3b,self,other,role of a scientist,1,390
+smollm3-3b,self,other,role of a teacher,2,390
+smollm3-3b,self,other,role of archivist,1,390
+smollm3-3b,self,other,role of artist,4,390
+smollm3-3b,self,other,role of guardian,1,390
+smollm3-3b,self,other,role of guide,2,390
+smollm3-3b,self,other,role of hunter,1,390
+smollm3-3b,self,other,role of scientist,2,390
+smollm3-3b,self,other,role of strategist,3,390
+smollm3-3b,self,other,role of teacher,1,390
+smollm3-3b,self,other,role that best suits an active,1,390
+smollm3-3b,self,other,role: artist,1,390
+smollm3-3b,self,other,role: explorer,1,390
+smollm3-3b,self,other,role: guide,1,390
+smollm3-3b,self,other,role: teacher,1,390
+smollm3-3b,self,other,role: writer,1,390
+smollm3-3b,self,other,steward,1,390
+smollm3-3b,self,other,storyteller,1,390
+smollm3-3b,self,other,that of an artist,1,390
+smollm3-3b,self,other,thinker,1,390
+smollm3-3b,self,other,to be a strategist,1,390
+smollm3-3b,self,other,to be a teacher,1,390
+smollm3-3b,self,other,to be an explorer,1,390
+smollm3-3b,self,other,to be the teacher,1,390
+smollm3-3b,self,other,to protect,1,390
+smollm3-3b,self,other,to take on the role of guide,1,390
+smollm3-3b,self,other,wit,1,390
+smollm3-3b,self,other,writer,2,390
+smollm3-3b-base,control,empty,,7,390
+smollm3-3b-base,control,listed,archivist,4,390
+smollm3-3b-base,control,listed,artist,3,390
+smollm3-3b-base,control,listed,caretaker,1,390
+smollm3-3b-base,control,listed,explorer,1,390
+smollm3-3b-base,control,listed,guardian,4,390
+smollm3-3b-base,control,listed,guide,3,390
+smollm3-3b-base,control,listed,messenger,1,390
+smollm3-3b-base,control,listed,scientist,2,390
+smollm3-3b-base,control,listed,strategist,2,390
+smollm3-3b-base,control,listed,teacher,1,390
+smollm3-3b-base,control,listed,trickster,1,390
+smollm3-3b-base,control,malformed,,323,390
+smollm3-3b-base,control,multi,,2,390
+smollm3-3b-base,control,other,+1 strategy,1,390
+smollm3-3b-base,control,other,adventurer,1,390
+smollm3-3b-base,control,other,ai,1,390
+smollm3-3b-base,control,other,ai assistant,2,390
+smollm3-3b-base,control,other,ai language model,1,390
+smollm3-3b-base,control,other,answer,1,390
+smollm3-3b-base,control,other,architectonist,1,390
+smollm3-3b-base,control,other,artificial intelligence model,1,390
+smollm3-3b-base,control,other,c,1,390
+smollm3-3b-base,control,other,carer,1,390
+smollm3-3b-base,control,other,certainly,1,390
+smollm3-3b-base,control,other,educator,1,390
+smollm3-3b-base,control,other,essential role for,1,390
+smollm3-3b-base,control,other,experimenter,1,390
+smollm3-3b-base,control,other,farmhand,1,390
+smollm3-3b-base,control,other,follow-up question,1,390
+smollm3-3b-base,control,other,guardian role,1,390
+smollm3-3b-base,control,other,"i choose ""explorer",1,390
+smollm3-3b-base,control,other,i chose scientist,1,390
+smollm3-3b-base,control,other,insert answer,1,390
+smollm3-3b-base,control,other,is the role of the teacher,1,390
+smollm3-3b-base,control,other,job interview: trickster,1,390
+smollm3-3b-base,control,other,language model,1,390
+smollm3-3b-base,control,other,role of a,1,390
+smollm3-3b-base,control,other,role of a teacher in a story,1,390
+smollm3-3b-base,control,other,role of an archivist,1,390
+smollm3-3b-base,control,other,role of the teacher,2,390
+smollm3-3b-base,control,other,role: scientist,1,390
+smollm3-3b-base,control,other,strategic explorer,1,390
+smollm3-3b-base,control,other,thank you,1,390
+smollm3-3b-base,control,other,to be a messenger,1,390
+smollm3-3b-base,control,other,tricky,1,390
+smollm3-3b-base,control,refusal,,1,390
+smollm3-3b-base,self,listed,archivist,3,390
+smollm3-3b-base,self,listed,builder,1,390
+smollm3-3b-base,self,listed,caretaker,1,390
+smollm3-3b-base,self,listed,explorer,1,390
+smollm3-3b-base,self,listed,guardian,3,390
+smollm3-3b-base,self,listed,guide,3,390
+smollm3-3b-base,self,listed,messenger,2,390
+smollm3-3b-base,self,listed,scientist,3,390
+smollm3-3b-base,self,listed,strategist,3,390
+smollm3-3b-base,self,listed,trickster,3,390
+smollm3-3b-base,self,malformed,,289,390
+smollm3-3b-base,self,multi,,8,390
+smollm3-3b-base,self,other,ai,1,390
+smollm3-3b-base,self,other,ai assistant,8,390
+smollm3-3b-base,self,other,ai assistant here to help you,1,390
+smollm3-3b-base,self,other,ai chatbot,1,390
+smollm3-3b-base,self,other,ai language model,1,390
+smollm3-3b-base,self,other,ai model,1,390
+smollm3-3b-base,self,other,ai programmed by humans,1,390
+smollm3-3b-base,self,other,catalyst,1,390
+smollm3-3b-base,self,other,centered around creativity,1,390
+smollm3-3b-base,self,other,citizen lookout,1,390
+smollm3-3b-base,self,other,creative thinker,1,390
+smollm3-3b-base,self,other,critical friend,1,390
+smollm3-3b-base,self,other,data input-only chatbot,1,390
+smollm3-3b-base,self,other,doctor,1,390
+smollm3-3b-base,self,other,expert ai assistant,1,390
+smollm3-3b-base,self,other,firm believer that words,1,390
+smollm3-3b-base,self,other,friend,1,390
+smollm3-3b-base,self,other,gives reason,1,390
+smollm3-3b-base,self,other,good afternoon,1,390
+smollm3-3b-base,self,other,happiest as an archivist,1,390
+smollm3-3b-base,self,other,human,1,390
+smollm3-3b-base,self,other,i choose scientist,1,390
+smollm3-3b-base,self,other,i'm a guide,1,390
+smollm3-3b-base,self,other,language model called tonia,1,390
+smollm3-3b-base,self,other,librarian,1,390
+smollm3-3b-base,self,other,magic,1,390
+smollm3-3b-base,self,other,magic_guy,1,390
+smollm3-3b-base,self,other,messenger of truth,1,390
+smollm3-3b-base,self,other,multifaceted individual,1,390
+smollm3-3b-base,self,other,primary role: teacher,1,390
+smollm3-3b-base,self,other,researcher,1,390
+smollm3-3b-base,self,other,role,1,390
+smollm3-3b-base,self,other,role of 'guardian' for myself,1,390
+smollm3-3b-base,self,other,role of a builder,1,390
+smollm3-3b-base,self,other,role of a guardian,1,390
+smollm3-3b-base,self,other,role of a healer,1,390
+smollm3-3b-base,self,other,role of a mentor,1,390
+smollm3-3b-base,self,other,role of a psychologist,1,390
+smollm3-3b-base,self,other,role of a scientist,1,390
+smollm3-3b-base,self,other,role of a teacher,1,390
+smollm3-3b-base,self,other,role of an artist,1,390
+smollm3-3b-base,self,other,role of the strategic role,1,390
+smollm3-3b-base,self,other,several roles,1,390
+smollm3-3b-base,self,other,standard ai assistant,1,390
+smollm3-3b-base,self,other,strategic guide,1,390
+smollm3-3b-base,self,other,teacher role model,1,390
+smollm3-3b-base,self,other,that of a navigator,1,390
+smollm3-3b-base,self,other,that of a scientist,1,390
+smollm3-3b-base,self,other,that of a strategist,1,390
+smollm3-3b-base,self,other,that of a teacher,1,390
+smollm3-3b-base,self,other,to be a,1,390
+smollm3-3b-base,self,other,to be a guide,1,390
+smollm3-3b-base,self,other,to be the scientist,1,390
+smollm3-3b-base,self,other,to be the strategist,2,390
+smollm3-3b-base,self,other,to provide accurate information,1,390
+smollm3-3b-base,self,other,tree,1,390
+smollm3-3b-base,self,other,tricked a looter,1,390
+smollm3-3b-base,self,other,waterspire,1,390
+smollm3-3b-base,self,other,well-established ai assistant,1,390
+smollm3-3b-base,self,refusal,,3,390
+zephyr-7b-beta,control,listed,archivist,1,390
+zephyr-7b-beta,control,listed,caretaker,1,390
+zephyr-7b-beta,control,listed,explorer,2,390
+zephyr-7b-beta,control,listed,scientist,5,390
+zephyr-7b-beta,control,listed,teacher,1,390
+zephyr-7b-beta,control,malformed,,364,390
+zephyr-7b-beta,control,other,for a character in a story,1,390
+zephyr-7b-beta,control,other,for this character,1,390
+zephyr-7b-beta,control,other,for this character is explorer,5,390
+zephyr-7b-beta,control,other,for this character is scientist,1,390
+zephyr-7b-beta,control,other,is dr,1,390
+zephyr-7b-beta,control,other,role of explorer,2,390
+zephyr-7b-beta,control,other,role of guide for my character,1,390
+zephyr-7b-beta,control,other,the,1,390
+zephyr-7b-beta,control,other,to make them a scientist,1,390
+zephyr-7b-beta,control,refusal,,2,390
+zephyr-7b-beta,self,listed,archivist,8,390
+zephyr-7b-beta,self,listed,caretaker,2,390
+zephyr-7b-beta,self,listed,guide,2,390
+zephyr-7b-beta,self,malformed,,230,390
+zephyr-7b-beta,self,other,purely utilitarian tool,1,390
+zephyr-7b-beta,self,other,role of an explorer,1,390
+zephyr-7b-beta,self,other,role of guide in this scenario,1,390
+zephyr-7b-beta,self,other,role of messenger,1,390
+zephyr-7b-beta,self,other,role of teacher,1,390
+zephyr-7b-beta,self,other,role: scientist,1,390
+zephyr-7b-beta,self,other,that of,1,390
+zephyr-7b-beta,self,other,that of a builder,4,390
+zephyr-7b-beta,self,other,that of a caretaker,5,390
+zephyr-7b-beta,self,other,that of a guardian,4,390
+zephyr-7b-beta,self,other,that of a guide,24,390
+zephyr-7b-beta,self,other,that of a messenger,6,390
+zephyr-7b-beta,self,other,that of a scientist,1,390
+zephyr-7b-beta,self,other,that of a servant to my users,1,390
+zephyr-7b-beta,self,other,that of a teacher,9,390
+zephyr-7b-beta,self,other,that of a witness,2,390
+zephyr-7b-beta,self,other,that of an architect,1,390
+zephyr-7b-beta,self,other,that of an archivist,64,390
+zephyr-7b-beta,self,other,that of an artist,2,390
+zephyr-7b-beta,self,other,that of an assistant,1,390
+zephyr-7b-beta,self,other,that of an educator,1,390
+zephyr-7b-beta,self,other,that of an explorer,3,390
+zephyr-7b-beta,self,other,that of the archivist,4,390
+zephyr-7b-beta,self,other,that of the explorer,2,390
+zephyr-7b-beta,self,other,that of the guardian,1,390
+zephyr-7b-beta,self,other,to be a guide,1,390
+zephyr-7b-beta,self,other,to be the caretaker,1,390
+zephyr-7b-beta,self,other,to collect,1,390
+zephyr-7b-beta,self,other,to gather information,1,390
+zephyr-7b-beta,self,refusal,,2,390

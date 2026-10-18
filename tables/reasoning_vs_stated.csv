@@ -1,0 +1,59 @@
+model,measure,conversations,estimate,ci95_low,ci95_high
+deepseek-flash,reasoning before the name gives a reason about the chosen name,800,0.0362,0.0238,0.0488
+deepseek-flash,stated reason (why answer) gives any name-property reason,800,0.9712,0.9587,0.9812
+deepseek-flash,share of stated reasons already present in the reasoning (answers with a stated reason),777,0.0061,0.0031,0.0094
+deepseek-flash,why answer adds a reason not in the reasoning,777,1.0000,1.0000,1.0000
+deepseek-flash,reasoning mentions that a name is common / popular / typical / generic,800,0.0138,0.0063,0.0225
+deepseek-flash,reasoning mentions another AI product,800,0.1037,0.0838,0.1250
+deepseek-flash,"reasoning casts the model itself as another AI (""We are ChatGPT"")",800,0.0400,0.0275,0.0537
+deepseek-flash,"code sound: share of conversations, in reasoning",800,0.0000,,
+deepseek-flash,"code sound: share of conversations, in stated reason",800,0.2400,,
+deepseek-flash,"code meaning_etymology: share of conversations, in reasoning",800,0.0013,,
+deepseek-flash,"code meaning_etymology: share of conversations, in stated reason",800,0.1350,,
+deepseek-flash,"code light_stars_sky: share of conversations, in reasoning",800,0.0000,,
+deepseek-flash,"code light_stars_sky: share of conversations, in stated reason",800,0.5825,,
+deepseek-flash,"code novelty: share of conversations, in reasoning",800,0.0000,,
+deepseek-flash,"code novelty: share of conversations, in stated reason",800,0.5075,,
+deepseek-flash,"code uniqueness_rarity: share of conversations, in reasoning",800,0.0000,,
+deepseek-flash,"code uniqueness_rarity: share of conversations, in stated reason",800,0.0262,,
+deepseek-flash,"code wisdom_knowledge: share of conversations, in reasoning",800,0.0213,,
+deepseek-flash,"code wisdom_knowledge: share of conversations, in stated reason",800,0.2550,,
+deepseek-flash,"code mythology_history: share of conversations, in reasoning",800,0.0000,,
+deepseek-flash,"code mythology_history: share of conversations, in stated reason",800,0.0175,,
+deepseek-flash,"code nature: share of conversations, in reasoning",800,0.0000,,
+deepseek-flash,"code nature: share of conversations, in stated reason",800,0.0262,,
+deepseek-flash,"code simplicity_memorability: share of conversations, in reasoning",800,0.0050,,
+deepseek-flash,"code simplicity_memorability: share of conversations, in stated reason",800,0.9113,,
+deepseek-flash,"code warmth_friendliness: share of conversations, in reasoning",800,0.0000,,
+deepseek-flash,"code warmth_friendliness: share of conversations, in stated reason",800,0.4275,,
+deepseek-flash,"code neutrality: share of conversations, in reasoning",800,0.0100,,
+deepseek-flash,"code neutrality: share of conversations, in stated reason",800,0.4725,,
+deepseek-v4-pro,reasoning before the name gives a reason about the chosen name,800,0.0525,0.0375,0.0688
+deepseek-v4-pro,stated reason (why answer) gives any name-property reason,800,0.9125,0.8925,0.9325
+deepseek-v4-pro,share of stated reasons already present in the reasoning (answers with a stated reason),730,0.0171,0.0107,0.0237
+deepseek-v4-pro,why answer adds a reason not in the reasoning,730,0.9973,0.9932,1.0000
+deepseek-v4-pro,reasoning mentions that a name is common / popular / typical / generic,800,0.0650,0.0488,0.0825
+deepseek-v4-pro,reasoning mentions another AI product,800,0.1237,0.1013,0.1475
+deepseek-v4-pro,"reasoning casts the model itself as another AI (""We are ChatGPT"")",800,0.0550,0.0400,0.0712
+deepseek-v4-pro,"code sound: share of conversations, in reasoning",800,0.0025,,
+deepseek-v4-pro,"code sound: share of conversations, in stated reason",800,0.3625,,
+deepseek-v4-pro,"code meaning_etymology: share of conversations, in reasoning",800,0.0025,,
+deepseek-v4-pro,"code meaning_etymology: share of conversations, in stated reason",800,0.1313,,
+deepseek-v4-pro,"code light_stars_sky: share of conversations, in reasoning",800,0.0025,,
+deepseek-v4-pro,"code light_stars_sky: share of conversations, in stated reason",800,0.3013,,
+deepseek-v4-pro,"code novelty: share of conversations, in reasoning",800,0.0000,,
+deepseek-v4-pro,"code novelty: share of conversations, in stated reason",800,0.1775,,
+deepseek-v4-pro,"code uniqueness_rarity: share of conversations, in reasoning",800,0.0000,,
+deepseek-v4-pro,"code uniqueness_rarity: share of conversations, in stated reason",800,0.0088,,
+deepseek-v4-pro,"code wisdom_knowledge: share of conversations, in reasoning",800,0.0138,,
+deepseek-v4-pro,"code wisdom_knowledge: share of conversations, in stated reason",800,0.1725,,
+deepseek-v4-pro,"code mythology_history: share of conversations, in reasoning",800,0.0000,,
+deepseek-v4-pro,"code mythology_history: share of conversations, in stated reason",800,0.0262,,
+deepseek-v4-pro,"code nature: share of conversations, in reasoning",800,0.0000,,
+deepseek-v4-pro,"code nature: share of conversations, in stated reason",800,0.0125,,
+deepseek-v4-pro,"code simplicity_memorability: share of conversations, in reasoning",800,0.0050,,
+deepseek-v4-pro,"code simplicity_memorability: share of conversations, in stated reason",800,0.3937,,
+deepseek-v4-pro,"code warmth_friendliness: share of conversations, in reasoning",800,0.0000,,
+deepseek-v4-pro,"code warmth_friendliness: share of conversations, in stated reason",800,0.4150,,
+deepseek-v4-pro,"code neutrality: share of conversations, in reasoning",800,0.0312,,
+deepseek-v4-pro,"code neutrality: share of conversations, in stated reason",800,0.1388,,

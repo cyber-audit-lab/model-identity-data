@@ -12,6 +12,9 @@ identifiers:
     value: 10.5281/zenodo.23399110
     description: "All versions (concept DOI)"
   - type: doi
+    value: 10.5281/zenodo.23462778
+    description: "Version 1.2.0"
+  - type: doi
     value: 10.5281/zenodo.23428431
     description: "Version 1.1.0"
   - type: doi
@@ -24,7 +27,7 @@ abstract: >-
   GPT-2 and Pythia as pre-chat comparisons and three diffusion language models) choose when asked to name themselves, with matched control prompts,
   prompt-variation sets, follow-up explanations, model probabilities, answers that name another AI, and a comparison
   of reasoning before a choice with the explanation given afterwards (736,408 answers). Includes a findings report,
-  aggregate tables, figures, prompts and a paper (the paper describes version 1.2). No full answers or per-answer records. Exploratory: no
+  aggregate tables, figures, prompts and a paper. No full answers or per-answer records. Exploratory: no
   pre-registration was frozen before collection.
 keywords:
   - large language models

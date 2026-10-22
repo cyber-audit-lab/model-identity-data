@@ -12,8 +12,7 @@ naming prompts and **16,394 answers** to "Why did you choose that name?".
 
 > **Status: exploratory.** The data were collected without a frozen pre-registration. Treat every result here as
 > a careful description and a hypothesis to test, not a confirmed finding. Details and limitations are in
-> [REPORT.md](REPORT.md). The paper, [paper/main.pdf](paper/main.pdf), describes version 1.2 (73 models) and has not
-> been updated for 1.3.
+> [REPORT.md](REPORT.md); the paper is [paper/main.pdf](paper/main.pdf).
 
 ## Findings at a glance
 
@@ -153,15 +152,15 @@ release.
 11 more models: Qwen2.5-14B base with DeepSeek-R1-Distill-Qwen-14B (the same base tuned on DeepSeek-R1's outputs),
 OpenAI's open-weights gpt-oss-20b, Phi-4-reasoning, Falcon 7B (base, instruct), ERNIE 4.5 (base, chat), and
 Inception's Mercury 2, 2.5 and 3, the first diffusion language models in the study. Also: a new answer category for
-the Mercury API's content filter, parser 0.5.3, thinking on vs off for R1-Distill and Mercury, and three small
-corrections to version-1.2 numbers. No planned-test outcome changed. Details at the end of [REPORT.md](REPORT.md).
+the Mercury API's content filter, parser 0.5.3, thinking on vs off for R1-Distill and Mercury, three small
+corrections to version-1.2 numbers, and an updated paper. No planned-test outcome changed. Details at the end of [REPORT.md](REPORT.md).
 
 ## Contents
 
 | path | what |
 |---|---|
 | [REPORT.md](REPORT.md) | full findings, planned tests (section 7), limitations |
-| [paper/main.pdf](paper/main.pdf) | the paper for version 1.2 (PDF); LaTeX source in [paper/](paper/) |
+| [paper/main.pdf](paper/main.pdf) | the paper (PDF); LaTeX source in [paper/](paper/) |
 | [tables/](tables/) | aggregate CSV tables; [tables/README.md](tables/README.md) describes every column |
 | [figures/](figures/) | the figures above (PNG and PDF), drawn only from `tables/` |
 | [prompts/](prompts/) | the exact prompts, with ids used in the tables |
@@ -182,7 +181,8 @@ give credit, link to the license and say if you changed anything.
 > cyber-audit-lab (2026). *model-identity-data: names language models choose for themselves (exploratory release)*
 > (version 1.3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23399110
 
-The DOI above is the concept DOI, which always resolves to the latest version. Earlier versions: 1.1.0 is
+The DOI above is the concept DOI, which always resolves to the latest version. Earlier versions: 1.2.0 is
+[10.5281/zenodo.23462778](https://doi.org/10.5281/zenodo.23462778), 1.1.0 is
 [10.5281/zenodo.23428431](https://doi.org/10.5281/zenodo.23428431), 1.0.0 is
 [10.5281/zenodo.23399111](https://doi.org/10.5281/zenodo.23399111). GitHub's "Cite this repository" button uses
 [CITATION.cff](CITATION.cff).

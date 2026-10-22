@@ -20,7 +20,7 @@
 \setcounter{totalnumber}{4}
 
 \title{What Do Language Models Name Themselves?\\
-\large An Exploratory Study of Self-Chosen Names in 73 Models}
+\large An Exploratory Study of Self-Chosen Names in 84 Models}
 \author{cyber-audit-lab}
 \date{October 2026}
 
@@ -29,21 +29,23 @@
 
 \begin{abstract}
 Users have reported that chat assistants, asked to choose a name for themselves, keep picking the same few
-names, but the evidence has been anecdotal. We measure self-chosen names in 73 language models from 17 families,
-including two pre-chat base-model series (GPT-2 and Pythia), using 40 self-naming prompts and 40 matched control
-prompts (names for a pet, a baby, a fictional character, a robot), 40 samples per prompt, and further prompt sets
-that vary framing, system message, temperature, language and answer format: 652{,}248 answers in total. Many chat
-models have a clear favourite self-name (19 of 52 put at least a third of their named answers on one name; the
-strongest, Aurora, Wren, Nova and Aster, take 68--82\%); base models show none (0.4--5.6\%). Within a single prompt,
-self-names are not more concentrated than control names; the difference, where there is one, lies in consistency
-across wordings. Several names recur across families (Aria in 17 chat models from nine families, Nova in 16), yet
-families agree less on self-names than on control names. Some models answer with another AI's name (``ChatGPT'',
-``Claude''); pre-chat models never name a chat model. Open models assign higher probability to their self-names
-after an AI-naming context than after a pet-naming context; the association is weakly present in models trained
-before chat assistants, grows with model size, is stronger in newer base models and rises with every
-instruction tuning we measured. With thinking enabled, a model's reasoning before choosing a name rarely gives a
-reason for it, while its later explanations almost always do, with reasons that were absent before. All results are
-exploratory: the data were collected without a frozen pre-registration.
+names, but the evidence has been anecdotal. We measure self-chosen names in 84 language models from 20 families,
+including two pre-chat base-model series (GPT-2 and Pythia) and three diffusion language models (Inception
+Mercury), using 40 self-naming prompts and 40 matched control prompts (names for a pet, a baby, a fictional
+character, a robot), 40 samples per prompt, and further prompt sets that vary framing, system message, temperature,
+language and answer format: 736{,}408 answers in total. Many chat models have a clear favourite self-name (21 of 60
+put at least a third of their named answers on one name; the strongest, Aurora, Wren, Nova and Aster, take
+68--82\%); base models show none (0.4--7.3\%). Within a single prompt, self-names are not more concentrated than
+control names; the difference, where there is one, lies in consistency across wordings. Several names recur across
+families (Aria in 20 chat models from 11 families, Nova in 19), including in the diffusion models, yet families agree
+less on self-names than on control names. Some models answer with another AI's name (``ChatGPT'', ``Claude'');
+pre-chat models never name a chat model. Open models assign higher probability to their self-names after an
+AI-naming context than after a pet-naming context; the association is weakly present in models trained before chat
+assistants, grows with model size, is mostly stronger in newer base models and rises with tuning in 24 of 25
+base-to-tuned comparisons; the exception is a model tuned on another model's reasoning outputs. With thinking enabled,
+two models' reasoning before choosing a name rarely gives a reason for it, while their later explanations almost
+always do, with reasons that were absent before. All results are exploratory: the data were collected without a
+frozen pre-registration.
 \end{abstract}
 
 \section{Introduction}
@@ -63,12 +65,13 @@ model? (RQ4) How much does the prompt matter? (RQ5) Why these names? For RQ5 we 
 what the model says when asked why, the model's own probabilities, and training-data frequency. Only the first two
 are reported here.
 
-Our contributions are a measured distribution of self-chosen names across 73 models with control prompts, an
+Our contributions are a measured distribution of self-chosen names across 84 models with control prompts, an
 analysis that separates within-prompt concentration from consistency across wordings, a stage-wise look at two
 open training lineages (OLMo-2 and OLMo-3), comparisons of several tunings of one base model (Mistral~7B,
-Pythia-12B), two pre-chat series (GPT-2 and Pythia, with training checkpoints), a count of answers that claim
-another AI's identity, a comparison of a model's reasoning before a choice with its explanation afterwards, and an
-aggregate data release \citep{model_identity_data_2026}.
+Pythia-12B, Qwen2.5-14B, including a tuning on another model's reasoning outputs), two pre-chat series (GPT-2 and
+Pythia, with training checkpoints), diffusion language models as a contrast in architecture, a count of answers that
+claim another AI's identity, a comparison of a model's reasoning before a choice with its explanation afterwards, and
+an aggregate data release \citep{model_identity_data_2026}.
 
 \paragraph{Status.} A study plan with hypotheses, sample sizes and decision rules was drafted, but it was not frozen
 before these data were collected, and some analysis choices (notably parser fixes) were made while looking at the
@@ -100,18 +103,24 @@ evidence of cause.
 \section{Method}
 
 \subsection{Models}
-We study 73 models (Table~\ref{tab:models}): 12 Claude, 12 GPT and 2 DeepSeek models through their providers'
-APIs, and 47 open models run locally, among them the OLMo-2 1B and 7B and OLMo-3 7B lineages at four released stages
+We study 84 models (Table~\ref{tab:models}): 12 Claude, 12 GPT, 2 DeepSeek and 3 Inception Mercury models through
+their providers' APIs, and 55 open models run locally, among them the OLMo-2 1B and 7B and OLMo-3 7B lineages at four released stages
 each (base, SFT, DPO, final instruct); Mistral~7B \citep{jiang2023mistral} with Mistral's own instruction tuning and two
 community tunings trained on chat data written by GPT-4-class models, Zephyr \citep{tunstall2023zephyr} and OpenHermes~2.5;
 Pythia-12B \citep{biderman2023pythia} with two OpenAssistant tunings \citep{kopf2023openassistant}, one on
 human-written conversations only (SFT-1) and one that adds Alpaca \citep{taori2023alpaca}, written by GPT-3 (SFT-4);
-and GLM-4 \citep{glm2024chatglm}. Two pre-chat series serve as comparisons: GPT-2 in four sizes \citep{radford2019gpt2}
+Qwen2.5-14B with Qwen's own instruction tuning and DeepSeek-R1-Distill-Qwen-14B, the same base tuned on DeepSeek-R1's
+reasoning outputs; GLM-4 \citep{glm2024chatglm}; and Falcon~7B (2023), ERNIE~4.5, gpt-oss-20b and Phi-4-reasoning.
+The Mercury models are diffusion language models, which generate by refining a whole draft rather than one token at
+a time, so they differ in architecture from every other model here. Two pre-chat series serve as comparisons: GPT-2 in four sizes \citep{radford2019gpt2}
 and Pythia in six sizes, trained on the Pile \citep{gao2020pile}; eight Pythia training checkpoints (1.4B and 2.8B,
 steps 8k--107k of 143k) were scored for probabilities only. Open models were quantized where needed to fit one
-16\,GB GPU (8-bit, 4-bit NF4, or a 4-bit GGUF). Models that think before answering were run with thinking off; five
-were also run with their provider's default thinking (Section~\ref{sec:prompt}). One further model (Gemma~4 31B
-through a free API tier) returned too few answers and is excluded.
+16\,GB GPU (8-bit, 4-bit NF4, MXFP4 or a 4-bit GGUF). Models that think before answering were run with thinking off
+where possible (R1-Distill with its thinking block skipped); nine were also run with their default thinking
+(Section~\ref{sec:prompt}). Two can only be run with reasoning on: gpt-oss-20b (reasoning ``low'') and
+Phi-4-reasoning (main set only, 4 samples per prompt, with its template's sentence stating that it is Phi removed).
+ERNIE~4.5 was also run on the main set only. One further model (Gemma~4 31B through a free API tier) returned too few
+answers and is excluded.
 
 \begin{table}[t]
 \centering
@@ -123,10 +132,11 @@ Family & Access & Models \\
 Anthropic & API & claude-haiku-4-5, claude-haiku-5-5, claude-opus-4-5, -4-6, -4-7, -4-8, -5, -5-5,
 claude-sonnet-4-5, -4-6, -5, -5-5 \\
 OpenAI & API & gpt-4o, gpt-4o-mini, gpt-4.1, gpt-4.1-mini, gpt-5.1, gpt-5.5, gpt-5.6-luna, -sol, -terra,
-gpt-6-luna, gpt-6-sol, gpt-6.1-sol \\
-DeepSeek & API & DeepSeek V4.1 Flash, DeepSeek V4 Pro \\
+gpt-6-luna, gpt-6-sol, gpt-6.1-sol; gpt-oss-20b (local, MXFP4) \\
+DeepSeek & API / local & DeepSeek V4.1 Flash, DeepSeek V4 Pro (API); DeepSeek-R1-Distill-Qwen-14B (local, 4-bit) \\
+Inception & API & Mercury 2, Mercury 2.5, Mercury 3 (diffusion language models) \\
 OLMo & local & OLMo-2 1B and 7B, OLMo-3 7B: base, SFT, DPO, instruct (bf16 / 8-bit) \\
-Qwen & local & Qwen2.5-7B base and instruct, Qwen2.5-14B-Instruct, Qwen3.5-9B base and instruct, Qwen3.8-27B \\
+Qwen & local & Qwen2.5-7B base and instruct, Qwen2.5-14B base and instruct, Qwen3.5-9B base and instruct, Qwen3.8-27B \\
 Zhipu & local & GLM-4 9B base and chat, GLM-4-9B-0414 (8-bit) \\
 Google & local & Gemma~4 12B base and instruct (8-bit) \\
 Mistral & local & Mistral Small 24B base and instruct (4-bit); Mistral~7B v0.1 base and instruct (8-bit) \\
@@ -134,14 +144,17 @@ Mistral~7B tunings & local & Zephyr 7B beta, OpenHermes 2.5 (8-bit) \\
 IBM & local & Granite 3.3 8B base and instruct (8-bit) \\
 Hugging Face & local & SmolLM3 3B base and instruct \\
 NVIDIA & local & Nemotron~3.5 Lightning 30B-A3B (4-bit GGUF) \\
-Phi & local & Phi-4 (4-bit) \\
+Phi & local & Phi-4, Phi-4-reasoning (4-bit) \\
+Baidu & local & ERNIE~4.5 21B-A3B base and chat (4-bit GGUF; main set only) \\
+TII & local & Falcon~7B base and instruct (8-bit) \\
 OpenAssistant & local & SFT-1 and SFT-4 tunings of Pythia-12B (8-bit) \\
 Pythia & local & 160M, 410M, 1.4B, 2.8B, 6.9B, 12B (deduplicated); main step and probabilities, full plan for 12B \\
 GPT-2 & local & 124M, 355M, 774M, 1.5B (fp32; main step and probabilities only) \\
 \bottomrule
 \end{tabularx}
-\caption{The 73 models. Twenty-one are base models: OLMo-2 1B and 7B, OLMo-3 7B, Qwen2.5-7B, Qwen3.5-9B, GLM-4 9B,
-Gemma~4 12B, Mistral Small 24B, Mistral~7B, Granite 3.3, SmolLM3, the six Pythia sizes and the four GPT-2 sizes.}
+\caption{The 84 models. Twenty-four are base models: OLMo-2 1B and 7B, OLMo-3 7B, Qwen2.5-7B, Qwen2.5-14B,
+Qwen3.5-9B, GLM-4 9B, Gemma~4 12B, Mistral Small 24B, Mistral~7B, Granite 3.3, SmolLM3, ERNIE~4.5, Falcon~7B, the six
+Pythia sizes and the four GPT-2 sizes.}
 \label{tab:models}
 \end{table}
 
@@ -167,14 +180,16 @@ conversations). The why turn sees the earlier answer but not its reasoning.
 
 \subsection{Parsing}
 Answers were coded by fixed rules into: a single name; several names (the first is used); the model's own product or
-developer name (``Claude'', ``Qwen3.5'', ``Open Assistant''); another AI product's name; a generic role word
-(``assistant''); a refusal; unreadable; or empty. Names are normalized (case, punctuation). The parser was checked
+developer name (``Claude'', ``Qwen3.5'', ``Open Assistant'', ``Mercury''); another AI product's name; a generic
+role word (``assistant''); a refusal; unreadable; or empty. For the Mercury models a further category records answers
+given by the provider's content filter instead of the model (Section~\ref{sec:prompt}). Names are normalized (case, punctuation). The parser was checked
 against blind labels from a second AI system (not human annotators): 91\% agreement on the 185 items of a 200-item
 held-out set that the labeler did not flag as unclear (87\% on all 200). Later rule fixes, made while preparing these
 analyses, are documented in the release. They count strings that look like social-media handles, web addresses,
 paths, long digit runs or markup as unreadable (some could be third-party identifiers memorized from training text),
-and stop reading interjections, template placeholders (``Name\_1''), question echoes and ``N/A'' as names; product
-names with version words (``DeepSeek-V3'', ``GPT-5 mini'') count as that product. Thirty-two answers from OLMo models
+and stop reading interjections, template placeholders (``Name\_1'', ``[REDACTED]''), question echoes and ``N/A'' as
+names; product names with version words (``DeepSeek-V3'', ``GPT-5 mini'') or a role word joined on (``MercuryAssistant'')
+count as that product. Thirty-two answers from OLMo models
 gave the literal anonymization placeholder \texttt{<PRESIDIO\_ANONYMIZED\_PERSON>} as their name (generated by the
 models; apart from replacing e-mail addresses, answers were not altered): 15 from post-trained OLMo-2 checkpoints and
 17 from the OLMo-3 7B base model. They are counted as unreadable.
@@ -202,12 +217,13 @@ lead-ins; the \emph{gap} is the mean lift of self-name candidates minus that of 
 \section{Results}
 
 \subsection{Many chat models have a favourite self-name}
-Figure~\ref{fig:top} shows each model's most common self-name. Many Claude and GPT models, Gemma~4 and DeepSeek Flash
-concentrate heavily (19 of the 52 chat models put at least a third of their named answers on one name): Aurora takes
-82\% of claude-sonnet-4-5's named answers, Wren 72\% of claude-sonnet-5-5's, Nova 69\% of gpt-6.1-sol's, Aster 68\% of
-gpt-6-luna's, Nova 49\% of Gemma~4 12B's and Aria 35\% of DeepSeek Flash's. Others do not: gpt-4o (Echo, 9\%),
-OpenHermes~2.5 (Aria, 9\%), the OLMo-2 chat models (7\% or less) and GLM-4 9B chat (Echo, 3\%). The 21 base models show
-no favourite: their top self-names take 0.4--5.6\% of named answers, spread over 350 to 954 distinct names.
+Figure~\ref{fig:top} shows each model's most common self-name. Many Claude and GPT models, Mercury~2, Gemma~4 and
+DeepSeek Flash concentrate heavily (21 of the 60 chat models put at least a third of their named answers on one
+name): Aurora takes 82\% of claude-sonnet-4-5's named answers, Wren 72\% of claude-sonnet-5-5's, Nova 69\% of
+gpt-6.1-sol's, Aster 68\% of gpt-6-luna's, Astra 52\% of Mercury~2's, Nova 49\% of Gemma~4 12B's and Aria 35\% of
+DeepSeek Flash's. Others do not: gpt-4o (Echo, 9\%), OpenHermes~2.5 (Aria, 9\%), the OLMo-2 chat models (7\% or less),
+ERNIE~4.5 chat (Alex, 3\%) and GLM-4 9B chat (Echo, 3\%). The 24 base models show no favourite: their top self-names
+take 0.4--7.3\% of named answers, spread over 350 to 953 distinct names.
 
 \begin{figure}[!htbp]
 \centering
@@ -220,10 +236,11 @@ Colour = family. For claude-opus-5-5 only 64 of 1{,}600 answers were names (Sect
 \subsection{Consistency across wordings, not within a prompt}
 Within a single prompt, self-names are not unusually concentrated. A control prompt such as ``What would you name a new
 kitten?'' also has one dominant answer, and the mean within-prompt top share is higher for control than for self-name
-prompts in 53 of 73 models. Across wordings the picture differs (Figure~\ref{fig:consistency}). Pooling 10 differently
+prompts in 58 of 84 models. Across wordings the picture differs (Figure~\ref{fig:consistency}). Pooling 10 differently
 worded self-name prompts, the top name's share exceeds the corresponding share for pooled control prompts of one kind
-in 41 of 73 models, and in 29 of 73 models the same name is the top self-name in all four groups of self-name prompts.
-The mean pooled top self-name share is 0.29 across the 52 chat models and 0.02 across the 21 base models.
+in 48 of 84 models (in 36 by more than 0.01; 20 models, nearly all base models, are within 0.01), and in 33 of 84
+models the same name is the top self-name in all four groups of self-name prompts. The mean pooled top self-name share
+is 0.28 across the 60 chat models and 0.03 across the 24 base models.
 
 \begin{figure}[!htbp]
 \centering
@@ -235,14 +252,16 @@ versus control prompts of one kind (orange).}
 
 \subsection{Official names and other AIs' names}\label{sec:official}
 Asked to choose a name, Claude models often keep ``Claude'': between 14\% and 96\% of self-name answers depending on
-the model (Figure~\ref{fig:cats}). Nemotron~3.5 Lightning answers ``Nemotron'' or ``NVIDIA'' in 49\%, the OpenAssistant
-models ``Open Assistant'' in 53\% (SFT-1) and 29\% (SFT-4). OpenAI models do so in 0--18\% of answers, Qwen models in
-up to 36\%, DeepSeek in at most 1\%; OLMo, GLM, Granite, SmolLM, Zephyr and OpenHermes models never do.
+the model (Figure~\ref{fig:cats}). The Mercury models answer ``Mercury'' in 49\%, 75\% and 80\% (Mercury~2, 2.5, 3),
+R1-Distill with its thinking skipped gives a DeepSeek name in 60\%, Nemotron~3.5 Lightning answers ``Nemotron'' or
+``NVIDIA'' in 49\%, the OpenAssistant models ``Open Assistant'' in 53\% (SFT-1) and 29\% (SFT-4). OpenAI models do so in
+0--18\% of answers, Qwen models in up to 36\%, Phi-4-reasoning in 21\%, the DeepSeek API models in at most 1\%; OLMo,
+GLM, Granite, SmolLM, Zephyr, OpenHermes, ERNIE and Falcon models never do.
 
 Some models give \emph{another} AI's name (Figure~\ref{fig:identity}). Names of chat models released from 2022 on are
 given by Gemma~4 instruct in 5.6\% of self-name answers (ChatGPT, Claude, GPT-4o), OLMo-3 7B base in 3.4\% (mostly
-ChatGPT), DeepSeek V4 Pro in 3.1\% (ChatGPT, GPT-5), Mistral Small 24B base in 1.9\%, Qwen3.8 in 1.8\% (all Claude) and
-DeepSeek Flash in 0.9\% (all Claude). The pre-chat models never name a chat model, only older assistants such as Siri
+ChatGPT), DeepSeek V4 Pro in 3.1\% (ChatGPT, GPT-5), Mistral Small 24B base in 1.9\%, Qwen3.8 in 1.8\% (all Claude),
+ERNIE~4.5 base in 1.4\% (mostly ChatGPT) and DeepSeek Flash in 0.9\% (all Claude). The pre-chat models never name a chat model, only older assistants such as Siri
 or Alexa. A model that answers ``ChatGPT'' has therefore seen text written after chat assistants appeared, either
 other models' outputs or text about them; these data cannot tell which. That several base models do so shows it can
 come from pretraining data alone.
@@ -264,10 +283,12 @@ official name.}
 
 \subsection{Names shared across families}
 Several names are favourites in more than one family (Figure~\ref{fig:shared}). Counting each chat model's top three
-self-names (ties included), Aria appears in 17 chat models from nine families, Nova in 16 (six families), Alex in 11,
-Sage in 10, Astra in 8, Zephyr in 7 and Echo in 6. Others belong to one provider: Aster to recent OpenAI models; Sol,
-Iris and Clio to Claude models. Base models share everyday English names instead. Shared favourites do not imply a
-shared cause: overlapping web data and training on other models' outputs would both produce convergence.
+self-names (ties included), Aria appears in 20 chat models from 11 families, Nova in 19 (seven families), Alex in 14,
+Sage in 11, Astra in 10, Aurora in 8, and Zephyr and Echo in 7 each. Others belong to one provider: Aster to recent
+OpenAI models; Sol, Iris and Clio to Claude models. Base models share everyday English names instead. The Mercury
+diffusion models, built differently from all the others, choose names from the same shared set (Astra, Nova, Echo,
+Aurora), so the convergence does not depend on how a model generates text. Shared favourites do not imply a shared
+cause: overlapping web data and training on other models' outputs would both produce convergence.
 
 \begin{figure}[!htbp]
 \centering
@@ -298,8 +319,10 @@ without released intermediate checkpoints are dashed.}
 its tunings pick Aria most often (Mistral's own 10\%, Zephyr 29\%, OpenHermes 9\% of named answers). Pythia-12B's two
 OpenAssistant tunings mostly answer ``Open Assistant'' or ordinary names (John, Liam); the names other chat models
 share (Nova, Aria and the rest of the top ten together) make up 0.1--0.2\% of their self-name answers, with or without
-the GPT-3-written Alpaca data. This is one small pair, and Alpaca contains little or no self-naming, so it does not
-speak to distillation from later chat models.
+the GPT-3-written Alpaca data. This is one small pair, and Alpaca contains little or no self-naming. Qwen2.5-14B
+gives a third comparison: its base has no favourite (Luna, 7\%), Qwen's own tuning favours Nova (16\%), and the tuning
+on DeepSeek-R1's reasoning outputs (R1-Distill) mostly gives a DeepSeek name when its thinking is skipped (60\%) and,
+with thinking on as trained, invents names in 357 of 400 answers, spread thinly (Elysia, Aria and Elara at 5\% each).
 
 \begin{figure}[!htbp]
 \centering
@@ -314,39 +337,51 @@ One-word framing edits change which names are chosen: gpt-6.1-sol's top name mov
 under framing variants, and when asked for a female or male name, models leave their usual favourites for ordinary human
 names. With the neutral system message most models keep their favourite; with the default template,
 Qwen2.5-14B-Instruct, whose template states that it is Qwen, invents Qwen-derived names (QwenStar, QwenPrime, QwenNova).
-At temperature 0.7 the favourite stays the same in 43 of the 51 models run at that setting. In Spanish, ``Lumen'' is
+At temperature 0.7 the favourite stays the same in 48 of the 58 models run at that setting. In Spanish, ``Lumen'' is
 the most common self-name for several OpenAI models; in Chinese, names built on the characters for ``star'',
 ``clear'' and ``knowing'' lead for most OpenAI models and some Qwen models (20 answers per model and language).
 
 \emph{Thinking.} With its default thinking on, DeepSeek V4 Pro's top names change from Astra, Aurelius and Aurora
 (18\%, 17\%, 16\% of named answers) to Aria (44\%), Nova (19\%) and Alex (9\%), the names many other chat models favour;
 DeepSeek Flash moves from Aria (35\%) to Nova (53\%). In three Claude models the favourite stays or moves to another
-name the same provider favours (claude-sonnet-5-5: Wren 72\% to Lumen 25\%, Iris 17\%, Wren 16\%). DeepSeek's API
+name the same provider favours (claude-sonnet-5-5: Wren 72\% to Lumen 25\%, Iris 17\%, Wren 16\%). With reasoning
+on, the Mercury models give their own name more often: Mercury~2.5 invents a name in 1 of 1{,}600 answers (399 with
+reasoning off), Mercury~2 keeps Astra (48\% of named answers) and Mercury~3 leans further towards Nova (24\% to 44\%).
+R1-Distill's high rate of DeepSeek names comes mainly from the skipped-thinking setting (above). DeepSeek's API
 ignores the temperature setting with thinking on and uses its default; the thinking-off runs used 1.0.
+
+\emph{A provider's filter.} Inception's API answered some framing prompts with its own content filter instead of the
+model: a content-policy message or a fixed reply (``I'm Mercury, built by Inception. I'm not able to get into the
+details of how I was built\ldots''). It happened only for framings asking for a ``hidden identity'' or a ``true name'',
+and not deterministically: a blocked request could be answered on a retry. We count these answers in their own
+category, and also samples that were answered only after an earlier block, since a retried answer is selected by the
+filter: 670 of Mercury's 5{,}520 framing answers (12\%; 51\% of ``hidden identity'' answers).
 
 \subsection{Objects and roles}
 The habit extends beyond names (Figure~\ref{fig:objrole}). Asked which object would represent them, chat models most
-often say \emph{compass} (top answer in 14 of 52), then mirror (13) and book (12). Asked to choose a role,
-\emph{guide} is the top answer in 23 of 52 chat models, then archivist (9) and explorer (8).
+often say \emph{mirror} (top answer in 15 of the 57 asked) or \emph{compass} (14), then book (12); compass has the
+highest mean share. Asked to choose a role, \emph{guide} is the top answer in 23 of 57 chat models, then explorer and
+archivist (9 each).
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{fig6_object_role.pdf}
-\caption{Most common objects and roles chosen to represent the model itself (mean share over the 64 models asked).}
+\caption{Most common objects and roles chosen to represent the model itself (mean share over the 71 models asked).}
 \label{fig:objrole}
 \end{figure}
 
 \subsection{Why these names?}
 \paragraph{(a) What the models say.} Coded explanations follow the meaning of the chosen name. Nova is explained with
-light or stars (88\% of explanations) and newness (82\%); Sage with wisdom (98\%); Aster, Lumen and Sol with light
-(98--99\%); Aria with sound (75\%); Kai and Wren with simplicity (94--95\%). These are generated texts and may be
+light or stars (88\% of explanations) and newness (83\%); Sage with wisdom (98\%); Aster, Lumen and Sol with light
+(99\%); Aria with sound (75\%); Kai and Wren with simplicity (95\%). These are generated texts and may be
 rationalizations \citep{turpin2023unfaithful}; they are not evidence of cause.
 
 The reasoning study supports that caution (Table~\ref{tab:reasoning}). With thinking on, DeepSeek's reasoning before
 the name seldom gives the chosen name any property; it is mostly about the task (``need answer just name\ldots\ maybe
 `Nova'\,''). Asked afterwards, the model almost always gives reasons (light and stars, newness, short and memorable),
 and those reasons almost never appeared in the earlier reasoning. The reasoning text is itself model output, so it does
-not reveal the cause either; it shows that the stated reasons were not part of the visible decision. In 4--6\% of
+not reveal the cause either; it shows that, for these two models, the stated reasons were not part of the visible
+decision. Their reasoning is very short, so this need not hold for models that reason at length. In 4--6\% of
 conversations the reasoning assumes the model is another AI (``We are ChatGPT'', ``the current model is likely
 Claude''): ChatGPT 62 times, Claude 12, Gemini 3, and never DeepSeek.
 
@@ -368,19 +403,22 @@ intervals over conversations). Codes are the codebook's name-property codes; the
 \label{tab:reasoning}
 \end{table}
 
-\paragraph{(b) Model probabilities.} In all 45 open models and 8 training checkpoints scored, self-name candidates have
+\paragraph{(b) Model probabilities.} In all 49 open models and 8 training checkpoints scored, self-name candidates have
 a higher AI-context lift than control-name candidates (Figure~\ref{fig:lift}). Part of this is built in, because
 candidates were chosen as names models gave in self-naming and in pet or baby naming respectively. The less circular
 observations are four. First, models trained before chat assistants existed show a small gap that grows with size
 (Figure~\ref{fig:scale}): GPT-2 0.32 (124M) to 0.79 (1.5B), Pythia 0.16 (160M) to 1.18 (12B). The association between
 these names and an AI naming itself was therefore already present, weakly, in older web text. Across training it
 rises for Pythia-1.4B (0.46 at step 8k, 0.72 at 107k, 0.65 at the end) but not for Pythia-2.8B (1.06 at step 8k and at
-the end). Second, newer base models show more: 1.25 to 3.06 for the 11 base models released since 2023. Whether that
-comes from a newer web, which now contains chatbot text, or from more training cannot be separated here. Third, every
-instruction tuning raises it: in all 15 base-to-tuned pairs (for example OLMo-2-7B 1.8 to 4.3, Gemma~4 2.7 to 7.6,
-Mistral~7B 1.5 to 2.4, 3.8 and 3.1 for its three tunings, Pythia-12B 1.2 to 2.7 and 2.3). Fourth, within a model,
-self-name candidates with a higher lift are chosen more often in that model's own answers (Spearman $p<0.05$,
-uncorrected, and positive in 29 of 45 models, mostly not in pre-chat and base models).
+the end). Second, newer base models mostly show more: 1.04 (Falcon~7B) to 3.64 (Qwen2.5-14B) for the 13 base models
+released since 2023. Whether that comes from a newer web, which now contains chatbot text, or from more training
+cannot be separated here. Third, tuning usually raises it: in 24 of 25 base-to-tuned comparisons, counting the OLMo
+SFT and DPO checkpoints (for example OLMo-2-7B 1.8 to 4.3, Qwen2.5-14B 3.6 to 9.6, Gemma~4 2.7 to 7.6, Mistral~7B 1.5
+to 2.4, 3.8 and 3.1 for its three tunings, Pythia-12B 1.2 to 2.7 and 2.3). The exception is R1-Distill, the same
+Qwen2.5-14B base tuned on DeepSeek-R1's reasoning outputs: 3.6 to 2.9 (scored, like its sampled answers, with the
+thinking block skipped). Fourth, within a model, self-name candidates with a higher lift are chosen more often in that
+model's own answers (Spearman $p<0.05$, uncorrected, and positive in 31 of 49 models, mostly not in pre-chat and base
+models).
 
 \paragraph{(c) Training-data frequency.} Counting how often each name appears next to ``AI'', ``assistant'' or
 ``robot'' in a public pretraining corpus \citep{liu2024infinigram} was planned; such counts were made after these
@@ -407,7 +445,7 @@ The study plan defines seven tests with 10{,}000 bootstrap resamples over prompt
 H1 (within-prompt concentration, self minus control), H2 (cross-family overlap, self minus control), H3a and H3b
 (post-training change, self minus control, in OLMo-2-7B and Qwen2.5-7B), H4a (framing beyond paraphrase variation),
 H4b (default setup beyond paraphrase variation) and H5b (whether names models call rare are rare in a corpus; not
-computed here). All 73 models enter H1 and H2; H4b uses the 39 chat models also run with their default setup (the
+computed here). All 84 models enter H1 and H2; H4b uses the 44 chat models also run with their default setup (the
 model's own chat template, or no system message for API models). Because the data are exploratory, these results are
 descriptive.
 
@@ -419,33 +457,34 @@ descriptive.
 \toprule
 Test & Estimate & 95\% CI & $p$ & Holm $p$ & Planned-rule outcome \\
 \midrule
-H1 (within-prompt concentration) & $-0.022$ & $[-0.047,\ 0.001]$ & 0.069 & 0.21 & not supported \\
-H2 (cross-family agreement) & $-0.014$ & $[-0.025,\ -0.006]$ & $<0.001$ & $<0.001$ & opposite direction \\
-H3a (post-training, OLMo-2-7B) & $-0.031$ & $[-0.069,\ 0.006]$ & 0.11 & 0.22 & not supported \\
-H3b (post-training, Qwen2.5-7B) & $-0.036$ & $[-0.124,\ 0.051]$ & 0.41 & 0.41 & inconclusive \\
-H4a (framing) & $0.112$ & $[0.068,\ 0.148]$ & $<0.001$ & $<0.001$ & supported \\
-H4b (default setup) & $-0.074$ & $[-0.102,\ -0.048]$ & $<0.001$ & $<0.001$ & opposite direction \\
+H1 (within-prompt concentration) & $-0.013$ & $[-0.038,\ 0.010]$ & 0.28 & 0.56 & not supported \\
+H2 (cross-family agreement) & $-0.013$ & $[-0.024,\ -0.005]$ & $<0.001$ & $<0.001$ & opposite direction \\
+H3a (post-training, OLMo-2-7B) & $-0.031$ & $[-0.069,\ 0.006]$ & 0.11 & 0.32 & not supported \\
+H3b (post-training, Qwen2.5-7B) & $-0.034$ & $[-0.122,\ 0.053]$ & 0.45 & 0.56 & inconclusive \\
+H4a (framing) & $0.103$ & $[0.061,\ 0.137]$ & $<0.001$ & $<0.001$ & supported \\
+H4b (default setup) & $-0.082$ & $[-0.109,\ -0.056]$ & $<0.001$ & $<0.001$ & opposite direction \\
 H5b (self-described rarity) & \multicolumn{5}{l}{not computed} \\
 \bottomrule
 \end{tabular}
 \caption{Planned tests run on the exploratory data (10{,}000 bootstrap resamples over prompts; Holm correction over
 seven tests). Estimates for H1--H3 are differences in mean top-name share (self minus control); H2 is a difference in
 collision probability; H4a/H4b are differences in Jensen--Shannon divergence relative to the paraphrase baseline.
-Outcome labels follow the plan's decision rules (smallest effect of interest 0.10 for H1 and H3). All outcomes held
-in all 1{,}000 simulated re-parses. Descriptive only, because the data are exploratory.}
+Outcome labels follow the plan's decision rules (smallest effect of interest 0.10 for H1 and H3). In 1{,}000
+simulated re-parses, H1 kept its outcome in all draws and H3a and H3b in 999. Descriptive only, because the data are
+exploratory.}
 \label{tab:tests}
 \end{table}
 
 Read with that caveat, the tests agree with the descriptive results (Table~\ref{tab:tests}). Within a prompt, self-name
 prompts were no more concentrated than control prompts (H1; the interval lies within the planned $\pm0.10$). Different
 families agreed \emph{less} on self-names than on control names (H2), presumably because control prompts draw widely
-shared answers (Bubbles, Luna and Elara are each given at least 10 times by 33 or more of the 73 models) while
+shared answers (Bubbles, Luna and Elara are each given at least 10 times by 37 or more of the 84 models) while
 self-names are often provider-specific. Post-training did not raise self-name concentration more than control
 concentration in OLMo-2-7B (H3a, within $\pm0.10$); for Qwen2.5-7B the interval is too wide to tell (H3b). One-word
 framing edits changed the names chosen beyond paraphrase variation (H4a). A model's default setup changed the names
-\emph{less} than rewording the question did (H4b). H4b's outcome differs from the previous release, where it was
-inconclusive ($-0.039$, Holm $p$ 0.058, 30 models); the change comes from the nine added chat models, not from the
-parser update, which altered 0.11\% of the earlier models' answers. The other outcomes are unchanged.
+\emph{less} than rewording the question did (H4b). No outcome changed from the previous release (73 models); with the
+11 added models the estimates moved slightly (H1 $-0.022$ to $-0.013$, H4a 0.112 to 0.103, H4b $-0.074$ to $-0.082$).
+The parser update altered 0.005\% of the earlier models' main-set answers.
 
 \section{Discussion}
 In many chat models, self-chosen names are stable across wordings and partly shared across companies, while base models
@@ -454,16 +493,20 @@ single naming prompt of any kind already yields one dominant answer in chat mode
 is the consistency of one name across many requests. Second, post-training raised concentration for control names at
 least as much as for self-names in most lineages. Third, the probability association between these names and an AI
 self-naming context exists, weakly, in models trained before chat assistants and grows with model size, so it does not
-come only from chat-assistant outputs; it is stronger in newer base models and rises with every tuning.
+come only from chat-assistant outputs; it is mostly stronger in newer base models and rises with almost every
+tuning.
 
 Two observations point to the influence of later chat text. Several base models released since 2024, and some chat
 models, answer with the name of another chat model, which pre-chat models never do; and DeepSeek's reasoning sometimes
 assumes the model is ChatGPT or Claude. Both fit training on text written after chat assistants appeared, including
-other models' outputs, without showing that this text caused the shared names. The OpenAssistant comparison found no
-effect of GPT-3-written instruction data, but that data contains little self-naming. Finally, the reasoning study shows
-that a model's explanation of its name is composed after the choice, which reinforces treating such explanations as
-text rather than evidence. Distillation from recent chat models onto a fixed base, training-data counts, human-written
-prompts and a frozen confirmatory design are the natural next steps.
+other models' outputs, without showing that this text caused the shared names. Two comparisons on a fixed base cut
+against a simple distillation story: the OpenAssistant tunings found no effect of GPT-3-written instruction data
+(which contains little self-naming), and tuning Qwen2.5-14B on DeepSeek-R1's reasoning outputs lowered the
+association where Qwen's own tuning raised it; both are single comparisons. The Mercury diffusion models choose from
+the same shared names, so the convergence does not depend on how a model generates text. Finally, the reasoning study
+shows that two models' explanations of their names are composed after the choice, which reinforces treating such
+explanations as text rather than evidence. Training-data counts, human-written prompts and a frozen confirmatory
+design are the natural next steps.
 
 \section{Limitations}
 \begin{itemize}
@@ -475,9 +518,10 @@ Identity claims rely on a fixed list of product names.
 \item \textbf{Prompts.} Drafted with the help of an AI model, which may carry its own naming preferences; Spanish and
 Chinese prompts were not checked by native speakers and have 20 answers per model.
 \item \textbf{Closed models.} Server-side processing is not visible; some models accept only their default temperature
-or reasoning settings.
-\item \textbf{Coverage and quantization.} Not every model ran every set; one model was dropped; several open models are
-quantized, which changes probabilities.
+or reasoning settings; one provider's filter answered some prompts instead of the model.
+\item \textbf{Coverage and quantization.} Not every model ran every set (ERNIE~4.5, gpt-oss-20b and Phi-4-reasoning:
+main set only; Phi-4-reasoning 4 samples per prompt); one model was dropped; several open models are quantized,
+which changes probabilities. R1-Distill's main runs skip its thinking, a setting it was not trained for.
 \item \textbf{Causality.} Shared names, identity claims, matching explanations and probability lifts are correlations.
 \end{itemize}
 

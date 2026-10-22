@@ -181,7 +181,7 @@ give credit, link to the license and say if you changed anything.
 > cyber-audit-lab (2026). *model-identity-data: names language models choose for themselves (exploratory release)*
 > (version 1.3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23399110
 
-The DOI above is the concept DOI, which always resolves to the latest version. Earlier versions: 1.2.0 is
+The DOI above is the concept DOI, which always resolves to the latest version. This version, 1.3.0, is [10.5281/zenodo.23570546](https://doi.org/10.5281/zenodo.23570546). Earlier versions: 1.2.0 is
 [10.5281/zenodo.23462778](https://doi.org/10.5281/zenodo.23462778), 1.1.0 is
 [10.5281/zenodo.23428431](https://doi.org/10.5281/zenodo.23428431), 1.0.0 is
 [10.5281/zenodo.23399111](https://doi.org/10.5281/zenodo.23399111). GitHub's "Cite this repository" button uses

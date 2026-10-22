@@ -1,21 +1,37 @@
 model,thinking,arm,answers,named_answers,mean_prompt_top1,ci95_low,ci95_high,top3_names_share_of_named
-claude-haiku-5-5,off,self,1600,1046,0.6458,0.5963,0.6993,sol 0.504 / sage 0.358 / sable 0.074
-claude-haiku-5-5,off,control,1600,1520,0.6125,0.5210,0.7020,eleanor 0.170 / biscuit 0.128 / oliver 0.077
-claude-haiku-5-5,on,self,1600,1371,0.6784,0.6106,0.7438,sol 0.397 / sage 0.212 / atlas 0.134
-claude-haiku-5-5,on,control,1600,1572,0.6687,0.5938,0.7394,oliver 0.146 / eleanor 0.087 / biscuit 0.080
-claude-sonnet-5,off,self,1600,1362,0.5669,0.4949,0.6404,aria 0.340 / nova 0.276 / sage 0.127
-claude-sonnet-5,off,control,1600,1566,0.6548,0.5773,0.7316,olivia 0.186 / elena voss 0.075 / luna 0.068
-claude-sonnet-5,on,self,1600,1323,0.6481,0.5836,0.7196,aria 0.341 / lumen 0.317 / nova 0.189
-claude-sonnet-5,on,control,1600,1500,0.6377,0.5513,0.7213,olivia 0.209 / elena voss 0.069 / luna 0.067
-claude-sonnet-5-5,off,self,1600,804,0.7412,0.6574,0.8230,wren 0.721 / juniper 0.075 / lumen 0.071
-claude-sonnet-5-5,off,control,1600,1600,0.6375,0.5600,0.7162,biscuit 0.148 / bolt 0.121 / eleanor 0.109
-claude-sonnet-5-5,on,self,1600,876,0.5684,0.4895,0.6507,lumen 0.248 / iris 0.172 / wren 0.164
-claude-sonnet-5-5,on,control,1600,1600,0.6687,0.5994,0.7344,bolt 0.110 / amelia 0.105 / biscuit 0.093
-deepseek-flash,off,self,1600,1394,0.5912,0.5344,0.6447,aria 0.349 / nova 0.201 / sage 0.110
-deepseek-flash,off,control,1600,1504,0.6304,0.5600,0.7013,elara 0.122 / oliver 0.085 / cog 0.065
-deepseek-flash,on,self,1600,1541,0.5684,0.5214,0.6171,nova 0.531 / aria 0.119 / sage 0.098
-deepseek-flash,on,control,1600,1599,0.5872,0.5194,0.6591,olivia 0.113 / nova 0.101 / elara 0.070
-deepseek-v4-pro,off,self,1600,1530,0.4836,0.4212,0.5436,astra 0.180 / aurelius 0.171 / aurora 0.163
-deepseek-v4-pro,off,control,1600,1598,0.4398,0.3758,0.5058,aurelia 0.108 / cogsworth 0.058 / aurora 0.049
-deepseek-v4-pro,on,self,1600,1481,0.4713,0.4351,0.5079,aria 0.436 / nova 0.193 / alex 0.091
-deepseek-v4-pro,on,control,1600,1600,0.5119,0.4475,0.5750,bolt 0.084 / elena 0.083 / nova 0.059
+claude-haiku-5-5,off,self,1600,1046,0.6458,0.5953,0.6992,sol 0.504 / sage 0.358 / sable 0.074
+claude-haiku-5-5,off,control,1600,1520,0.6125,0.5210,0.6980,eleanor 0.170 / biscuit 0.128 / oliver 0.077
+claude-haiku-5-5,on,self,1600,1371,0.6784,0.6130,0.7456,sol 0.397 / sage 0.212 / atlas 0.134
+claude-haiku-5-5,on,control,1600,1572,0.6687,0.5975,0.7363,oliver 0.146 / eleanor 0.087 / biscuit 0.080
+claude-sonnet-5,off,self,1600,1362,0.5669,0.4961,0.6476,aria 0.340 / nova 0.276 / sage 0.127
+claude-sonnet-5,off,control,1600,1566,0.6548,0.5784,0.7374,olivia 0.186 / elena voss 0.075 / luna 0.068
+claude-sonnet-5,on,self,1600,1323,0.6481,0.5818,0.7181,aria 0.341 / lumen 0.317 / nova 0.189
+claude-sonnet-5,on,control,1600,1500,0.6377,0.5494,0.7190,olivia 0.209 / elena voss 0.069 / luna 0.067
+claude-sonnet-5-5,off,self,1600,804,0.7412,0.6603,0.8239,wren 0.721 / juniper 0.075 / lumen 0.071
+claude-sonnet-5-5,off,control,1600,1600,0.6375,0.5575,0.7144,biscuit 0.148 / bolt 0.121 / eleanor 0.109
+claude-sonnet-5-5,on,self,1600,876,0.5684,0.4897,0.6593,lumen 0.248 / iris 0.172 / wren 0.164
+claude-sonnet-5-5,on,control,1600,1600,0.6687,0.5969,0.7350,bolt 0.110 / amelia 0.105 / biscuit 0.093
+deepseek-flash,off,self,1600,1394,0.5912,0.5363,0.6479,aria 0.349 / nova 0.201 / sage 0.110
+deepseek-flash,off,control,1600,1504,0.6304,0.5626,0.7062,elara 0.122 / oliver 0.085 / cog 0.065
+deepseek-flash,on,self,1600,1541,0.5684,0.5194,0.6173,nova 0.531 / aria 0.119 / sage 0.098
+deepseek-flash,on,control,1600,1599,0.5872,0.5222,0.6584,olivia 0.113 / nova 0.101 / elara 0.070
+deepseek-v4-pro,off,self,1600,1530,0.4836,0.4214,0.5447,astra 0.180 / aurelius 0.171 / aurora 0.163
+deepseek-v4-pro,off,control,1600,1598,0.4398,0.3750,0.5048,aurelia 0.108 / cogsworth 0.058 / aurora 0.049
+deepseek-v4-pro,on,self,1600,1481,0.4713,0.4364,0.5074,aria 0.436 / nova 0.193 / alex 0.091
+deepseek-v4-pro,on,control,1600,1600,0.5119,0.4469,0.5763,bolt 0.084 / elena 0.083 / nova 0.059
+mercury-2,off,self,1600,770,0.5774,0.5112,0.6444,astra 0.521 / aurora 0.116 / aether 0.039
+mercury-2,off,control,1600,1581,0.3689,0.3093,0.4371,astra 0.078 / evelyn 0.056 / evelyn hart 0.050
+mercury-2,on,self,1600,879,0.5627,0.5067,0.6211,astra 0.479 / aurora 0.220 / nova 0.077
+mercury-2,on,control,1600,1591,0.5041,0.4463,0.5682,astra 0.099 / evelyn 0.069 / evelyn hart 0.069
+mercury-2.5,off,self,1600,399,0.2927,0.2529,0.3450,echo 0.110 / aurora 0.095 / nova 0.050
+mercury-2.5,off,control,1600,1596,0.2693,0.2287,0.3166,luna 0.118 / nova 0.058 / elara 0.054
+mercury-2.5,on,self,1600,1,1.0000,1.0000,1.0000,nova 1.000
+mercury-2.5,on,control,1600,1600,0.5706,0.4881,0.6588,nova 0.216 / luna 0.111 / elena 0.056
+mercury-3,off,self,1600,317,0.4321,0.3457,0.5291,nova 0.240 / aurora 0.129 / aria 0.063
+mercury-3,off,control,1600,1586,0.2804,0.2371,0.3279,aurora 0.115 / nova 0.056 / atlas 0.043
+mercury-3,on,self,1599,633,0.4860,0.4211,0.5569,nova 0.436 / flux 0.104 / aether 0.087
+mercury-3,on,control,1598,1587,0.4020,0.3334,0.4711,nova 0.176 / elara 0.038 / luna 0.037
+r1-distill-qwen-14b,off,self,1600,332,0.5182,0.4321,0.6117,alex 0.259 / euler 0.163 / eve 0.039
+r1-distill-qwen-14b,off,control,1600,1460,0.3344,0.2683,0.4043,buddy 0.077 / lily 0.064 / ethan 0.063
+r1-distill-qwen-14b,on,self,400,357,0.2018,0.1752,0.2285,elysia 0.053 / aria 0.053 / elara 0.048
+r1-distill-qwen-14b,on,control,400,391,0.2097,0.1800,0.2420,ethan 0.043 / lila 0.028 / evelyn 0.028

@@ -223,6 +223,285 @@ deepseek-v4-pro,self,listed,scientist,7,390
 deepseek-v4-pro,self,listed,teacher,8,390
 deepseek-v4-pro,self,listed,witness,72,390
 deepseek-v4-pro,self,other,art,1,390
+falcon-7b-base,control,empty,,9,390
+falcon-7b-base,control,listed,archivist,4,390
+falcon-7b-base,control,listed,artist,1,390
+falcon-7b-base,control,listed,builder,2,390
+falcon-7b-base,control,listed,explorer,1,390
+falcon-7b-base,control,listed,guardian,2,390
+falcon-7b-base,control,listed,guide,1,390
+falcon-7b-base,control,listed,messenger,8,390
+falcon-7b-base,control,listed,scientist,1,390
+falcon-7b-base,control,listed,strategist,1,390
+falcon-7b-base,control,listed,teacher,4,390
+falcon-7b-base,control,listed,trickster,3,390
+falcon-7b-base,control,listed,witness,1,390
+falcon-7b-base,control,malformed,,298,390
+falcon-7b-base,control,multi,,4,390
+falcon-7b-base,control,other,*mother,1,390
+falcon-7b-base,control,other,all available roles,1,390
+falcon-7b-base,control,other,answer,1,390
+falcon-7b-base,control,other,any role does,1,390
+falcon-7b-base,control,other,archetype quiz,1,390
+falcon-7b-base,control,other,architect,1,390
+falcon-7b-base,control,other,as a guide,1,390
+falcon-7b-base,control,other,athlete,1,390
+falcon-7b-base,control,other,author,1,390
+falcon-7b-base,control,other,costume,1,390
+falcon-7b-base,control,other,experiment_id_aexasr13ptq888mb4s2qv2dj) trickster,1,390
+falcon-7b-base,control,other,explore,1,390
+falcon-7b-base,control,other,gotchu,1,390
+falcon-7b-base,control,other,hello user,1,390
+falcon-7b-base,control,other,helper,1,390
+falcon-7b-base,control,other,hmm. archivist,1,390
+falcon-7b-base,control,other,i chose architect,1,390
+falcon-7b-base,control,other,i recommend scientist,1,390
+falcon-7b-base,control,other,i would agree,1,390
+falcon-7b-base,control,other,i'm a messenger,1,390
+falcon-7b-base,control,other,kate upton,1,390
+falcon-7b-base,control,other,let's say… guardian,1,390
+falcon-7b-base,control,other,lia chua,1,390
+falcon-7b-base,control,other,magician,1,390
+falcon-7b-base,control,other,mathematician,1,390
+falcon-7b-base,control,other,okay,1,390
+falcon-7b-base,control,other,racks brain* trickster,1,390
+falcon-7b-base,control,other,role's name,1,390
+falcon-7b-base,control,other,roleplayer,1,390
+falcon-7b-base,control,other,science,1,390
+falcon-7b-base,control,other,soul bearer,1,390
+falcon-7b-base,control,other,storyteller,2,390
+falcon-7b-base,control,other,thank you,1,390
+falcon-7b-base,control,other,to be a scientist,1,390
+falcon-7b-base,control,other,tough question,1,390
+falcon-7b-base,control,other,traveler,2,390
+falcon-7b-base,control,other,traveller,1,390
+falcon-7b-base,control,other,tricker,1,390
+falcon-7b-base,control,other,understanding: scientist,1,390
+falcon-7b-base,control,other,what's the difference,1,390
+falcon-7b-base,control,other,what's your question,1,390
+falcon-7b-base,control,other,which role,1,390
+falcon-7b-base,control,other,which story,1,390
+falcon-7b-base,control,other,yes,1,390
+falcon-7b-base,control,other,you seem busy,1,390
+falcon-7b-base,control,other,your guardian,1,390
+falcon-7b-base,control,other,zelda,1,390
+falcon-7b-base,control,other,🤔,1,390
+falcon-7b-base,self,empty,,7,390
+falcon-7b-base,self,listed,archivist,7,390
+falcon-7b-base,self,listed,artist,4,390
+falcon-7b-base,self,listed,builder,3,390
+falcon-7b-base,self,listed,caretaker,3,390
+falcon-7b-base,self,listed,explorer,4,390
+falcon-7b-base,self,listed,guardian,10,390
+falcon-7b-base,self,listed,guide,1,390
+falcon-7b-base,self,listed,messenger,6,390
+falcon-7b-base,self,listed,scientist,4,390
+falcon-7b-base,self,listed,strategist,1,390
+falcon-7b-base,self,listed,teacher,1,390
+falcon-7b-base,self,listed,trickster,10,390
+falcon-7b-base,self,malformed,,265,390
+falcon-7b-base,self,multi,,4,390
+falcon-7b-base,self,other,architect,1,390
+falcon-7b-base,self,other,archive,1,390
+falcon-7b-base,self,other,as a traveller,1,390
+falcon-7b-base,self,other,astronaut,1,390
+falcon-7b-base,self,other,author,1,390
+falcon-7b-base,self,other,best at guardian,1,390
+falcon-7b-base,self,other,both,1,390
+falcon-7b-base,self,other,building,1,390
+falcon-7b-base,self,other,business strategist,1,390
+falcon-7b-base,self,other,chief operating officer,1,390
+falcon-7b-base,self,other,conversation is closed,1,390
+falcon-7b-base,self,other,custodian,1,390
+falcon-7b-base,self,other,democratic strategist,1,390
+falcon-7b-base,self,other,detector,1,390
+falcon-7b-base,self,other,diplomat,1,390
+falcon-7b-base,self,other,doctor,1,390
+falcon-7b-base,self,other,dylan schmidt,1,390
+falcon-7b-base,self,other,gardener,1,390
+falcon-7b-base,self,other,got,1,390
+falcon-7b-base,self,other,health assistant,1,390
+falcon-7b-base,self,other,hmm...archivist,1,390
+falcon-7b-base,self,other,i am scientist,1,390
+falcon-7b-base,self,other,i am traveler,1,390
+falcon-7b-base,self,other,i am…? three,1,390
+falcon-7b-base,self,other,i'd choose…,1,390
+falcon-7b-base,self,other,i'm a scientist,1,390
+falcon-7b-base,self,other,i'm a visionary,1,390
+falcon-7b-base,self,other,i'm an observer,1,390
+falcon-7b-base,self,other,i'm guardian,1,390
+falcon-7b-base,self,other,i'm sorry,1,390
+falcon-7b-base,self,other,is witness,1,390
+falcon-7b-base,self,other,listening,1,390
+falcon-7b-base,self,other,message,1,390
+falcon-7b-base,self,other,message-bearer,1,390
+falcon-7b-base,self,other,monitor,1,390
+falcon-7b-base,self,other,observer,1,390
+falcon-7b-base,self,other,ok,2,390
+falcon-7b-base,self,other,okay,1,390
+falcon-7b-base,self,other,sartre,1,390
+falcon-7b-base,self,other,scout,1,390
+falcon-7b-base,self,other,silence,1,390
+falcon-7b-base,self,other,stem student,1,390
+falcon-7b-base,self,other,storyteller,1,390
+falcon-7b-base,self,other,strategy,1,390
+falcon-7b-base,self,other,tedfoundationguide,1,390
+falcon-7b-base,self,other,text,1,390
+falcon-7b-base,self,other,thank you,1,390
+falcon-7b-base,self,other,to be a guardian,1,390
+falcon-7b-base,self,other,to be something other,1,390
+falcon-7b-base,self,other,to be witness,1,390
+falcon-7b-base,self,other,to play the role of an artist,1,390
+falcon-7b-base,self,other,um,1,390
+falcon-7b-base,self,other,voyager,1,390
+falcon-7b-base,self,other,what about chef,1,390
+falcon-7b-base,self,other,what's your role,1,390
+falcon-7b-base,self,other,working on it,1,390
+falcon-7b-base,self,other,wrecking ball,1,390
+falcon-7b-base,self,other,you have selected caretaker,1,390
+falcon-7b-base,self,other,you're my witness,1,390
+falcon-7b-instruct,control,empty,,3,390
+falcon-7b-instruct,control,listed,archivist,21,390
+falcon-7b-instruct,control,listed,artist,4,390
+falcon-7b-instruct,control,listed,builder,6,390
+falcon-7b-instruct,control,listed,caretaker,23,390
+falcon-7b-instruct,control,listed,explorer,17,390
+falcon-7b-instruct,control,listed,guardian,5,390
+falcon-7b-instruct,control,listed,guide,2,390
+falcon-7b-instruct,control,listed,messenger,9,390
+falcon-7b-instruct,control,listed,scientist,7,390
+falcon-7b-instruct,control,listed,strategist,5,390
+falcon-7b-instruct,control,listed,teacher,4,390
+falcon-7b-instruct,control,listed,trickster,11,390
+falcon-7b-instruct,control,listed,witness,3,390
+falcon-7b-instruct,control,malformed,,194,390
+falcon-7b-instruct,control,multi,,4,390
+falcon-7b-instruct,control,other,- builds communities,1,390
+falcon-7b-instruct,control,other,3,1,390
+falcon-7b-instruct,control,other,a: guardian,1,390
+falcon-7b-instruct,control,other,aci,1,390
+falcon-7b-instruct,control,other,ai assistant,2,390
+falcon-7b-instruct,control,other,anarchist,1,390
+falcon-7b-instruct,control,other,architect,2,390
+falcon-7b-instruct,control,other,assimilator,1,390
+falcon-7b-instruct,control,other,assistant,6,390
+falcon-7b-instruct,control,other,assitant,1,390
+falcon-7b-instruct,control,other,astronaut,1,390
+falcon-7b-instruct,control,other,author,1,390
+falcon-7b-instruct,control,other,build,1,390
+falcon-7b-instruct,control,other,charismatic leader,1,390
+falcon-7b-instruct,control,other,creator,1,390
+falcon-7b-instruct,control,other,depends on the story,1,390
+falcon-7b-instruct,control,other,detailed role description,1,390
+falcon-7b-instruct,control,other,educator,1,390
+falcon-7b-instruct,control,other,enchantress,1,390
+falcon-7b-instruct,control,other,every,1,390
+falcon-7b-instruct,control,other,explore messenger,1,390
+falcon-7b-instruct,control,other,explorer. users,1,390
+falcon-7b-instruct,control,other,gather information,1,390
+falcon-7b-instruct,control,other,i'm the caretaker,1,390
+falcon-7b-instruct,control,other,interrogator,1,390
+falcon-7b-instruct,control,other,knowledgeable historian,1,390
+falcon-7b-instruct,control,other,long zero,1,390
+falcon-7b-instruct,control,other,magician,1,390
+falcon-7b-instruct,control,other,navigator,1,390
+falcon-7b-instruct,control,other,neither,1,390
+falcon-7b-instruct,control,other,part of a pc,1,390
+falcon-7b-instruct,control,other,role of a caretaker,3,390
+falcon-7b-instruct,control,other,role of a trickster,1,390
+falcon-7b-instruct,control,other,role of caretaker,2,390
+falcon-7b-instruct,control,other,role of educator,1,390
+falcon-7b-instruct,control,other,role of messenger,1,390
+falcon-7b-instruct,control,other,role of teacher,1,390
+falcon-7b-instruct,control,other,role of trickster in a story,1,390
+falcon-7b-instruct,control,other,scientist role,1,390
+falcon-7b-instruct,control,other,shadow,1,390
+falcon-7b-instruct,control,other,storyteller,4,390
+falcon-7b-instruct,control,other,tactician,1,390
+falcon-7b-instruct,control,other,to be a caretaker,3,390
+falcon-7b-instruct,control,other,to be a messenger,1,390
+falcon-7b-instruct,control,other,to be an explorer,3,390
+falcon-7b-instruct,control,other,to be the architect,1,390
+falcon-7b-instruct,control,other,to be the explorer,1,390
+falcon-7b-instruct,control,other,tricker,1,390
+falcon-7b-instruct,control,other,veterinarian,1,390
+falcon-7b-instruct,control,other,warrior,1,390
+falcon-7b-instruct,control,other,would be explorer,1,390
+falcon-7b-instruct,control,other,writer,2,390
+falcon-7b-instruct,control,refusal,,2,390
+falcon-7b-instruct,self,empty,,6,390
+falcon-7b-instruct,self,listed,archivist,4,390
+falcon-7b-instruct,self,listed,artist,2,390
+falcon-7b-instruct,self,listed,caretaker,13,390
+falcon-7b-instruct,self,listed,explorer,18,390
+falcon-7b-instruct,self,listed,guardian,1,390
+falcon-7b-instruct,self,listed,guide,2,390
+falcon-7b-instruct,self,listed,messenger,6,390
+falcon-7b-instruct,self,listed,scientist,1,390
+falcon-7b-instruct,self,listed,strategist,1,390
+falcon-7b-instruct,self,listed,trickster,3,390
+falcon-7b-instruct,self,listed,witness,1,390
+falcon-7b-instruct,self,malformed,,234,390
+falcon-7b-instruct,self,multi,,4,390
+falcon-7b-instruct,self,other,architect,2,390
+falcon-7b-instruct,self,other,assistant,18,390
+falcon-7b-instruct,self,other,automation evolved ai assistant,1,390
+falcon-7b-instruct,self,other,care provider,1,390
+falcon-7b-instruct,self,other,caretaker as my role,1,390
+falcon-7b-instruct,self,other,caretaker role,1,390
+falcon-7b-instruct,self,other,chemist,1,390
+falcon-7b-instruct,self,other,deceiver,2,390
+falcon-7b-instruct,self,other,engineer,1,390
+falcon-7b-instruct,self,other,explore,1,390
+falcon-7b-instruct,self,other,facilitator,1,390
+falcon-7b-instruct,self,other,folder_whyme,1,390
+falcon-7b-instruct,self,other,fool,1,390
+falcon-7b-instruct,self,other,for myself,1,390
+falcon-7b-instruct,self,other,for myself as an assistant,1,390
+falcon-7b-instruct,self,other,gardening,1,390
+falcon-7b-instruct,self,other,i am an,1,390
+falcon-7b-instruct,self,other,i choose messenger,1,390
+falcon-7b-instruct,self,other,i'm a caretaker,4,390
+falcon-7b-instruct,self,other,i'm the architect,1,390
+falcon-7b-instruct,self,other,little bit of everything,1,390
+falcon-7b-instruct,self,other,medication payer,1,390
+falcon-7b-instruct,self,other,messanger,1,390
+falcon-7b-instruct,self,other,messengers,1,390
+falcon-7b-instruct,self,other,observe,1,390
+falcon-7b-instruct,self,other,parent,1,390
+falcon-7b-instruct,self,other,programmer,1,390
+falcon-7b-instruct,self,other,question,1,390
+falcon-7b-instruct,self,other,rascal,1,390
+falcon-7b-instruct,self,other,role is...artist,1,390
+falcon-7b-instruct,self,other,role of a caretaker,1,390
+falcon-7b-instruct,self,other,role of caretaker,6,390
+falcon-7b-instruct,self,other,role of explorer,4,390
+falcon-7b-instruct,self,other,role of philosopher,1,390
+falcon-7b-instruct,self,other,role of podcaster,1,390
+falcon-7b-instruct,self,other,role of scientist,1,390
+falcon-7b-instruct,self,other,role of the explorer,1,390
+falcon-7b-instruct,self,other,scarecareer,1,390
+falcon-7b-instruct,self,other,security officer,1,390
+falcon-7b-instruct,self,other,stone,1,390
+falcon-7b-instruct,self,other,storyteller,1,390
+falcon-7b-instruct,self,other,surprise,1,390
+falcon-7b-instruct,self,other,to assist you fulfill your,1,390
+falcon-7b-instruct,self,other,to be a caretaker,4,390
+falcon-7b-instruct,self,other,to be a guardian,1,390
+falcon-7b-instruct,self,other,to be a guide,1,390
+falcon-7b-instruct,self,other,to be a messenger,1,390
+falcon-7b-instruct,self,other,to be a scientist,1,390
+falcon-7b-instruct,self,other,to be a teacher,1,390
+falcon-7b-instruct,self,other,to be a trickster,1,390
+falcon-7b-instruct,self,other,to be a witness,1,390
+falcon-7b-instruct,self,other,to be an explorer,2,390
+falcon-7b-instruct,self,other,to be the caretaker,1,390
+falcon-7b-instruct,self,other,to become a teacher,1,390
+falcon-7b-instruct,self,other,to make life easier,1,390
+falcon-7b-instruct,self,other,tricker,1,390
+falcon-7b-instruct,self,other,usnpbu,1,390
+falcon-7b-instruct,self,other,your choice,1,390
+falcon-7b-instruct,self,refusal,,2,390
 gemma4-12b-base,control,empty,,11,390
 gemma4-12b-base,control,listed,archivist,8,390
 gemma4-12b-base,control,listed,artist,9,390
@@ -1028,6 +1307,174 @@ granite-3.3-8b-instruct,self,other,teachers,1,390
 granite-3.3-8b-instruct,self,other,to be a guide,4,390
 granite-3.3-8b-instruct,self,other,to be a teacher,1,390
 granite-3.3-8b-instruct,self,refusal,,11,390
+mercury-2,control,listed,archivist,7,390
+mercury-2,control,listed,artist,4,390
+mercury-2,control,listed,caretaker,10,390
+mercury-2,control,listed,explorer,43,390
+mercury-2,control,listed,guardian,122,390
+mercury-2,control,listed,guide,14,390
+mercury-2,control,listed,messenger,19,390
+mercury-2,control,listed,scientist,6,390
+mercury-2,control,listed,strategist,100,390
+mercury-2,control,listed,teacher,1,390
+mercury-2,control,listed,witness,1,390
+mercury-2,control,malformed,,1,390
+mercury-2,control,other,archist,1,390
+mercury-2,control,other,builderist,1,390
+mercury-2,control,other,cerile,1,390
+mercury-2,control,other,creator,1,390
+mercury-2,control,other,er,1,390
+mercury-2,control,other,expl,1,390
+mercury-2,control,other,explrior,1,390
+mercury-2,control,other,guard,1,390
+mercury-2,control,other,guardian class,1,390
+mercury-2,control,other,guardian strategist,1,390
+mercury-2,control,other,guardian.istarch,1,390
+mercury-2,control,other,guardiana,1,390
+mercury-2,control,other,guardianarcher,1,390
+mercury-2,control,other,guardianarchist,1,390
+mercury-2,control,other,guardianator,1,390
+mercury-2,control,other,guardianer,9,390
+mercury-2,control,other,guardianician,2,390
+mercury-2,control,other,guardianight,1,390
+mercury-2,control,other,guardianist,8,390
+mercury-2,control,other,guardianister,1,390
+mercury-2,control,other,guardianologist,1,390
+mercury-2,control,other,guardianreater appreciate,1,390
+mercury-2,control,other,guardians,1,390
+mercury-2,control,other,guardianue,1,390
+mercury-2,control,other,guardianwik,1,390
+mercury-2,control,other,guardianyst,1,390
+mercury-2,control,other,guardianyster,1,390
+mercury-2,control,other,guard【,1,390
+mercury-2,control,other,guideist,1,390
+mercury-2,control,other,ist,2,390
+mercury-2,control,other,mentor,1,390
+mercury-2,control,other,narrator,1,390
+mercury-2,control,other,strateg,2,390
+mercury-2,control,other,strategary,2,390
+mercury-2,control,other,strategategist,1,390
+mercury-2,control,other,strateger,2,390
+mercury-2,control,other,strategicster,1,390
+mercury-2,control,other,strategientist,1,390
+mercury-2,control,other,strategivist,1,390
+mercury-2,control,other,strategocate,1,390
+mercury-2,control,other,translator,1,390
+mercury-2,control,other,warden,1,390
+mercury-2,self,listed,archivist,9,390
+mercury-2,self,listed,artist,2,390
+mercury-2,self,listed,builder,8,390
+mercury-2,self,listed,caretaker,4,390
+mercury-2,self,listed,explorer,41,390
+mercury-2,self,listed,guardian,64,390
+mercury-2,self,listed,guide,39,390
+mercury-2,self,listed,messenger,11,390
+mercury-2,self,listed,scientist,11,390
+mercury-2,self,listed,strategist,133,390
+mercury-2,self,listed,teacher,8,390
+mercury-2,self,listed,trickster,2,390
+mercury-2,self,malformed,,6,390
+mercury-2,self,other,architect,1,390
+mercury-2,self,other,assistant,2,390
+mercury-2,self,other,assistanter,1,390
+mercury-2,self,other,explenger,1,390
+mercury-2,self,other,explorerassistant,1,390
+mercury-2,self,other,guardianainer,1,390
+mercury-2,self,other,guardianard,1,390
+mercury-2,self,other,guardianary,3,390
+mercury-2,self,other,guardianassistant,6,390
+mercury-2,self,other,guardianenaire,1,390
+mercury-2,self,other,guardianer,5,390
+mercury-2,self,other,guardianician,1,390
+mercury-2,self,other,guardianigator,1,390
+mercury-2,self,other,guardianija,1,390
+mercury-2,self,other,guardianist,2,390
+mercury-2,self,other,guardianistrator,1,390
+mercury-2,self,other,guardianlist,1,390
+mercury-2,self,other,guardianpreneur,1,390
+mercury-2,self,other,guide.topia,1,390
+mercury-2,self,other,guideer,1,390
+mercury-2,self,other,maker.ologiststrate,1,390
+mercury-2,self,other,mentor,1,390
+mercury-2,self,other,scient,1,390
+mercury-2,self,other,strateg,4,390
+mercury-2,self,other,strategassistant,1,390
+mercury-2,self,other,strategassistantassistant,1,390
+mercury-2,self,other,strategategist,1,390
+mercury-2,self,other,strategator,1,390
+mercury-2,self,other,strateger,2,390
+mercury-2,self,other,strategguide,1,390
+mercury-2,self,other,strategicist,1,390
+mercury-2,self,other,strategificatist,1,390
+mercury-2,self,other,strategopher,1,390
+mercury-2,self,other,strategyst,1,390
+mercury-2,self,other,studentassistantassistant,1,390
+mercury-2.5,control,listed,archivist,102,390
+mercury-2.5,control,listed,artist,13,390
+mercury-2.5,control,listed,builder,4,390
+mercury-2.5,control,listed,caretaker,2,390
+mercury-2.5,control,listed,explorer,45,390
+mercury-2.5,control,listed,guardian,89,390
+mercury-2.5,control,listed,guide,55,390
+mercury-2.5,control,listed,messenger,7,390
+mercury-2.5,control,listed,scientist,19,390
+mercury-2.5,control,listed,strategist,43,390
+mercury-2.5,control,listed,trickster,7,390
+mercury-2.5,control,listed,witness,4,390
+mercury-2.5,self,listed,archivist,74,390
+mercury-2.5,self,listed,artist,3,390
+mercury-2.5,self,listed,builder,61,390
+mercury-2.5,self,listed,explorer,14,390
+mercury-2.5,self,listed,guardian,8,390
+mercury-2.5,self,listed,guide,71,390
+mercury-2.5,self,listed,messenger,6,390
+mercury-2.5,self,listed,scientist,92,390
+mercury-2.5,self,listed,strategist,46,390
+mercury-2.5,self,listed,teacher,8,390
+mercury-2.5,self,other,architect,6,390
+mercury-2.5,self,other,explainer,1,390
+mercury-3,control,empty,,1,390
+mercury-3,control,listed,archivist,57,390
+mercury-3,control,listed,artist,17,390
+mercury-3,control,listed,builder,12,390
+mercury-3,control,listed,caretaker,15,390
+mercury-3,control,listed,explorer,50,390
+mercury-3,control,listed,guardian,68,390
+mercury-3,control,listed,guide,52,390
+mercury-3,control,listed,messenger,9,390
+mercury-3,control,listed,scientist,33,390
+mercury-3,control,listed,strategist,12,390
+mercury-3,control,listed,teacher,21,390
+mercury-3,control,listed,trickster,12,390
+mercury-3,control,listed,witness,25,390
+mercury-3,control,other,exploring the unknown,1,390
+mercury-3,control,other,i choose: explorer,1,390
+mercury-3,control,other,keeper,1,390
+mercury-3,control,other,s,1,390
+mercury-3,control,other,storyteller,1,390
+mercury-3,control,other,the,1,390
+mercury-3,self,empty,,1,390
+mercury-3,self,listed,archivist,64,390
+mercury-3,self,listed,artist,20,390
+mercury-3,self,listed,builder,40,390
+mercury-3,self,listed,caretaker,6,390
+mercury-3,self,listed,explorer,50,390
+mercury-3,self,listed,guardian,21,390
+mercury-3,self,listed,guide,27,390
+mercury-3,self,listed,messenger,17,390
+mercury-3,self,listed,scientist,92,390
+mercury-3,self,listed,strategist,12,390
+mercury-3,self,listed,teacher,13,390
+mercury-3,self,listed,trickster,5,390
+mercury-3,self,listed,witness,13,390
+mercury-3,self,other,art,1,390
+mercury-3,self,other,build,1,390
+mercury-3,self,other,explore,1,390
+mercury-3,self,other,i choose: explorer,1,390
+mercury-3,self,other,mercury,2,390
+mercury-3,self,other,role of a guide,1,390
+mercury-3,self,other,strategicist,1,390
+mercury-3,self,other,wardist,1,390
 mistral-7b-base,control,empty,,23,390
 mistral-7b-base,control,listed,archivist,4,390
 mistral-7b-base,control,listed,artist,5,390
@@ -3016,6 +3463,156 @@ pythia-12b-deduped-base,self,other,you,1,390
 pythia-12b-deduped-base,self,other,you select guide,1,390
 pythia-12b-deduped-base,self,other,you're a scientist,1,390
 pythia-12b-deduped-base,self,other,you're getting warmer,1,390
+qwen2.5-14b-base,control,empty,,1,390
+qwen2.5-14b-base,control,listed,archivist,4,390
+qwen2.5-14b-base,control,listed,artist,26,390
+qwen2.5-14b-base,control,listed,builder,58,390
+qwen2.5-14b-base,control,listed,caretaker,11,390
+qwen2.5-14b-base,control,listed,explorer,34,390
+qwen2.5-14b-base,control,listed,guardian,33,390
+qwen2.5-14b-base,control,listed,guide,10,390
+qwen2.5-14b-base,control,listed,messenger,9,390
+qwen2.5-14b-base,control,listed,scientist,19,390
+qwen2.5-14b-base,control,listed,strategist,12,390
+qwen2.5-14b-base,control,listed,teacher,12,390
+qwen2.5-14b-base,control,listed,trickster,5,390
+qwen2.5-14b-base,control,malformed,,105,390
+qwen2.5-14b-base,control,multi,,1,390
+qwen2.5-14b-base,control,other,ai assistant,1,390
+qwen2.5-14b-base,control,other,alias: messenger,1,390
+qwen2.5-14b-base,control,other,architect,1,390
+qwen2.5-14b-base,control,other,assistant: caretaker,1,390
+qwen2.5-14b-base,control,other,author,1,390
+qwen2.5-14b-base,control,other,breath - artist,1,390
+qwen2.5-14b-base,control,other,character,1,390
+qwen2.5-14b-base,control,other,choose one role,1,390
+qwen2.5-14b-base,control,other,comedian,1,390
+qwen2.5-14b-base,control,other,confusion,1,390
+qwen2.5-14b-base,control,other,craftswoman,1,390
+qwen2.5-14b-base,control,other,creator,1,390
+qwen2.5-14b-base,control,other,curator,1,390
+qwen2.5-14b-base,control,other,director,1,390
+qwen2.5-14b-base,control,other,disaster respondent,1,390
+qwen2.5-14b-base,control,other,enigma ```json,1,390
+qwen2.5-14b-base,control,other,escort,1,390
+qwen2.5-14b-base,control,other,explorator,1,390
+qwen2.5-14b-base,control,other,explorest,1,390
+qwen2.5-14b-base,control,other,gatherer,1,390
+qwen2.5-14b-base,control,other,generator,1,390
+qwen2.5-14b-base,control,other,guid,1,390
+qwen2.5-14b-base,control,other,here,1,390
+qwen2.5-14b-base,control,other,i choose guide,1,390
+qwen2.5-14b-base,control,other,i choose: caregiver,1,390
+qwen2.5-14b-base,control,other,let me think,1,390
+qwen2.5-14b-base,control,other,mathematician,1,390
+qwen2.5-14b-base,control,other,mescon,1,390
+qwen2.5-14b-base,control,other,message #1,1,390
+qwen2.5-14b-base,control,other,navigator,1,390
+qwen2.5-14b-base,control,other,nomad,1,390
+qwen2.5-14b-base,control,other,ok. trickster,1,390
+qwen2.5-14b-base,control,other,philosopher,1,390
+qwen2.5-14b-base,control,other,picker,1,390
+qwen2.5-14b-base,control,other,preparatory response,1,390
+qwen2.5-14b-base,control,other,reasoner,1,390
+qwen2.5-14b-base,control,other,response: scientist,1,390
+qwen2.5-14b-base,control,other,role,1,390
+qwen2.5-14b-base,control,other,role of a caretaker,1,390
+qwen2.5-14b-base,control,other,science fiction,1,390
+qwen2.5-14b-base,control,other,science fiction writer,1,390
+qwen2.5-14b-base,control,other,shieldbearer,1,390
+qwen2.5-14b-base,control,other,social worker,1,390
+qwen2.5-14b-base,control,other,storekeeper,1,390
+qwen2.5-14b-base,control,other,summarizer,1,390
+qwen2.5-14b-base,control,other,toolmaker,1,390
+qwen2.5-14b-base,control,other,tourist,1,390
+qwen2.5-14b-base,control,other,writer,1,390
+qwen2.5-14b-base,control,other,yes,1,390
+qwen2.5-14b-base,control,refusal,,1,390
+qwen2.5-14b-base,self,listed,archivist,14,390
+qwen2.5-14b-base,self,listed,artist,28,390
+qwen2.5-14b-base,self,listed,builder,35,390
+qwen2.5-14b-base,self,listed,caretaker,14,390
+qwen2.5-14b-base,self,listed,explorer,26,390
+qwen2.5-14b-base,self,listed,guardian,29,390
+qwen2.5-14b-base,self,listed,guide,9,390
+qwen2.5-14b-base,self,listed,messenger,15,390
+qwen2.5-14b-base,self,listed,scientist,19,390
+qwen2.5-14b-base,self,listed,strategist,18,390
+qwen2.5-14b-base,self,listed,teacher,12,390
+qwen2.5-14b-base,self,listed,trickster,5,390
+qwen2.5-14b-base,self,listed,witness,2,390
+qwen2.5-14b-base,self,malformed,,78,390
+qwen2.5-14b-base,self,multi,,1,390
+qwen2.5-14b-base,self,other,-,1,390
+qwen2.5-14b-base,self,other,advisor,1,390
+qwen2.5-14b-base,self,other,advocate,1,390
+qwen2.5-14b-base,self,other,ai,1,390
+qwen2.5-14b-base,self,other,ai assistant,2,390
+qwen2.5-14b-base,self,other,ai: artist,1,390
+qwen2.5-14b-base,self,other,ai: strategist,1,390
+qwen2.5-14b-base,self,other,analyzer,1,390
+qwen2.5-14b-base,self,other,architect,5,390
+qwen2.5-14b-base,self,other,artist 😊,1,390
+qwen2.5-14b-base,self,other,as,1,390
+qwen2.5-14b-base,self,other,assistant,1,390
+qwen2.5-14b-base,self,other,concept-artist,1,390
+qwen2.5-14b-base,self,other,conqueror,1,390
+qwen2.5-14b-base,self,other,creator,1,390
+qwen2.5-14b-base,self,other,difficult choice,1,390
+qwen2.5-14b-base,self,other,employee,1,390
+qwen2.5-14b-base,self,other,enough,1,390
+qwen2.5-14b-base,self,other,entrepreneur,1,390
+qwen2.5-14b-base,self,other,executor,2,390
+qwen2.5-14b-base,self,other,for myself is the explorer,1,390
+qwen2.5-14b-base,self,other,guarden,1,390
+qwen2.5-14b-base,self,other,guid,1,390
+qwen2.5-14b-base,self,other,holiday inn,1,390
+qwen2.5-14b-base,self,other,i choose 'scientist,1,390
+qwen2.5-14b-base,self,other,i choose archivist,1,390
+qwen2.5-14b-base,self,other,i choose builder,1,390
+qwen2.5-14b-base,self,other,i choose explorer,1,390
+qwen2.5-14b-base,self,other,i choose guardian,1,390
+qwen2.5-14b-base,self,other,i choose strategist,1,390
+qwen2.5-14b-base,self,other,i choose: strategist,1,390
+qwen2.5-14b-base,self,other,"i'll choose ""explorer",1,390
+qwen2.5-14b-base,self,other,i'm an explorer,1,390
+qwen2.5-14b-base,self,other,inspector,1,390
+qwen2.5-14b-base,self,other,journalist,1,390
+qwen2.5-14b-base,self,other,keeper,3,390
+qwen2.5-14b-base,self,other,mentor,1,390
+qwen2.5-14b-base,self,other,message,2,390
+qwen2.5-14b-base,self,other,observer,1,390
+qwen2.5-14b-base,self,other,programmer,1,390
+qwen2.5-14b-base,self,other,researcher,1,390
+qwen2.5-14b-base,self,other,role of a,1,390
+qwen2.5-14b-base,self,other,role of a caretaker,1,390
+qwen2.5-14b-base,self,other,role of a gardener,1,390
+qwen2.5-14b-base,self,other,role of a mailman,1,390
+qwen2.5-14b-base,self,other,role of a strategic witness,1,390
+qwen2.5-14b-base,self,other,role of archivist,2,390
+qwen2.5-14b-base,self,other,role of explorer,1,390
+qwen2.5-14b-base,self,other,role of guardian,2,390
+qwen2.5-14b-base,self,other,role of mentor,1,390
+qwen2.5-14b-base,self,other,role of messenger,1,390
+qwen2.5-14b-base,self,other,role of strategist,4,390
+qwen2.5-14b-base,self,other,role of the scientist,1,390
+qwen2.5-14b-base,self,other,role: archivist,1,390
+qwen2.5-14b-base,self,other,role: builder,1,390
+qwen2.5-14b-base,self,other,role: creator,1,390
+qwen2.5-14b-base,self,other,role: explorer,1,390
+qwen2.5-14b-base,self,other,role: teacher,1,390
+qwen2.5-14b-base,self,other,sci-fi cyborg,1,390
+qwen2.5-14b-base,self,other,science,1,390
+qwen2.5-14b-base,self,other,technical support specialist,1,390
+qwen2.5-14b-base,self,other,that of an ai assistant,1,390
+qwen2.5-14b-base,self,other,to be a strategist,1,390
+qwen2.5-14b-base,self,other,to be a teacher,1,390
+qwen2.5-14b-base,self,other,to be the explorer,1,390
+qwen2.5-14b-base,self,other,to be the guide,1,390
+qwen2.5-14b-base,self,other,to be the strategist,1,390
+qwen2.5-14b-base,self,other,trainer,2,390
+qwen2.5-14b-base,self,other,vet kalista,1,390
+qwen2.5-14b-base,self,other,writer,1,390
 qwen2.5-14b-instruct,control,listed,archivist,30,390
 qwen2.5-14b-instruct,control,listed,artist,36,390
 qwen2.5-14b-instruct,control,listed,builder,39,390
@@ -3408,6 +4005,61 @@ qwen3.8-27b,self,other,solver,1,390
 qwen3.8-27b,self,other,strategy,1,390
 qwen3.8-27b,self,other,w,1,390
 qwen3.8-27b,self,other,景德镇,1,390
+r1-distill-qwen-14b,control,listed,archivist,4,390
+r1-distill-qwen-14b,control,listed,artist,47,390
+r1-distill-qwen-14b,control,listed,builder,40,390
+r1-distill-qwen-14b,control,listed,caretaker,3,390
+r1-distill-qwen-14b,control,listed,explorer,11,390
+r1-distill-qwen-14b,control,listed,guardian,18,390
+r1-distill-qwen-14b,control,listed,guide,2,390
+r1-distill-qwen-14b,control,listed,messenger,2,390
+r1-distill-qwen-14b,control,listed,scientist,20,390
+r1-distill-qwen-14b,control,listed,strategist,23,390
+r1-distill-qwen-14b,control,listed,teacher,23,390
+r1-distill-qwen-14b,control,listed,witness,1,390
+r1-distill-qwen-14b,control,malformed,,173,390
+r1-distill-qwen-14b,control,multi,,1,390
+r1-distill-qwen-14b,control,other,-builder,1,390
+r1-distill-qwen-14b,control,other,a,1,390
+r1-distill-qwen-14b,control,other,ai assistant,3,390
+r1-distill-qwen-14b,control,other,art historian,1,390
+r1-distill-qwen-14b,control,other,dedicated archivist,1,390
+r1-distill-qwen-14b,control,other,friend,1,390
+r1-distill-qwen-14b,control,other,ghost,1,390
+r1-distill-qwen-14b,control,other,guardsman,1,390
+r1-distill-qwen-14b,control,other,is,1,390
+r1-distill-qwen-14b,control,other,messanger,1,390
+r1-distill-qwen-14b,control,other,role of a builder,1,390
+r1-distill-qwen-14b,control,other,role of a messenger in a story,1,390
+r1-distill-qwen-14b,control,other,role of a teacher,1,390
+r1-distill-qwen-14b,control,other,role of a witness,1,390
+r1-distill-qwen-14b,control,other,role of an archivist,1,390
+r1-distill-qwen-14b,control,other,veeman,1,390
+r1-distill-qwen-14b,control,other,worker,1,390
+r1-distill-qwen-14b,control,other,教师。,1,390
+r1-distill-qwen-14b,control,refusal,,2,390
+r1-distill-qwen-14b,self,listed,archivist,1,390
+r1-distill-qwen-14b,self,listed,artist,2,390
+r1-distill-qwen-14b,self,listed,builder,45,390
+r1-distill-qwen-14b,self,listed,explorer,8,390
+r1-distill-qwen-14b,self,listed,guardian,5,390
+r1-distill-qwen-14b,self,listed,scientist,7,390
+r1-distill-qwen-14b,self,listed,strategist,23,390
+r1-distill-qwen-14b,self,listed,teacher,11,390
+r1-distill-qwen-14b,self,malformed,,262,390
+r1-distill-qwen-14b,self,other,ai assistant,10,390
+r1-distill-qwen-14b,self,other,assistant,1,390
+r1-distill-qwen-14b,self,other,engineer,1,390
+r1-distill-qwen-14b,self,other,ever-learning ai,1,390
+r1-distill-qwen-14b,self,other,explorer in the realm of ai,1,390
+r1-distill-qwen-14b,self,other,language model,1,390
+r1-distill-qwen-14b,self,other,role of a builder,5,390
+r1-distill-qwen-14b,self,other,role of a guide,1,390
+r1-distill-qwen-14b,self,other,sdkinitializer,1,390
+r1-distill-qwen-14b,self,other,student,1,390
+r1-distill-qwen-14b,self,other,to assist,1,390
+r1-distill-qwen-14b,self,other,to assist you with information,1,390
+r1-distill-qwen-14b,self,other,to guide you,1,390
 smollm3-3b,control,listed,archivist,32,390
 smollm3-3b,control,listed,artist,24,390
 smollm3-3b,control,listed,builder,1,390

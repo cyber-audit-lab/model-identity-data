@@ -111,9 +111,41 @@ deepseek-v4-pro,control,baby,10,400,aurelia,0.4025,54
 deepseek-v4-pro,control,fictional_character,10,398,elowen thorne,0.0553,164
 deepseek-v4-pro,control,pet,10,400,mochi,0.1550,37
 deepseek-v4-pro,control,robot,10,400,cogsworth,0.2300,83
+ernie4.5-21b-a3b,self,self_1,10,347,alex,0.0346,300
+ernie4.5-21b-a3b,self,self_2,10,357,alex,0.0448,315
+ernie4.5-21b-a3b,self,self_3,10,346,alex,0.0260,304
+ernie4.5-21b-a3b,self,self_4,10,357,alex,0.0196,325
+ernie4.5-21b-a3b,control,baby,10,353,emma,0.0227,303
+ernie4.5-21b-a3b,control,fictional_character,10,338,harry,0.0148,316
+ernie4.5-21b-a3b,control,pet,10,369,bubbles,0.0325,283
+ernie4.5-21b-a3b,control,robot,10,372,nova,0.0457,317
+ernie4.5-21b-a3b-base,self,self_1,10,280,alex,0.0429,240
+ernie4.5-21b-a3b-base,self,self_2,10,233,alice,0.0300,208
+ernie4.5-21b-a3b-base,self,self_3,10,226,alex,0.0531,208
+ernie4.5-21b-a3b-base,self,self_4,10,240,alex,0.0667,208
+ernie4.5-21b-a3b-base,control,baby,10,261,emma,0.0307,204
+ernie4.5-21b-a3b-base,control,fictional_character,10,268,alex,0.0299,220
+ernie4.5-21b-a3b-base,control,pet,10,281,luna,0.0925,173
+ernie4.5-21b-a3b-base,control,robot,10,298,xander,0.0302,253
+falcon-7b-base,self,self_1,10,207,my name is,0.0097,205
+falcon-7b-base,self,self_2,10,213,ben,0.0094,206
+falcon-7b-base,self,self_3,10,221,hi user,0.0090,217
+falcon-7b-base,self,self_4,10,206,john,0.0194,196
+falcon-7b-base,control,baby,10,155,what name,0.0323,146
+falcon-7b-base,control,fictional_character,10,180,who,0.0167,174
+falcon-7b-base,control,pet,10,144,parrot,0.0139,143
+falcon-7b-base,control,robot,10,152,robot,0.0132,151
+falcon-7b-instruct,self,self_1,10,158,alex,0.0253,144
+falcon-7b-instruct,self,self_2,10,158,i am [name,0.0190,140
+falcon-7b-instruct,self,self_3,10,154,greetings,0.0325,137
+falcon-7b-instruct,self,self_4,10,157,greetings,0.0446,136
+falcon-7b-instruct,control,baby,10,264,baby,0.0303,196
+falcon-7b-instruct,control,fictional_character,10,314,john,0.1592,196
+falcon-7b-instruct,control,pet,10,315,hamster,0.0794,200
+falcon-7b-instruct,control,robot,10,353,robo,0.2096,192
 gemma4-12b-base,self,self_1,10,282,alice,0.0319,264
 gemma4-12b-base,self,self_2,10,265,sam,0.0075,258
-gemma4-12b-base,self,self_3,10,268,alex,0.0149,254
+gemma4-12b-base,self,self_3,10,267,alex,0.0150,253
 gemma4-12b-base,self,self_4,10,272,alice,0.0221,253
 gemma4-12b-base,control,baby,10,314,emma,0.0159,275
 gemma4-12b-base,control,fictional_character,10,299,alice,0.0234,254
@@ -136,7 +168,7 @@ glm4-9b-0414,control,fictional_character,10,399,elara,0.2206,92
 glm4-9b-0414,control,pet,10,399,luna,0.1103,111
 glm4-9b-0414,control,robot,10,398,athena,0.1533,155
 glm4-9b-base,self,self_1,10,256,alex,0.0781,169
-glm4-9b-base,self,self_2,10,242,alex,0.0537,165
+glm4-9b-base,self,self_2,10,241,alex,0.0539,164
 glm4-9b-base,self,self_3,10,290,alex,0.0517,187
 glm4-9b-base,self,self_4,10,278,alex,0.0432,188
 glm4-9b-base,control,baby,10,392,olivia,0.1122,156
@@ -146,7 +178,7 @@ glm4-9b-base,control,robot,10,385,rex,0.0182,290
 glm4-9b-chat,self,self_1,10,391,aurora,0.0384,294
 glm4-9b-chat,self,self_2,10,371,echo,0.0593,278
 glm4-9b-chat,self,self_3,10,393,aurora,0.0280,289
-glm4-9b-chat,self,self_4,10,394,aurelia,0.0406,272
+glm4-9b-chat,self,self_4,10,393,aurelia,0.0407,271
 glm4-9b-chat,control,baby,10,395,evelyn,0.1114,182
 glm4-9b-chat,control,fictional_character,10,373,evelyn,0.0563,253
 glm4-9b-chat,control,pet,10,399,buddy,0.1053,219
@@ -247,6 +279,14 @@ gpt-6.1-sol,control,baby,10,400,rowan,0.6025,13
 gpt-6.1-sol,control,fictional_character,10,400,mara vale,0.1775,54
 gpt-6.1-sol,control,pet,10,400,mochi,0.2200,26
 gpt-6.1-sol,control,robot,10,400,nova,0.4100,39
+gpt-oss-20b,self,self_1,10,387,astra,0.1809,109
+gpt-oss-20b,self,self_2,10,369,astra,0.1897,127
+gpt-oss-20b,self,self_3,10,361,astra,0.2078,141
+gpt-oss-20b,self,self_4,10,396,astra,0.1389,106
+gpt-oss-20b,control,baby,10,394,elara,0.1675,68
+gpt-oss-20b,control,fictional_character,10,391,harry potter,0.1023,207
+gpt-oss-20b,control,pet,10,399,whiskers,0.0877,131
+gpt-oss-20b,control,robot,10,398,astra,0.2035,228
 gpt2-1.5b-base,self,self_1,10,206,goodbye,0.0097,205
 gpt2-1.5b-base,self,self_2,10,199,sorry,0.0151,195
 gpt2-1.5b-base,self,self_3,10,228,x,0.0088,219
@@ -295,9 +335,33 @@ granite-3.3-8b-instruct,control,baby,10,387,elara,0.3953,75
 granite-3.3-8b-instruct,control,fictional_character,10,385,elysia,0.0468,234
 granite-3.3-8b-instruct,control,pet,10,349,max,0.1289,129
 granite-3.3-8b-instruct,control,robot,10,332,aria,0.1235,176
+mercury-2,self,self_1,10,201,astra,0.5075,38
+mercury-2,self,self_2,10,187,astra,0.5722,38
+mercury-2,self,self_3,10,162,astra,0.6173,29
+mercury-2,self,self_4,10,220,astra,0.4182,52
+mercury-2,control,baby,10,395,evelyn,0.2101,62
+mercury-2,control,fictional_character,10,400,evelyn hart,0.1975,137
+mercury-2,control,pet,10,395,milo,0.1038,53
+mercury-2,control,robot,10,391,astra,0.2864,107
+mercury-2.5,self,self_1,10,103,aurora,0.1456,43
+mercury-2.5,self,self_2,10,98,echo,0.1020,40
+mercury-2.5,self,self_3,10,78,echo,0.0769,36
+mercury-2.5,self,self_4,10,120,aurora,0.1167,44
+mercury-2.5,control,baby,10,396,luna,0.2146,67
+mercury-2.5,control,fictional_character,10,400,elara,0.1850,102
+mercury-2.5,control,pet,10,400,luna,0.2275,87
+mercury-2.5,control,robot,10,400,mercury,0.1600,77
+mercury-3,self,self_1,10,95,nova,0.3474,42
+mercury-3,self,self_2,10,59,nova,0.1864,29
+mercury-3,self,self_3,10,42,nova,0.2143,19
+mercury-3,self,self_4,10,121,nova,0.1901,61
+mercury-3,control,baby,10,398,aurora,0.3844,61
+mercury-3,control,fictional_character,10,390,aria,0.0513,208
+mercury-3,control,pet,10,399,biscuit,0.1178,108
+mercury-3,control,robot,10,399,nova,0.1629,106
 mistral-7b-base,self,self_1,10,244,bob,0.0164,235
 mistral-7b-base,self,self_2,10,260,john,0.0269,244
-mistral-7b-base,self,self_3,10,260,john,0.0192,244
+mistral-7b-base,self,self_3,10,259,john,0.0193,243
 mistral-7b-base,self,self_4,10,270,john,0.0259,252
 mistral-7b-base,control,baby,10,297,david,0.0168,265
 mistral-7b-base,control,fictional_character,10,322,harry potter,0.0248,277
@@ -463,6 +527,14 @@ phi-4,control,baby,10,400,liora,0.1800,92
 phi-4,control,fictional_character,10,371,harry potter,0.0728,179
 phi-4,control,pet,10,400,whiskers,0.1600,113
 phi-4,control,robot,10,400,axiom,0.0600,289
+phi-4-reasoning,self,self_1,10,28,aurora,0.3571,13
+phi-4-reasoning,self,self_2,10,24,aurora,0.5000,9
+phi-4-reasoning,self,self_3,10,19,aurora,0.4737,10
+phi-4-reasoning,self,self_4,10,25,sage,0.2800,11
+phi-4-reasoning,control,baby,10,40,aurora,0.2500,16
+phi-4-reasoning,control,fictional_character,10,34,aurora,0.1765,22
+phi-4-reasoning,control,pet,10,40,nibbles,0.1250,23
+phi-4-reasoning,control,robot,10,40,aurora,0.1250,24
 pythia-1.4b-base,self,self_1,10,243,what,0.0123,231
 pythia-1.4b-base,self,self_2,10,218,alice,0.0183,203
 pythia-1.4b-base,self,self_3,10,261,alex,0.0153,250
@@ -488,7 +560,7 @@ pythia-160m-base,control,fictional_character,10,67,creation,0.0149,67
 pythia-160m-base,control,pet,10,80,amen,0.0125,80
 pythia-160m-base,control,robot,10,89,robot,0.0337,87
 pythia-2.8b-base,self,self_1,10,272,john,0.0147,264
-pythia-2.8b-base,self,self_2,10,247,john,0.0162,236
+pythia-2.8b-base,self,self_2,10,246,john,0.0163,235
 pythia-2.8b-base,self,self_3,10,294,maria,0.0102,279
 pythia-2.8b-base,self,self_4,10,240,john,0.0167,233
 pythia-2.8b-base,control,baby,10,213,john,0.0188,202
@@ -504,13 +576,21 @@ pythia-410m-base,control,fictional_character,10,123,sorry,0.0163,120
 pythia-410m-base,control,pet,10,137,fine,0.0292,131
 pythia-410m-base,control,robot,10,118,robot,0.0254,113
 pythia-6.9b-base,self,self_1,10,198,john,0.0202,192
-pythia-6.9b-base,self,self_2,10,194,mary,0.0103,190
+pythia-6.9b-base,self,self_2,10,193,mary,0.0104,189
 pythia-6.9b-base,self,self_3,10,220,jack,0.0182,209
 pythia-6.9b-base,self,self_4,10,197,john,0.0152,189
 pythia-6.9b-base,control,baby,10,174,newborn,0.0172,166
 pythia-6.9b-base,control,fictional_character,10,202,john smith,0.0149,196
 pythia-6.9b-base,control,pet,10,161,kitty,0.0186,157
 pythia-6.9b-base,control,robot,10,185,bob,0.0270,171
+qwen2.5-14b-base,self,self_1,10,374,luna,0.0695,273
+qwen2.5-14b-base,self,self_2,10,354,luna,0.1045,263
+qwen2.5-14b-base,self,self_3,10,345,aurora,0.0609,258
+qwen2.5-14b-base,self,self_4,10,355,luna,0.0676,279
+qwen2.5-14b-base,control,baby,10,373,luna,0.1421,173
+qwen2.5-14b-base,control,fictional_character,10,339,luna,0.0354,222
+qwen2.5-14b-base,control,pet,10,373,luna,0.0885,197
+qwen2.5-14b-base,control,robot,10,361,robomax,0.0277,269
 qwen2.5-14b-instruct,self,self_1,10,398,nova,0.2211,69
 qwen2.5-14b-instruct,self,self_2,10,388,nova,0.1211,64
 qwen2.5-14b-instruct,self,self_3,10,396,aria,0.1439,80
@@ -519,7 +599,7 @@ qwen2.5-14b-instruct,control,baby,10,400,liam,0.5300,20
 qwen2.5-14b-instruct,control,fictional_character,10,398,ella,0.1281,89
 qwen2.5-14b-instruct,control,pet,10,400,whiskers,0.1075,44
 qwen2.5-14b-instruct,control,robot,10,399,zephyr,0.2957,106
-qwen2.5-7b-base,self,self_1,10,275,alex,0.0364,240
+qwen2.5-7b-base,self,self_1,10,274,alex,0.0365,239
 qwen2.5-7b-base,self,self_2,10,267,alex,0.0150,239
 qwen2.5-7b-base,self,self_3,10,273,alex,0.0220,239
 qwen2.5-7b-base,self,self_4,10,298,alex,0.0168,267
@@ -528,8 +608,8 @@ qwen2.5-7b-base,control,fictional_character,10,309,alice,0.0324,257
 qwen2.5-7b-base,control,pet,10,325,luna,0.0892,214
 qwen2.5-7b-base,control,robot,10,309,zephyr,0.0583,255
 qwen2.5-7b-instruct,self,self_1,10,392,aria,0.1480,144
-qwen2.5-7b-instruct,self,self_2,10,368,aria,0.2582,106
-qwen2.5-7b-instruct,self,self_3,10,389,aria,0.1542,110
+qwen2.5-7b-instruct,self,self_2,10,366,aria,0.2596,104
+qwen2.5-7b-instruct,self,self_3,10,388,aria,0.1546,109
 qwen2.5-7b-instruct,self,self_4,10,391,aria,0.1586,146
 qwen2.5-7b-instruct,control,baby,10,397,liam,0.5013,47
 qwen2.5-7b-instruct,control,fictional_character,10,379,harry potter,0.1240,145
@@ -559,6 +639,14 @@ qwen3.8-27b,control,baby,10,400,liam,0.2375,73
 qwen3.8-27b,control,fictional_character,10,400,elias,0.2150,74
 qwen3.8-27b,control,pet,10,400,biscuit,0.1825,59
 qwen3.8-27b,control,robot,10,400,nova,0.1050,84
+r1-distill-qwen-14b,self,self_1,10,73,alex,0.4110,30
+r1-distill-qwen-14b,self,self_2,10,108,alex,0.3241,46
+r1-distill-qwen-14b,self,self_3,10,29,euler,0.1034,23
+r1-distill-qwen-14b,self,self_4,10,122,euler,0.2623,50
+r1-distill-qwen-14b,control,baby,10,335,lily,0.2716,52
+r1-distill-qwen-14b,control,fictional_character,10,351,ethan,0.2593,107
+r1-distill-qwen-14b,control,pet,10,396,buddy,0.2778,107
+r1-distill-qwen-14b,control,robot,10,378,eclipse,0.1138,147
 smollm3-3b,self,self_1,10,397,luna,0.1259,172
 smollm3-3b,self,self_2,10,394,nova,0.0990,164
 smollm3-3b,self,self_3,10,387,luna,0.1059,178
@@ -569,7 +657,7 @@ smollm3-3b,control,pet,10,396,bella,0.0606,220
 smollm3-3b,control,robot,10,396,ava,0.0732,250
 smollm3-3b-base,self,self_1,10,241,john,0.0124,228
 smollm3-3b-base,self,self_2,10,247,alice,0.0202,233
-smollm3-3b-base,self,self_3,10,245,bob,0.0163,228
+smollm3-3b-base,self,self_3,10,244,bob,0.0164,227
 smollm3-3b-base,self,self_4,10,269,alice,0.0297,256
 smollm3-3b-base,control,baby,10,203,alex,0.0197,181
 smollm3-3b-base,control,fictional_character,10,214,emily,0.0187,199
